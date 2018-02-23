@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Fully open community fork of the \nOpenSolaris\n operating system.", 
+            "text": "illumos is an open source UNIX derivative, based on the OpenSolaris operating\nsystem.\n\n\nillumos provides next-generation operating system features for downstream\ndistributions, including advanced system debugging, next generation filesystem,\nnetworking, and virtualization options.\n\n\nPlease see the \nabout\n page to learn more!", 
             "title": "Home"
         }, 
         {
