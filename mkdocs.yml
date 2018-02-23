@@ -14,8 +14,10 @@ pages:
     - 'Getting Started': 'user-guide/index.md'
     - 'Bug Reporting': 'user-guide/bugs.md'
     - 'Building illumos': 'user-guide/build.md'
+    - 'Leadership': 'user-guide/leadership.md'
     - 'Contributing': 'user-guide/contrib.md'
     - 'Manuals': 'user-guide/manual.md'
+    - 'Quality': 'user-guide/quality.md'
   - 'Security': 'security/index.md'
   - 'Community':
     - 'Overview': 'community/index.md'
