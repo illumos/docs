@@ -15,6 +15,7 @@ pages:
     - 'Bug Reporting': 'user-guide/bugs.md'
     - 'Building illumos': 'user-guide/build.md'
     - 'Contributing': 'user-guide/contrib.md'
+    - 'Manuals': 'user-guide/manual.md'
   - 'Security': 'security/index.md'
   - 'Community':
     - 'Overview': 'community/index.md'
