@@ -1,0 +1,374 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Fully open community fork of the \nOpenSolaris\n operating system.", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/about/distro/", 
+            "text": "the illumos family\n\n\nSimilar to other operating systems, there are many different OS distributions\nbased on the common illumos kernel. Some of them are maintained by enthusiasts,\nothers are primarily developed by commercial companies with their own\npriorities and target products (i.e. storage, virtualization, etc.) with\ndifferent packaging systems (IPS, SVR4, DEB, RPM, etc). These projects\ncontribute back to the common core set of software which the illumos project is\nabout.\n\n\nSmartOS\n\n\nSmartOS\n from \nJoyent\n is a\npurpose-built, container-native hypervisor and lightweight container host OS\nfor secure, performant, and convenient container hosting in public and private\nclouds.\n\n\nOmniOS CE\n\n\nOmniOS Community Edition\n takes a minimalist\napproach to create a full illumos-derived operating system. It's targeted for\nserver use.\n\n\nOmniOS was founded by \nOmniTI\n, and is now maintained by\nthe \nOmniOS Community Edition Association\n.\n\n\nOpenIndiana\n\n\nOpenIndiana\n is a successor to and derived from\nthe original Sun OpenSolaris reference distribution, and is suitable for use on\ndesktop and servers.\n\n\nTribblix\n\n\nTribblix\n is the \"retro\" illumos distribution.\nSuitable for both desktop and server usage.", 
+            "title": "the illumos family"
+        }, 
+        {
+            "location": "/about/distro/#the-illumos-family", 
+            "text": "Similar to other operating systems, there are many different OS distributions\nbased on the common illumos kernel. Some of them are maintained by enthusiasts,\nothers are primarily developed by commercial companies with their own\npriorities and target products (i.e. storage, virtualization, etc.) with\ndifferent packaging systems (IPS, SVR4, DEB, RPM, etc). These projects\ncontribute back to the common core set of software which the illumos project is\nabout.", 
+            "title": "the illumos family"
+        }, 
+        {
+            "location": "/about/distro/#smartos", 
+            "text": "SmartOS  from  Joyent  is a\npurpose-built, container-native hypervisor and lightweight container host OS\nfor secure, performant, and convenient container hosting in public and private\nclouds.", 
+            "title": "SmartOS"
+        }, 
+        {
+            "location": "/about/distro/#omnios-ce", 
+            "text": "OmniOS Community Edition  takes a minimalist\napproach to create a full illumos-derived operating system. It's targeted for\nserver use.  OmniOS was founded by  OmniTI , and is now maintained by\nthe  OmniOS Community Edition Association .", 
+            "title": "OmniOS CE"
+        }, 
+        {
+            "location": "/about/distro/#openindiana", 
+            "text": "OpenIndiana  is a successor to and derived from\nthe original Sun OpenSolaris reference distribution, and is suitable for use on\ndesktop and servers.", 
+            "title": "OpenIndiana"
+        }, 
+        {
+            "location": "/about/distro/#tribblix", 
+            "text": "Tribblix  is the \"retro\" illumos distribution.\nSuitable for both desktop and server usage.", 
+            "title": "Tribblix"
+        }, 
+        {
+            "location": "/about/faq/", 
+            "text": "What is the objective of the illumos project?\n\n\nillumos is a fully open community project to develop a reliable and scalable\noperating system. It began as a fork of the former \nOpenSolaris\n operating\nsystem.\n\n\nOur goal is to foster open development of technologies for the 21\nst\n century\nwhile building on a twenty-year heritage, but free from the oversight of a\nsingle corporate entity and the resulting challenges thereof.\n\n\nWhile our code base has a long history and many engineering traditions attached\nto it, our development processes are being reinvented in an attempt to remove\nbarriers while maintaining consistently high code quality.\n\n\nHow do I download the software?\n\n\nThe source code developed by the project is a fork of the Sun/Oracle code base\nreferred to as \"OS/Net\" or \"ON\" (short for Operating System/Networking). It is\nthe home of the technologies that previously defined OpenSolaris and Solaris,\nsuch as the kernel, network stack, filesystems, and device drivers, and all of\nthe basic userland libraries and applications.\n\n\nThe illumos code base forms the foundation of \ndistributions\n. To use the\noperating system, just download and install one of the distributions.\n\n\nTo download the source code, follow the section on Git or Mercurial in \nHow To\nBuild illumos\n. You can also \nbrowse and search the illumos code online\n.\n\n\nIs illumos free software (open source)?\n\n\nThe bulk of the illumos source code is available under the Common Development\nand Distribution License (CDDL), an OSI-approved free software license based on\nthe Mozilla Public License (MPL).\n\n\nThere are some components with other licenses including BSD and MIT. We also\ninclude some software with the GNU General Public License (GPL) or the\nLesser/Library General Public License (LGPL).\n\n\nThere still remain some binary-only, closed source components that we inherited\nfrom Oracle which we are working to replace. Unlike OpenSolaris, we do not\nrequire a closed source compiler.\n\n\nIs illumos a Nexenta or Joyent project?\n\n\nillumos was initiated by then-employees of Nexenta in collaboration with former\nOpenSolaris community members and volunteers. While companies including\nNexenta, Joyent, and Delphix sponsor some of the work in illumos, the project\nis independent of their business decisions. illumos exists as a common base for\nmultiple commercial and community distributions.\n\n\nIs illumos a community project?\n\n\nYes.\n\n\nMultiple community groups and interests (including people like you!) are\nstakeholders in the project, and anyone and everyone is welcome to contribute.\n\n\nHow do I start contributing?\n\n\nillumos thrives on the efforts of its contributors. Have a look at the guide on\n\nHow To Contribute\n if you want to submit code.\n\n\nIf you want to help in other ways then have a look at the \nMailing Lists\n.\n\n\nMost of the developers can be found on \nIRC\n and you're invited to drop in and\nsay \"hi!\"\n\n\nHow do I build illumos?\n\n\nSee \nHow To Build illumos\n.\n\n\nHow do I build a distribution based on illumos?\n\n\nOpenSolaris was historically difficult to build as a distribution because it\nwas assembled by many separate teams at Sun. The illumos community\ndistributions are working to make this easier.\n\n\nSome distributions have documented their build processes: \nOpenIndiana\n,\n\nOmniOS\n.\n\n\nIs illumos compatible with Solaris/OpenSolaris?\n\n\nillumos is very likely to be compatible with Solaris/OpenSolaris binaries and\ndrivers before Oracle closed the gate in 2010. After that, all bets are off.\nSolaris 10 update 11, and Solaris 11, and beyond, may contain incompatible\nchanges.\n\n\nWhat changes does illumos maintain?\n\n\n\n\nOpen internationalization libraries and data files.\n\n\nOpen replacements for closed binaries.\n\n\nCode that Oracle may choose to no longer maintain.\n\n\nCommunity enhancements to critical technologies like DTrace and ZFS.\n\n\nNew open technologies.\n\n\nPatches/bug-fixes we have independently developed, including security fixes.\n\n\nChanges to ease community development.\n\n\n...and more!\n\n\n\n\nWill you track Oracle changes?\n\n\nWe originally intended to closely follow upstream changes, but became a fork by\nnecessity because Oracle's software is no longer open source. We now represent\nthe open future of the code base after Sun.\n\n\nIt is uncertain if Oracle will ever open source their version of ON again. If\nthis happens in the future, their changes will be evaluated on a case-by-case\nbasis for integration.\n\n\nWill you work on sending illumos changes upstream?\n\n\nWe would like Oracle to use changes from illumos, as long as they are willing\nto abide by the open source license for our code. Where we use code from other\nfree software projects, we also respect their licenses and keep the source\nopen.\n\n\nWhy did you announce the project after it was set up and much of the code written?\n\n\nThis decision was made for multiple reasons. The signal to noise ratio in the\nOpenSolaris community had grown low, and announcing the project would have\ndistracted the developers from actual code and contribution. Most vocal members\ntalked about opening the code rather than writing it. illumos chose the\nopposite. Before the formal announcement, we reached out to developers in the\ncommunity and solicited their help and participation.\n\n\nSome choices of project infrastructure were not made by a community vote - what drove these choices?\n\n\nThese initial infrastructure choices, of using hosting graciously provided by\nStanford University, and Redmine as the project management software to power\nthe projects and bug tracking were made by individuals in the project to get\nthe work done as quickly as possible. Redmine is easy to use, provides all\nrequired functionality in a single package, and we felt it was a good choice\nfor all planned illumos development.\n\n\nWe have since migrated to hosting facilities offered by Joyent, and are\nmigrating part of the content infrastructure from Redmine to this wiki and\nother tools.\n\n\nAnd the name illumos?\n\n\nWe started off with the codename \"FreeON\", and later realized it is used by an\n\nexisting project\n. We finally settled on illumos, after many hours of\nsuggestions and counter-suggestions. illumos (pronounced i-llu-MOS and written\nin lowercase) ties in with Sun and light. It's the closest to ON we could get!", 
+            "title": "Faq"
+        }, 
+        {
+            "location": "/about/faq/#what-is-the-objective-of-the-illumos-project", 
+            "text": "illumos is a fully open community project to develop a reliable and scalable\noperating system. It began as a fork of the former  OpenSolaris  operating\nsystem.  Our goal is to foster open development of technologies for the 21 st  century\nwhile building on a twenty-year heritage, but free from the oversight of a\nsingle corporate entity and the resulting challenges thereof.  While our code base has a long history and many engineering traditions attached\nto it, our development processes are being reinvented in an attempt to remove\nbarriers while maintaining consistently high code quality.", 
+            "title": "What is the objective of the illumos project?"
+        }, 
+        {
+            "location": "/about/faq/#how-do-i-download-the-software", 
+            "text": "The source code developed by the project is a fork of the Sun/Oracle code base\nreferred to as \"OS/Net\" or \"ON\" (short for Operating System/Networking). It is\nthe home of the technologies that previously defined OpenSolaris and Solaris,\nsuch as the kernel, network stack, filesystems, and device drivers, and all of\nthe basic userland libraries and applications.  The illumos code base forms the foundation of  distributions . To use the\noperating system, just download and install one of the distributions.  To download the source code, follow the section on Git or Mercurial in  How To\nBuild illumos . You can also  browse and search the illumos code online .", 
+            "title": "How do I download the software?"
+        }, 
+        {
+            "location": "/about/faq/#is-illumos-free-software-open-source", 
+            "text": "The bulk of the illumos source code is available under the Common Development\nand Distribution License (CDDL), an OSI-approved free software license based on\nthe Mozilla Public License (MPL).  There are some components with other licenses including BSD and MIT. We also\ninclude some software with the GNU General Public License (GPL) or the\nLesser/Library General Public License (LGPL).  There still remain some binary-only, closed source components that we inherited\nfrom Oracle which we are working to replace. Unlike OpenSolaris, we do not\nrequire a closed source compiler.", 
+            "title": "Is illumos free software (open source)?"
+        }, 
+        {
+            "location": "/about/faq/#is-illumos-a-nexenta-or-joyent-project", 
+            "text": "illumos was initiated by then-employees of Nexenta in collaboration with former\nOpenSolaris community members and volunteers. While companies including\nNexenta, Joyent, and Delphix sponsor some of the work in illumos, the project\nis independent of their business decisions. illumos exists as a common base for\nmultiple commercial and community distributions.", 
+            "title": "Is illumos a Nexenta or Joyent project?"
+        }, 
+        {
+            "location": "/about/faq/#is-illumos-a-community-project", 
+            "text": "Yes.  Multiple community groups and interests (including people like you!) are\nstakeholders in the project, and anyone and everyone is welcome to contribute.", 
+            "title": "Is illumos a community project?"
+        }, 
+        {
+            "location": "/about/faq/#how-do-i-start-contributing", 
+            "text": "illumos thrives on the efforts of its contributors. Have a look at the guide on How To Contribute  if you want to submit code.  If you want to help in other ways then have a look at the  Mailing Lists .  Most of the developers can be found on  IRC  and you're invited to drop in and\nsay \"hi!\"", 
+            "title": "How do I start contributing?"
+        }, 
+        {
+            "location": "/about/faq/#how-do-i-build-illumos", 
+            "text": "See  How To Build illumos .", 
+            "title": "How do I build illumos?"
+        }, 
+        {
+            "location": "/about/faq/#how-do-i-build-a-distribution-based-on-illumos", 
+            "text": "OpenSolaris was historically difficult to build as a distribution because it\nwas assembled by many separate teams at Sun. The illumos community\ndistributions are working to make this easier.  Some distributions have documented their build processes:  OpenIndiana , OmniOS .", 
+            "title": "How do I build a distribution based on illumos?"
+        }, 
+        {
+            "location": "/about/faq/#is-illumos-compatible-with-solarisopensolaris", 
+            "text": "illumos is very likely to be compatible with Solaris/OpenSolaris binaries and\ndrivers before Oracle closed the gate in 2010. After that, all bets are off.\nSolaris 10 update 11, and Solaris 11, and beyond, may contain incompatible\nchanges.", 
+            "title": "Is illumos compatible with Solaris/OpenSolaris?"
+        }, 
+        {
+            "location": "/about/faq/#what-changes-does-illumos-maintain", 
+            "text": "Open internationalization libraries and data files.  Open replacements for closed binaries.  Code that Oracle may choose to no longer maintain.  Community enhancements to critical technologies like DTrace and ZFS.  New open technologies.  Patches/bug-fixes we have independently developed, including security fixes.  Changes to ease community development.  ...and more!", 
+            "title": "What changes does illumos maintain?"
+        }, 
+        {
+            "location": "/about/faq/#will-you-track-oracle-changes", 
+            "text": "We originally intended to closely follow upstream changes, but became a fork by\nnecessity because Oracle's software is no longer open source. We now represent\nthe open future of the code base after Sun.  It is uncertain if Oracle will ever open source their version of ON again. If\nthis happens in the future, their changes will be evaluated on a case-by-case\nbasis for integration.", 
+            "title": "Will you track Oracle changes?"
+        }, 
+        {
+            "location": "/about/faq/#will-you-work-on-sending-illumos-changes-upstream", 
+            "text": "We would like Oracle to use changes from illumos, as long as they are willing\nto abide by the open source license for our code. Where we use code from other\nfree software projects, we also respect their licenses and keep the source\nopen.", 
+            "title": "Will you work on sending illumos changes upstream?"
+        }, 
+        {
+            "location": "/about/faq/#why-did-you-announce-the-project-after-it-was-set-up-and-much-of-the-code-written", 
+            "text": "This decision was made for multiple reasons. The signal to noise ratio in the\nOpenSolaris community had grown low, and announcing the project would have\ndistracted the developers from actual code and contribution. Most vocal members\ntalked about opening the code rather than writing it. illumos chose the\nopposite. Before the formal announcement, we reached out to developers in the\ncommunity and solicited their help and participation.", 
+            "title": "Why did you announce the project after it was set up and much of the code written?"
+        }, 
+        {
+            "location": "/about/faq/#some-choices-of-project-infrastructure-were-not-made-by-a-community-vote-what-drove-these-choices", 
+            "text": "These initial infrastructure choices, of using hosting graciously provided by\nStanford University, and Redmine as the project management software to power\nthe projects and bug tracking were made by individuals in the project to get\nthe work done as quickly as possible. Redmine is easy to use, provides all\nrequired functionality in a single package, and we felt it was a good choice\nfor all planned illumos development.  We have since migrated to hosting facilities offered by Joyent, and are\nmigrating part of the content infrastructure from Redmine to this wiki and\nother tools.", 
+            "title": "Some choices of project infrastructure were not made by a community vote - what drove these choices?"
+        }, 
+        {
+            "location": "/about/faq/#and-the-name-illumos", 
+            "text": "We started off with the codename \"FreeON\", and later realized it is used by an existing project . We finally settled on illumos, after many hours of\nsuggestions and counter-suggestions. illumos (pronounced i-llu-MOS and written\nin lowercase) ties in with Sun and light. It's the closest to ON we could get!", 
+            "title": "And the name illumos?"
+        }, 
+        {
+            "location": "/about/history/", 
+            "text": "A Brief History of Everything^WUNIX\n\n\nIn the Second Age of Computing, the UNIX operating system emerged, in pieces,\nfrom the minds of Ken Thompson, Dennis Ritchie, Doug McIllroy and bright sparks\nfrom AT\nTs Bell Labs.\n\n\nFrom there, the river\n\ndiverges\n\nalmost as much as our metaphors. However, the forks we care about start with\nBSD and System V UNIX R4, which begat SunOS and Solaris. Other documents detail\nthis history in greater depth (and to a large degree they do not necessarily\nconcern us.)\n\n\nIn 2005 Sun Microsystems released Solaris 10 which contains several truly\ninnovative features we continue to rely on to this day. Just as importantly,\nhowever, Sun also opensourced the operating system as OpenSolaris. While there\nwere a few governance missteps along the way, it was a bold move.\n\n\nIn 2010 Oracle acquired Sun, and \nsilently closed the\ngate\n. The\nsource code was no longer updated, communications to the open source community\nstopped. OpenSolaris was effectively dead.\n\n\nFrom this, however, project founder Garrett D'Amore took the last drop of the\ngate and \nannounced\nillumos\n\nin mid-2010.\n\n\nFor a longer, more flavorful description of Solaris and illumos history, Bryan\nCantrill's \nFork Yeah! The Rise and Development of\nillumos\n talk from USENIX LISA\n2011 should be considered required viewing. (Note: Potentially not suitable for\nminors.)\n\n\nSince 2010, a number of companies have built their businesses around illumos,\nor are running on one of the distributions built from it. For a very incomplete\nlist, please see \nwho is using illumos\n.", 
+            "title": "A Brief History of Everything^WUNIX"
+        }, 
+        {
+            "location": "/about/history/#a-brief-history-of-everythingwunix", 
+            "text": "In the Second Age of Computing, the UNIX operating system emerged, in pieces,\nfrom the minds of Ken Thompson, Dennis Ritchie, Doug McIllroy and bright sparks\nfrom AT Ts Bell Labs.  From there, the river diverges \nalmost as much as our metaphors. However, the forks we care about start with\nBSD and System V UNIX R4, which begat SunOS and Solaris. Other documents detail\nthis history in greater depth (and to a large degree they do not necessarily\nconcern us.)  In 2005 Sun Microsystems released Solaris 10 which contains several truly\ninnovative features we continue to rely on to this day. Just as importantly,\nhowever, Sun also opensourced the operating system as OpenSolaris. While there\nwere a few governance missteps along the way, it was a bold move.  In 2010 Oracle acquired Sun, and  silently closed the\ngate . The\nsource code was no longer updated, communications to the open source community\nstopped. OpenSolaris was effectively dead.  From this, however, project founder Garrett D'Amore took the last drop of the\ngate and  announced\nillumos \nin mid-2010.  For a longer, more flavorful description of Solaris and illumos history, Bryan\nCantrill's  Fork Yeah! The Rise and Development of\nillumos  talk from USENIX LISA\n2011 should be considered required viewing. (Note: Potentially not suitable for\nminors.)  Since 2010, a number of companies have built their businesses around illumos,\nor are running on one of the distributions built from it. For a very incomplete\nlist, please see  who is using illumos .", 
+            "title": "A Brief History of Everything^WUNIX"
+        }, 
+        {
+            "location": "/about/", 
+            "text": "what \nis\n illumos?\n\n\nTo quote the \nillumos Developer's Guide\n:\n\n\n\n\nillumos is a consolidation of software that forms the core of an Operating\nSystem. It includes the kernel, device drivers, core system libraries, and\nutilities. It is the home of many technologies include ZFS, DTrace, Zones,\nctf, FMA, and more. We pride ourselves on having a stable, highly\nobservable, and technologically different system. In addition, illumos\ntraces it roots back through Sun Microsystems to the original releases of\nUNIX and BSD.\n\n\n\n\nillumos itself does not offer an OS distribution -- it is the core from which\ndistributions can be created. This is quite similar to how the BSD projects are\norganized, though different components are available (or not.)\n\n\nPlease see the \nhistory page\n for more information about the\n(surprisingly convoluted!) origins of illumos.\n\n\nLicensing\n\n\nillumos is licensed under the CDDL.\n\n\nCommunity Values\n\n\n\n\nEmpathy as a core engineering tenant\n\n\nCode quality and correctness\n\n\n\n\nTechnology Features\n\n\nThe following are shared tenants and features for distributions utilizing illumos:\n\n\n\n\nStability\n\n\nSMP support for many CPUs\n\n\nSecurity multi-user facilities like Roles and Privileges\n\n\nMulti-\ntenancy\n with Zones\n\n\nUnparalleled system introspection with \nDTrace\n\n\nA single pipeline for system issues with the Fault Management Architecture (FMA)\n\n\nNetwork virtualization with Crossbow\n\n\nHardware virtualization with KVM\n\n\nExcellent online documentation\n\n\nSource code for the entire system\n\n\n\n\nSupported platforms\n\n\nillumos currently supports i86pc (x86, x86_64) architectures. However, it does\ncleanly compile on SPARC and there are several SPARC distributions of illumos.\n\n\nillumos also works fine on AMD64, though KVM is awaiting merges to work properly.\n\n\nTo determine if a specific piece of hardware will work with illumos, please\nrefer to the \nHardware Compatability List\n.\n\n\nFor pre-defined builds of server-grade hardware, you might also refer to\n\nJoyent Engineering Manufactory\ndatabase\n.\n\n\nUses for illumos\n\n\nillumos can be used in any number of situations.\n\n\nillumos Development Model\n\n\nPlease refer to the \nillumos Developer's Guide\n which describes how illumos\nis built.\n\n\nContributing to illumos\n\n\n\n\nhttp://wiki.illumos.org/display/illumos/How+To+Contribute\n\n\nhttp://zinascii.com/pub/talks/fixing-bugs-in-illumos.pdf\n\n\n\n\nThird Party Software\n\n\nillumos does not itself ship third party software, or contain software like webservers and so forth. (An exception would be OpenSSH shipping in the core.)", 
+            "title": "what *is* illumos?"
+        }, 
+        {
+            "location": "/about/#what-is-illumos", 
+            "text": "To quote the  illumos Developer's Guide :   illumos is a consolidation of software that forms the core of an Operating\nSystem. It includes the kernel, device drivers, core system libraries, and\nutilities. It is the home of many technologies include ZFS, DTrace, Zones,\nctf, FMA, and more. We pride ourselves on having a stable, highly\nobservable, and technologically different system. In addition, illumos\ntraces it roots back through Sun Microsystems to the original releases of\nUNIX and BSD.   illumos itself does not offer an OS distribution -- it is the core from which\ndistributions can be created. This is quite similar to how the BSD projects are\norganized, though different components are available (or not.)  Please see the  history page  for more information about the\n(surprisingly convoluted!) origins of illumos.", 
+            "title": "what is illumos?"
+        }, 
+        {
+            "location": "/about/#licensing", 
+            "text": "illumos is licensed under the CDDL.", 
+            "title": "Licensing"
+        }, 
+        {
+            "location": "/about/#community-values", 
+            "text": "Empathy as a core engineering tenant  Code quality and correctness", 
+            "title": "Community Values"
+        }, 
+        {
+            "location": "/about/#technology-features", 
+            "text": "The following are shared tenants and features for distributions utilizing illumos:   Stability  SMP support for many CPUs  Security multi-user facilities like Roles and Privileges  Multi- tenancy  with Zones  Unparalleled system introspection with  DTrace  A single pipeline for system issues with the Fault Management Architecture (FMA)  Network virtualization with Crossbow  Hardware virtualization with KVM  Excellent online documentation  Source code for the entire system", 
+            "title": "Technology Features"
+        }, 
+        {
+            "location": "/about/#supported-platforms", 
+            "text": "illumos currently supports i86pc (x86, x86_64) architectures. However, it does\ncleanly compile on SPARC and there are several SPARC distributions of illumos.  illumos also works fine on AMD64, though KVM is awaiting merges to work properly.  To determine if a specific piece of hardware will work with illumos, please\nrefer to the  Hardware Compatability List .  For pre-defined builds of server-grade hardware, you might also refer to Joyent Engineering Manufactory\ndatabase .", 
+            "title": "Supported platforms"
+        }, 
+        {
+            "location": "/about/#uses-for-illumos", 
+            "text": "illumos can be used in any number of situations.", 
+            "title": "Uses for illumos"
+        }, 
+        {
+            "location": "/about/#illumos-development-model", 
+            "text": "Please refer to the  illumos Developer's Guide  which describes how illumos\nis built.", 
+            "title": "illumos Development Model"
+        }, 
+        {
+            "location": "/about/#contributing-to-illumos", 
+            "text": "http://wiki.illumos.org/display/illumos/How+To+Contribute  http://zinascii.com/pub/talks/fixing-bugs-in-illumos.pdf", 
+            "title": "Contributing to illumos"
+        }, 
+        {
+            "location": "/about/#third-party-software", 
+            "text": "illumos does not itself ship third party software, or contain software like webservers and so forth. (An exception would be OpenSSH shipping in the core.)", 
+            "title": "Third Party Software"
+        }, 
+        {
+            "location": "/about/who/", 
+            "text": "Who uses illumos?\n\n\nMany communities and businesses base their products and services on illumos. In\naddition to providing the core for projects and products, components of illumos\nhave been ported to other operating systems.\n\n\n\n\n\n\n\n\nOrganization\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\nApple\n\n\nIncorporates DTrace\n\n\n\n\n\n\nFreeBSD\n\n\nIncorporates ZFS, DTrace, mdb\n\n\n\n\n\n\nJoyent\n\n\nPublic and on-prem cloud\n\n\n\n\n\n\nProject FIFO\n\n\nOn-prem cloud\n\n\n\n\n\n\nLucera\n\n\nFinanial infrastructure services\n\n\n\n\n\n\nDelphix\n\n\nDatabase virtualization\n\n\n\n\n\n\nNexenta\n\n\nStorage appliance\n\n\n\n\n\n\nCirconus\n\n\nMonitoring services\n\n\n\n\n\n\n\n\nCross-pollination History\n\n\n2010\n\n\n\n\nNetBSD began porting DTrace in 2010\n\n\n\n\n2009\n\n\n\n\nFreeBSD integrated DTrace in 7.1\n\n\n\n\n2008\n\n\n\n\nFreeBSD integrated ZFS in 7.0\n\n\nLLNL created the ZFS On Linux project\n\n\n\n\n2007\n\n\n\n\nApple integrated DTrace in Mac OS X 10.5 (2007)", 
+            "title": "Who uses illumos?"
+        }, 
+        {
+            "location": "/about/who/#who-uses-illumos", 
+            "text": "Many communities and businesses base their products and services on illumos. In\naddition to providing the core for projects and products, components of illumos\nhave been ported to other operating systems.     Organization  Description      Apple  Incorporates DTrace    FreeBSD  Incorporates ZFS, DTrace, mdb    Joyent  Public and on-prem cloud    Project FIFO  On-prem cloud    Lucera  Finanial infrastructure services    Delphix  Database virtualization    Nexenta  Storage appliance    Circonus  Monitoring services", 
+            "title": "Who uses illumos?"
+        }, 
+        {
+            "location": "/about/who/#cross-pollination-history", 
+            "text": "", 
+            "title": "Cross-pollination History"
+        }, 
+        {
+            "location": "/about/who/#2010", 
+            "text": "NetBSD began porting DTrace in 2010", 
+            "title": "2010"
+        }, 
+        {
+            "location": "/about/who/#2009", 
+            "text": "FreeBSD integrated DTrace in 7.1", 
+            "title": "2009"
+        }, 
+        {
+            "location": "/about/who/#2008", 
+            "text": "FreeBSD integrated ZFS in 7.0  LLNL created the ZFS On Linux project", 
+            "title": "2008"
+        }, 
+        {
+            "location": "/about/who/#2007", 
+            "text": "Apple integrated DTrace in Mac OS X 10.5 (2007)", 
+            "title": "2007"
+        }, 
+        {
+            "location": "/community/events/", 
+            "text": "Events\n\n\nUpcoming\n\n\nPast", 
+            "title": "Events"
+        }, 
+        {
+            "location": "/community/events/#events", 
+            "text": "", 
+            "title": "Events"
+        }, 
+        {
+            "location": "/community/events/#upcoming", 
+            "text": "", 
+            "title": "Upcoming"
+        }, 
+        {
+            "location": "/community/events/#past", 
+            "text": "", 
+            "title": "Past"
+        }, 
+        {
+            "location": "/community/", 
+            "text": "Community\n\n\nMailing Lists\n\n\nPlease see the \nmailing lists\n for both illumos project and related\ncommunity list information.\n\n\nIRC Channels\n\n\nYou can find illumos developers and community members in these IRC channels.\nFolks are generally quite helpful. Please remember the Golden Rule when\nparticipating.\n\n\n\n\n\n\n\n\nProject\n\n\nNetwork\n\n\nChannel\n\n\n\n\n\n\n\n\n\n\nillumos\n\n\nfreenode\n\n\n#illumos\n\n\n\n\n\n\nSmartOS\n\n\nfreenode\n\n\n#smartos\n\n\n\n\n\n\nOmniOS\n\n\nfreenode\n\n\n#omnios\n\n\n\n\n\n\nOpenIndiana\n\n\nfreenode\n\n\n#openindiana\n\n\n\n\n\n\nOpenZFS\n\n\nfreenode\n\n\n#openzfs", 
+            "title": "Community"
+        }, 
+        {
+            "location": "/community/#community", 
+            "text": "", 
+            "title": "Community"
+        }, 
+        {
+            "location": "/community/#mailing-lists", 
+            "text": "Please see the  mailing lists  for both illumos project and related\ncommunity list information.", 
+            "title": "Mailing Lists"
+        }, 
+        {
+            "location": "/community/#irc-channels", 
+            "text": "You can find illumos developers and community members in these IRC channels.\nFolks are generally quite helpful. Please remember the Golden Rule when\nparticipating.     Project  Network  Channel      illumos  freenode  #illumos    SmartOS  freenode  #smartos    OmniOS  freenode  #omnios    OpenIndiana  freenode  #openindiana    OpenZFS  freenode  #openzfs", 
+            "title": "IRC Channels"
+        }, 
+        {
+            "location": "/community/lists/", 
+            "text": "Mailing Lists\n\n\n\n\nThe Golden Rule\n\n\nPlease be respectful and civil in your mailing list communications.\nHarassment and other poor behaviour will not be tolerated, and\npreventative action will be taken by mailing list moderators.\n\n\n\n\nGeneral Lists\n\n\n\n\n\n\n\n\nName\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\nannounce\n\n\nAnnouncements including new releases, significant milestones, administrative and policy decisions and other news-worthy items. (\nOld archives\n)\n\n\n\n\n\n\ndeveloper\n\n\nDevelopers working on illumos code and those looking to become actively involved. (\nOld archives\n)\n\n\n\n\n\n\ndiscuss\n\n\nGeneral discussion (\nOld archives\n\n\n\n\n\n\n\n\nCode Commits, Integration, Bug Tracking\n\n\n\n\n\n\n\n\nName\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\nadvocates\n\n\nModerated list for illumos Advocates and submitting RTIs only. (\nOld archives\n)\n\n\n\n\n\n\ncommits\n\n\nNotifications about each commit made to the illumos source code repository. (\nOld archives\n)\n\n\n\n\n\n\n\n\nRelated Communites\n\n\n\n\n\n\n\n\nName\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\ndtrace-discuss\n\n\nAll things DTrace\n\n\n\n\n\n\nopenzfs-developer\n\n\nPlatform-independent mailing list for ZFS developers to review ZFS code and architecture changes from all platforms.\n\n\n\n\n\n\noi-dev\n\n\nOpenIndiana distro developer list\n\n\n\n\n\n\nopenindiana-discuss\n\n\nOpenIndiana distro users list\n\n\n\n\n\n\nomnios-discuss\n\n\nOmniOS distro users list\n\n\n\n\n\n\nsmartos-discuss\n\n\nSmartOS distro", 
+            "title": "Mailing Lists"
+        }, 
+        {
+            "location": "/community/lists/#mailing-lists", 
+            "text": "The Golden Rule  Please be respectful and civil in your mailing list communications.\nHarassment and other poor behaviour will not be tolerated, and\npreventative action will be taken by mailing list moderators.", 
+            "title": "Mailing Lists"
+        }, 
+        {
+            "location": "/community/lists/#general-lists", 
+            "text": "Name  Description      announce  Announcements including new releases, significant milestones, administrative and policy decisions and other news-worthy items. ( Old archives )    developer  Developers working on illumos code and those looking to become actively involved. ( Old archives )    discuss  General discussion ( Old archives", 
+            "title": "General Lists"
+        }, 
+        {
+            "location": "/community/lists/#code-commits-integration-bug-tracking", 
+            "text": "Name  Description      advocates  Moderated list for illumos Advocates and submitting RTIs only. ( Old archives )    commits  Notifications about each commit made to the illumos source code repository. ( Old archives )", 
+            "title": "Code Commits, Integration, Bug Tracking"
+        }, 
+        {
+            "location": "/community/lists/#related-communites", 
+            "text": "Name  Description      dtrace-discuss  All things DTrace    openzfs-developer  Platform-independent mailing list for ZFS developers to review ZFS code and architecture changes from all platforms.    oi-dev  OpenIndiana distro developer list    openindiana-discuss  OpenIndiana distro users list    omnios-discuss  OmniOS distro users list    smartos-discuss  SmartOS distro", 
+            "title": "Related Communites"
+        }, 
+        {
+            "location": "/community/videos/", 
+            "text": "", 
+            "title": "Videos"
+        }, 
+        {
+            "location": "/projects/", 
+            "text": "", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/security/", 
+            "text": "illumos Security Information\n\n\nIntroduction\n\n\nReporting security incidents\n\n\nRecent vulnerabilities\n\n\nAdvisory information\n\n\nHow to update your system", 
+            "title": "illumos Security Information"
+        }, 
+        {
+            "location": "/security/#illumos-security-information", 
+            "text": "", 
+            "title": "illumos Security Information"
+        }, 
+        {
+            "location": "/security/#introduction", 
+            "text": "", 
+            "title": "Introduction"
+        }, 
+        {
+            "location": "/security/#reporting-security-incidents", 
+            "text": "", 
+            "title": "Reporting security incidents"
+        }, 
+        {
+            "location": "/security/#recent-vulnerabilities", 
+            "text": "", 
+            "title": "Recent vulnerabilities"
+        }, 
+        {
+            "location": "/security/#advisory-information", 
+            "text": "", 
+            "title": "Advisory information"
+        }, 
+        {
+            "location": "/security/#how-to-update-your-system", 
+            "text": "", 
+            "title": "How to update your system"
+        }, 
+        {
+            "location": "/user-guide/bugs/", 
+            "text": "Bug Database\n\n\nReporting Bugs", 
+            "title": "Bug Database"
+        }, 
+        {
+            "location": "/user-guide/bugs/#bug-database", 
+            "text": "", 
+            "title": "Bug Database"
+        }, 
+        {
+            "location": "/user-guide/bugs/#reporting-bugs", 
+            "text": "", 
+            "title": "Reporting Bugs"
+        }, 
+        {
+            "location": "/user-guide/build/", 
+            "text": "How to build illumos", 
+            "title": "How to build illumos"
+        }, 
+        {
+            "location": "/user-guide/build/#how-to-build-illumos", 
+            "text": "", 
+            "title": "How to build illumos"
+        }, 
+        {
+            "location": "/user-guide/contrib/", 
+            "text": "How to contribute\n\n\nWhich should be canonical?\n\n\nhttps://wiki.illumos.org/display/illumos/How+To+Contribute\n\n\nor\n\n\nhttps://illumos.org/books/dev/integrating.html", 
+            "title": "How to contribute"
+        }, 
+        {
+            "location": "/user-guide/contrib/#how-to-contribute", 
+            "text": "Which should be canonical?  https://wiki.illumos.org/display/illumos/How+To+Contribute  or  https://illumos.org/books/dev/integrating.html", 
+            "title": "How to contribute"
+        }, 
+        {
+            "location": "/user-guide/", 
+            "text": "User Guide\n\n\nBooks\n\n\nThere are a number of \nbooks\n available.\n\n\nIf your goal is to work on illumos itself, the \nDeveloper's\nGuide\n is the place to start.", 
+            "title": "User Guide"
+        }, 
+        {
+            "location": "/user-guide/#user-guide", 
+            "text": "", 
+            "title": "User Guide"
+        }, 
+        {
+            "location": "/user-guide/#books", 
+            "text": "There are a number of  books  available.  If your goal is to work on illumos itself, the  Developer's\nGuide  is the place to start.", 
+            "title": "Books"
+        }
+    ]
+}
