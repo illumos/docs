@@ -102,7 +102,7 @@
         }, 
         {
             "location": "/about/distro/", 
-            "text": "the illumos family\n\n\nSimilar to other operating systems, there are many different OS distributions\nbased on the common illumos kernel. Some of them are maintained by enthusiasts,\nothers are primarily developed by commercial companies with their own\npriorities and target products (i.e. storage, virtualization, etc.) with\ndifferent packaging systems (IPS, SVR4, DEB, RPM, etc). These projects\ncontribute back to the common core set of software which the illumos project is\nabout.\n\n\nSmartOS\n\n\nSmartOS\n from \nJoyent\n is a\npurpose-built, container-native hypervisor and lightweight container host OS\nfor secure, performant, and convenient container hosting in public and private\nclouds.\n\n\nOmniOS CE\n\n\nOmniOS Community Edition\n takes a minimalist\napproach to create a full illumos-derived operating system. It's targeted for\nserver use.\n\n\nOmniOS was founded by \nOmniTI\n, and is now maintained by\nthe \nOmniOS Community Edition Association\n.\n\n\nOpenIndiana\n\n\nOpenIndiana\n is a successor to and derived from\nthe original Sun OpenSolaris reference distribution, and is suitable for use on\ndesktop and servers.\n\n\nTribblix\n\n\nTribblix\n is the \"retro\" illumos distribution.\nSuitable for both desktop and server usage.", 
+            "text": "the illumos family\n\n\nSimilar to other operating systems, there are many different OS distributions\nbased on the common illumos kernel. Some of them are maintained by enthusiasts,\nothers are primarily developed by commercial companies with their own\npriorities and target products (i.e. storage, virtualization, etc.) with\ndifferent packaging systems (IPS, SVR4, DEB, RPM, etc). These projects\ncontribute back to the common core set of software which the illumos project is\nabout.\n\n\nSmartOS\n\n\nSmartOS\n from \nJoyent\n is a\npurpose-built, container-native hypervisor and lightweight container host OS\nfor secure, performant, and convenient container hosting in public and private\nclouds.\n\n\nOmniOS CE\n\n\nOmniOS Community Edition\n takes a minimalist\napproach to create a full illumos-derived operating system. It's targeted for\nserver use.\n\n\nOmniOS was founded by \nOmniTI\n, and is now maintained by\nthe \nOmniOS Community Edition Association\n.\n\n\nOpenIndiana\n\n\nOpenIndiana\n is a successor to and derived from\nthe original Sun OpenSolaris reference distribution, and is suitable for use on\ndesktop and servers.\n\n\nTribblix\n\n\nTribblix\n is the \"retro\" illumos distribution.\nSuitable for both desktop and server usage.\n\n\nAnd others...", 
             "title": "Distributions"
         }, 
         {
@@ -129,6 +129,11 @@
             "location": "/about/distro/#tribblix", 
             "text": "Tribblix  is the \"retro\" illumos distribution.\nSuitable for both desktop and server usage.", 
             "title": "Tribblix"
+        }, 
+        {
+            "location": "/about/distro/#and-others", 
+            "text": "", 
+            "title": "And others..."
         }, 
         {
             "location": "/about/faq/", 
@@ -332,7 +337,7 @@
         }, 
         {
             "location": "/security/", 
-            "text": "illumos Security Information\n\n\nIntroduction\n\n\nReporting security incidents\n\n\nRecent vulnerabilities\n\n\nAdvisory information\n\n\nHow to update your system", 
+            "text": "illumos Security Information\n\n\nIntroduction\n\n\nReporting security incidents\n\n\nPlease send mail to \n.\n\n\nTODO: Provide GPG key(s).\n\n\nRecent vulnerabilities\n\n\nAdvisory information\n\n\nHow to update your system", 
             "title": "Security"
         }, 
         {
@@ -347,7 +352,7 @@
         }, 
         {
             "location": "/security/#reporting-security-incidents", 
-            "text": "", 
+            "text": "Please send mail to  .  TODO: Provide GPG key(s).", 
             "title": "Reporting security incidents"
         }, 
         {
