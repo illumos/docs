@@ -321,6 +321,16 @@
             "title": "The Quality Death Spiral"
         }, 
         {
+            "location": "/user-guide/debug/", 
+            "text": "Debugging", 
+            "title": "Debugging"
+        }, 
+        {
+            "location": "/user-guide/debug/#debugging", 
+            "text": "", 
+            "title": "Debugging"
+        }, 
+        {
             "location": "/security/", 
             "text": "illumos Security Information\n\n\nIntroduction\n\n\nReporting security incidents\n\n\nRecent vulnerabilities\n\n\nAdvisory information\n\n\nHow to update your system", 
             "title": "Security"
@@ -354,6 +364,61 @@
             "location": "/security/#how-to-update-your-system", 
             "text": "", 
             "title": "How to update your system"
+        }, 
+        {
+            "location": "/flagdays/", 
+            "text": "Flag Days\n\n\nThe following are notices sent to the developer@ mailing list to attract\nattention for specific changes, or call out specific actions that developers\nmay need to perform to continue working with the sources. Such messages should\nalso be archived here, for future reference. \n\n\nWhen adding to this page, create a subpage named \nYYYY-MM-DD\n Subject\n, such\nthat things stay pleasantly ordered and relevant, and paste the content into\nthat new page. Add formatting to taste.\n\n\n2018\n\n\n2018-01-25 HEADS UP: Removal of 32-bit x86 kernel\n\n\n2017\n\n\n\n\n2017-03-02 Heads up: 7788 loader: zfs boot should check for provided fstype\n\n\n2017-03-07 HEADS UP: Removal of on and rpc.rexd\n\n\n2017-03-10 HEADSUP: updates 7720 \n 7715\n\n\n2017-09-27 Heads Up: Build changes required for UEFI\n\n\n\n\n2016\n\n\n\n\n2016-02-23 HEADS UP: 3661 Sync mDNS with upstream\n\n\n2016-07-14 Heads-up: 6950 ARC should cache compressed data\n\n\n2016-08-22 FLAG DAY: EOF of SunSSH\n\n\n2016-08-31 HEADS UP: illumos-gate debug variant is available in hipster\n\n\n2016-09-23 Heads Up: Loader Project Phase 1 has Integrated\n\n\n2016-09-30 FLAG DAY - 5969 update illumos-gate to use python2.7\n\n\n2016-10-15 HEADS-UP: illumos supports ASLR and other forms of exploit mitigation.\n\n\n2016-11-09 HEADS UP: new driver for Intel WifiLink 4965/100/1000/2000/5000/6000\n\n\n2016-12-02 headsup for shell setup and /etc/skel\n\n\n2016-12-16 HEADS UP illumos GCC 4.4.4-il-4\n\n\n\n\n2015\n\n\n\n\n2015-02-20 Heads-up: Flag day for build machines that provided (only) Apache 1.3 headers.\n\n\n2015-02-25 HEADS UP: machid commands removed\n\n\n2015-02-26 HEADS-UP: ctf tools no longer act like strip(1)\n\n\n2015-02-26 HEADS UP: illumos supports booting from EFI-labeled disks now, including large disks and whole-disk vdevs\n\n\n2015-03-23 FLAG DAY for Timezone\n\n\n2015-05-05 FLAG DAY - 4719 affects nightly, package, and poold\n\n\n2015-05-05 HEADS UP -- illumos-gate can now be built on OmniOS r151014 or later\n\n\n2015-06-04 Head-up! 5917 User-mode SMB server\n\n\n2015-07-13 FLAG DAY: make/dmake are now part of illumos\n\n\n2015-10-17 Heads up: Impact of illumos 5876 (sys/regset.h pollutes name space)\n\n\nUpdate\n\n\n2015-10-30 HEADS UP: Java kerberos GUI (gkadmin) gone\n\n\n\n\n2014\n\n\n\n\n2014-01-28 HEADS-UP: GCC is now the default compiler\n\n\n2014-02-19 HEADS UP: Nightly will no longer bringover from Subversion, build SVR4 packages, or support the old SFW gate\n\n\n2014-02-19 HEADS UP: nightly now exits non-0 when pretty much anything goes wrong\n\n\n2014-06-09 HEADS UP: legacy interfaces removed\n\n\n2014-07-21 HEADS UP: Mandoc integrated\n\n\n2014-08-15 HEADS UP / FLAG DAY: legacy (K\nR) prototypes are gone\n\n\n2014-08-16 HEADS-UP removal of ntfsprogs and parted\n\n\n2014-10-18 HEADS UP: libm integrated\n\n\n\n\n2013\n\n\n\n\n2013-08-16 heads up: 3915 build changes, C++\n\n\n\n\n2012\n\n\n\n\n2012-06-15 Illumos will now build with GCC 4.4.4 + patches\n\n\n2012-09-21 FLAG DAY: Default GCC version is now 4.4.4\n\n\n2012-09-22 FLAG DAY: Many more GCC warnings now enabled\n\n\n2012-10-18 HEADS UP: onbld has switched to Python 2.6\n\n\n\n\n2011\n\n\n\n\n2011-03-04 Heads up: iSCSI UNMAP support\n\n\n2011-05-14 Heads-up: Resurrect the ZFS \"aclmode\" property\n\n\n2011-09-08 HEADS UP: Mailing List Behaviour\n\n\n\n\n2010\n\n\n\n\n2010-08-15 HEADS UP: Illumos no longer depends upon the 'extras' pkg repository\n\n\n2010-08-19 HEADS UP: opensolaris.sh updated \n renamed\n\n\n2010-08-30 HEADS UP: English Locales Available\n\n\n2010-09-07 HEADS UP: use ssh for hg\n\n\n2010-09-12 FLAG DAY: signed crypto removed\n\n\n2010-09-16 HEADS UP: new process when nuking closed bits\n\n\n2010-09-20 HEADS UP: netservices is gone\n\n\n2010-10-08 HEADS UP: locale data pushed\n\n\n2010-11-08 Heads up: perl 5.8.4 removal\n\n\n2010-11-18 HEADS UP: solistice enterprise agent removed\n\n\n2010-11-19 HEADS UP: sparc build fixed, niagra crypto removed\n\n\n2010-12-04 HEADS UP: open source iprb\n\n\n2010-12-04 HEADS UP: new timegm() and strptime/strftime options\n\n\n2010-12-15 HEADS UP: new \"sed\" integrated", 
+            "title": "Flag Days"
+        }, 
+        {
+            "location": "/flagdays/#flag-days", 
+            "text": "The following are notices sent to the developer@ mailing list to attract\nattention for specific changes, or call out specific actions that developers\nmay need to perform to continue working with the sources. Such messages should\nalso be archived here, for future reference.   When adding to this page, create a subpage named  YYYY-MM-DD  Subject , such\nthat things stay pleasantly ordered and relevant, and paste the content into\nthat new page. Add formatting to taste.", 
+            "title": "Flag Days"
+        }, 
+        {
+            "location": "/flagdays/#2018", 
+            "text": "2018-01-25 HEADS UP: Removal of 32-bit x86 kernel", 
+            "title": "2018"
+        }, 
+        {
+            "location": "/flagdays/#2017", 
+            "text": "2017-03-02 Heads up: 7788 loader: zfs boot should check for provided fstype  2017-03-07 HEADS UP: Removal of on and rpc.rexd  2017-03-10 HEADSUP: updates 7720   7715  2017-09-27 Heads Up: Build changes required for UEFI", 
+            "title": "2017"
+        }, 
+        {
+            "location": "/flagdays/#2016", 
+            "text": "2016-02-23 HEADS UP: 3661 Sync mDNS with upstream  2016-07-14 Heads-up: 6950 ARC should cache compressed data  2016-08-22 FLAG DAY: EOF of SunSSH  2016-08-31 HEADS UP: illumos-gate debug variant is available in hipster  2016-09-23 Heads Up: Loader Project Phase 1 has Integrated  2016-09-30 FLAG DAY - 5969 update illumos-gate to use python2.7  2016-10-15 HEADS-UP: illumos supports ASLR and other forms of exploit mitigation.  2016-11-09 HEADS UP: new driver for Intel WifiLink 4965/100/1000/2000/5000/6000  2016-12-02 headsup for shell setup and /etc/skel  2016-12-16 HEADS UP illumos GCC 4.4.4-il-4", 
+            "title": "2016"
+        }, 
+        {
+            "location": "/flagdays/#2015", 
+            "text": "2015-02-20 Heads-up: Flag day for build machines that provided (only) Apache 1.3 headers.  2015-02-25 HEADS UP: machid commands removed  2015-02-26 HEADS-UP: ctf tools no longer act like strip(1)  2015-02-26 HEADS UP: illumos supports booting from EFI-labeled disks now, including large disks and whole-disk vdevs  2015-03-23 FLAG DAY for Timezone  2015-05-05 FLAG DAY - 4719 affects nightly, package, and poold  2015-05-05 HEADS UP -- illumos-gate can now be built on OmniOS r151014 or later  2015-06-04 Head-up! 5917 User-mode SMB server  2015-07-13 FLAG DAY: make/dmake are now part of illumos  2015-10-17 Heads up: Impact of illumos 5876 (sys/regset.h pollutes name space)  Update  2015-10-30 HEADS UP: Java kerberos GUI (gkadmin) gone", 
+            "title": "2015"
+        }, 
+        {
+            "location": "/flagdays/#2014", 
+            "text": "2014-01-28 HEADS-UP: GCC is now the default compiler  2014-02-19 HEADS UP: Nightly will no longer bringover from Subversion, build SVR4 packages, or support the old SFW gate  2014-02-19 HEADS UP: nightly now exits non-0 when pretty much anything goes wrong  2014-06-09 HEADS UP: legacy interfaces removed  2014-07-21 HEADS UP: Mandoc integrated  2014-08-15 HEADS UP / FLAG DAY: legacy (K R) prototypes are gone  2014-08-16 HEADS-UP removal of ntfsprogs and parted  2014-10-18 HEADS UP: libm integrated", 
+            "title": "2014"
+        }, 
+        {
+            "location": "/flagdays/#2013", 
+            "text": "2013-08-16 heads up: 3915 build changes, C++", 
+            "title": "2013"
+        }, 
+        {
+            "location": "/flagdays/#2012", 
+            "text": "2012-06-15 Illumos will now build with GCC 4.4.4 + patches  2012-09-21 FLAG DAY: Default GCC version is now 4.4.4  2012-09-22 FLAG DAY: Many more GCC warnings now enabled  2012-10-18 HEADS UP: onbld has switched to Python 2.6", 
+            "title": "2012"
+        }, 
+        {
+            "location": "/flagdays/#2011", 
+            "text": "2011-03-04 Heads up: iSCSI UNMAP support  2011-05-14 Heads-up: Resurrect the ZFS \"aclmode\" property  2011-09-08 HEADS UP: Mailing List Behaviour", 
+            "title": "2011"
+        }, 
+        {
+            "location": "/flagdays/#2010", 
+            "text": "2010-08-15 HEADS UP: Illumos no longer depends upon the 'extras' pkg repository  2010-08-19 HEADS UP: opensolaris.sh updated   renamed  2010-08-30 HEADS UP: English Locales Available  2010-09-07 HEADS UP: use ssh for hg  2010-09-12 FLAG DAY: signed crypto removed  2010-09-16 HEADS UP: new process when nuking closed bits  2010-09-20 HEADS UP: netservices is gone  2010-10-08 HEADS UP: locale data pushed  2010-11-08 Heads up: perl 5.8.4 removal  2010-11-18 HEADS UP: solistice enterprise agent removed  2010-11-19 HEADS UP: sparc build fixed, niagra crypto removed  2010-12-04 HEADS UP: open source iprb  2010-12-04 HEADS UP: new timegm() and strptime/strftime options  2010-12-15 HEADS UP: new \"sed\" integrated", 
+            "title": "2010"
         }, 
         {
             "location": "/community/", 
