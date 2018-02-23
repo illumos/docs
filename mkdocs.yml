@@ -1,5 +1,53 @@
-# Events
+site_name: 'illumos'
+repo_name: 'illumos/docs'
+repo_url: 'https://github.com/illumos/docs'
 
-## Upcoming
+pages:
+  - 'Home': 'index.md'
+  - 'About':
+    - 'What is illumos?': 'about/index.md'
+    - 'Who uses illumos?': 'about/who.md'
+    - 'History': 'about/history.md'
+    - 'Distributions': 'about/distro.md'
+    - 'FAQ': 'about/faq.md'
+  - 'User Guide':
+    - 'Getting Started': 'user-guide/index.md'
+    - 'Bug Reporting': 'user-guide/bugs.md'
+    - 'Building illumos': 'user-guide/build.md'
+    - 'Contributing': 'user-guide/contrib.md'
+  - 'Security': 'security/index.md'
+  - 'Community':
+    - 'Overview': 'community/index.md'
+    - 'Mailing Lists': 'community/lists.md'
+    - 'Events': 'community/events.md'
+    - 'Videos': 'community/videos.md'
+  - 'Projects': 'projects/index.md'
 
-## Past
+theme:
+  name: 'material'
+  logo: 'images/logo.png'
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - markdown_include.include:
+      base_path: docs
