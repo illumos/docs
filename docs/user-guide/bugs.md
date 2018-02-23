@@ -1,0 +1,3 @@
+# Bug Database
+
+# Reporting Bugs
