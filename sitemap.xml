@@ -69,6 +69,12 @@
      <changefreq>daily</changefreq>
     </url>
         
+    <url>
+     <loc>/user-guide/manual/</loc>
+     <lastmod>2018-02-24</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
     
 
     
