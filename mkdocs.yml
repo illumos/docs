@@ -18,7 +18,9 @@ pages:
     - 'Contributing': 'user-guide/contrib.md'
     - 'Manuals': 'user-guide/manual.md'
     - 'Quality': 'user-guide/quality.md'
+    - 'Debugging': 'user-guide/debug.md'
   - 'Security': 'security/index.md'
+  - 'Flag Days': 'flagdays/index.md'
   - 'Community':
     - 'Overview': 'community/index.md'
     - 'Mailing Lists': 'community/lists.md'
