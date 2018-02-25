@@ -18,7 +18,9 @@ have been ported to other operating systems.
 | [Pobox](https://www.pobox.com/)                        | Email services |
 | [Topicbox](https://www.topicbox.com/)                  | Mailing list services |
 
-# Cross-pollination History
+# Collaboration
+
+Cross-pollination and collaboration history.
 
 ## 2010
 
