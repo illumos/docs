@@ -1107,13 +1107,28 @@
         }, 
         {
             "location": "/contributing/qds/", 
-            "text": "The Quality Death Spiral\n\n\nJeff Bonwick\n was the gatekeeper\nfor Solaris 2.5. He gave a talk on Solaris to the Sun Systems Group in\nSeptember, 1994. It included a section on the Quality Death Spiral -- a\ntimeless phenomenon that remains our omnipresent fear:\n\n\nif it\ns broken, rip it out\n\n    - FCS* quality all the time\n    - put it back today, 20 of your (current) friends\n        will be running it tomorrow\n    - gate breakage grinds other development to a halt\n    - the product, not any one project, is what matters\n    - mistakes will happen; negligence cannot\n\nFCS* quality all the time -- why is this so important?\n\n    - only way to avoid the quality death spiral:\n\n        - people hear the gate is broken\n        - decide not to risk a bringover\n        - fewer people run the latest stuff\n        - less real-life testing\n        - new bugs not found\n        - quality drops further\n\n    - morale tracks quality\n\n    - downward spiral hard to break\n\n    - recovery time can be very long\n\n\n\n\n\n\nFCS == First Customer Ship\n\n\n\n\n(Orignally sourced from \nhttp://hub.opensolaris.org/bin/view/Community+Group+on/qual_death_spiral\n)", 
+            "text": "The Quality Death Spiral\n\n\n\n\nTerminology\n\n\n\n\n\n\n\n\nTerm\n\n\nDefinition\n\n\n\n\n\n\n\n\n\n\nFCS\n\n\nFirst Customer Ship\n\n\n\n\n\n\ngate\n\n\nSource code repository\n\n\n\n\n\n\nPut [it] back\n\n\nCommiting code to the gate\n\n\n\n\n\n\n\n\n\n\nIntroduction\n\n\nJeff Bonwick\n was the gatekeeper\nfor Solaris 2.5. He gave a talk on Solaris to the Sun Systems Group in\nSeptember, 1994. It included a section on the Quality Death Spiral -- a\ntimeless phenomenon that remains our omnipresent fear:\n\n\nThe following is paraphrasing Jeff's talk.\n\n\nIf it's broken, rip it out!\n\n\n\n\nFCS quality all the time\n\n\nPut it back today, 20 of your (current) friends will be running it tomorrow\n\n\nGate breakage grinds other development to a halt\n\n\nThe product, not any one project, is what matters\n\n\nMistakes will happen; negligence cannot\n\n\n\n\nFCS quality all the time\n\n\nWhy is this so important?\n\n\nOnly way to avoid the quality death spiral:\n\n\n\n\nPeople hear the gate is broken\n\n\nDecide not to risk a bringover\n\n\nFewer people run the latest stuff\n\n\nLess real-life testing\n\n\nNew bugs not found\n\n\n\n\nQuality drops further\n\n\n\n\n\n\nMorale tracks quality\n\n\n\n\nDownward spiral hard to break\n\n\nRecovery time can be very long\n\n\n\n\nOrignally sourced from \nhttp://hub.opensolaris.org/bin/view/Community+Group+on/qual_death_spiral\n.", 
             "title": "Quality Death Spiral"
         }, 
         {
             "location": "/contributing/qds/#the-quality-death-spiral", 
-            "text": "Jeff Bonwick  was the gatekeeper\nfor Solaris 2.5. He gave a talk on Solaris to the Sun Systems Group in\nSeptember, 1994. It included a section on the Quality Death Spiral -- a\ntimeless phenomenon that remains our omnipresent fear:  if it s broken, rip it out\n\n    - FCS* quality all the time\n    - put it back today, 20 of your (current) friends\n        will be running it tomorrow\n    - gate breakage grinds other development to a halt\n    - the product, not any one project, is what matters\n    - mistakes will happen; negligence cannot\n\nFCS* quality all the time -- why is this so important?\n\n    - only way to avoid the quality death spiral:\n\n        - people hear the gate is broken\n        - decide not to risk a bringover\n        - fewer people run the latest stuff\n        - less real-life testing\n        - new bugs not found\n        - quality drops further\n\n    - morale tracks quality\n\n    - downward spiral hard to break\n\n    - recovery time can be very long   FCS == First Customer Ship   (Orignally sourced from  http://hub.opensolaris.org/bin/view/Community+Group+on/qual_death_spiral )", 
+            "text": "Terminology     Term  Definition      FCS  First Customer Ship    gate  Source code repository    Put [it] back  Commiting code to the gate", 
             "title": "The Quality Death Spiral"
+        }, 
+        {
+            "location": "/contributing/qds/#introduction", 
+            "text": "Jeff Bonwick  was the gatekeeper\nfor Solaris 2.5. He gave a talk on Solaris to the Sun Systems Group in\nSeptember, 1994. It included a section on the Quality Death Spiral -- a\ntimeless phenomenon that remains our omnipresent fear:  The following is paraphrasing Jeff's talk.", 
+            "title": "Introduction"
+        }, 
+        {
+            "location": "/contributing/qds/#if-its-broken-rip-it-out", 
+            "text": "FCS quality all the time  Put it back today, 20 of your (current) friends will be running it tomorrow  Gate breakage grinds other development to a halt  The product, not any one project, is what matters  Mistakes will happen; negligence cannot", 
+            "title": "If it's broken, rip it out!"
+        }, 
+        {
+            "location": "/contributing/qds/#fcs-quality-all-the-time", 
+            "text": "Why is this so important?  Only way to avoid the quality death spiral:   People hear the gate is broken  Decide not to risk a bringover  Fewer people run the latest stuff  Less real-life testing  New bugs not found   Quality drops further    Morale tracks quality   Downward spiral hard to break  Recovery time can be very long   Orignally sourced from  http://hub.opensolaris.org/bin/view/Community+Group+on/qual_death_spiral .", 
+            "title": "FCS quality all the time"
         }, 
         {
             "location": "/community/", 

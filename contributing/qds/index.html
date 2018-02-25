@@ -733,9 +733,52 @@
       
     
     
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        Quality Death Spiral
+      </label>
+    
     <a href="./" title="Quality Death Spiral" class="md-nav__link md-nav__link--active">
       Quality Death Spiral
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" title="Introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#if-its-broken-rip-it-out" title="If it's broken, rip it out!" class="md-nav__link">
+    If it's broken, rip it out!
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fcs-quality-all-the-time" title="FCS quality all the time" class="md-nav__link">
+    FCS quality all the time
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -942,6 +985,36 @@
     
   
   
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" title="Introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#if-its-broken-rip-it-out" title="If it's broken, rip it out!" class="md-nav__link">
+    If it's broken, rip it out!
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fcs-quality-all-the-time" title="FCS quality all the time" class="md-nav__link">
+    FCS quality all the time
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -956,41 +1029,64 @@
                 
                 
                 <h1 id="the-quality-death-spiral">The Quality Death Spiral<a class="headerlink" href="#the-quality-death-spiral" title="Permanent link">&para;</a></h1>
+<div class="admonition info">
+<p class="admonition-title">Terminology</p>
+<table>
+<thead>
+<tr>
+<th>Term</th>
+<th>Definition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>FCS</td>
+<td>First Customer Ship</td>
+</tr>
+<tr>
+<td>gate</td>
+<td>Source code repository</td>
+</tr>
+<tr>
+<td>Put [it] back</td>
+<td>Commiting code to the gate</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h2>
 <p><a href="https://en.wikipedia.org/wiki/Jeff_Bonwick">Jeff Bonwick</a> was the gatekeeper
 for Solaris 2.5. He gave a talk on Solaris to the Sun Systems Group in
 September, 1994. It included a section on the Quality Death Spiral -- a
 timeless phenomenon that remains our omnipresent fear:</p>
-<div class="codehilite"><pre><span></span>if it&#39;s broken, rip it out
-
-    - FCS* quality all the time
-    - put it back today, 20 of your (current) friends
-        will be running it tomorrow
-    - gate breakage grinds other development to a halt
-    - the product, not any one project, is what matters
-    - mistakes will happen; negligence cannot
-
-FCS* quality all the time -- why is this so important?
-
-    - only way to avoid the quality death spiral:
-
-        - people hear the gate is broken
-        - decide not to risk a bringover
-        - fewer people run the latest stuff
-        - less real-life testing
-        - new bugs not found
-        - quality drops further
-
-    - morale tracks quality
-
-    - downward spiral hard to break
-
-    - recovery time can be very long
-</pre></div>
-
+<p>The following is paraphrasing Jeff's talk.</p>
+<h2 id="if-its-broken-rip-it-out">If it's broken, rip it out!<a class="headerlink" href="#if-its-broken-rip-it-out" title="Permanent link">&para;</a></h2>
 <ul>
-<li>FCS == First Customer Ship</li>
+<li>FCS quality all the time</li>
+<li>Put it back today, 20 of your (current) friends will be running it tomorrow</li>
+<li>Gate breakage grinds other development to a halt</li>
+<li>The product, not any one project, is what matters</li>
+<li>Mistakes will happen; negligence cannot</li>
 </ul>
-<p>(Orignally sourced from <a href="http://hub.opensolaris.org/bin/view/Community+Group+on/qual_death_spiral">http://hub.opensolaris.org/bin/view/Community+Group+on/qual_death_spiral</a>)</p>
+<h2 id="fcs-quality-all-the-time">FCS quality all the time<a class="headerlink" href="#fcs-quality-all-the-time" title="Permanent link">&para;</a></h2>
+<p>Why is this so important?</p>
+<p>Only way to avoid the quality death spiral:</p>
+<ul>
+<li>People hear the gate is broken</li>
+<li>Decide not to risk a bringover</li>
+<li>Fewer people run the latest stuff</li>
+<li>Less real-life testing</li>
+<li>New bugs not found</li>
+<li>
+<p>Quality drops further</p>
+</li>
+<li>
+<p>Morale tracks quality</p>
+</li>
+<li>Downward spiral hard to break</li>
+<li>Recovery time can be very long</li>
+</ul>
+<p>Orignally sourced from <a href="http://hub.opensolaris.org/bin/view/Community+Group+on/qual_death_spiral">http://hub.opensolaris.org/bin/view/Community+Group+on/qual_death_spiral</a>.</p>
                 
                   
                 
