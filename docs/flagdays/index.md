@@ -1,9 +1,10 @@
 # Flag Days
 
-The following are notices sent to the developer@ mailing list to attract
-attention for specific changes, or call out specific actions that developers
-may need to perform to continue working with the sources. Such messages should
-also be archived here, for future reference. 
+The following are notices sent to the [developer@ mailing
+list](../community/lists.md) to attract attention for specific changes, or call
+out specific actions that developers may need to perform to continue working
+with the sources. Such messages should also be archived here, for future
+reference. 
 
 When adding to this page, create a subpage named `<YYYY-MM-DD> Subject`, such
 that things stay pleasantly ordered and relevant, and paste the content into
