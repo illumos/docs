@@ -12,7 +12,8 @@ To quote the [illumos Developer's Guide](http://illumos.org/books/dev/):
     UNIX and BSD.
 
 illumos itself does not offer an OS distribution -- it is the core from which
-[distributions](distro.md) can be created.
+[distributions](distro.md) can be created. In this sense, illumos is similar to
+a BSD source tree, or Linux's kernel.org.
 
 Please see the [history page](history.md) for more information about the
 origins of illumos.
@@ -41,11 +42,16 @@ The following are shared development tenets and features for distributions utili
 * [Excellent online documentation](https://www.illumos.org/man/)
 * [Source code for the entire system](https://github.com/illumos/illumos-gate)
 
+For more in-depth descriptions, please see the [features page](features.md).
+
 ### Uses for illumos
 
 While it can be and is used in any nearly situation where a UNIX-type server is
 needed, illumos excels at storage applications, large multi-tenant systems, and
 other cloud-centric uses. 
+
+Have a look at [who is using illumos](who.md) to see what illumos technologies
+are being used for!
 
 ### Supported hardware platforms
 

@@ -1,17 +1,31 @@
-debug
+## Introduction
 
-fault management
+illumos provides a number of advanced features for downstream distributions and
+users to utilize.
 
-filesystem
+### Filesystems
 
-firewall
+#### ZFS
 
-linux emulation
+### Virtualization
 
-virtual network
+#### Native OS Zones
 
-security
+#### LX Zones (Linux Emulation)
 
-service
+### Introspection and Debugging
 
-virtualization types
+#### DTrace
+
+#### mdb
+
+### Fault Management
+
+### Service Management
+
+### Firewall
+
+### Virtual Networking
+
+### Security
+
