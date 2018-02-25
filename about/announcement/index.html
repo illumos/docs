@@ -1,0 +1,1187 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-0.17.2, mkdocs-material-2.6.6">
+    
+    
+      
+        <title>Announcement - illumos</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application.78aab2dc.css">
+      
+    
+    
+      <script src="../../assets/javascripts/modernizr.1aa3b519.js"></script>
+    
+    
+      <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+      
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    
+    
+  </head>
+  
+    <body dir="ltr">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448"
+    viewBox="0 0 416 448" id="github">
+  <path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19-18.125
+        8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19 18.125-8.5
+        18.125 8.5 10.75 19 3.125 20.5zM320 304q0 10-3.125 20.5t-10.75
+        19-18.125 8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19
+        18.125-8.5 18.125 8.5 10.75 19 3.125 20.5zM360
+        304q0-30-17.25-51t-46.75-21q-10.25 0-48.75 5.25-17.75 2.75-39.25
+        2.75t-39.25-2.75q-38-5.25-48.75-5.25-29.5 0-46.75 21t-17.25 51q0 22 8
+        38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0
+        37.25-1.75t35-7.375 30.5-15 20.25-25.75 8-38.375zM416 260q0 51.75-15.25
+        82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5-41.75
+        1.125q-19.5 0-35.5-0.75t-36.875-3.125-38.125-7.5-34.25-12.875-30.25-20.25-21.5-28.75q-15.5-30.75-15.5-82.75
+        0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25
+        30.875q36.75-8.75 77.25-8.75 37 0 70 8 26.25-20.5
+        46.75-30.25t47.25-9.75q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34
+        99.5z" />
+</svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="drawer">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search">
+    <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
+    
+      <a href="#transcript" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../.." title="illumos" class="md-header-nav__button md-logo">
+          
+            <img src="../../images/logo.png" width="24" height="24">
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            
+              <span class="md-header-nav__topic">
+                illumos
+              </span>
+              <span class="md-header-nav__topic">
+                Announcement
+              </span>
+            
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          
+            <label class="md-icon md-icon--search md-header-nav__button" for="search"></label>
+            
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+          
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+
+  <a href="https://github.com/illumos/docs/" title="Go to repository" class="md-source" data-md-source="github">
+    
+      <div class="md-source__icon">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <use xlink:href="#github" width="24" height="24"></use>
+        </svg>
+      </div>
+    
+    <div class="md-source__repository">
+      illumos/docs
+    </div>
+  </a>
+
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="drawer">
+    <span class="md-nav__button md-logo">
+      
+        <img src="../../images/logo.png" width="24" height="24">
+      
+    </span>
+    illumos
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+
+  <a href="https://github.com/illumos/docs/" title="Go to repository" class="md-source" data-md-source="github">
+    
+      <div class="md-source__icon">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <use xlink:href="#github" width="24" height="24"></use>
+        </svg>
+      </div>
+    
+    <div class="md-source__repository">
+      illumos/docs
+    </div>
+  </a>
+
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+    
+    <label class="md-nav__link" for="nav-2">
+      About
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        About
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../" title="What is illumos?" class="md-nav__link">
+      What is illumos?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../who/" title="Who uses illumos?" class="md-nav__link">
+      Who uses illumos?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../leadership/" title="Leadership" class="md-nav__link">
+      Leadership
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../distro/" title="Distributions" class="md-nav__link">
+      Distributions
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../faq/" title="FAQ" class="md-nav__link">
+      FAQ
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../logo/" title="Logo" class="md-nav__link">
+      Logo
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-7" type="checkbox" id="nav-2-7" checked>
+    
+    <label class="md-nav__link" for="nav-2-7">
+      History
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-7">
+        History
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../history/" title="Overview" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        Announcement
+      </label>
+    
+    <a href="./" title="Announcement" class="md-nav__link md-nav__link--active">
+      Announcement
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#transcript" title="Transcript" class="md-nav__link">
+    Transcript
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#credits" title="Credits" class="md-nav__link">
+    Credits
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      User Guide
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        User Guide
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../user-guide/" title="Getting Started" class="md-nav__link">
+      Getting Started
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../user-guide/bugs/" title="Bug Reporting" class="md-nav__link">
+      Bug Reporting
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../user-guide/build/" title="Building illumos" class="md-nav__link">
+      Building illumos
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../user-guide/contrib/" title="Contributing" class="md-nav__link">
+      Contributing
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../user-guide/manual/" title="Manuals" class="md-nav__link">
+      Manuals
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../user-guide/quality/" title="Quality" class="md-nav__link">
+      Quality
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../user-guide/debug/" title="Debugging" class="md-nav__link">
+      Debugging
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../security/" title="Security" class="md-nav__link">
+      Security
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../flagdays/" title="Flag Days" class="md-nav__link">
+      Flag Days
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      Community
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        Community
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../community/" title="Overview" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../community/lists/" title="Mailing Lists" class="md-nav__link">
+      Mailing Lists
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../community/events/" title="Events" class="md-nav__link">
+      Events
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../community/videos/" title="Videos" class="md-nav__link">
+      Videos
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../projects/" title="Projects" class="md-nav__link">
+      Projects
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#transcript" title="Transcript" class="md-nav__link">
+    Transcript
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#credits" title="Credits" class="md-nav__link">
+    Credits
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/illumos/docs/edit/master/docs/about/announcement.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                  <h1>Announcement</h1>
+                
+                <p>On August 3, 2010, Garrett D'Amore announced the illumos project, "a community
+effort of some core Solaris engineers to create a truly open source Solaris by
+swapping closed source bits of OpenSolaris with open implementations."</p>
+<p>In January, 2012, he reflected on <a href="http://smartos.org/2012/02/02/experiences-starting-an-open-source-operating-system/">Experiences Starting an Open Source
+Operating
+System</a>
+in a talk at SCALE 10x.</p>
+<p><a href="http://www.illumos.org/attachments/download/3/illumos.pdf">Garrett's original slides</a></p>
+<h2 id="transcript">Transcript<a class="headerlink" href="#transcript" title="Permanent link">&para;</a></h2>
+<div class="codehilite"><pre><span></span>OK, everybody. Thank you for joining us. My name is Garrett D&#39;Amore. Hopefully
+everyone is hearing this. We had some technology challenges such as, such as it
+goes in our industry, and I apologise for the late start but here we are
+anyway.
+
+So Illumos. First off I do want to point out before we get started, that there
+is a Q &amp; A window in the Go2 webinar screen and Anil who is helping me out
+here, is monitoring that. You can ask questions there and he will forward them
+to me. We also have a backchannel on IRC if you go to irc.freenode.net and the
+back channel is #illumos. I-L-L-U-M-O-S, and Anil&#39;s monitoring that as well,
+and he&#39;ll let me know if there&#39;s pertinent questions I should address. I will
+try to address those questions at the end, however.
+
+[Slide 1, 1:06]
+
+So, without further adieu, let&#39;s go ahead and continue. So, thanks for joining
+us. I think that the topic there on the first page slide, hopefully everybody
+sees it. By the way if you aren&#39;t able to see the slides now, we will be
+posting them up, excuse me Anil have you already posted those? Ok, so Anil with
+post them momentarily. So, hopefully you can get them, and they&#39;ll be on the
+website at www.illumos.org. Just looking at that font on the slide, and realize
+the &quot;I&quot; really doesn&#39;t stand out vary differently from the &quot;L.&quot; I apologize for
+that, it&#39;s I-L-L. And our topic is &quot;Hope and Light Springs Anew.&quot;
+
+So, the name... well first off I hope everyone understands that this
+presentation is targeted towards the OpenSolaris audience so I didn&#39;t really go
+into a lot of background there. It will become clear as we go on. If you are
+here asking about Windows or something else you&#39;re probably in the wrong
+conference call.
+
+[Slide 2, 2:19]
+
+So what&#39;s in a name? First &quot;Illum&quot; from Latin for &quot;Light&quot; and &quot;OS&quot; for
+&quot;Operating System.&quot; However even though I printed it out this way on the slide,
+now we&#39;ve been spelling it all one word with any unusual spellings, so
+I-L-L-U-M-O-S, with only the &quot;I&quot; capitalized.
+
+[Slide 3, 2:41]
+
+So, actually what is this project about? Well the first thing is that the
+project is designed here to solve a key problem, and that is that not all of
+OpenSolaris is really open source. And there&#39;s a lot of other potential
+concerns in the community, but this one is really kind of a core one, and from
+solving this, I think a lot of other issues can be solved. So the critical
+components of OpenSolaris. Well, first off I guess I should say that most of
+the important parts of OpenSolaris are, for booting at least and for building a
+foundation block for the OS/Net consolidation, out of that consolidation it&#39;s
+nearly completely open source, except for a few pieces. One of the most
+striking pieces is this part called &quot;libc-i18n,&quot; which is a component you need
+to build a working C library. It&#39;s a substantial percentage of libc is tied up
+in that libc-i18n, in some cases because it&#39;s i18n code, in other cases because
+of dependencies and well dependencies is probably the best way to put it.
+
+The NFS lock manager, of course, there&#39;s the crypto framework, a number of
+really important drivers. mpt I listed here is a pretty famous one its for a
+pretty popular series of HBAs from LSI. But there&#39;s a lot of other drivers that
+are closed source, and in fact even some key platform code, although that&#39;s for
+the most port an issue for the SPARC port. Most of the critical platform code
+for x86 is open, in fact I can&#39;t think of anything critical that&#39;s closed.
+This list is by no means exhaustive, but it&#39;s a good start.
+
+So the problem with the fact that not all of this source is open is that it
+really does present some big challenges to anyone downstream or who depends on
+OS/Net or consequently OpenSolaris and of course this involves Nexenta,
+Belinux, Schillix these are all derivative distributions from the original
+source from Oracle. And this problem is not new to the industry; some years ago
+Apple had done the community a great favor by opening a bunch of their code in
+the form of Darwin. However I think you can Google around for MacOS X and
+Darwin and see the end result of that. And that is, the end result, I think,
+that we would all like to avoid.
+
+[Slide 4, 5:32]
+
+So there&#39;s a lot of good stuff, with all the other issues going on with the
+community that&#39;s built up around the code. First off there&#39;s technology in
+the code, zfs, dtrace, crossbow, zones, I think everyone who&#39;s familiar with
+Opensolaris will recognize this stuff, and if you don&#39;t, Google will readily
+fill you in with lots and lots of detail on all of these technologies, and this
+is just a brief list of some of the big names. There&#39;s a lot of others beyond
+this. And of course the community behind these technologies is made up of a
+number of just incredible engineers, I&#39;ve been fortunate to work with some of
+the brightest people on the planet, I believe, on Solaris and SunOS code. And
+we are also backed by an outstanding set of enthusiasts, and our eco-system
+really is quite vibrant, particularly in light of some of the other challenges
+it continues to be so vibrant. This I think says a lot. And of course the other
+thing is that it&#39;s not all closed. In fact, the vast majority of the code is
+indeed open. So the problem of, the problem faced to resolve this is actually
+quite tractable.
+
+[Slide 5, 7:06]
+
+Technology issues, there it goes, alright. I apologise. OK. So around this
+effort. I talked a little about the issue of the code. To elaborate a little
+bit further, what we&#39;ve done is taken OS/Net, this consolidation which really
+makes up the kernel and a bunch of critical system utilities and made a child
+of it, and this is really a source code management type term but what it means
+is that it has an ancestry relationship with the upstream which in this case is
+the code from Oracle, and we track the upstream very closely, and we also have
+the goal of being 100% compatible with the code from Oracle. I say ABI
+compatible, what that means is that the idea is that you can take an
+application that is compiled and runs well on Solaris, and the same exact
+application compiles and runs on Illumos, so that is an important point.
+
+We also, the idea is no closed code. There&#39;s a fully open libc, I would want to
+have a fully open kernel, and fully open drivers. As you&#39;ll see we are not all
+the way there yet but we made really good progress, and continue to work on
+this. The other idea is that this project then becomes a repository where we
+can take changes from contributors that for a variety of reasons might be
+unacceptable to Oracle, and I can detail all those later, maybe in Q &amp; A or
+maybe separately. There&#39;s a lot of potential possibilities here, and as long as
+we don&#39;t really break the idea of ABI compatibility with Solaris and we don&#39;t
+diverge needlessly from the upstream ON consolidation, there&#39;s a lot of room
+for innovation.
+
+[Slide 6, 9:19]
+
+So the focus of Illumos is really ON right now, OS/Net, that&#39;s that core
+consolidation that I talked about. But one of the ideas is that this also can
+then ultimately build a community that can act as an umbrella for these other
+projects, and other pieces, that become interesting, once you solve this
+critical problem of that core foundation. X11, which is basically the graphical
+windowing system. The desktop components. The C runtime. Some of the
+distributions. And there is potentially a lot of ways which people can
+innovate, and contribute. Which unfortunately, in the current community is
+quite difficult to do. We hope that we can become a lot more of a facilitator
+in that kind of development and collaboration.
+
+[Slide 7, 10:16]
+
+So, around this, we hope to build a community. And, I think we actually have
+really started one pretty strongly, from the people who have already either
+agreed to participate or are participating. And this community stands
+independently from the OpenSolaris community. What that means is that we own
+our own identity, and we can&#39;t be shut down, and we&#39;re not slaves to any
+corporate master. And even though Nexenta is a major sponsor, and I&#39;m very
+grateful that Nexenta is. They&#39;re my employer, and they are funding my time on
+this. But the identity and the project, is owned by the community. And that
+means we&#39;re governed and run by the community. On that topic, I have a few
+bullet points there about our resources being distributed, the fact that we&#39;re
+going to basically run this as a Meritocracy, with a light hand on governance,
+which is one of the areas we think we can improve upon from the previous
+attempts.
+
+[Slide 8, 11:28]
+
+So there&#39;s a large number of people. I started the project, so I guess I&#39;m the
+defactor &quot;leader&quot;. But you know, there&#39;s actually quite a - it was a dozen when
+I wrote this, it&#39;s probably grown since then. This project started out with
+just a few developers, that I wanted have real focus on just getting the code
+done. Without engaging in a lot of conversation. Even with that small, focused
+group, it&#39;s already still growing. And now, today, as of right this minute, we
+hope to engage a much much broader audience. A we hope to invite, all of you -
+actually we do invite all of you. So come join us. In this presentation you&#39;ll
+see there&#39;s a website you can join, there&#39;s mailing lists you can join. A
+number of the community leaders, a lot of whom you will be familiar with, if
+you&#39;re already a part of this group. In fact, hang on just a minute. Some of
+them are on this call. And actually we have a couple who have agreed to speak.
+I&#39;d like to tie in one. Anil&#39;s checking on it for me. Just a minute.
+
+[12:48]
+
+Simon, we&#39;re going to go ahead and un-mute your mic. Are you available to talk?
+Ok, great. So Simon Phipps is one of the - he didn&#39;t start out as an existing
+core member. But he&#39;s agreed to help us out, and as you&#39;ll see later, he&#39;s
+agreed to take a role in this, and I&#39;m hoping that Simon has some good things
+to say.
+
+*&lt;Simon Phipps, SP&gt;* Hi Garrett.
+
+*&lt;GDA&gt;* Simon Phipps, maybe not the best introduction.
+
+*&lt;SP&gt;* I&#39;m very pleased that you&#39;re doing this, Garrett. You know I&#39;ve seen a
+project like this before, when we started OpenJDK there was some concern, that
+Sun wasn&#39;t going to get around to opening all of the Java code, so some
+community members got together and formed a project called &quot;IcedTea&quot;, which was
+downstream of OpenJDK, but to which people could innovate and could fix the
+non-free parts of OpenJDK. It was the existence of that project, that made
+OpenJDK a fully free project, and led to it having the existence beyond the
+sponsorship that Sun put into it. I&#39;m looking at Illumos at the moment, and I
+think it&#39;s exactly the right step to take. It&#39;s good that it&#39;s downstream of
+Oracle. If they choose to use it, it could do a great deal of good to their
+Solaris products. If they choose not to use it, then it&#39;s a great place for the
+community to assemble, and give a future to Solaris.
+
+*&lt;GDA&gt;* Ok. Great. And thanks for your support. That was Simon Phipps. Simon
+currently sits on the board for the Open Source Initiative. I think that&#39;s
+correct, is that correct, Simon?
+
+*&lt;SP&gt;* That&#39;s correct. I&#39;m on the board of directors of OSI, the Open Source
+Initiative. At the moment, while we still have one, I&#39;m a member of the
+OpenSolaris Governing Board, as well.
+
+*&lt;GDA&gt;* Ok. And he also writes for Computer World UK. I&#39;m sure you can find his
+blog pretty easily. Thank you very much Simon. Let&#39;s go ahead and move along.
+One of the points that&#39;s on there, before I switch to the next slide, is that I
+believe that we actually do already have critical mass to drive this project
+forward. That&#39;s one of the real challenges for a project like this. The
+codebase, when you look at the size of OS/Net, is quite enormous, but the
+number of people, and people who are actual do-ers rather than talk-ers, who
+are involved and interested and engaged, already, is - I&#39;m actually astounded,
+and thrilled to have such a - frankly an illustrious group of contributors
+involved. I have great hope. Moving forward.
+
+[Slide 9, 15:50]
+
+We have quite a few community partners. Of course, Nexenta is one of these, and
+there&#39;s a number of these names that you will recognise, if you&#39;re familiar
+with the OpenSolaris community. Google is great at filling each one of these
+out. I&#39;m not going to present all of them to you. But I&#39;m really pleased that a
+former colleague of mine at Oracle, is with us, and he has taken a position as
+Vice President of Engineering at Joyent. Hopefully he&#39;s on the line. His name
+is Brian Cantrill. He&#39;s one of the co-creators of DTrace as I understand it.
+Can we un-mute his mic? We&#39;re having some technical issues here, hopefully
+we&#39;ll get Brian in, in a few minutes. In the meantime, I&#39;m going to go ahead
+and move on.
+
+[Slide 10, 16:52]
+
+The 800 pound gorilla. This is the question that is probably on a lot of
+people&#39;s minds. The 800 pound gorilla being that company that bought former
+owner of the Intellectual Property behind most of OpenSolaris, Oracle. The
+interactions here, it&#39;s really important that we understand what these
+interactions are, and what they&#39;re intended to be. The first of these is that
+Illumos is not a competitor to Solaris. Neither to OpenSolaris. In fact, I have
+personally invited Oracle to participate as a peer, although they don&#39;t get to
+own it, we would love to have their participation. To the extent that they are
+allowed to, per whatever arrangements they have with Oracle, welcome the
+individual employees of Oracle, to participate here as well. We&#39;d love to have
+a collaborative and cooperative relationship with Oracle. Just as with any of
+our other corporate partners. From that slide I just had, you can see a few.
+That slide, by the way, is by no means complete. I hope that it will not be the
+end statement, either. But we&#39;re not going to depend on them. I&#39;m being told
+now that Brian is available, so I&#39;m going to go ahead and switch back to Brian.
+
+[18:12]
+
+*&lt;Bryan Cantrill, BC&gt;* Hey Garrett. This is terrific news. A great development
+for the OpenSolaris community. Looking back, historically, I think we at Sun (I
+should say &#39;they&#39; now I guess) - I think that Sun understood the importance of
+the right to fork the operating system, but I think we&#39;ve underestimated the
+importance of the power to fork the operating system. As you know, as we all
+know, we never quite made it to 100% of the source. And what that, effectively,
+forbid - not explicitly, I mean we didn&#39;t do it by design - but because there
+were these encumbrances that didn&#39;t allow us to open source elements of the
+operating system, it effectively did not allow for a fork. A fork is a really
+important check against an open source project. A fork is what allows people to
+innovate. A fork is what allows people to not get hung up on governance models.
+It allows them to express their independence from a project. Whilst people had
+the right, strictly speaking, they didn&#39;t have the power, because it was not
+all open source. Today is a really critical development. It is giving all of
+us, in the community, the power to fork the system. Not that we want to
+actually exercise that power in a way that is divisive, but we need to be able
+to exercise that power in a way that is innovative. I think that is going to
+allow many of us - now speaking as Joyent - many of us in the community who
+depend on the innovations in this system for the value that we bring to our
+customers, it is going to allow all of us to begin to differentiate ourselves
+in the marketplace, it&#39;s going to allow all of us to be able to really innovate
+to the operating system, and allows us all to collaborate. I think that,
+speaking for Joyent, we have modifications to the system that we have not been
+able to integrate for a variety of reasons. We believe with Illumos - with the
+Illumos project - that we will be able to begin to integrate some of these
+modifications. Many of them, of course, are small - bugfixes and so on. But
+things that for a variety of reasons couldn&#39;t be taken further upstream. I,
+personally, and we, Joyent, are thrilled. This is a tremendous, tremendous
+development. Garrett, you and your team, are to be commended for some very
+difficult technical work. To be clear, we are not completely out of the woods
+yet. We boot. That&#39;s good. But we got work ahead of us. Collectively. As a
+community. To get to a vibrant base, that will allow for innovation. I&#39;m much
+more confident now, than I have been at any time in the last five years, that
+we&#39;re going to get there as a community. So, very exciting development, and I
+think you see the number of people that are on Freenode. A lot of folks are
+interested in this. I think for us as a community it&#39;s a real reboot. We owe
+our debt of gratitude to Garrett and the Illumos project.
+
+[21:44]
+
+*&lt;GDA&gt;* Thank you very much, Brian. I&#39;m very, very pleased that you and the
+rest of the crew at Joyent are going to be able to join us, and collaborate to
+expand upon the great work that is already part of SunOS base. With that, I&#39;m
+going to go ahead and switch back, because I want to keep moving ahead. On this
+one slide, the 800 pound gorilla. So I think that this idea that Brian really
+hit on, is that we have the power to fork. We are not a fork, but what we do is
+we represent the ability of the community to do that. That&#39;s key.
+
+[Slide 11, 22:30]
+
+In fact, here&#39;s my top slide on that. What if the tap is turned off? What if,
+the upstream, ceases to be cooperative, or just goes away. For a lot of
+reasons, I don&#39;t think that&#39;s going to happen. Even if the community around
+that code-base were to be abandoned, or shut down - or even change it&#39;s
+character in a way that it might be hard to recognise it, the code-base, I
+expect personally, for that to remain available. That code that is already
+available, and for it to continue to be updated, on some level of frequency.
+But in the event, that it were to go away, we believe that with the developers
+we have, and especially, the growing ecosystem that already just on day one
+here, seems to be exploding. I think we have critical mass to continue to
+sustain it. As I said, I&#39;m thrilled that Joyent, and there is a bunch of other
+people, are a part of that. Of course, if this happens, then we - by definition
+- become a fork. We are not a fork today, because of the way we track OS/Net.
+In my mind, in a classical sense, a fork starts from the starting point, and
+moves away, and becomes something else. So we&#39;re more like a project that -
+we&#39;re going to continue to try to work closely with Oracle. As I think that
+Brian talked about, really the idea is that Illumos is the insurance that the
+entire community needs, against this sort of scenario of what happens if the
+tap is turned off.
+
+[Slide 12, 24:14]
+
+What are some of the major goals of this project. I think we&#39;ve already talked
+about some of these. We want to be a self-hosting SunOS derivative. We&#39;re not
+quite there yet, but we&#39;re getting there. We&#39;ve made good strides. Fully open
+source, of course. That&#39;s kind of, I think, a key thing. I already touched on
+the 100% ABI compatibility with Solaris. So, for those who are listening in,
+and aren&#39;t familiar with the acronym ABI, that&#39;s Application Binary
+Interface, and really what it means, is that your existing applications work
+without being recompiled. This next, fourth bullet point, I haven&#39;t touched on
+it today, and it&#39;s really key. Probably it deserves a little bit of discussion.
+That is, that we want the things that we put into Illumos to be usable by
+Oracle. To be able to be taken back into the upstream code from Oracle. This is
+part of the - we&#39;re not a fork today. Working and collaborate in a
+collaborative relationship with Oracle. So there&#39;s a bunch of other
+consequences that fall out of this. But the key thing is that the code that
+integrates into Illumos really should be - it should be reasonable for somebody
+to integrate that back into the Oracle code base. If whatever political or
+business goals, that were preventing that, were removed. Of course, we don&#39;t
+want to have any corporate dependencies on the Illumos project. I think I&#39;ve
+already talked about this. This last bullet point, the basis for other
+distributions. For people not familiar with the way OpenSolaris distributions
+are built today, there is typically this bottom piece, called ON. And there is
+a bunch of other pieces, that are put together, and then these are all
+constructed together, to create a full operating system. And there&#39;s a number
+of distributions besides the one that Oracle creates, called OpenSolaris.
+There&#39;s Schillix, there&#39;s Belenix, and of course, my favourite, Nexenta. This
+is just a few of them. There&#39;s quite a few others. MilaX, EON, and we haven&#39;t
+talked to all of the people producing these distributions, but at least the
+ones that we have talked to are already engaged in looking at Illumos as their
+future base line. So they&#39;re participating. I&#39;m going to make a brief note
+here, there is another individual who is a part of the Illumos developer
+community, who&#39;s also working on a completely open, community driven, version
+of the distribution, formerly known as Indiana. I&#39;m not going to say anything
+more about that, because that would be stealing his thunder. Hopefully, you&#39;ll
+hear more from him in the coming days or weeks.
+
+[Slide 13, 27:10]
+
+A little bit here about how the project is organised. Basically, we&#39;re going to
+have two groups, one group is this notion of administrative council, that
+basically handles non-technical matters. So resource management. We do have
+servers, we have mailing lists. There is probably matters of evangelism and
+marketing and all these others things that happen. We wanted to seperate the
+technical from the non-technical. So the people focused on the code, and
+getting things done, didn&#39;t have to be bothered by the day-to-day running of
+the details. Likewise, the people running the day-to-day details don&#39;t have to
+be all-star developers. Initially, I&#39;m the chairman. It&#39;s a benevolent
+dictatorship until we come up with some other form of rule that works. The idea
+is to make this as much as possible, reasonable consensus driven, although
+there will be a smaller group, that actually runs the administrative council. I
+have already appointed a few members, that may change. Hopefully they will
+select some additional members, to fill out their own ranks. The idea is a
+meritocracy, the people who are actually helping to do things, rather than just
+people who want to stand up and claim credit.
+
+[Slide 14, 28:35]
+
+The other half of this is the developer council. I had a little tie-in from a
+joke here. A community member actually, had a nice tagline here, his name is
+Matthew, you&#39;ll see him on IRC as lewellyn. His line was &quot;if you have a
+polarising issue, the first thing you have to work out if it&#39;s AC or DC&quot;.
+Thanks to lewellyn for that little tid-bit. It&#39;s, again a benevolent
+dictatorship, and I&#39;m going to take the role as tech lead on the project. I&#39;ll
+probably keep that lead, longer than I will the leadership in the other side,
+because I really do view myself as a technical individual. Again, the initial
+members will be appointed. The idea is that this really made up of the
+developers who have the ability and - not just the ability - but the right to
+commit, and a consensus driven meritocracy. My hope is that as tech lead, I
+help define direction, but I only get involved in arbitration if no other
+alternative, solution can be arrived at via consensus.
+
+[29:55]
+
+I&#39;m seeing something on my UI here that says that we may be having network
+trouble. Can somebody indicate on the IRC channel, am I coming across clearly?
+Ok. Anil&#39;s giving the thumbs up. So I&#39;m going to keep going. Maybe it&#39;s not too
+bad.
+
+[Slide 15, 30:10]
+
+Rules for integration. This is getting down to the nuts and bolts of how we
+expect to operate. As I think I already mentioned, again ON here is OS/Net.
+That&#39;s that consolidation from the upstream. We have the same kind of
+guidelines. You still gotta pass your cstyle, lint, you know, test your code,
+have it reviewed, so forth. We do have some license restrictions, and really
+these have a lot to do with this goal of making it easy for Oracle to take our
+code and re-integrate it back into the upstream.
+</pre></div>
+
+<h2 id="credits">Credits<a class="headerlink" href="#credits" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Brian Bienvenu (taemun)</li>
+<li>A. Hettinger (oninoshiko)</li>
+</ul>
+                
+                  
+                
+              
+              
+                
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../history/" title="Overview" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Overview
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../../user-guide/" title="Getting Started" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Getting Started
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="http://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+        
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/application.02434462.js"></script>
+      
+      <script>app.initialize({version:"0.17.2",url:{base:"../.."}})</script>
+      
+    
+    
+      
+    
+  </body>
+</html>
