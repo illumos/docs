@@ -56,6 +56,14 @@ pages:
 theme:
   name: 'material'
   logo: 'images/logo.png'
+  palette:
+    primary: 'blue grey'
+    accent: 'deep orange'
+
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/illumos'
 
 markdown_extensions:
   - admonition
