@@ -25,7 +25,7 @@ pages:
       - 'Multiple Workspaces': 'user-guide/build-workspaces.md'
       - 'Working Multiple Bugs': 'user-guide/build-multibug.md'
       - 'Building with Sun Studio': 'user-guide/build-studio.md'
-      - 'Comparing with webrev': 'user-guilde/build-comp-webrev.md'
+      - 'Comparing with webrev': 'user-guide/build-comp-webrev.md'
     - 'Manuals': 'user-guide/manual.md'
     - 'Debugging': 'user-guide/debug.md'
   - 'Security': 'security/index.md'
