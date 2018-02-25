@@ -1,6 +1,9 @@
 # The Quality Death Spiral
 
-Jeff Bonwick was the gatekeeper for Solaris 2.5. He gave a talk on Solaris to the Sun Systems Group in September, 1994. It included a section on the Quality Death Spiral -- a timeless phenomenon that remains our omnipresent fear:
+[Jeff Bonwick](https://en.wikipedia.org/wiki/Jeff_Bonwick) was the gatekeeper
+for Solaris 2.5. He gave a talk on Solaris to the Sun Systems Group in
+September, 1994. It included a section on the Quality Death Spiral -- a
+timeless phenomenon that remains our omnipresent fear:
 
 ```
 if it's broken, rip it out
@@ -32,4 +35,4 @@ FCS* quality all the time -- why is this so important?
 
 * FCS == First Customer Ship
 
-Sourced from http://hub.opensolaris.org/bin/view/Community+Group+on/qual_death_spiral.
+(Orignally sourced from http://hub.opensolaris.org/bin/view/Community+Group+on/qual_death_spiral)

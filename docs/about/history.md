@@ -25,9 +25,7 @@ source code was no longer updated, communications to the open source community
 stopped. OpenSolaris was effectively dead.
 
 From this, however, project founder Garrett D'Amore took the last drop of the
-gate and [announced
-illumos](http://wiki.illumos.org/display/illumos/illumos+Project+Announcement+-+August+3%2C+2010)
-in mid-2010.
+gate and [announced illumos](announcement.md) in mid-2010.
 
 For a longer, more flavorful description of Solaris and illumos history, Bryan
 Cantrill's [Fork Yeah! The Rise and Development of
