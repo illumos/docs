@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/", 
-            "text": "illumos is a Unix operating system which provides\nnext-generation operating system features for downstream\n\ndistributions\n, including \nadvanced system\ndebugging\n, \nnext generation\nfilesystem\n, networking, and virtualization options.\n\n\nillumos is freely available from our \nsource\nrepository\n, and most distributions\nbased on it are also open source. You can see recent changes\n\nhere\n.\n\n\nillumos is \ndeveloped\n by both volunteers and companies building\nproducts on top of the software.\n\n\nillumos is an excellent base for both traditional and cloud-native\napplications.\n\n\nWe believe in cross-pollinating technology and collaborating with other open\nsource projects.\n\n\nPlease see the \nabout\n page to learn more!", 
+            "text": "illumos is a Unix operating system which provides\nnext-generation features for downstream \ndistributions\n,\nincluding \nadvanced system debugging\n, \nnext\ngeneration filesystem\n, networking, and virtualization\noptions.\n\n\nillumos is freely available from our \nsource\nrepository\n, and most distributions\nbased on it are also open source. You can see recent changes\n\nhere\n.\n\n\nillumos is \ndeveloped\n by both volunteers and companies building\nproducts on top of the software.\n\n\nillumos is an excellent base for both traditional and cloud-native deployments.\n\n\nWe believe in \ncross-pollination and collaboration\n\nwith other open source projects.\n\n\nPlease see the \nabout\n page to learn more!", 
             "title": "Home"
         }, 
         {
@@ -57,7 +57,7 @@
         }, 
         {
             "location": "/about/who/", 
-            "text": "Who uses illumos?\n\n\nMany communities and businesses base their products and services on illumos. In\naddition to providing the core for projects and products, components of illumos\nhave been ported to other operating systems.\n\n\n\n\n\n\n\n\nOrganization\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\nFreeBSD\n\n\nIncorporates ZFS, DTrace, mdb\n\n\n\n\n\n\nApple\n\n\nIncorporates DTrace\n\n\n\n\n\n\nJoyent\n\n\nPublic and on-prem cloud\n\n\n\n\n\n\nLucera\n\n\nFinanial infrastructure services\n\n\n\n\n\n\nDelphix\n\n\nDatabase virtualization\n\n\n\n\n\n\nNexenta\n\n\nStorage appliance\n\n\n\n\n\n\nEveryCity\n\n\nManaged cloud services\n\n\n\n\n\n\nProject FIFO\n\n\nOn-prem cloud\n\n\n\n\n\n\nCirconus\n\n\nMonitoring services\n\n\n\n\n\n\nPobox\n\n\nEmail services\n\n\n\n\n\n\nTopicbox\n\n\nMailing list services\n\n\n\n\n\n\n\n\nCross-pollination History\n\n\n2010\n\n\n\n\nNetBSD began porting DTrace in 2010\n\n\n\n\n2009\n\n\n\n\nFreeBSD integrated DTrace in 7.1\n\n\n\n\n2008\n\n\n\n\nFreeBSD integrated ZFS in 7.0\n\n\nLLNL created the ZFS On Linux project\n\n\n\n\n2007\n\n\n\n\nApple integrated DTrace in Mac OS X 10.5 (2007)", 
+            "text": "Who uses illumos?\n\n\nMany communities and businesses base their products and services on illumos. In\naddition to providing the core for projects and products, components of illumos\nhave been ported to other operating systems.\n\n\n\n\n\n\n\n\nOrganization\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\nFreeBSD\n\n\nIncorporates ZFS, DTrace, mdb\n\n\n\n\n\n\nApple\n\n\nIncorporates DTrace\n\n\n\n\n\n\nJoyent\n\n\nPublic and on-prem cloud\n\n\n\n\n\n\nLucera\n\n\nFinanial infrastructure services\n\n\n\n\n\n\nDelphix\n\n\nDatabase virtualization\n\n\n\n\n\n\nNexenta\n\n\nStorage appliance\n\n\n\n\n\n\nEveryCity\n\n\nManaged cloud services\n\n\n\n\n\n\nProject FIFO\n\n\nOn-prem cloud\n\n\n\n\n\n\nCirconus\n\n\nMonitoring services\n\n\n\n\n\n\nPobox\n\n\nEmail services\n\n\n\n\n\n\nTopicbox\n\n\nMailing list services\n\n\n\n\n\n\n\n\nCollaboration\n\n\nCross-pollination and collaboration history.\n\n\n2010\n\n\n\n\nNetBSD began porting DTrace in 2010\n\n\n\n\n2009\n\n\n\n\nFreeBSD integrated DTrace in 7.1\n\n\n\n\n2008\n\n\n\n\nFreeBSD integrated ZFS in 7.0\n\n\nLLNL created the ZFS On Linux project\n\n\n\n\n2007\n\n\n\n\nApple integrated DTrace in Mac OS X 10.5 (2007)", 
             "title": "Who uses illumos?"
         }, 
         {
@@ -66,9 +66,9 @@
             "title": "Who uses illumos?"
         }, 
         {
-            "location": "/about/who/#cross-pollination-history", 
-            "text": "", 
-            "title": "Cross-pollination History"
+            "location": "/about/who/#collaboration", 
+            "text": "Cross-pollination and collaboration history.", 
+            "title": "Collaboration"
         }, 
         {
             "location": "/about/who/#2010", 
