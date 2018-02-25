@@ -1196,6 +1196,31 @@
             "title": "FCS quality all the time"
         }, 
         {
+            "location": "/contributing/docs/", 
+            "text": "Contributing Documentation\n\n\nIntroduction\n\n\nIf you'd like to help expand our documentation, we'd love the assistance.\n\n\nProcess\n\n\nIf you notice an error or see something that can be improved, or you want to\nwrite a whole new section, fork the\n\nillumos/docs\n repo and submit a Pull\nRequest. Your changes will go through a review process and hopefully be merged\nin!\n\n\nHelp Wanted!\n\n\nWe've already identified some key pages where we need to improve documentation;\nhave a look at the \nopen issues\n for the doc repository to see if you can\nlend a hand.", 
+            "title": "Documentation"
+        }, 
+        {
+            "location": "/contributing/docs/#contributing-documentation", 
+            "text": "", 
+            "title": "Contributing Documentation"
+        }, 
+        {
+            "location": "/contributing/docs/#introduction", 
+            "text": "If you'd like to help expand our documentation, we'd love the assistance.", 
+            "title": "Introduction"
+        }, 
+        {
+            "location": "/contributing/docs/#process", 
+            "text": "If you notice an error or see something that can be improved, or you want to\nwrite a whole new section, fork the illumos/docs  repo and submit a Pull\nRequest. Your changes will go through a review process and hopefully be merged\nin!", 
+            "title": "Process"
+        }, 
+        {
+            "location": "/contributing/docs/#help-wanted", 
+            "text": "We've already identified some key pages where we need to improve documentation;\nhave a look at the  open issues  for the doc repository to see if you can\nlend a hand.", 
+            "title": "Help Wanted!"
+        }, 
+        {
             "location": "/community/", 
             "text": "Community\n\n\nIntroduction\n\n\nThe illumos community is small but active. From hobbyists to businesses pushing\nmassive cloud deployments, we welcome all comers.\n\n\nWe try to be very helpful and inclusive! It's not uncommon to see folks\nanswering questions ranging from newbie to helping debug complicated\ndeep-kernel black magic.\n\n\n\n\nThe Golden Rule\n\n\nPlease be respectful and civil in your communications. Harassment and\nother poor behaviour will not be tolerated, and preventative action will be\ntaken by moderators.\n\n\n\n\nMailing Lists\n\n\nPlease refer to \nthis page\n for both illumos project and related\ncommunity mailing list information.\n\n\nIRC Channels\n\n\n\n\n\n\n\n\nProject\n\n\nNetwork\n\n\nChannel\n\n\n\n\n\n\n\n\n\n\nillumos\n\n\nfreenode\n\n\n#illumos\n\n\n\n\n\n\nSmartOS\n\n\nfreenode\n\n\n#smartos\n\n\n\n\n\n\nOmniOS\n\n\nfreenode\n\n\n#omnios\n\n\n\n\n\n\nOpenIndiana\n\n\nfreenode\n\n\n#openindiana\n\n\n\n\n\n\nOpenZFS\n\n\nfreenode\n\n\n#openzfs", 
             "title": "Overview"
