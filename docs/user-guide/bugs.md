@@ -5,6 +5,7 @@
 | [illumos-gate](https://www.illumos.org/projects/illumos-gate)   | Core. Kernel, userland, drivers, etc.   |
 | [OpenIndiana](https://www.illumos.org/projects/openindiana)     | Distribution-specific                   |
 | [SmartOS](https://smartos.org/bugview/)                         | Distribution-specific                   |
+| [OmniOS](https://github.com/omniosorg/omnios-build/issues)      | Distribution-specific                   |
 | [Joyent pkgsrc](https://github.com/joyent/pkgsrc/issues)        | Cross-platform packages                 |
 
 # How to report problems
