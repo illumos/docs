@@ -30,3 +30,8 @@ A good issue report includes:
 * For crashes, the contents of the crash information file from the above section.
 
 Please paste any error messages, or the output of ::msgbuf from mdb directly in the bug description.
+
+# Examples of bug fixing
+
+[Ryan Zezeski]() goes through fixing a bug in ZFS in his [Fixing Bugs in
+illumos](http://zinascii.com/pub/talks/fixing-bugs-in-illumos.pdf) talk.

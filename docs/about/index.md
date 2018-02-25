@@ -65,14 +65,16 @@ database](http://eng.joyent.com/manufacturing/bom.html).
 
 ### illumos Development Model
 
-Please refer to the [illumos Developer's Guide]() which describes how illumos
-is built.
+Please refer to the [illumos Developer's Guide](http://illumos.org/books/dev/)
+which describes how illumos is built.
 
 ### Contributing to illumos
 
- * http://wiki.illumos.org/display/illumos/How+To+Contribute
- * http://zinascii.com/pub/talks/fixing-bugs-in-illumos.pdf
+Please see the [contribution](../contributing/index.md) if you'd like to
+participate in the project.
 
 ### Third Party Software
 
 illumos does not itself ship third party software, or contain software like webservers and so forth. 
+
+Distributions include their own package management.
