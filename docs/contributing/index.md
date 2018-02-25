@@ -7,6 +7,15 @@
     The Request To Integrate process is also documented in the [illumos
     Developer's Guide](https://illumos.org/books/dev/integrating.html).
 
+## Overview
+
+Committing code to illumos can seem very daunting. To get started, you might
+consider watching [Ryan Zezeski]() going through fixing a bug in ZFS in this
+"illumos Day" talk, which includes going over integration.
+
+* [video](https://www.youtube.com/watch?v=HXjIz-RzhK8)
+* [slides](http://zinascii.com/pub/talks/fixing-bugs-in-illumos.pdf)
+
 ## Finding An Area To Contribute To
 
 If you're not sure what you want to work on, you can start by looking at our
@@ -31,9 +40,9 @@ interested in.
 
 ## Writing The Code
 
-Our guide to building illumos covers setting up a build environment and getting
-the source. You should try a build once or twice to get accustomed to the build
-system and source tree layout.
+Our guide to [building illumos](../developers/index.md) covers setting up a
+build environment and getting the source. You should try a build once or twice
+to get accustomed to the build system and source tree layout.
 
 An unparalleled resource for understanding the operating system is the the
 book, [Solaris Internals: Solaris 10 and OpenSolaris Kernel
