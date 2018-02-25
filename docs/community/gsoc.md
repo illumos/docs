@@ -19,7 +19,7 @@ under the illumos umbrella.
 
 ## For Students
 
-!!! note New to illumos?
+!!! note "New to illumos?"
     Start with [How To Build illumos](../user-guide/build.md) and
     [How To Contribute](../contributing/index.md).
 
