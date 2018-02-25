@@ -1,1 +1,1 @@
-# Buliding illumos with Sun Studio
+# Building illumos with Sun Studio
