@@ -45,5 +45,5 @@ Your changes will go through a review process and hopefully be merged in!
 ## Help Wanted!
 
 We've already identified some key pages where we need to improve documentation;
-have a look at the [open issues]() for the doc repository to see if you can
-lend a hand.
+have a look at the [open issues](https://github.com/illumos/docs/issues) for
+the doc repository to see if you can lend a hand.
