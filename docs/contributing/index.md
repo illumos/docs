@@ -1,5 +1,5 @@
 !!! warning "Requires Review"
-    This page contains incomplete content and needs to be finished.
+    This page contains incomplete content and needs to be reviewed.
 
 # Contributing to illumos
 
