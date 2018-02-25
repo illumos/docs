@@ -1,38 +1,44 @@
 # The Quality Death Spiral
 
+!!! info "Terminology"
+    | Term | Definition                          |
+    | -----|-------------------------------------|
+    | FCS  | First Customer Ship                 |
+    | gate | Source code repository              |
+    | Put [it] back | Commiting code to the gate |
+
+## Introduction
+
 [Jeff Bonwick](https://en.wikipedia.org/wiki/Jeff_Bonwick) was the gatekeeper
 for Solaris 2.5. He gave a talk on Solaris to the Sun Systems Group in
 September, 1994. It included a section on the Quality Death Spiral -- a
 timeless phenomenon that remains our omnipresent fear:
 
-```
-if it's broken, rip it out
+The following is paraphrasing Jeff's talk.
 
-    - FCS* quality all the time
-    - put it back today, 20 of your (current) friends
-        will be running it tomorrow
-    - gate breakage grinds other development to a halt
-    - the product, not any one project, is what matters
-    - mistakes will happen; negligence cannot
+## If it's broken, rip it out!
 
-FCS* quality all the time -- why is this so important?
+* FCS quality all the time
+* Put it back today, 20 of your (current) friends will be running it tomorrow
+* Gate breakage grinds other development to a halt
+* The product, not any one project, is what matters
+* Mistakes will happen; negligence cannot
 
-    - only way to avoid the quality death spiral:
+## FCS quality all the time
 
-        - people hear the gate is broken
-        - decide not to risk a bringover
-        - fewer people run the latest stuff
-        - less real-life testing
-        - new bugs not found
-        - quality drops further
+Why is this so important?
 
-    - morale tracks quality
+Only way to avoid the quality death spiral:
 
-    - downward spiral hard to break
+* People hear the gate is broken
+* Decide not to risk a bringover
+* Fewer people run the latest stuff
+* Less real-life testing
+* New bugs not found
+* Quality drops further
 
-    - recovery time can be very long
-```
+* Morale tracks quality
+* Downward spiral hard to break
+* Recovery time can be very long
 
-* FCS == First Customer Ship
-
-(Orignally sourced from http://hub.opensolaris.org/bin/view/Community+Group+on/qual_death_spiral)
+Orignally sourced from http://hub.opensolaris.org/bin/view/Community+Group+on/qual_death_spiral.
