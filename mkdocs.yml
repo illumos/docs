@@ -18,7 +18,12 @@ pages:
   - 'User Guide':
     - 'Getting Started': 'user-guide/index.md'
     - 'Bug Reporting': 'user-guide/bugs.md'
-    - 'Building illumos': 'user-guide/build.md'
+    - 'Building illumos':
+      - 'Overview': 'user-guide/build.md'
+      - 'Building Components': 'user-guide/build-components.md'
+      - 'Build Datasets': 'user-guide/build-datasets.md'
+      - 'Build Workspaces': 'user-guide/build-workspaces.md'
+      - 'Working Multiple Bugs': 'user-guide/build-multibug.md'
     - 'Manuals': 'user-guide/manual.md'
     - 'Debugging': 'user-guide/debug.md'
   - 'Security': 'security/index.md'
