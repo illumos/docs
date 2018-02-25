@@ -657,9 +657,45 @@
       
     
     
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        Building with Sun Studio
+      </label>
+    
     <a href="./" title="Building with Sun Studio" class="md-nav__link md-nav__link--active">
       Building with Sun Studio
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" title="Introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requirements" title="Requirements" class="md-nav__link">
+    Requirements
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -938,6 +974,29 @@
     
   
   
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" title="Introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requirements" title="Requirements" class="md-nav__link">
+    Requirements
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -952,6 +1011,62 @@
                 
                 
                 <h1 id="building-illumos-with-sun-studio">Building illumos with Sun Studio<a class="headerlink" href="#building-illumos-with-sun-studio" title="Permanent link">&para;</a></h1>
+<div class="admonition warning">
+<p class="admonition-title">Here Be Dragons</p>
+<p>Building illumos with Sun Studio is not recommended.</p>
+<p>If you <em>do</em> wish to build with Sun Studio, you need specifically patched
+versions of both Studio 12 (used to compile) and 12.1 (used for lint) to get
+consistent results. These are no longer distributed by Oracle and can not be
+legally found in the open Internet. If you do not have access to these
+versions, skip this section and use GCC.</p>
+</div>
+<h2 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h2>
+<p>illumos-gate does not build correctly with Sun Studio versions released after
+12.0. Reportedly using a newer version of the compiler will produce a system
+containing grave, data-corrupting bugs.  Patched compilers were previously
+available from Sun Microsystems, however not licensed for redistribution. After
+a recent Oracle site reorganization, the necessary compilers are no longer
+available.</p>
+<h2 id="requirements">Requirements<a class="headerlink" href="#requirements" title="Permanent link">&para;</a></h2>
+<p>If you have the patched versions of both Sun Studio 12 and 12.1, they should be
+installed in <code>/opt/SUNWspro</code> (Studio 12), and <code>/opt/SUNWspro/sunstudio12.1</code>
+(Studio 12.1), respectively. Pay attention, the Studio 12.1 location is
+different from how it was in OpenSolaris, i.e. it's not <code>/opt/sunstudio12.1</code>.</p>
+<p>The meta-procedure for cleaning up optionally prepackaged Sun Studio
+installations and installing the ones you require for building illumos
+(assuming your stashed Sun Studio 12 distribution archives are now pre-copied
+to /tmp) is as follows:</p>
+<div class="codehilite"><pre><span></span>sudo pkg uninstall \
+    pkg:/developer/sunstudio12u1* \
+    pkg:/metapackages/build-essential
+
+sudo mkdir -p /opt/SUNWspro
+cd /opt/SUNWspro
+sudo tar xjf /tmp/sunstudio12-patched-ii-2009Sep-sol-x86.tar.bz2
+sudo tar xzf /tmp/sunstudio12u1-patched-ii-2010Feb-sol-x86.tar.gz
+</pre></div>
+
+<p>The first archive contains the product component sub-directories directly at
+the top-level, and the second has similar sub-directories under the top-level
+sunstudio12.1 as its children. Thus you receive the structure outlined above.</p>
+<p>You can check if you have the correct versions installed as follows. All of the
+following tests must succeed and return these specific product/patch versions:</p>
+<div class="codehilite"><pre><span></span>$ /opt/SUNWspro/bin/cc -V
+cc: Sun C 5.9 SunOS_i386 Patch 124868-10 2009/04/30
+usage: cc ...
+
+$ /opt/SUNWspro/sunstudio12.1/bin/cc -V
+cc: Sun C 5.10 SunOS_i386 Patch 142363-03 2009/12/03
+usage: cc ...
+
+$ /opt/SUNWspro/sunstudio12.1/bin/lint -V
+lint: Sun C 5.10 SunOS_i386 Patch 142363-03 2009/12/03
+usage: lint ...
+</pre></div>
+
+<p>You must then adjust your <code>nightly(1)</code> environment file (i.e. by adding a line in <code>illumos.sh</code>) to specify that Studio should be used as the default compiler, by adding:</p>
+<div class="codehilite"><pre><span></span>export __SUNC=&quot;&quot;;
+</pre></div>
                 
                   
                 
