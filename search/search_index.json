@@ -1197,7 +1197,7 @@
         }, 
         {
             "location": "/contributing/docs/", 
-            "text": "Contributing Documentation\n\n\nIntroduction\n\n\nIf you'd like to help expand our documentation, we'd love the assistance.\n\n\nThis site is \nhosted on GitHub\n and uses\n\nmkdocs\n.\n\n\nProcess\n\n\nIf you notice an error or see something that can be improved, or you want to\nwrite a whole new section, you have a couple options:\n\n\nLocal Development\n\n\nFork the \nillumos/docs\n repo and submit a\nPull Request.\n\n\nYou'll need to \ninstall mkdocs\n, and some\nof our dependencies on your workstation to help with development and testing.\n\n\npip install mkdocs\npip install mkdocs-material\npip install markdown-include\n\n\n\n\nWe enable a number of extensions. You might want to review the documentation\nfor them. Some of the more useful ones are:\n\n\n\n\nhttps://squidfunk.github.io/mkdocs-material/extensions/admonition/\n\n\nhttps://squidfunk.github.io/mkdocs-material/extensions/codehilite/\n\n\nhttps://squidfunk.github.io/mkdocs-material/extensions/pymdown/\n\n\n\n\nOnline Development\n\n\nAlternatively, you can edit the page directly in GitHub, and submit a Pull\nRequest.\n\n\nReview\n\n\nYour changes will go through a review process and hopefully be merged in!\n\n\nHelp Wanted!\n\n\nWe've already identified some key pages where we need to improve documentation;\nhave a look at the \nopen issues\n for the doc repository to see if you can\nlend a hand.", 
+            "text": "Contributing Documentation\n\n\nIntroduction\n\n\nIf you'd like to help expand our documentation, we'd love the assistance.\n\n\nThis site is \nhosted on GitHub\n and uses\n\nmkdocs\n.\n\n\nProcess\n\n\nIf you notice an error or see something that can be improved, or you want to\nwrite a whole new section, you have a couple options:\n\n\nLocal Development\n\n\nFork the \nillumos/docs\n repo and submit a\nPull Request.\n\n\nYou'll need to \ninstall mkdocs\n, and some\nof our dependencies on your workstation to help with development and testing.\n\n\npip install mkdocs\npip install mkdocs-material\npip install markdown-include\n\n\n\n\nWe enable a number of extensions. You might want to review the documentation\nfor them. Some of the more useful ones are:\n\n\n\n\nhttps://squidfunk.github.io/mkdocs-material/extensions/admonition/\n\n\nhttps://squidfunk.github.io/mkdocs-material/extensions/codehilite/\n\n\nhttps://squidfunk.github.io/mkdocs-material/extensions/pymdown/\n\n\n\n\nOnline Development\n\n\nAlternatively, you can edit the page directly in GitHub, and submit a Pull\nRequest.\n\n\nReview\n\n\nYour changes will go through a review process and hopefully be merged in!\n\n\nHelp Wanted!\n\n\nWe've already identified some key pages where we need to improve documentation;\nhave a look at the \nopen issues\n for\nthe doc repository to see if you can lend a hand.", 
             "title": "Documentation"
         }, 
         {
@@ -1232,7 +1232,7 @@
         }, 
         {
             "location": "/contributing/docs/#help-wanted", 
-            "text": "We've already identified some key pages where we need to improve documentation;\nhave a look at the  open issues  for the doc repository to see if you can\nlend a hand.", 
+            "text": "We've already identified some key pages where we need to improve documentation;\nhave a look at the  open issues  for\nthe doc repository to see if you can lend a hand.", 
             "title": "Help Wanted!"
         }, 
         {
