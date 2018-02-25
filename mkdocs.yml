@@ -39,6 +39,7 @@ pages:
     - 'Overview': 'contributing/index.md'
     - 'System state': 'contributing/quality.md'
     - 'Quality Death Spiral': 'contributing/qds.md'
+    - 'Documentation': 'contributing/docs.md'
   - 'Community':
     - 'Overview': 'community/index.md'
     - 'Mailing Lists': 'community/lists.md'
