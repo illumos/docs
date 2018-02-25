@@ -5,18 +5,18 @@ To quote the [illumos Developer's Guide](http://illumos.org/books/dev/):
 !!! note ""
     illumos is a consolidation of software that forms the core of an Operating
     System. It includes the kernel, device drivers, core system libraries, and
-    utilities. It is the home of many technologies include ZFS, DTrace, Zones,
+    utilities. It is the home of many technologies including ZFS, DTrace, Zones,
     ctf, FMA, and more. We pride ourselves on having a stable, highly
     observable, and technologically different system. In addition, illumos
     traces it roots back through Sun Microsystems to the original releases of
     UNIX and BSD.
 
 illumos itself does not offer an OS distribution -- it is the core from which
-distributions can be created. This is quite similar to how the BSD projects are
+distributions can be created. This is similar to how the BSD projects are
 organized, though different components are available (or not.)
 
 Please see the [history page](history.md) for more information about the
-(surprisingly convoluted!) origins of illumos.
+origins of illumos.
 
 ### Licensing
 
@@ -24,12 +24,12 @@ illumos is licensed under the CDDL.
 
 ### Community Values
 
-* Empathy as a core engineering tenant
+* Empathy as a core engineering tenet
 * Code quality and correctness
 
 ### Technology Features
 
-The following are shared tenants and features for distributions utilizing illumos:
+The following are shared development tenets and features for distributions utilizing illumos:
 
 * Stability
 * SMP support for many CPUs
@@ -42,23 +42,24 @@ The following are shared tenants and features for distributions utilizing illumo
 * [Excellent online documentation](https://www.illumos.org/man/)
 * [Source code for the entire system](https://github.com/illumos/illumos-gate)
 
-### Supported platforms
+### Uses for illumos
 
-illumos currently supports i86pc (x86, x86_64) architectures. However, it does
-cleanly compile on SPARC and there are several SPARC distributions of illumos.
+While it can be and is used in any nearly situation where a UNIX-type server is needed, illumos excels at storage applications, large multi-tenant systems, and other cloud-centric uses. 
 
-illumos also works fine on AMD64, though KVM is awaiting merges to work properly.
+### Supported hardware platforms
+
+illumos currently supports: 
+ * i86pc (x86, x86_64) architectures
+ * AMD64 (except KVM support)
+  
+There are also several SPARC distributions of illumos; if you are interested in running illumos on SPARC, please refer directly to those distributions' docs.
 
 To determine if a specific piece of hardware will work with illumos, please
 refer to the [Hardware Compatability List](https://www.illumos.org/hcl/).
 
-For pre-defined builds of server-grade hardware, you might also refer to
+For pre-defined builds of server-grade hardware, you may also refer to
 [Joyent Engineering Manufactory
-database](http://eng.joyent.com/manufacturing/bom.html).
-
-### Uses for illumos
-
-illumos can be used in any number of situations.
+database](http://eng.joyent.com/manufacturing/bom.html).    
 
 ### illumos Development Model
 
@@ -72,4 +73,4 @@ is built.
 
 ### Third Party Software
 
-illumos does not itself ship third party software, or contain software like webservers and so forth. (An exception would be OpenSSH shipping in the core.)
+illumos does not itself ship third party software, or contain software like webservers and so forth. 
