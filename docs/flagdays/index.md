@@ -6,10 +6,6 @@ out specific actions that developers may need to perform to continue working
 with the sources. Such messages should also be archived here, for future
 reference. 
 
-When adding to this page, create a subpage named `<YYYY-MM-DD> Subject`, such
-that things stay pleasantly ordered and relevant, and paste the content into
-that new page. Add formatting to taste.
-
 # 2018
 
 * [2018-01-25 HEADS UP: Removal of 32-bit x86 kernel](https://illumos.topicbox.com/groups/discuss/Tbe0c8f87eef5a3f2-M62fb2690bf9ab15b373ac252)
