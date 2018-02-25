@@ -44,7 +44,9 @@ The following are shared development tenets and features for distributions utili
 
 ### Uses for illumos
 
-While it can be and is used in any nearly situation where a UNIX-type server is needed, illumos excels at storage applications, large multi-tenant systems, and other cloud-centric uses. 
+While it can be and is used in any nearly situation where a UNIX-type server is
+needed, illumos excels at storage applications, large multi-tenant systems, and
+other cloud-centric uses. 
 
 ### Supported hardware platforms
 

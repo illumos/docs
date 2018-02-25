@@ -11,18 +11,19 @@
 This document will help prepare you to build the source code for illumos. It
 assumes some familiarity with development on Unix-like systems.
 
+!!! tip "My First illumos Build"
+    If you are just dipping your toes into illumos, you should consider reading
+    [Ryan Zezeski's post on his own first
+    build](https://zinascii.com/2014/my-first-illumos-build.html)!
+
 You need an illumos-based operating system to build illumos. Cross-compilation
-is not supported).
+is not supported.
 
 If you don't have one installed, the quickest way to get started is to download
 and install either [OpenIndiana](https://openindiana.org) or
-[OmniOS](https://www.omniosce.org/).
+[OmniOS](https://www.omniosce.org/) and install them in a VM or on metal.
 
-You may use a virtual machine – compilation performance may suffer, but it is
-functional. Some other distributions support self-hosting, including
-compilation of illumos-gate, as well.
-
-!!! note ""
+!!! tip ""
     All commands in this guide assume you run them as an unprivileged user.
     sudo will be prepended to commands which need additional privileges; on some
     systems pfexec can be used instead, if your user has the correct RBAC profiles.
@@ -31,6 +32,13 @@ compilation of illumos-gate, as well.
     project. If you are not using a stock shell or have manipulated the $USER
     variable in your environment at a site, system, or user level, you are
     responsible for diagnosing and addressing any consequences.
+
+## Hardware Support
+
+You'll generally have good luck with common x86 components, but it's always a
+good idea to refer to the [Hardware Combatibility
+List](https://www.illumos.org/hcl/) or Joyent's [Manufactory
+database](http://eng.joyent.com/manufacturing/bom.html).
 
 ## Installing required packages
 
