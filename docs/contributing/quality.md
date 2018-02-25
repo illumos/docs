@@ -2,6 +2,15 @@
 
 Written by [Bryan Cantrill]()
 
+!!! info "Terminology"
+    | Term          | Definition                                                          |
+    | --------------|---------------------------------------------------------------------|
+    | FCS           | First Customer Ship                                                 |
+    | gate          | Source code repository                                              |
+    | gatekeeper    | Release Engineer responsible for ensuring the gate is working       |
+    | Put [it] back | Commiting code to the gate                                          |
+    | jurassic      | Server in the Sun Microsystems engineering dept.                    |
+
 ## Introduction
 
 So you're new to open source, and/or you're new to illumos. Maybe you have lots
@@ -124,7 +133,7 @@ caught it.
 And what do you do when that awful, black day arrives? Here's a quick coping
 manual from those of us who have been there:
 
-* Don't pretend it didn't happen -- you screwed up, but your mother still loves you (unless, of course, her home directory is on jurassic) [obscure historical Sun reference, never mind ;-) - Ed.]
+* Don't pretend it didn't happen -- you screwed up, but your mother still loves you (unless, of course, her home directory is on jurassic)
 * Don't minimize the problem, shrug it off or otherwise make light of it -- this is serious business, and we take it seriously
 * If someone spent time debugging your bug, thank them
 * If someone was inconvenienced by your bug, apologize to them

@@ -37,7 +37,7 @@ pages:
     - 'Comparing with webrev': 'developers/comp-webrev.md'
   - 'Contributing':
     - 'Overview': 'contributing/index.md'
-    - 'System state': 'contributing/quality.md'
+    - 'On Quality': 'contributing/quality.md'
     - 'Quality Death Spiral': 'contributing/qds.md'
     - 'Documentation': 'contributing/docs.md'
   - 'Community':
