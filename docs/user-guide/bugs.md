@@ -3,9 +3,6 @@
 
 # Bug Trackers
 
-illumos and its associated communites maintain a number of [public bug
-tracker](https://bugs.illumos.org).
-
 | Project | Description |
 |---------|-------------|
 | [illumos-gate](https://www.illumos.org/projects/illumos-gate)   | Core. Kernel, userland, drivers, etc.   |
