@@ -12,5 +12,5 @@ There are a number of [books](https://illumos.org/books/) relating to illumos
 technologies available.
 
 If your goal is to work on illumos itself, the [Developer's
-Guide](https://illumos.org/books/dev/) or [building illumos](build.md) are good
-places to get started.
+Guide](https://illumos.org/books/dev/) or [building
+illumos](../developers/index.md) are good places to get started.

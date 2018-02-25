@@ -32,7 +32,7 @@ To use the operating system, just download and install one of the
 distributions.
 
 To download the source code, follow the section on Git or Mercurial in [How To
-Build illumos](../user-guide/build.md). You can also [browse and search the
+Build illumos](../developers/index.md). You can also [browse and search the
 illumos code online](https://github.com/illumos/illumos-gate).
 
 ## Is illumos free software (open source)?
@@ -76,7 +76,7 @@ and you're invited to drop in and say "hi!"
 
 ## How do I build illumos?
 
-See [How To Build illumos](../user-guide/build.md).
+See [How To Build illumos](../developers/index.md).
 
 ## How do I build a distribution based on illumos?
 

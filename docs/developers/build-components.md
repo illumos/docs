@@ -18,7 +18,7 @@ I'm building the m4 command from the ONNV consolidation on a system running oi_1
 
 ## Requirements
     
-Setup of the compilation environment is detailed in [How To Build illumos](build.md).
+Setup of the compilation environment is detailed in [How To Build illumos](index.md).
 
 ### Mercurial (hg)
 

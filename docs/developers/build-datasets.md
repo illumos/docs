@@ -31,7 +31,7 @@ the wild experiments lead into a dead-end, while you retain the checked-out
 source code repository and don't have to download it again. Alternately, this
 can be used to work on several bugs in parallel and keeping the diffs separated
 for further webrev (see [Comparing arbitrary sources with
-webrev(1)](build-comp-webrev.md)) and submission upstream (see [How To
+webrev(1)](comp-webrev.md)) and submission upstream (see [How To
 Contribute](../contributing/index.md)).
 
 Now that you have a separate dataset, you can optimize it for space and/or

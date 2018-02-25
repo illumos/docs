@@ -20,21 +20,21 @@ pages:
   - 'User Guide':
     - 'Getting Started': 'user-guide/index.md'
     - 'Bug Reporting': 'user-guide/bugs.md'
-    - 'Development':
-      - 'Overview': 'user-guide/build.md'
-      - 'Building illumos': 'user-guide/build-illumos.md'
-      - 'Build times': 'user-guide/build-times.md'
-      - 'Building Components': 'user-guide/build-components.md'
-      - 'Build Datasets': 'user-guide/build-datasets.md'
-      - 'Multiple Workspaces': 'user-guide/build-workspaces.md'
-      - 'Working Multiple Bugs': 'user-guide/build-multibug.md'
-      - 'Building with Sun Studio': 'user-guide/build-studio.md'
-      - 'Comparing with webrev': 'user-guide/build-comp-webrev.md'
     - 'Manuals': 'user-guide/manual.md'
     - 'Debugging':
       - 'Overview': 'user-guide/debug.md'
       - 'Systems': 'user-guide/debug-systems.md'
       - 'Applications': 'user-guide/debug-apps.md'
+  - 'Development':
+    - 'Overview': 'developers/index.md'
+    - 'Building illumos': 'developers/build-illumos.md'
+    - 'Build times': 'developers/build-times.md'
+    - 'Building Components': 'developers/build-components.md'
+    - 'Build Datasets': 'developers/build-datasets.md'
+    - 'Multiple Workspaces': 'developers/workspaces.md'
+    - 'Working Multiple Bugs': 'developers/multibug.md'
+    - 'Building with Sun Studio': 'developers/studio.md'
+    - 'Comparing with webrev': 'developers/comp-webrev.md'
   - 'Contributing':
     - 'Overview': 'contributing/index.md'
     - 'System state': 'contributing/quality.md'

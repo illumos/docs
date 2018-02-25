@@ -20,7 +20,7 @@ under the illumos umbrella.
 ## For Students
 
 !!! note "New to illumos?"
-    Start with [How To Build illumos](../user-guide/build.md) and
+    Start with [How To Build illumos](../developers/index.md) and
     [How To Contribute](../contributing/index.md).
 
 If you're interested in helping illumos or OpenIndiana in this year's Summer of

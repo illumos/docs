@@ -24,7 +24,7 @@ sudo ln -s ../../packages /export/home/illumos-dev/code/illumos-gate
 
 ## Golden repository – one of many
 
-If you want to [Work on several bugs at once](build-multibug.md), you may want
+If you want to [Work on several bugs at once](multibug.md), you may want
 to maintain a "golden image" of the source code repository in a dedicated
 dataset and zfs clone that for your actual works. In this case you'd run:
 

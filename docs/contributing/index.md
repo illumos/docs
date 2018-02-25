@@ -71,7 +71,7 @@ testing depending on the nature of the change.
 
 Make sure you test the results of the illumos-gate build with only your
 changesets applied. To do this, you will need to [build the illumos
-code](../user-guide/build.md). It is generally insufficient to test the build
+code](../developers/index.md). It is generally insufficient to test the build
 results of a downstream fork that contains other non-trivial changes as there
 may be implicit dependencies that break other consumers of the core illumos
 gate.

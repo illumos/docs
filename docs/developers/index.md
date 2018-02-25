@@ -95,7 +95,7 @@ install explicitly if you've already installed `build-essential`.
 ### Sun Studio
 
 Building with Sun Studio is generally unsupported. If you have need of it,
-please refer to [Building With Sun Studio](build-studio.md).
+please refer to [Building With Sun Studio](studio.md).
 
 ## Next Steps
 

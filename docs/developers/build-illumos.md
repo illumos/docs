@@ -8,7 +8,7 @@ obtain source and build.
 
 For a less naive example, see the [Build datasets](build-datasets.md) page and
 some more industrious details on [Managing multiple
-workspaces](build-workspaces.md) and [Working on several bugs]() at once.
+workspaces](workspaces.md) and [Working on several bugs]() at once.
 
 ## Getting the source
 
