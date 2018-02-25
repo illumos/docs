@@ -676,6 +676,33 @@
     Gathering Information from a Running System
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#enabling-verbose-boot-messages-and-the-kernel-debugger-kmdb-on-x86" title="Enabling verbose boot messages and the kernel debugger (kmdb) on x86" class="md-nav__link">
+    Enabling verbose boot messages and the kernel debugger (kmdb) on x86
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#enabling-verbose-boot-messages-and-the-kernel-debugger-kmdb-on-sparc" title="Enabling verbose boot messages and the kernel debugger (kmdb) on SPARC:" class="md-nav__link">
+    Enabling verbose boot messages and the kernel debugger (kmdb) on SPARC:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#on-both-platforms" title="On both platforms" class="md-nav__link">
+    On both platforms
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -1054,6 +1081,33 @@
     Gathering Information from a Running System
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#enabling-verbose-boot-messages-and-the-kernel-debugger-kmdb-on-x86" title="Enabling verbose boot messages and the kernel debugger (kmdb) on x86" class="md-nav__link">
+    Enabling verbose boot messages and the kernel debugger (kmdb) on x86
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#enabling-verbose-boot-messages-and-the-kernel-debugger-kmdb-on-sparc" title="Enabling verbose boot messages and the kernel debugger (kmdb) on SPARC:" class="md-nav__link">
+    Enabling verbose boot messages and the kernel debugger (kmdb) on SPARC:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#on-both-platforms" title="On both platforms" class="md-nav__link">
+    On both platforms
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -1176,7 +1230,7 @@ cable, and another computer with a serial port, and to boot with the
 appropriate -B console=ttya or similar option.</p>
 <p>For a local console, you need a monitor and keyboard. On x86, this must be a
 PS/2 keyboard or a USB keyboard operating in USB legacy (PS/2 emulation) mode.</p>
-<p>To enable verbose boot messages and the kernel debugger (kmdb) on x86:</p>
+<h3 id="enabling-verbose-boot-messages-and-the-kernel-debugger-kmdb-on-x86">Enabling verbose boot messages and the kernel debugger (kmdb) on x86<a class="headerlink" href="#enabling-verbose-boot-messages-and-the-kernel-debugger-kmdb-on-x86" title="Permanent link">&para;</a></h3>
 <ul>
 <li>At the GRUB prompt, highlight the boot environment with the arrow keys and press 'e' to edit the commands.</li>
 <li>Highlight the splashimage line, if it exists, and press 'd' to delete.</li>
@@ -1184,18 +1238,18 @@ PS/2 keyboard or a USB keyboard operating in USB legacy (PS/2 emulation) mode.</
 <li>Append -kvd -m verbose to the end of the line (and remove console=graphics if it appears after -B)</li>
 <li>Press 'Enter' when finished, and then press 'b' to boot.</li>
 </ul>
-<p>To enable verbose boot messages and the kernel debugger (kmdb) on SPARC:</p>
+<h3 id="enabling-verbose-boot-messages-and-the-kernel-debugger-kmdb-on-sparc">Enabling verbose boot messages and the kernel debugger (kmdb) on SPARC:<a class="headerlink" href="#enabling-verbose-boot-messages-and-the-kernel-debugger-kmdb-on-sparc" title="Permanent link">&para;</a></h3>
 <ul>
 <li>Press 'Stop' ('L1'), then 'A' or send a BREAK on the serial line to interrupt the boot process, if necessary.</li>
 <li>At the ok prompt, type boot -kvd -m verbose and press 'Enter'.</li>
 </ul>
-<p>On both platforms:</p>
+<h3 id="on-both-platforms">On both platforms<a class="headerlink" href="#on-both-platforms" title="Permanent link">&para;</a></h3>
 <ul>
 <li>Wait for the kmdb&gt; prompt to appear, then type moddebug/W 80000000 and press 'Enter'.</li>
 <li>Type snooping/W 1 and press 'Enter'.</li>
 <li>Type :c and press 'Enter'.</li>
 </ul>
-<p>If the system panics, copy down ::msgbuf, ::status and ::stack.</p>
+<p>If the system panics, copy down <code>::msgbuf</code>, <code>::status</code> and <code>::stack</code>.</p>
 <p>If the system hangs, copy down the last few lines regarding modules on screen,
 and do one of:</p>
 <ul>
