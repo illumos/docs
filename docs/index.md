@@ -12,6 +12,9 @@ based on it are also open source. You can see recent changes
 illumos is [developed](about/who.d) by both volunteers and companies building
 products on top of the software.
 
+illumos is an excellent base for both traditional and cloud-native
+applications.
+
 We believe in cross-pollinating technology and collaborating with other open
 source projects.
 

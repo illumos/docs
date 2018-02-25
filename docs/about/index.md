@@ -12,7 +12,7 @@ To quote the [illumos Developer's Guide](http://illumos.org/books/dev/):
     UNIX and BSD.
 
 illumos itself does not offer an OS distribution -- it is the core from which
-distributions can be created. This is similar to how the BSD projects are
+[distributions](distro.md) can be created. This is similar to how the BSD projects are
 organized, though different components are available (or not.)
 
 Please see the [history page](history.md) for more information about the
@@ -49,10 +49,12 @@ While it can be and is used in any nearly situation where a UNIX-type server is 
 ### Supported hardware platforms
 
 illumos currently supports: 
+
  * i86pc (x86, x86_64) architectures
  * AMD64 (except KVM support)
   
-There are also several SPARC distributions of illumos; if you are interested in running illumos on SPARC, please refer directly to those distributions' docs.
+There are also several SPARC distributions of illumos; if you are interested in
+running illumos on SPARC, please refer directly to those distributions' docs.
 
 To determine if a specific piece of hardware will work with illumos, please
 refer to the [Hardware Compatability List](https://www.illumos.org/hcl/).
