@@ -1,9 +1,11 @@
 # Community
 
+## Introduction
+
 ## Mailing Lists
 
-Please see the [mailing lists](lists.md) for both illumos project and related
-community list information.
+Please refer to [this page](lists.md) for both illumos project and related
+community mailing list information.
 
 ## IRC Channels
 

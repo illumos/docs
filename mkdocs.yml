@@ -37,6 +37,13 @@ pages:
     - 'Mailing Lists': 'community/lists.md'
     - 'Events': 'community/events.md'
     - 'Videos': 'community/videos.md'
+    - 'Google Summer of Code':
+      - 'Overview': 'community/gsoc.md'
+      - 'Student Application': 'community/gsoc-application.md'
+      - 'Student Expectations': 'community/gsoc-expectations.md'
+      - 'Writing a Proposal': 'community/gsoc-proposal.md'
+      - 'Becoming a Mentor': 'gsoc-mentor.md'
+      - 'Mentoring Application': 'community/gsoc-mentor-application.md'
   - 'Projects': 'projects/index.md'
 
 theme:
