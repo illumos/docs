@@ -1,6 +1,5 @@
-![logo](images/logo.png) illumos is an open source UNIX-like operating system.
-
-illumos provides next-generation operating system features for downstream
+![logo](images/logo.png) illumos is a Unix operating system which provides
+next-generation operating system features for downstream
 [distributions](about/distro.md), including [advanced system
 debugging](http://dtrace.org/guide/), [next generation
 filesystem](http://open-zfs.org/), networking, and virtualization options.
