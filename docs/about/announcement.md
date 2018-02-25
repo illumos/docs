@@ -1,3 +1,7 @@
+# Project Announcement
+
+## Introduction
+
 On August 3, 2010, Garrett D'Amore announced the illumos project, "a community
 effort of some core Solaris engineers to create a truly open source Solaris by
 swapping closed source bits of OpenSolaris with open implementations."
