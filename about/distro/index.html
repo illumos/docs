@@ -303,18 +303,6 @@
           
           
 
-
-  <li class="md-nav__item">
-    <a href="../leadership/" title="Leadership" class="md-nav__link">
-      Leadership
-    </a>
-  </li>
-
-        
-          
-          
-          
-
   
 
 
@@ -346,13 +334,6 @@
         <li class="md-nav__item">
   <a href="#introduction" title="Introduction" class="md-nav__link">
     Introduction
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#common-features" title="Common Features" class="md-nav__link">
-    Common Features
   </a>
   
 </li>
@@ -392,6 +373,18 @@
   
 </nav>
     
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../leadership/" title="Leadership" class="md-nav__link">
+      Leadership
+    </a>
   </li>
 
         
@@ -1016,13 +1009,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#common-features" title="Common Features" class="md-nav__link">
-    Common Features
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#comparison" title="Comparison" class="md-nav__link">
     Comparison
   </a>
@@ -1077,27 +1063,18 @@ commercial companies with their own priorities and focus, and some mainly
 differ in their packaging systems.</p>
 <p>Most of these projects contribute back to the common core set of software, which the
 illumos project is all about.</p>
-<h2 id="common-features">Common Features<a class="headerlink" href="#common-features" title="Permanent link">&para;</a></h2>
-<p>All illumos-derived systems should include the following technologies:</p>
-<ul>
-<li>DTrace</li>
-<li>mdb</li>
-<li>ZFS</li>
-<li>Zones</li>
-<li>Virtual networking (Crossbow)</li>
-<li>Fault Management Framework</li>
-<li>Service Management Framework</li>
-</ul>
 <h2 id="comparison">Comparison<a class="headerlink" href="#comparison" title="Permanent link">&para;</a></h2>
-<p>Not all distributions have the latest features or run on both x86 and SPARC.
-For major feature differences, the following chart may be helpful.</p>
+<p>All illumos-derived systems should include our <a href="../features/">common technologies</a>.</p>
+<p>Not all distributions have the latest features or run on both x86 and SPARC.</p>
+<p>For major feature differences, the following chart may be helpful.</p>
 <h3 id="active-spins">Active Spins<a class="headerlink" href="#active-spins" title="Permanent link">&para;</a></h3>
 <table>
 <thead>
 <tr>
 <th>Project</th>
-<th>Source</th>
+<th>Provider</th>
 <th>Focus</th>
+<th>Linux Comparison</th>
 <th>Open Source</th>
 <th>Packaging</th>
 <th>x86</th>
@@ -1111,6 +1088,7 @@ For major feature differences, the following chart may be helpful.</p>
 <td><a href="https://smartos.org">SmartOS</a></td>
 <td><a href="https://www.joyent.com">Joyent</a></td>
 <td>Hypervisor</td>
+<td>CoreOS</td>
 <td><i class="material-icons">check</i></td>
 <td><a href="https://pkgsrc.joyent.com">pkgsrc</a></td>
 <td><i class="material-icons">check</i></td>
@@ -1122,6 +1100,7 @@ For major feature differences, the following chart may be helpful.</p>
 <td><a href="https://www.omniosce.org/">OmniOS CE</a></td>
 <td><a href="https://omniosce.org/about">OmniOS CE Association</a></td>
 <td>Servers</td>
+<td>Debian</td>
 <td><i class="material-icons">check</i></td>
 <td>IPS</td>
 <td><i class="material-icons">check</i></td>
@@ -1133,6 +1112,7 @@ For major feature differences, the following chart may be helpful.</p>
 <td><a href="https://www.openindiana.org/">OpenIndiana</a></td>
 <td><a href="https://www.openindiana.org/">OpenIndiana</a></td>
 <td>Workstation, Servers</td>
+<td>Ubuntu</td>
 <td><i class="material-icons">check</i></td>
 <td>IPS</td>
 <td><i class="material-icons">check</i></td>
@@ -1145,6 +1125,7 @@ For major feature differences, the following chart may be helpful.</p>
 <td><a href="https://nexenta.com/">Nexenta</a></td>
 <td>Storage</td>
 <td></td>
+<td></td>
 <td>APT</td>
 <td><i class="material-icons">check</i></td>
 <td></td>
@@ -1155,6 +1136,7 @@ For major feature differences, the following chart may be helpful.</p>
 <td><a href="http://www.tribblix.org/">Tribblix</a></td>
 <td>Peter Tribble</td>
 <td>Workstation, Servers</td>
+<td>Slackware</td>
 <td><i class="material-icons">check</i></td>
 <td>SVR4</td>
 <td><i class="material-icons">check</i></td>
@@ -1166,6 +1148,7 @@ For major feature differences, the following chart may be helpful.</p>
 <td><a href="http://www.dilos.org/">DilOS</a></td>
 <td>igork</td>
 <td>Workstation, Servers</td>
+<td></td>
 <td><i class="material-icons">check</i></td>
 <td>APT</td>
 <td><i class="material-icons">check</i></td>
@@ -1180,7 +1163,7 @@ For major feature differences, the following chart may be helpful.</p>
 <thead>
 <tr>
 <th>Project</th>
-<th>Source</th>
+<th>Provider</th>
 <th>Focus</th>
 <th>Open Source</th>
 <th>Packaging</th>
@@ -1227,7 +1210,7 @@ For major feature differences, the following chart may be helpful.</p>
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../leadership/" title="Leadership" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../features/" title="Features" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -1236,19 +1219,19 @@ For major feature differences, the following chart may be helpful.</p>
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Leadership
+                Features
               </span>
             </div>
           </a>
         
         
-          <a href="../faq/" title="FAQ" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../leadership/" title="Leadership" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                FAQ
+                Leadership
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">

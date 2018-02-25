@@ -7,12 +7,12 @@
         }, 
         {
             "location": "/about/", 
-            "text": "what \nis\n illumos?\n\n\nTo quote the \nillumos Developer's Guide\n:\n\n\n\n\nillumos is a consolidation of software that forms the core of an Operating\nSystem. It includes the kernel, device drivers, core system libraries, and\nutilities. It is the home of many technologies including ZFS, DTrace, Zones,\nctf, FMA, and more. We pride ourselves on having a stable, highly\nobservable, and technologically different system. In addition, illumos\ntraces it roots back through Sun Microsystems to the original releases of\nUNIX and BSD.\n\n\n\n\nillumos itself does not offer an OS distribution -- it is the core from which\n\ndistributions\n can be created.\n\n\nPlease see the \nhistory page\n for more information about the\norigins of illumos.\n\n\nLicensing\n\n\nillumos is licensed under the \nCDDL\n.\n\n\nCommunity Values\n\n\n\n\nEmpathy as a core engineering tenet\n\n\nCode quality and correctness\n\n\n\n\nTechnology Features\n\n\nThe following are shared development tenets and features for distributions utilizing illumos:\n\n\n\n\nStability\n\n\nSMP support for many CPUs\n\n\nSecurity multi-user facilities like Roles and Privileges\n\n\nMulti-tenancy with Zones\n\n\nUnparalleled system introspection with \nDTrace\n\n\nA single pipeline for system issues with the Fault Management Architecture (FMA)\n\n\nNetwork virtualization with Crossbow\n\n\nHardware virtualization with KVM\n\n\nExcellent online documentation\n\n\nSource code for the entire system\n\n\n\n\nUses for illumos\n\n\nWhile it can be and is used in any nearly situation where a UNIX-type server is\nneeded, illumos excels at storage applications, large multi-tenant systems, and\nother cloud-centric uses. \n\n\nSupported hardware platforms\n\n\nillumos currently supports: \n\n\n\n\ni86pc (x86, x86_64) architectures\n\n\nAMD64 (except KVM support)\n\n\n\n\nThere are also several SPARC distributions of illumos; if you are interested in\nrunning illumos on SPARC, please refer directly to those distributions' docs.\n\n\nTo determine if a specific piece of hardware will work with illumos, please\nrefer to the \nHardware Compatability List\n.\n\n\nFor pre-defined builds of server-grade hardware, you may also refer to\n\nJoyent Engineering Manufactory\ndatabase\n.    \n\n\nillumos Development Model\n\n\nPlease refer to the \nillumos Developer's Guide\n\nand the \ndevelopment section\n.\n\n\nContributing to illumos\n\n\nPlease see the \ncontribution\n if you'd like to\nparticipate in the project.\n\n\nThird Party Software\n\n\nillumos does not itself ship third party software, or contain software like webservers and so forth. \n\n\nDistributions include their own package management.", 
+            "text": "what \nis\n illumos?\n\n\nTo quote the \nillumos Developer's Guide\n:\n\n\n\n\nillumos is a consolidation of software that forms the core of an Operating\nSystem. It includes the kernel, device drivers, core system libraries, and\nutilities. It is the home of many technologies including ZFS, DTrace, Zones,\nctf, FMA, and more. We pride ourselves on having a stable, highly\nobservable, and technologically different system. In addition, illumos\ntraces it roots back through Sun Microsystems to the original releases of\nUNIX and BSD.\n\n\n\n\nillumos itself does not offer an OS distribution -- it is the core from which\n\ndistributions\n can be created. In this sense, illumos is similar to\na BSD source tree, or Linux's kernel.org.\n\n\nPlease see the \nhistory page\n for more information about the\norigins of illumos.\n\n\nLicensing\n\n\nillumos is licensed under the \nCDDL\n.\n\n\nCommunity Values\n\n\n\n\nEmpathy as a core engineering tenet\n\n\nCode quality and correctness\n\n\n\n\nTechnology Features\n\n\nThe following are shared development tenets and features for distributions utilizing illumos:\n\n\n\n\nStability\n\n\nSMP support for many CPUs\n\n\nSecurity multi-user facilities like Roles and Privileges\n\n\nMulti-tenancy with Zones\n\n\nUnparalleled system introspection with \nDTrace\n\n\nA single pipeline for system issues with the Fault Management Architecture (FMA)\n\n\nNetwork virtualization with Crossbow\n\n\nHardware virtualization with KVM\n\n\nExcellent online documentation\n\n\nSource code for the entire system\n\n\n\n\nFor more in-depth descriptions, please see the \nfeatures page\n.\n\n\nUses for illumos\n\n\nWhile it can be and is used in any nearly situation where a UNIX-type server is\nneeded, illumos excels at storage applications, large multi-tenant systems, and\nother cloud-centric uses. \n\n\nHave a look at \nwho is using illumos\n to see what illumos technologies\nare being used for!\n\n\nSupported hardware platforms\n\n\nillumos currently supports: \n\n\n\n\ni86pc (x86, x86_64) architectures\n\n\nAMD64 (except KVM support)\n\n\n\n\nThere are also several SPARC distributions of illumos; if you are interested in\nrunning illumos on SPARC, please refer directly to those distributions' docs.\n\n\nTo determine if a specific piece of hardware will work with illumos, please\nrefer to the \nHardware Compatability List\n.\n\n\nFor pre-defined builds of server-grade hardware, you may also refer to\n\nJoyent Engineering Manufactory\ndatabase\n.    \n\n\nillumos Development Model\n\n\nPlease refer to the \nillumos Developer's Guide\n\nand the \ndevelopment section\n.\n\n\nContributing to illumos\n\n\nPlease see the \ncontribution\n if you'd like to\nparticipate in the project.\n\n\nThird Party Software\n\n\nillumos does not itself ship third party software, or contain software like webservers and so forth. \n\n\nDistributions include their own package management.", 
             "title": "What is illumos?"
         }, 
         {
             "location": "/about/#what-is-illumos", 
-            "text": "To quote the  illumos Developer's Guide :   illumos is a consolidation of software that forms the core of an Operating\nSystem. It includes the kernel, device drivers, core system libraries, and\nutilities. It is the home of many technologies including ZFS, DTrace, Zones,\nctf, FMA, and more. We pride ourselves on having a stable, highly\nobservable, and technologically different system. In addition, illumos\ntraces it roots back through Sun Microsystems to the original releases of\nUNIX and BSD.   illumos itself does not offer an OS distribution -- it is the core from which distributions  can be created.  Please see the  history page  for more information about the\norigins of illumos.", 
+            "text": "To quote the  illumos Developer's Guide :   illumos is a consolidation of software that forms the core of an Operating\nSystem. It includes the kernel, device drivers, core system libraries, and\nutilities. It is the home of many technologies including ZFS, DTrace, Zones,\nctf, FMA, and more. We pride ourselves on having a stable, highly\nobservable, and technologically different system. In addition, illumos\ntraces it roots back through Sun Microsystems to the original releases of\nUNIX and BSD.   illumos itself does not offer an OS distribution -- it is the core from which distributions  can be created. In this sense, illumos is similar to\na BSD source tree, or Linux's kernel.org.  Please see the  history page  for more information about the\norigins of illumos.", 
             "title": "what is illumos?"
         }, 
         {
@@ -27,12 +27,12 @@
         }, 
         {
             "location": "/about/#technology-features", 
-            "text": "The following are shared development tenets and features for distributions utilizing illumos:   Stability  SMP support for many CPUs  Security multi-user facilities like Roles and Privileges  Multi-tenancy with Zones  Unparalleled system introspection with  DTrace  A single pipeline for system issues with the Fault Management Architecture (FMA)  Network virtualization with Crossbow  Hardware virtualization with KVM  Excellent online documentation  Source code for the entire system", 
+            "text": "The following are shared development tenets and features for distributions utilizing illumos:   Stability  SMP support for many CPUs  Security multi-user facilities like Roles and Privileges  Multi-tenancy with Zones  Unparalleled system introspection with  DTrace  A single pipeline for system issues with the Fault Management Architecture (FMA)  Network virtualization with Crossbow  Hardware virtualization with KVM  Excellent online documentation  Source code for the entire system   For more in-depth descriptions, please see the  features page .", 
             "title": "Technology Features"
         }, 
         {
             "location": "/about/#uses-for-illumos", 
-            "text": "While it can be and is used in any nearly situation where a UNIX-type server is\nneeded, illumos excels at storage applications, large multi-tenant systems, and\nother cloud-centric uses.", 
+            "text": "While it can be and is used in any nearly situation where a UNIX-type server is\nneeded, illumos excels at storage applications, large multi-tenant systems, and\nother cloud-centric uses.   Have a look at  who is using illumos  to see what illumos technologies\nare being used for!", 
             "title": "Uses for illumos"
         }, 
         {
@@ -112,8 +112,108 @@
         }, 
         {
             "location": "/about/features/", 
-            "text": "debug\n\n\nfault management\n\n\nfilesystem\n\n\nfirewall\n\n\nlinux emulation\n\n\nvirtual network\n\n\nsecurity\n\n\nservice\n\n\nvirtualization types", 
+            "text": "Introduction\n\n\nillumos provides a number of advanced features for downstream distributions and\nusers to utilize.\n\n\nFilesystems\n\n\nZFS\n\n\nVirtualization\n\n\nNative OS Zones\n\n\nLX Zones (Linux Emulation)\n\n\nIntrospection and Debugging\n\n\nDTrace\n\n\nmdb\n\n\nFault Management\n\n\nService Management\n\n\nFirewall\n\n\nVirtual Networking\n\n\nSecurity", 
             "title": "Features"
+        }, 
+        {
+            "location": "/about/features/#introduction", 
+            "text": "illumos provides a number of advanced features for downstream distributions and\nusers to utilize.", 
+            "title": "Introduction"
+        }, 
+        {
+            "location": "/about/features/#filesystems", 
+            "text": "", 
+            "title": "Filesystems"
+        }, 
+        {
+            "location": "/about/features/#zfs", 
+            "text": "", 
+            "title": "ZFS"
+        }, 
+        {
+            "location": "/about/features/#virtualization", 
+            "text": "", 
+            "title": "Virtualization"
+        }, 
+        {
+            "location": "/about/features/#native-os-zones", 
+            "text": "", 
+            "title": "Native OS Zones"
+        }, 
+        {
+            "location": "/about/features/#lx-zones-linux-emulation", 
+            "text": "", 
+            "title": "LX Zones (Linux Emulation)"
+        }, 
+        {
+            "location": "/about/features/#introspection-and-debugging", 
+            "text": "", 
+            "title": "Introspection and Debugging"
+        }, 
+        {
+            "location": "/about/features/#dtrace", 
+            "text": "", 
+            "title": "DTrace"
+        }, 
+        {
+            "location": "/about/features/#mdb", 
+            "text": "", 
+            "title": "mdb"
+        }, 
+        {
+            "location": "/about/features/#fault-management", 
+            "text": "", 
+            "title": "Fault Management"
+        }, 
+        {
+            "location": "/about/features/#service-management", 
+            "text": "", 
+            "title": "Service Management"
+        }, 
+        {
+            "location": "/about/features/#firewall", 
+            "text": "", 
+            "title": "Firewall"
+        }, 
+        {
+            "location": "/about/features/#virtual-networking", 
+            "text": "", 
+            "title": "Virtual Networking"
+        }, 
+        {
+            "location": "/about/features/#security", 
+            "text": "", 
+            "title": "Security"
+        }, 
+        {
+            "location": "/about/distro/", 
+            "text": "the illumos family\n\n\nIntroduction\n\n\nSimilar to other operating systems, there are many different OS distributions\nbased on the common illumos ecosystem.\n\n\nSome of them are maintained by enthusiasts, others are primarily developed by\ncommercial companies with their own priorities and focus, and some mainly\ndiffer in their packaging systems.\n\n\nMost of these projects contribute back to the common core set of software, which the\nillumos project is all about.\n\n\nComparison\n\n\nAll illumos-derived systems should include our \ncommon technologies\n.\n\n\nNot all distributions have the latest features or run on both x86 and SPARC.\n\n\nFor major feature differences, the following chart may be helpful.\n\n\nActive Spins\n\n\n\n\n\n\n\n\nProject\n\n\nProvider\n\n\nFocus\n\n\nLinux Comparison\n\n\nOpen Source\n\n\nPackaging\n\n\nx86\n\n\nSPARC\n\n\nKVM\n\n\nLX\n\n\n\n\n\n\n\n\n\n\nSmartOS\n\n\nJoyent\n\n\nHypervisor\n\n\nCoreOS\n\n\ncheck\n\n\npkgsrc\n\n\ncheck\n\n\n\n\ncheck\n\n\ncheck\n\n\n\n\n\n\nOmniOS CE\n\n\nOmniOS CE Association\n\n\nServers\n\n\nDebian\n\n\ncheck\n\n\nIPS\n\n\ncheck\n\n\n\n\ncheck\n\n\ncheck\n\n\n\n\n\n\nOpenIndiana\n\n\nOpenIndiana\n\n\nWorkstation, Servers\n\n\nUbuntu\n\n\ncheck\n\n\nIPS\n\n\ncheck\n\n\n\n\ncheck\n\n\n\n\n\n\n\n\nNexenStor\n\n\nNexenta\n\n\nStorage\n\n\n\n\n\n\nAPT\n\n\ncheck\n\n\n\n\n\n\n\n\n\n\n\n\nTribblix\n\n\nPeter Tribble\n\n\nWorkstation, Servers\n\n\nSlackware\n\n\ncheck\n\n\nSVR4\n\n\ncheck\n\n\ncheck\n\n\ncheck\n\n\n\n\n\n\n\n\nDilOS\n\n\nigork\n\n\nWorkstation, Servers\n\n\n\n\ncheck\n\n\nAPT\n\n\ncheck\n\n\ncheck\n\n\ncheck\n\n\ncheck\n\n\n\n\n\n\n\n\nUnmaintained Spins\n\n\n\n\n\n\n\n\nProject\n\n\nProvider\n\n\nFocus\n\n\nOpen Source\n\n\nPackaging\n\n\nx86\n\n\nSPARC\n\n\n\n\n\n\n\n\n\n\nv9os\n\n\nMilaX\n\n\nServer\n\n\ncheck\n\n\nIPS\n\n\n\n\ncheck\n\n\n\n\n\n\nXStreamOS\n\n\nSonicle\n\n\nServer\n\n\n\n\n\n\ncheck", 
+            "title": "Distributions"
+        }, 
+        {
+            "location": "/about/distro/#the-illumos-family", 
+            "text": "", 
+            "title": "the illumos family"
+        }, 
+        {
+            "location": "/about/distro/#introduction", 
+            "text": "Similar to other operating systems, there are many different OS distributions\nbased on the common illumos ecosystem.  Some of them are maintained by enthusiasts, others are primarily developed by\ncommercial companies with their own priorities and focus, and some mainly\ndiffer in their packaging systems.  Most of these projects contribute back to the common core set of software, which the\nillumos project is all about.", 
+            "title": "Introduction"
+        }, 
+        {
+            "location": "/about/distro/#comparison", 
+            "text": "All illumos-derived systems should include our  common technologies .  Not all distributions have the latest features or run on both x86 and SPARC.  For major feature differences, the following chart may be helpful.", 
+            "title": "Comparison"
+        }, 
+        {
+            "location": "/about/distro/#active-spins", 
+            "text": "Project  Provider  Focus  Linux Comparison  Open Source  Packaging  x86  SPARC  KVM  LX      SmartOS  Joyent  Hypervisor  CoreOS  check  pkgsrc  check   check  check    OmniOS CE  OmniOS CE Association  Servers  Debian  check  IPS  check   check  check    OpenIndiana  OpenIndiana  Workstation, Servers  Ubuntu  check  IPS  check   check     NexenStor  Nexenta  Storage    APT  check       Tribblix  Peter Tribble  Workstation, Servers  Slackware  check  SVR4  check  check  check     DilOS  igork  Workstation, Servers   check  APT  check  check  check  check", 
+            "title": "Active Spins"
+        }, 
+        {
+            "location": "/about/distro/#unmaintained-spins", 
+            "text": "Project  Provider  Focus  Open Source  Packaging  x86  SPARC      v9os  MilaX  Server  check  IPS   check    XStreamOS  Sonicle  Server    check", 
+            "title": "Unmaintained Spins"
         }, 
         {
             "location": "/about/leadership/", 
@@ -149,41 +249,6 @@
             "location": "/about/leadership/#things-advocates-focus-on", 
             "text": "Do you know the areas of the system affected well enough to even have an opinion?  If not, you should probably leave this for someone else who might (note that we don't have perfect coverage, so you can't just punt on everything).  Is the commit well-formed?  The author line should include both a name and a well formed email address, and should match the actual author. The format here is very important for SCM export. Don't just assume it's fine!  Is the pbchk output as clean as you want it to be?  In general, there should be no noise from any check, however some areas are not clean for the various style checks, you should check this is actually the case (in general, areas that are innately dirty are very dirty, and stand out).  Is the users build clean?  They'll be giving you a  mail_msg  file, it will ideally be absolutely free of any noise. In practice, there are times when there will be noise for other reasons, not related to their integration. You should check! One thing to double check is that lint was actually run. It's surprisingly easy to glance at an incremental build, and not notice that the source was never linted.  Did the submitter test their changes to your satisfaction?  Can you think of anything else that should be tested? Ask for it!  Did the testing actually test the area changed by the patch? Check!  Read the diff. Check that nothing stands out that reviewers may have missed  Feel free to run a build yourself, if you're paranoid, but don't feel compelled to.", 
             "title": "Things Advocates Focus On"
-        }, 
-        {
-            "location": "/about/distro/", 
-            "text": "the illumos family\n\n\nIntroduction\n\n\nSimilar to other operating systems, there are many different OS distributions\nbased on the common illumos ecosystem.\n\n\nSome of them are maintained by enthusiasts, others are primarily developed by\ncommercial companies with their own priorities and focus, and some mainly\ndiffer in their packaging systems.\n\n\nMost of these projects contribute back to the common core set of software, which the\nillumos project is all about.\n\n\nCommon Features\n\n\nAll illumos-derived systems should include the following technologies:\n\n\n\n\nDTrace\n\n\nmdb\n\n\nZFS\n\n\nZones\n\n\nVirtual networking (Crossbow)\n\n\nFault Management Framework\n\n\nService Management Framework\n\n\n\n\nComparison\n\n\nNot all distributions have the latest features or run on both x86 and SPARC.\nFor major feature differences, the following chart may be helpful.\n\n\nActive Spins\n\n\n\n\n\n\n\n\nProject\n\n\nSource\n\n\nFocus\n\n\nOpen Source\n\n\nPackaging\n\n\nx86\n\n\nSPARC\n\n\nKVM\n\n\nLX\n\n\n\n\n\n\n\n\n\n\nSmartOS\n\n\nJoyent\n\n\nHypervisor\n\n\ncheck\n\n\npkgsrc\n\n\ncheck\n\n\n\n\ncheck\n\n\ncheck\n\n\n\n\n\n\nOmniOS CE\n\n\nOmniOS CE Association\n\n\nServers\n\n\ncheck\n\n\nIPS\n\n\ncheck\n\n\n\n\ncheck\n\n\ncheck\n\n\n\n\n\n\nOpenIndiana\n\n\nOpenIndiana\n\n\nWorkstation, Servers\n\n\ncheck\n\n\nIPS\n\n\ncheck\n\n\n\n\ncheck\n\n\n\n\n\n\n\n\nNexenStor\n\n\nNexenta\n\n\nStorage\n\n\n\n\nAPT\n\n\ncheck\n\n\n\n\n\n\n\n\n\n\n\n\nTribblix\n\n\nPeter Tribble\n\n\nWorkstation, Servers\n\n\ncheck\n\n\nSVR4\n\n\ncheck\n\n\ncheck\n\n\ncheck\n\n\n\n\n\n\n\n\nDilOS\n\n\nigork\n\n\nWorkstation, Servers\n\n\ncheck\n\n\nAPT\n\n\ncheck\n\n\ncheck\n\n\ncheck\n\n\ncheck\n\n\n\n\n\n\n\n\nUnmaintained Spins\n\n\n\n\n\n\n\n\nProject\n\n\nSource\n\n\nFocus\n\n\nOpen Source\n\n\nPackaging\n\n\nx86\n\n\nSPARC\n\n\n\n\n\n\n\n\n\n\nv9os\n\n\nMilaX\n\n\nServer\n\n\ncheck\n\n\nIPS\n\n\n\n\ncheck\n\n\n\n\n\n\nXStreamOS\n\n\nSonicle\n\n\nServer\n\n\n\n\n\n\ncheck", 
-            "title": "Distributions"
-        }, 
-        {
-            "location": "/about/distro/#the-illumos-family", 
-            "text": "", 
-            "title": "the illumos family"
-        }, 
-        {
-            "location": "/about/distro/#introduction", 
-            "text": "Similar to other operating systems, there are many different OS distributions\nbased on the common illumos ecosystem.  Some of them are maintained by enthusiasts, others are primarily developed by\ncommercial companies with their own priorities and focus, and some mainly\ndiffer in their packaging systems.  Most of these projects contribute back to the common core set of software, which the\nillumos project is all about.", 
-            "title": "Introduction"
-        }, 
-        {
-            "location": "/about/distro/#common-features", 
-            "text": "All illumos-derived systems should include the following technologies:   DTrace  mdb  ZFS  Zones  Virtual networking (Crossbow)  Fault Management Framework  Service Management Framework", 
-            "title": "Common Features"
-        }, 
-        {
-            "location": "/about/distro/#comparison", 
-            "text": "Not all distributions have the latest features or run on both x86 and SPARC.\nFor major feature differences, the following chart may be helpful.", 
-            "title": "Comparison"
-        }, 
-        {
-            "location": "/about/distro/#active-spins", 
-            "text": "Project  Source  Focus  Open Source  Packaging  x86  SPARC  KVM  LX      SmartOS  Joyent  Hypervisor  check  pkgsrc  check   check  check    OmniOS CE  OmniOS CE Association  Servers  check  IPS  check   check  check    OpenIndiana  OpenIndiana  Workstation, Servers  check  IPS  check   check     NexenStor  Nexenta  Storage   APT  check       Tribblix  Peter Tribble  Workstation, Servers  check  SVR4  check  check  check     DilOS  igork  Workstation, Servers  check  APT  check  check  check  check", 
-            "title": "Active Spins"
-        }, 
-        {
-            "location": "/about/distro/#unmaintained-spins", 
-            "text": "Project  Source  Focus  Open Source  Packaging  x86  SPARC      v9os  MilaX  Server  check  IPS   check    XStreamOS  Sonicle  Server    check", 
-            "title": "Unmaintained Spins"
         }, 
         {
             "location": "/about/faq/", 
