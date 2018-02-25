@@ -14,7 +14,7 @@ of issues and see if any with status "New" fit your skill set.
 If you're looking for a longer-term project, we have a [list of ideas for new
 projects](https://wiki.illumos.org/display/illumos/Project+Ideas) for different
 levels skill and expertise. Alternatively you may look through the [mailing
-lists](community/lists.md) for suggestions for improvements.
+lists](../community/lists.md) for suggestions for improvements.
 
 If you are adding a new feature or addressing a problem not currently on our
 [list of issues](https://www.illumos.org/projects/illumos-gate/issues), please
