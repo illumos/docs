@@ -118,7 +118,7 @@ appropriate -B console=ttya or similar option.
 For a local console, you need a monitor and keyboard. On x86, this must be a
 PS/2 keyboard or a USB keyboard operating in USB legacy (PS/2 emulation) mode.
 
-To enable verbose boot messages and the kernel debugger (kmdb) on x86:
+### Enabling verbose boot messages and the kernel debugger (kmdb) on x86
 
 * At the GRUB prompt, highlight the boot environment with the arrow keys and press 'e' to edit the commands.
 * Highlight the splashimage line, if it exists, and press 'd' to delete.
@@ -126,18 +126,18 @@ To enable verbose boot messages and the kernel debugger (kmdb) on x86:
 * Append -kvd -m verbose to the end of the line (and remove console=graphics if it appears after -B)
 * Press 'Enter' when finished, and then press 'b' to boot.
 
-To enable verbose boot messages and the kernel debugger (kmdb) on SPARC:
+### Enabling verbose boot messages and the kernel debugger (kmdb) on SPARC:
 
 * Press 'Stop' ('L1'), then 'A' or send a BREAK on the serial line to interrupt the boot process, if necessary.
 * At the ok prompt, type boot -kvd -m verbose and press 'Enter'.
 
-On both platforms:
+### On both platforms
 
 * Wait for the kmdb> prompt to appear, then type moddebug/W 80000000 and press 'Enter'.
 * Type snooping/W 1 and press 'Enter'.
 * Type :c and press 'Enter'.
 
-If the system panics, copy down ::msgbuf, ::status and ::stack.
+If the system panics, copy down `::msgbuf`, `::status` and `::stack`.
 
 If the system hangs, copy down the last few lines regarding modules on screen,
 and do one of:
