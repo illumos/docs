@@ -56,6 +56,22 @@
     
 
     
+    <url>
+     <loc>/security/</loc>
+     <lastmod>2018-02-25</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>/flagdays/</loc>
+     <lastmod>2018-02-25</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
         
     <url>
      <loc>/about/history/</loc>
@@ -103,22 +119,6 @@
      <changefreq>daily</changefreq>
     </url>
         
-    
-
-    
-    <url>
-     <loc>/security/</loc>
-     <lastmod>2018-02-25</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
-     <loc>/flagdays/</loc>
-     <lastmod>2018-02-25</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
     
 
     
