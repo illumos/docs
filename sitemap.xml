@@ -53,9 +53,19 @@
      <changefreq>daily</changefreq>
     </url>
         
+    
+
+    
+        
     <url>
-     <loc></loc>
-     <lastmod></lastmod>
+     <loc>/about/history/</loc>
+     <lastmod>2018-02-25</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/about/announcement/</loc>
+     <lastmod>2018-02-25</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
