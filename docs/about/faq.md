@@ -63,12 +63,12 @@ Yes.
 
 Multiple community groups and interests (including people like you!) are
 stakeholders in the project, and anyone and everyone is welcome to
-[contribute](../user-guide/contrib.md).
+[contribute](../contributing/index.md).
 
 ## How do I start contributing?
 
 illumos thrives on the efforts of its contributors. Have a look at the guide on
-[How To Contribute](../user-guide/contrib.md) if you want to submit code.
+[How To Contribute](../contributing/index.md) if you want to submit code.
 
 If you want to help in other ways then have a look at the [Mailing
 Lists](../community/lists.md).

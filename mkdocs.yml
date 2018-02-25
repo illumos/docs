@@ -7,6 +7,7 @@ pages:
   - 'About':
     - 'What is illumos?': 'about/index.md'
     - 'Who uses illumos?': 'about/who.md'
+    - 'Features': 'about/features.md'
     - 'Leadership': 'about/leadership.md'
     - 'Distributions': 'about/distro.md'
     - 'FAQ': 'about/faq.md'
@@ -18,12 +19,14 @@ pages:
     - 'Getting Started': 'user-guide/index.md'
     - 'Bug Reporting': 'user-guide/bugs.md'
     - 'Building illumos': 'user-guide/build.md'
-    - 'Contributing': 'user-guide/contrib.md'
     - 'Manuals': 'user-guide/manual.md'
-    - 'Quality': 'user-guide/quality.md'
     - 'Debugging': 'user-guide/debug.md'
   - 'Security': 'security/index.md'
   - 'Flag Days': 'flagdays/index.md'
+  - 'Contributing':
+    - 'Overview': 'contributing/index.md'
+    - 'System state': 'contributing/quality.md'
+    - 'Quality Death Spiral': 'contributing/qds.md'
   - 'Community':
     - 'Overview': 'community/index.md'
     - 'Mailing Lists': 'community/lists.md'
