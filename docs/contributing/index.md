@@ -3,10 +3,6 @@
 
 # Contributing to illumos
 
-!!! note "RTI Process"
-    The Request To Integrate process is also documented in the [illumos
-    Developer's Guide](https://illumos.org/books/dev/integrating.html).
-
 ## Overview
 
 Committing code to illumos can seem very daunting. To get started, you might
@@ -15,6 +11,10 @@ consider watching [Ryan Zezeski]() going through fixing a bug in ZFS in this
 
 * [video](https://www.youtube.com/watch?v=HXjIz-RzhK8)
 * [slides](http://zinascii.com/pub/talks/fixing-bugs-in-illumos.pdf)
+
+!!! note "RTI Process"
+    The Request To Integrate process is also documented in the [illumos
+    Developer's Guide](https://illumos.org/books/dev/integrating.html).
 
 ## Finding An Area To Contribute To
 
