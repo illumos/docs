@@ -24,6 +24,12 @@
     </url>
         
     <url>
+     <loc>/about/features/</loc>
+     <lastmod>2018-02-25</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
      <loc>/about/leadership/</loc>
      <lastmod>2018-02-25</lastmod>
      <changefreq>daily</changefreq>
@@ -76,19 +82,7 @@
     </url>
         
     <url>
-     <loc>/user-guide/contrib/</loc>
-     <lastmod>2018-02-25</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
      <loc>/user-guide/manual/</loc>
-     <lastmod>2018-02-25</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>/user-guide/quality/</loc>
      <lastmod>2018-02-25</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -115,6 +109,28 @@
      <lastmod>2018-02-25</lastmod>
      <changefreq>daily</changefreq>
     </url>
+    
+
+    
+        
+    <url>
+     <loc>/contributing/</loc>
+     <lastmod>2018-02-25</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/contributing/quality/</loc>
+     <lastmod>2018-02-25</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/contributing/qds/</loc>
+     <lastmod>2018-02-25</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
     
 
     
