@@ -12,6 +12,8 @@ pages:
     - 'Distributions': 'about/distro.md'
     - 'FAQ': 'about/faq.md'
     - 'Logo': 'about/logo.md'
+  - 'Security': 'security/index.md'
+  - 'Flag Days': 'flagdays/index.md'
   - 'History':
     - 'Overview': 'about/history.md'
     - 'Announcement': 'about/announcement.md'
@@ -31,8 +33,6 @@ pages:
       - 'Overview': 'user-guide/debug.md'
       - 'Systems': 'user-guide/debug-systems.md'
       - 'Applications': 'user-guide/debug-apps.md'
-  - 'Security': 'security/index.md'
-  - 'Flag Days': 'flagdays/index.md'
   - 'Contributing':
     - 'Overview': 'contributing/index.md'
     - 'System state': 'contributing/quality.md'
