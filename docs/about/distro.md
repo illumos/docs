@@ -1,5 +1,7 @@
 # the illumos family
 
+## Introduction
+
 Similar to other operating systems, there are many different OS distributions
 based on the common illumos ecosystem.
 
@@ -9,6 +11,8 @@ differ in their packaging systems.
 
 Most of these projects contribute back to the common core set of software, which the
 illumos project is all about.
+
+## Common Features
 
 All illumos-derived systems should include the following technologies:
 
@@ -20,10 +24,10 @@ All illumos-derived systems should include the following technologies:
 * Fault Management Framework
 * Service Management Framework
 
+## Comparison
+
 Not all distributions have the latest features or run on both x86 and SPARC.
 For major feature differences, the following chart may be helpful.
-
-## Comparison
 
 ### Active Spins
 

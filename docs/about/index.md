@@ -12,15 +12,14 @@ To quote the [illumos Developer's Guide](http://illumos.org/books/dev/):
     UNIX and BSD.
 
 illumos itself does not offer an OS distribution -- it is the core from which
-[distributions](distro.md) can be created. This is similar to how the BSD projects are
-organized, though different components are available (or not.)
+[distributions](distro.md) can be created.
 
 Please see the [history page](history.md) for more information about the
 origins of illumos.
 
 ### Licensing
 
-illumos is licensed under the CDDL.
+illumos is licensed under the [CDDL](https://en.wikipedia.org/wiki/Common_Development_and_Distribution_License).
 
 ### Community Values
 
@@ -34,7 +33,7 @@ The following are shared development tenets and features for distributions utili
 * Stability
 * SMP support for many CPUs
 * Security multi-user facilities like Roles and Privileges
-* Multi-_tenancy_ with Zones
+* Multi-tenancy with Zones
 * Unparalleled system introspection with [DTrace](http://dtrace.org/guide/)
 * A single pipeline for system issues with the Fault Management Architecture (FMA)
 * Network virtualization with Crossbow
@@ -68,7 +67,7 @@ database](http://eng.joyent.com/manufacturing/bom.html).
 ### illumos Development Model
 
 Please refer to the [illumos Developer's Guide](http://illumos.org/books/dev/)
-which describes how illumos is built.
+and the [development section](../developers/index.md).
 
 ### Contributing to illumos
 

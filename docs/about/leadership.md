@@ -3,38 +3,39 @@
 There are two levels of leadership in the illumos project: Members of the Dev
 Council, and Request To Integrate (RTI) Advocates.
 
+## Developer Council
+
+The Dev Council is a technical steering committee drawn from well-known
+developers of Solaris, whose role is to make high-level architecture decisions.
+
+| Member          | Organization |
+| --------------- | ------------ |
+| Adam Leventhal  | Delphix      |
+| Bryan Cantrill  | Joyent       |
+| Garrett D’Amore | unaffiliated |
+| Gordon Ross     | Nexenta      |
+| Rich Lowe       | unaffiliated |
+
+## Advocates
+
 Advocates are the gatekeepers to the illumos core: they have the ultimate say
 in what code is accepted, and their primary job is to ensure quality and
 stability for all illumos users.
 
-Advocates are appointed by the illumos Developer Council, a technical steering
-committee drawn from well-known developers of Solaris, whose role is to make
-high-level architecture decisions.
-
-# Developer Council
-
-| Member          | Organization |
-| --------------- | ------------ |
-| Bryan Cantrill  | Joyent |
-| Garrett D’Amore | unaffiliated |
-| Adam Leventhal  | Delphix |
-| Rich Lowe       |  unaffiliated |
-| Gordon Ross     | Nexenta |
-
-# Advocates
+Advocates are appointed by the illumos Developer Council.
 
 | Member            | Handle     | Organization | Expertise |
 | ----------------- | ---------- | ------------ | --------- |
-| Garrett D'Amore   | gdamore    | unaffiliated | Drivers, etc. |
 | Albert Lee        | trisk      | SoftNAS      | Storage, drivers, userland. |
-| Rich Lowe         | richlowe   | unaffiliated | Misc. |
-| Dan McDonald      | danmcd     | Joyent       | Cryptography, Networking |
-| Robert Mustacchi  | rmustacc   | Joyent       | Virtualization, SMF, PCI, MDB, DTrace, x86 platform, etc. |
-| Gordon Ross       | gwr        | Nexenta      | CIFS/SMB, VFS layer, ZFS ACLs, etc. |
 | Chris Siden       | csiden     | Delphix      | ZFS |
-| Matt Ahrens       | mahrens    | Delphix      | ZFS |
+| Dan McDonald      | danmcd     | Joyent       | Cryptography, Networking |
+| Garrett D'Amore   | gdamore    | unaffiliated | Drivers, etc. |
+| Gordon Ross       | gwr        | Nexenta      | CIFS/SMB, VFS layer, ZFS ACLs, etc. |
 | Hans Rosenfeld    | Woodstock  | Joyent       | Misc. |
 | Joshua M. Clulow  | LeftWing   | Joyent       | Misc. |
+| Matt Ahrens       | mahrens    | Delphix      | ZFS |
+| Rich Lowe         | richlowe   | unaffiliated | Misc. |
+| Robert Mustacchi  | rmustacc   | Joyent       | Virtualization, SMF, PCI, MDB, DTrace, x86 platform, etc. |
 
 ## Life as an Advocate
 
@@ -64,7 +65,7 @@ the work involved.
 * Is the pbchk output as clean as you want it to be?
 * In general, there should be no noise from any check, however some areas are not clean for the various style checks, you should check this is actually the case (in general, areas that are innately dirty are very dirty, and stand out).
 * Is the users build clean?
-* They'll be giving you a mail_msg file, it will ideally be absolutely free of any noise. In practice, there are times when there will be noise for other reasons, not related to their integration. You should check! One thing to double check is that lint was actually run. It's surprisingly easy to glance at an incremental build, and not notice that the source was never linted.
+* They'll be giving you a `mail_msg` file, it will ideally be absolutely free of any noise. In practice, there are times when there will be noise for other reasons, not related to their integration. You should check! One thing to double check is that lint was actually run. It's surprisingly easy to glance at an incremental build, and not notice that the source was never linted.
 * Did the submitter test their changes to your satisfaction?
   * Can you think of anything else that should be tested? Ask for it!
   * Did the testing actually test the area changed by the patch? Check!
