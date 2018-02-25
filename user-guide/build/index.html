@@ -524,6 +524,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#hardware-support" title="Hardware Support" class="md-nav__link">
+    Hardware Support
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#installing-required-packages" title="Installing required packages" class="md-nav__link">
     Installing required packages
   </a>
@@ -1010,6 +1017,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#hardware-support" title="Hardware Support" class="md-nav__link">
+    Hardware Support
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#installing-required-packages" title="Installing required packages" class="md-nav__link">
     Installing required packages
   </a>
@@ -1093,15 +1107,18 @@
 <h2 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h2>
 <p>This document will help prepare you to build the source code for illumos. It
 assumes some familiarity with development on Unix-like systems.</p>
+<div class="admonition tip">
+<p class="admonition-title">My First illumos Build</p>
+<p>If you are just dipping your toes into illumos, you should consider reading
+<a href="https://zinascii.com/2014/my-first-illumos-build.html">Ryan Zezeski's post on his own first
+build</a>!</p>
+</div>
 <p>You need an illumos-based operating system to build illumos. Cross-compilation
-is not supported).</p>
+is not supported.</p>
 <p>If you don't have one installed, the quickest way to get started is to download
 and install either <a href="https://openindiana.org">OpenIndiana</a> or
-<a href="https://www.omniosce.org/">OmniOS</a>.</p>
-<p>You may use a virtual machine – compilation performance may suffer, but it is
-functional. Some other distributions support self-hosting, including
-compilation of illumos-gate, as well.</p>
-<div class="admonition note">
+<a href="https://www.omniosce.org/">OmniOS</a> and install them in a VM or on metal.</p>
+<div class="admonition tip">
 <p>All commands in this guide assume you run them as an unprivileged user.
 sudo will be prepended to commands which need additional privileges; on some
 systems pfexec can be used instead, if your user has the correct RBAC profiles.
@@ -1111,6 +1128,11 @@ project. If you are not using a stock shell or have manipulated the $USER
 variable in your environment at a site, system, or user level, you are
 responsible for diagnosing and addressing any consequences.</p>
 </div>
+<h2 id="hardware-support">Hardware Support<a class="headerlink" href="#hardware-support" title="Permanent link">&para;</a></h2>
+<p>You'll generally have good luck with common x86 components, but it's always a
+good idea to refer to the <a href="https://www.illumos.org/hcl/">Hardware Combatibility
+List</a> or Joyent's <a href="http://eng.joyent.com/manufacturing/bom.html">Manufactory
+database</a>.</p>
 <h2 id="installing-required-packages">Installing required packages<a class="headerlink" href="#installing-required-packages" title="Permanent link">&para;</a></h2>
 <p>You will need to install the basic development environment to build illumos.</p>
 <h3 id="openindiana">OpenIndiana<a class="headerlink" href="#openindiana" title="Permanent link">&para;</a></h3>
