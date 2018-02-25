@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/", 
-            "text": "illumos is an open source UNIX-like operating system.\n\n\nillumos provides next-generation operating system features for downstream\n\ndistributions\n, including \nadvanced system\ndebugging\n, \nnext generation\nfilesystem\n, networking, and virtualization options.\n\n\nillumos is freely available from our \nsource\nrepository\n, and most distributions\nbased on it are also open source.\n\n\nillumos is \ndeveloped\n by community members volunteering their time and\nenergy, and companies of all sizes. \n\n\nWe believe in cross-pollinating technology and collaborating with other open\nsource projects.\n\n\nPlease see the \nabout\n page to learn more!", 
+            "text": "illumos is an open source UNIX-like operating system.\n\n\nillumos provides next-generation operating system features for downstream\n\ndistributions\n, including \nadvanced system\ndebugging\n, \nnext generation\nfilesystem\n, networking, and virtualization options.\n\n\nillumos is freely available from our \nsource\nrepository\n, and most distributions\nbased on it are also open source. You can see recent changes\n\nhere\n.\n\n\nillumos is \ndeveloped\n by both volunteers and companies building\nproducts on top of the software.\n\n\nWe believe in cross-pollinating technology and collaborating with other open\nsource projects.\n\n\nPlease see the \nabout\n page to learn more!", 
             "title": "Home"
         }, 
         {
@@ -297,7 +297,7 @@
         }, 
         {
             "location": "/user-guide/", 
-            "text": "Getting Started\n\n\nBooks\n\n\nThere are a number of \nbooks\n available.\n\n\nIf your goal is to work on illumos itself, the \nDeveloper's\nGuide\n is the place to start.", 
+            "text": "Getting Started\n\n\nIntroduction\n\n\nAs illumos is the core of an operating system -- but not a distribution itself,\nthe easiest way to get started with illumos is to \ndownload a\ndistro\n and start playing.\n\n\nBooks\n\n\nThere are a number of \nbooks\n relating to illumos\ntechnologies available.\n\n\nIf your goal is to work on illumos itself, the \nDeveloper's\nGuide\n or \nbuilding illumos\n are good\nplaces to get started.", 
             "title": "Getting Started"
         }, 
         {
@@ -306,8 +306,13 @@
             "title": "Getting Started"
         }, 
         {
+            "location": "/user-guide/#introduction", 
+            "text": "As illumos is the core of an operating system -- but not a distribution itself,\nthe easiest way to get started with illumos is to  download a\ndistro  and start playing.", 
+            "title": "Introduction"
+        }, 
+        {
             "location": "/user-guide/#books", 
-            "text": "There are a number of  books  available.  If your goal is to work on illumos itself, the  Developer's\nGuide  is the place to start.", 
+            "text": "There are a number of  books  relating to illumos\ntechnologies available.  If your goal is to work on illumos itself, the  Developer's\nGuide  or  building illumos  are good\nplaces to get started.", 
             "title": "Books"
         }, 
         {
