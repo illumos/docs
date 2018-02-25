@@ -28,6 +28,8 @@ pages:
       - 'Comparing with webrev': 'user-guide/build-comp-webrev.md'
     - 'Manuals': 'user-guide/manual.md'
     - 'Debugging': 'user-guide/debug.md'
+      - 'Systems': 'user-guide/debug-systems.md'
+      - 'Applications': 'user-guide/debug-apps.md'
   - 'Security': 'security/index.md'
   - 'Flag Days': 'flagdays/index.md'
   - 'Contributing':
