@@ -92,7 +92,7 @@
         }, 
         {
             "location": "/about/features/", 
-            "text": "debug\nfault\nfilesystem\nfirewall\nlinux\nnetwork\nsecurity\nservice\nvirtualization", 
+            "text": "debug\n\n\nfault management\n\n\nfilesystem\n\n\nfirewall\n\n\nlinux emulation\n\n\nvirtual network\n\n\nsecurity\n\n\nservice\n\n\nvirtualization types", 
             "title": "Features"
         }, 
         {
@@ -132,38 +132,28 @@
         }, 
         {
             "location": "/about/distro/", 
-            "text": "the illumos family\n\n\nSimilar to other operating systems, there are many different OS distributions\nbased on the common illumos kernel. Some of them are maintained by enthusiasts,\nothers are primarily developed by commercial companies with their own\npriorities and target products (i.e. storage, virtualization, etc.) with\ndifferent packaging systems (IPS, SVR4, DEB, RPM, etc). These projects\ncontribute back to the common core set of software which the illumos project is\nabout.\n\n\nSmartOS\n\n\nSmartOS\n from \nJoyent\n is a\npurpose-built, container-native hypervisor and lightweight container host OS\nfor secure, performant, and convenient container hosting in public and private\nclouds.\n\n\nOmniOS CE\n\n\nOmniOS Community Edition\n takes a minimalist\napproach to create a full illumos-derived operating system. It's targeted for\nserver use.\n\n\nOmniOS was founded by \nOmniTI\n, and is now maintained by\nthe \nOmniOS Community Edition Association\n.\n\n\nOpenIndiana\n\n\nOpenIndiana\n is a successor to and derived from\nthe original Sun OpenSolaris reference distribution, and is suitable for use on\ndesktop and servers.\n\n\nTribblix\n\n\nTribblix\n is the \"retro\" illumos distribution.\nSuitable for both desktop and server usage.\n\n\nAnd others...", 
+            "text": "the illumos family\n\n\nSimilar to other operating systems, there are many different OS distributions\nbased on the common illumos ecosystem.\n\n\nSome of them are maintained by enthusiasts, others are primarily developed by\ncommercial companies with their own priorities and focus, and some mainly\ndiffer in their packaging systems.\n\n\nMost of these projects contribute back to the common core set of software, which the\nillumos project is all about.\n\n\nAll illumos-derived systems should include the following technologies:\n\n\n\n\nDTrace\n\n\nmdb\n\n\nZFS\n\n\nZones\n\n\nVirtual networking (Crossbow)\n\n\nFault Management Framework\n\n\nService Management Framework\n\n\n\n\nNot all distributions have the latest features or run on both x86 and SPARC.\nFor major feature differences, the following chart may be helpful.\n\n\nComparison\n\n\nActive Spins\n\n\n\n\n\n\n\n\nProject\n\n\nSource\n\n\nFocus\n\n\nOpen Source\n\n\nPackaging\n\n\nx86\n\n\nSPARC\n\n\nKVM\n\n\nLX\n\n\n\n\n\n\n\n\n\n\nSmartOS\n\n\nJoyent\n\n\nHypervisor\n\n\ncheck\n\n\npkgsrc\n\n\ncheck\n\n\n\n\ncheck\n\n\ncheck\n\n\n\n\n\n\nOmniOS CE\n\n\nOmniOS CE Association\n\n\nServers\n\n\ncheck\n\n\nIPS\n\n\ncheck\n\n\n\n\ncheck\n\n\ncheck\n\n\n\n\n\n\nOpenIndiana\n\n\nOpenIndiana\n\n\nWorkstation, Servers\n\n\ncheck\n\n\nIPS\n\n\ncheck\n\n\n\n\ncheck\n\n\n\n\n\n\n\n\nNexenStor\n\n\nNexenta\n\n\nStorage\n\n\n\n\nAPT\n\n\ncheck\n\n\n\n\n\n\n\n\n\n\n\n\nTribblix\n\n\nPeter Tribble\n\n\nWorkstation, Servers\n\n\ncheck\n\n\nSVR4\n\n\ncheck\n\n\ncheck\n\n\ncheck\n\n\n\n\n\n\n\n\nDilOS\n\n\nigork\n\n\nWorkstation, Servers\n\n\ncheck\n\n\nAPT\n\n\ncheck\n\n\ncheck\n\n\ncheck\n\n\ncheck\n\n\n\n\n\n\n\n\nUnmaintained Spins\n\n\n\n\n\n\n\n\nProject\n\n\nSource\n\n\nFocus\n\n\nOpen Source\n\n\nPackaging\n\n\nx86\n\n\nSPARC\n\n\n\n\n\n\n\n\n\n\nv9os\n\n\nMilaX\n\n\nServer\n\n\ncheck\n\n\nIPS\n\n\n\n\ncheck\n\n\n\n\n\n\nXStreamOS\n\n\nSonicle\n\n\nServer\n\n\n\n\n\n\ncheck", 
             "title": "Distributions"
         }, 
         {
             "location": "/about/distro/#the-illumos-family", 
-            "text": "Similar to other operating systems, there are many different OS distributions\nbased on the common illumos kernel. Some of them are maintained by enthusiasts,\nothers are primarily developed by commercial companies with their own\npriorities and target products (i.e. storage, virtualization, etc.) with\ndifferent packaging systems (IPS, SVR4, DEB, RPM, etc). These projects\ncontribute back to the common core set of software which the illumos project is\nabout.", 
+            "text": "Similar to other operating systems, there are many different OS distributions\nbased on the common illumos ecosystem.  Some of them are maintained by enthusiasts, others are primarily developed by\ncommercial companies with their own priorities and focus, and some mainly\ndiffer in their packaging systems.  Most of these projects contribute back to the common core set of software, which the\nillumos project is all about.  All illumos-derived systems should include the following technologies:   DTrace  mdb  ZFS  Zones  Virtual networking (Crossbow)  Fault Management Framework  Service Management Framework   Not all distributions have the latest features or run on both x86 and SPARC.\nFor major feature differences, the following chart may be helpful.", 
             "title": "the illumos family"
         }, 
         {
-            "location": "/about/distro/#smartos", 
-            "text": "SmartOS  from  Joyent  is a\npurpose-built, container-native hypervisor and lightweight container host OS\nfor secure, performant, and convenient container hosting in public and private\nclouds.", 
-            "title": "SmartOS"
-        }, 
-        {
-            "location": "/about/distro/#omnios-ce", 
-            "text": "OmniOS Community Edition  takes a minimalist\napproach to create a full illumos-derived operating system. It's targeted for\nserver use.  OmniOS was founded by  OmniTI , and is now maintained by\nthe  OmniOS Community Edition Association .", 
-            "title": "OmniOS CE"
-        }, 
-        {
-            "location": "/about/distro/#openindiana", 
-            "text": "OpenIndiana  is a successor to and derived from\nthe original Sun OpenSolaris reference distribution, and is suitable for use on\ndesktop and servers.", 
-            "title": "OpenIndiana"
-        }, 
-        {
-            "location": "/about/distro/#tribblix", 
-            "text": "Tribblix  is the \"retro\" illumos distribution.\nSuitable for both desktop and server usage.", 
-            "title": "Tribblix"
-        }, 
-        {
-            "location": "/about/distro/#and-others", 
+            "location": "/about/distro/#comparison", 
             "text": "", 
-            "title": "And others..."
+            "title": "Comparison"
+        }, 
+        {
+            "location": "/about/distro/#active-spins", 
+            "text": "Project  Source  Focus  Open Source  Packaging  x86  SPARC  KVM  LX      SmartOS  Joyent  Hypervisor  check  pkgsrc  check   check  check    OmniOS CE  OmniOS CE Association  Servers  check  IPS  check   check  check    OpenIndiana  OpenIndiana  Workstation, Servers  check  IPS  check   check     NexenStor  Nexenta  Storage   APT  check       Tribblix  Peter Tribble  Workstation, Servers  check  SVR4  check  check  check     DilOS  igork  Workstation, Servers  check  APT  check  check  check  check", 
+            "title": "Active Spins"
+        }, 
+        {
+            "location": "/about/distro/#unmaintained-spins", 
+            "text": "Project  Source  Focus  Open Source  Packaging  x86  SPARC      v9os  MilaX  Server  check  IPS   check    XStreamOS  Sonicle  Server    check", 
+            "title": "Unmaintained Spins"
         }, 
         {
             "location": "/about/faq/", 
