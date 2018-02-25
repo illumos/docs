@@ -1,6 +1,4 @@
 !!! warning "Requires Review"
-    This page references some old practices and needs to be reviewed.
-
     This page contains incomplete content and needs to be finished.
 
 # Bug Trackers
@@ -19,7 +17,7 @@ The project maintains a [public bug tracker](https://bugs.illumos.org).
 Before creating new issues in the bug tracker, please do a search to determine
 if the problem is known or resolved.
 
-Please see the [debugging](user-guide/debugging.md) section for help with troubleshooting problems.
+Please see the [debugging](debug.md) section for help with troubleshooting problems.
 
 ## Creating a problem report
 
