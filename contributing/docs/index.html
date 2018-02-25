@@ -775,6 +775,33 @@
     Process
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#local-development" title="Local Development" class="md-nav__link">
+    Local Development
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#online-development" title="Online Development" class="md-nav__link">
+    Online Development
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#review" title="Review" class="md-nav__link">
+    Review
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -1012,6 +1039,33 @@
     Process
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#local-development" title="Local Development" class="md-nav__link">
+    Local Development
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#online-development" title="Online Development" class="md-nav__link">
+    Online Development
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#review" title="Review" class="md-nav__link">
+    Review
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -1043,12 +1097,33 @@
                 <h1 id="contributing-documentation">Contributing Documentation<a class="headerlink" href="#contributing-documentation" title="Permanent link">&para;</a></h1>
 <h2 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h2>
 <p>If you'd like to help expand our documentation, we'd love the assistance.</p>
+<p>This site is <a href="https://github.com/illumos/docs/">hosted on GitHub</a> and uses
+<a href="http://www.mkdocs.org/">mkdocs</a>.</p>
 <h2 id="process">Process<a class="headerlink" href="#process" title="Permanent link">&para;</a></h2>
 <p>If you notice an error or see something that can be improved, or you want to
-write a whole new section, fork the
-<a href="https://github.com/illumos/docs/">illumos/docs</a> repo and submit a Pull
-Request. Your changes will go through a review process and hopefully be merged
-in!</p>
+write a whole new section, you have a couple options:</p>
+<h3 id="local-development">Local Development<a class="headerlink" href="#local-development" title="Permanent link">&para;</a></h3>
+<p>Fork the <a href="https://github.com/illumos/docs/">illumos/docs</a> repo and submit a
+Pull Request.</p>
+<p>You'll need to <a href="http://www.mkdocs.org/#installation">install mkdocs</a>, and some
+of our dependencies on your workstation to help with development and testing.</p>
+<div class="codehilite"><pre><span></span>pip install mkdocs
+pip install mkdocs-material
+pip install markdown-include
+</pre></div>
+
+<p>We enable a number of extensions. You might want to review the documentation
+for them. Some of the more useful ones are:</p>
+<ul>
+<li><a href="https://squidfunk.github.io/mkdocs-material/extensions/admonition/">https://squidfunk.github.io/mkdocs-material/extensions/admonition/</a></li>
+<li><a href="https://squidfunk.github.io/mkdocs-material/extensions/codehilite/">https://squidfunk.github.io/mkdocs-material/extensions/codehilite/</a></li>
+<li><a href="https://squidfunk.github.io/mkdocs-material/extensions/pymdown/">https://squidfunk.github.io/mkdocs-material/extensions/pymdown/</a></li>
+</ul>
+<h3 id="online-development">Online Development<a class="headerlink" href="#online-development" title="Permanent link">&para;</a></h3>
+<p>Alternatively, you can edit the page directly in GitHub, and submit a Pull
+Request.</p>
+<h3 id="review">Review<a class="headerlink" href="#review" title="Permanent link">&para;</a></h3>
+<p>Your changes will go through a review process and hopefully be merged in!</p>
 <h2 id="help-wanted">Help Wanted!<a class="headerlink" href="#help-wanted" title="Permanent link">&para;</a></h2>
 <p>We've already identified some key pages where we need to improve documentation;
 have a look at the <a href="">open issues</a> for the doc repository to see if you can
