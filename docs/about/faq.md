@@ -49,21 +49,19 @@ There still remain some binary-only, closed source components that we inherited
 from Oracle which we are working to replace. Unlike OpenSolaris, we do not
 require a closed source compiler.
 
-## Is illumos a Nexenta or Joyent project?
+## Is illumos a community project?
+
+Yes!
+
+Multiple community groups and interests (including people like you!) are
+stakeholders in the project, and anyone and everyone is welcome to
+[contribute](../contributing/index.md).
 
 illumos was initiated by then-employees of Nexenta in collaboration with former
 OpenSolaris community members and volunteers. While companies including
 Nexenta, Joyent, and Delphix sponsor some of the work in illumos, the project
 is independent of their business decisions. illumos exists as a common base for
 multiple commercial and community distributions.
-
-## Is illumos a community project?
-
-Yes.
-
-Multiple community groups and interests (including people like you!) are
-stakeholders in the project, and anyone and everyone is welcome to
-[contribute](../contributing/index.md).
 
 ## How do I start contributing?
 
