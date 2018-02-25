@@ -102,12 +102,6 @@
     </url>
         
     <url>
-     <loc></loc>
-     <lastmod></lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
      <loc>/user-guide/manual/</loc>
      <lastmod>2018-02-25</lastmod>
      <changefreq>daily</changefreq>
@@ -116,6 +110,64 @@
     <url>
      <loc></loc>
      <lastmod></lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>/developers/</loc>
+     <lastmod>2018-02-25</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/developers/build-illumos/</loc>
+     <lastmod>2018-02-25</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/developers/build-times/</loc>
+     <lastmod>2018-02-25</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/developers/build-components/</loc>
+     <lastmod>2018-02-25</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/developers/build-datasets/</loc>
+     <lastmod>2018-02-25</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/developers/workspaces/</loc>
+     <lastmod>2018-02-25</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/developers/multibug/</loc>
+     <lastmod>2018-02-25</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/developers/studio/</loc>
+     <lastmod>2018-02-25</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/developers/comp-webrev/</loc>
+     <lastmod>2018-02-25</lastmod>
      <changefreq>daily</changefreq>
     </url>
         

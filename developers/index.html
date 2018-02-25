@@ -36,7 +36,7 @@
     
     
       
-        <title>Projects - illumos</title>
+        <title>Overview - illumos</title>
       
     
     
@@ -89,6 +89,10 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search">
     <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
     
+      <a href="#how-to-build-illumos" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
     
       <header class="md-header" data-md-component="header">
   <nav class="md-header-nav md-grid">
@@ -111,7 +115,7 @@
                 illumos
               </span>
               <span class="md-header-nav__topic">
-                Projects
+                Overview
               </span>
             
           
@@ -538,10 +542,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7" checked>
     
     <label class="md-nav__link" for="nav-7">
       Development
@@ -557,11 +563,117 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../developers/" title="Overview" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        Overview
+      </label>
+    
+    <a href="./" title="Overview" class="md-nav__link md-nav__link--active">
       Overview
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" title="Introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hardware-support" title="Hardware Support" class="md-nav__link">
+    Hardware Support
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installing-required-packages" title="Installing required packages" class="md-nav__link">
+    Installing required packages
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#openindiana" title="OpenIndiana" class="md-nav__link">
+    OpenIndiana
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#omnios" title="OmniOS" class="md-nav__link">
+    OmniOS
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#compilers" title="Compilers" class="md-nav__link">
+    Compilers
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gcc" title="GCC" class="md-nav__link">
+    GCC
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sun-studio" title="Sun Studio" class="md-nav__link">
+    Sun Studio
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#next-steps" title="Next Steps" class="md-nav__link">
+    Next Steps
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
         
@@ -571,7 +683,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../developers/build-illumos/" title="Building illumos" class="md-nav__link">
+    <a href="build-illumos/" title="Building illumos" class="md-nav__link">
       Building illumos
     </a>
   </li>
@@ -583,7 +695,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../developers/build-times/" title="Build times" class="md-nav__link">
+    <a href="build-times/" title="Build times" class="md-nav__link">
       Build times
     </a>
   </li>
@@ -595,7 +707,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../developers/build-components/" title="Building Components" class="md-nav__link">
+    <a href="build-components/" title="Building Components" class="md-nav__link">
       Building Components
     </a>
   </li>
@@ -607,7 +719,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../developers/build-datasets/" title="Build Datasets" class="md-nav__link">
+    <a href="build-datasets/" title="Build Datasets" class="md-nav__link">
       Build Datasets
     </a>
   </li>
@@ -619,7 +731,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../developers/workspaces/" title="Multiple Workspaces" class="md-nav__link">
+    <a href="workspaces/" title="Multiple Workspaces" class="md-nav__link">
       Multiple Workspaces
     </a>
   </li>
@@ -631,7 +743,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../developers/multibug/" title="Working Multiple Bugs" class="md-nav__link">
+    <a href="multibug/" title="Working Multiple Bugs" class="md-nav__link">
       Working Multiple Bugs
     </a>
   </li>
@@ -643,7 +755,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../developers/studio/" title="Building with Sun Studio" class="md-nav__link">
+    <a href="studio/" title="Building with Sun Studio" class="md-nav__link">
       Building with Sun Studio
     </a>
   </li>
@@ -655,7 +767,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../developers/comp-webrev/" title="Comparing with webrev" class="md-nav__link">
+    <a href="comp-webrev/" title="Comparing with webrev" class="md-nav__link">
       Comparing with webrev
     </a>
   </li>
@@ -898,18 +1010,11 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
-    
-    
-    <a href="./" title="Projects" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../projects/" title="Projects" class="md-nav__link">
       Projects
     </a>
-    
   </li>
 
     
@@ -920,17 +1025,195 @@
               </div>
             
             
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" title="Introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hardware-support" title="Hardware Support" class="md-nav__link">
+    Hardware Support
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installing-required-packages" title="Installing required packages" class="md-nav__link">
+    Installing required packages
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#openindiana" title="OpenIndiana" class="md-nav__link">
+    OpenIndiana
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#omnios" title="OmniOS" class="md-nav__link">
+    OmniOS
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#compilers" title="Compilers" class="md-nav__link">
+    Compilers
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gcc" title="GCC" class="md-nav__link">
+    GCC
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sun-studio" title="Sun Studio" class="md-nav__link">
+    Sun Studio
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#next-steps" title="Next Steps" class="md-nav__link">
+    Next Steps
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/illumos/docs/edit/master/docs/projects/index.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                  <a href="https://github.com/illumos/docs/edit/master/docs/developers/index.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                  <h1>Projects</h1>
-                
-                
+                <h1 id="how-to-build-illumos">How to build illumos<a class="headerlink" href="#how-to-build-illumos" title="Permanent link">&para;</a></h1>
+<div class="admonition note">
+<p>Please also refer to the <a href="https://illumos.org/books/dev/intro.html">illumos Developer's Guide</a>.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Requires Review</p>
+<p>This page references some old practices and needs to be reviewed.</p>
+</div>
+<h2 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h2>
+<p>This document will help prepare you to build the source code for illumos. It
+assumes some familiarity with development on Unix-like systems.</p>
+<div class="admonition tip">
+<p class="admonition-title">My First illumos Build</p>
+<p>If you are just dipping your toes into illumos, you should consider reading
+<a href="https://zinascii.com/2014/my-first-illumos-build.html">Ryan Zezeski's post on his own first
+build</a>!</p>
+</div>
+<p>You need an illumos-based operating system to build illumos. Cross-compilation
+is not supported.</p>
+<p>If you don't have one installed, the quickest way to get started is to download
+and install either <a href="https://openindiana.org">OpenIndiana</a> or
+<a href="https://www.omniosce.org/">OmniOS</a> and install them in a VM or on metal.</p>
+<div class="admonition tip">
+<p>All commands in this guide assume you run them as an unprivileged user.
+sudo will be prepended to commands which need additional privileges; on some
+systems pfexec can be used instead, if your user has the correct RBAC profiles.
+The generic commands below use a $USER variable to define the current
+(unprivileged) user account's name which will ultimately be used to compile the
+project. If you are not using a stock shell or have manipulated the $USER
+variable in your environment at a site, system, or user level, you are
+responsible for diagnosing and addressing any consequences.</p>
+</div>
+<h2 id="hardware-support">Hardware Support<a class="headerlink" href="#hardware-support" title="Permanent link">&para;</a></h2>
+<p>You'll generally have good luck with common x86 components, but it's always a
+good idea to refer to the <a href="https://www.illumos.org/hcl/">Hardware Combatibility
+List</a> or Joyent's <a href="http://eng.joyent.com/manufacturing/bom.html">Manufactory
+database</a>.</p>
+<h2 id="installing-required-packages">Installing required packages<a class="headerlink" href="#installing-required-packages" title="Permanent link">&para;</a></h2>
+<p>You will need to install the basic development environment to build illumos.</p>
+<h3 id="openindiana">OpenIndiana<a class="headerlink" href="#openindiana" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span>sudo pkg install build-essential
+</pre></div>
+
+<h3 id="omnios">OmniOS<a class="headerlink" href="#omnios" title="Permanent link">&para;</a></h3>
+<div class="codehilite"><pre><span></span>sudo pkg install pkg:/developer/illumos-tools
+</pre></div>
+
+<h2 id="compilers">Compilers<a class="headerlink" href="#compilers" title="Permanent link">&para;</a></h2>
+<p>The source code was traditionally built using Sun's closed-source compiler
+suite, which was named Sun Studio at the time of the illumos fork.  We now
+build illumos with GCC, but you will still need some tools from Sun Studio and
+those are available as packages in the legacy OpenSolaris repository.</p>
+<h3 id="gcc">GCC<a class="headerlink" href="#gcc" title="Permanent link">&para;</a></h3>
+<p>The primary version of GCC necessary for development and integration 4.4.4
+(4.4.4-il-4) should have been installed on your system when you installed the
+prerequisites above.</p>
+<div class="admonition warning">
+<p class="admonition-title">OpenIndiana Hipster 20161030</p>
+<p>OpenIndiana Hipster 20161030 ships with gcc-4.4.4-il-3, so make sure to update that package to -il-4 before building.
+Building with 4.4.4-il-3 leads to build failures with warnings as below in the mail_msg and nightly.log:
+<div class="codehilite"><pre><span></span>../../i86pc/os/trap.c:2188: error: unknown conversion type character &#39;-&#39; in format [-Wformat]
+../../i86pc/os/trap.c:2188: error: too many arguments for format [-Wformat-extra-args]
+</pre></div></p>
+</div>
+<p>Note that the compiler for building <code>illumos-gate</code> installs into
+<code>/opt/gcc/4.4.4</code> on OpenIndiana, and <code>/opt/gcc-4.4.4</code> on OmniOS and is not
+available in the default PATH for building application programs.</p>
+<p>You can add (OI example) <code>PATH=&quot;/opt/gcc/4.4.4/bin:$PATH&quot;; export PATH</code> to your
+profile to reference this compiler, or install one of the other GCC builds,
+destined as the current default compiler for application programs (versions
+ranging from 3.4.3 to 4.6.x, see <code>pkg info -r '*gcc*'</code> for details du-jour).</p>
+<p>Unfortunately, Sun Studio <code>lint</code> is currently required even for GCC-only builds.
+We currently deliver Lint libraries built using the closed Sun Studio version
+of lint. OmniOS includes this in its <code>sunstudio12.1</code> package.  On OpenIndiana
+it's delivered as part of <code>developer/sunstudio12u1/cc</code>, which you shouldn't
+install explicitly if you've already installed <code>build-essential</code>.</p>
+<h3 id="sun-studio">Sun Studio<a class="headerlink" href="#sun-studio" title="Permanent link">&para;</a></h3>
+<p>Building with Sun Studio is generally unsupported. If you have need of it,
+please refer to <a href="studio/">Building With Sun Studio</a>.</p>
+<h2 id="next-steps">Next Steps<a class="headerlink" href="#next-steps" title="Permanent link">&para;</a></h2>
+<p>Once you've got the prerequisites installed, you're ready to start <a href="build-illumos/">building
+illumos</a>.</p>
                 
                   
                 
@@ -949,7 +1232,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../community/gsoc-mentor-application/" title="Mentoring Application" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../user-guide/debug-apps/" title="Applications" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -958,11 +1241,25 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Mentoring Application
+                Applications
               </span>
             </div>
           </a>
         
+        
+          <a href="build-illumos/" title="Building illumos" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Building illumos
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
         
       </nav>
     </div>
