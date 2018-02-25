@@ -3,14 +3,15 @@
 
 # Bug Trackers
 
-The project maintains a [public bug tracker](https://bugs.illumos.org).
+illumos and its associated communites maintain a number of [public bug
+tracker](https://bugs.illumos.org).
 
 | Project | Description |
 |---------|-------------|
-| [illumos-gate](https://www.illumos.org/projects/illumos-gate)   | Kernel, drivers, etc.   |
-| [OpenIndiana](https://www.illumos.org/projects/openindiana)     | Distribution-specific   |
-| [SmartOS](https://smartos.org/bugview/)                         | Distribution-specific   |
-| [Joyent pkgsrc](https://github.com/joyent/pkgsrc/issues)        | Cross-platform packages |
+| [illumos-gate](https://www.illumos.org/projects/illumos-gate)   | Core. Kernel, userland, drivers, etc.   |
+| [OpenIndiana](https://www.illumos.org/projects/openindiana)     | Distribution-specific                   |
+| [SmartOS](https://smartos.org/bugview/)                         | Distribution-specific                   |
+| [Joyent pkgsrc](https://github.com/joyent/pkgsrc/issues)        | Cross-platform packages                 |
 
 # How to report problems
 

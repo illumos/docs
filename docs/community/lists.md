@@ -1,9 +1,9 @@
 # Mailing Lists
 
 !!! danger "The Golden Rule"
-    Please be respectful and civil in your mailing list communications.
-    Harassment and other poor behaviour will not be tolerated, and
-    preventative action will be taken by mailing list moderators.
+    Please be respectful and civil in your communications. Harassment and
+    other poor behaviour will not be tolerated, and preventative action will be
+    taken by moderators.
 
 ## General Lists
 
