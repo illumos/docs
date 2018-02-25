@@ -16,6 +16,9 @@ innovative features we continue to rely on to this day. Just as importantly,
 however, Sun also opensourced the operating system as OpenSolaris. While there
 were a few governance missteps along the way, it was a bold move.
 
+If you're interested in the history of OpenSolaris, Jim Grisanzio has [written
+an in-depth piece on it](https://jimgrisanzio.wordpress.com/opensolaris/).
+
 In 2010 Oracle acquired Sun, and [silently closed the
 gate](http://sstallion.blogspot.com.au/2010/08/opensolaris-is-dead.html). The
 source code was no longer updated, communications to the open source community

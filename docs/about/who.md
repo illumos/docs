@@ -6,17 +6,19 @@ have been ported to other operating systems.
 
 | Organization | Description |
 | ------------ | ----------- |
-| Apple        | Incorporates DTrace |
-| FreeBSD      | Incorporates ZFS, DTrace, mdb |
-| Joyent       | Public and on-prem cloud |
-| Project FIFO | On-prem cloud |
-| Lucera       | Finanial infrastructure services |
-| Delphix      | Database virtualization |
-| Nexenta      | Storage appliance |
-| Circonus     | Monitoring services |
+| [FreeBSD](https://www.freebsd.org/)                    | Incorporates ZFS, DTrace, mdb |
+| [Apple](https://github.com/opensource-apple/dtrace)    | Incorporates DTrace |
+| [Joyent](https://www.joyent.com/)                      | Public and on-prem cloud |
+| [Lucera](https://www.lucera.com/)                      | Finanial infrastructure services |
+| [Delphix](https://www.delphix.com/)                    | Database virtualization |
+| [Nexenta](https://nexenta.com/)                        | Storage appliance |
+| [EveryCity](http://www.everycity.co.uk/)               | Managed cloud services |
+| [Project FIFO](http://project-fifo.net/)               | On-prem cloud |
+| [Circonus](https://www.circonus.com/)                  | Monitoring services |
+| [Pobox](https://www.pobox.com/)                        | Email services |
+| [Topicbox](https://www.topicbox.com/)                  | Mailing list services |
 
 # Cross-pollination History
-
 
 ## 2010
 

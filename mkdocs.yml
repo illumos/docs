@@ -10,6 +10,7 @@ pages:
     - 'History': 'about/history.md'
     - 'Distributions': 'about/distro.md'
     - 'FAQ': 'about/faq.md'
+    - 'Logo': 'about/logo.md'
   - 'User Guide':
     - 'Getting Started': 'user-guide/index.md'
     - 'Bug Reporting': 'user-guide/bugs.md'

@@ -1,8 +1,15 @@
+## Quick Links
+
+* [Security Information](../security/index.md)
+* [Manual pages](http://illumos.org/man)
+* [Mailing lists](../community/lists.md)
+* [Bug reporting](../user-guide/bugs.md)
+
 ## What is the objective of the illumos project?
 
 illumos is a fully open community project to develop a reliable and scalable
-operating system. It began as a fork of the former [OpenSolaris]() operating
-system.
+operating system. It began as a fork of the former
+[OpenSolaris](https://en.wikipedia.org/wiki/OpenSolaris) operating system.
 
 Our goal is to foster open development of technologies for the 21st century
 while building on a twenty-year heritage, but free from the oversight of a
@@ -20,11 +27,13 @@ the home of the technologies that previously defined OpenSolaris and Solaris,
 such as the kernel, network stack, filesystems, and device drivers, and all of
 the basic userland libraries and applications.
 
-The illumos code base forms the foundation of [distributions](). To use the
-operating system, just download and install one of the distributions.
+The illumos code base forms the foundation of [distributions](distro.md).
+To use the operating system, just download and install one of the
+distributions.
 
 To download the source code, follow the section on Git or Mercurial in [How To
-Build illumos](). You can also [browse and search the illumos code online]().
+Build illumos](../user-guide/build.md). You can also [browse and search the
+illumos code online](https://github.com/illumos/illumos-gate).
 
 ## Is illumos free software (open source)?
 
@@ -53,21 +62,23 @@ multiple commercial and community distributions.
 Yes.
 
 Multiple community groups and interests (including people like you!) are
-stakeholders in the project, and anyone and everyone is welcome to contribute.
+stakeholders in the project, and anyone and everyone is welcome to
+[contribute](../user-guide/contrib.md).
 
 ## How do I start contributing?
 
 illumos thrives on the efforts of its contributors. Have a look at the guide on
-[How To Contribute]() if you want to submit code.
+[How To Contribute](../user-guide/contrib.md) if you want to submit code.
 
-If you want to help in other ways then have a look at the [Mailing Lists]().
+If you want to help in other ways then have a look at the [Mailing
+Lists](../community/lists.md).
 
-Most of the developers can be found on [IRC]() and you're invited to drop in and
-say "hi!"
+Most of the developers can be found on [IRC](../community/index.md#irc-channels)
+and you're invited to drop in and say "hi!"
 
 ## How do I build illumos?
 
-See [How To Build illumos]().
+See [How To Build illumos](../user-guide/build.md).
 
 ## How do I build a distribution based on illumos?
 
@@ -75,8 +86,9 @@ OpenSolaris was historically difficult to build as a distribution because it
 was assembled by many separate teams at Sun. The illumos community
 distributions are working to make this easier.
 
-Some distributions have documented their build processes: [OpenIndiana](),
-[OmniOS]().
+Some distributions have
+[documented](https://www.omniosce.org/dev/build_instructions.html) their build
+processes.
 
 ## Is illumos compatible with Solaris/OpenSolaris?
 
@@ -96,15 +108,11 @@ changes.
 * Changes to ease community development.
 * ...and more!
 
-## Will you track Oracle changes?
+## Do you track Oracle changes?
 
 We originally intended to closely follow upstream changes, but became a fork by
 necessity because Oracle's software is no longer open source. We now represent
 the open future of the code base after Sun.
-
-It is uncertain if Oracle will ever open source their version of ON again. If
-this happens in the future, their changes will be evaluated on a case-by-case
-basis for integration.
 
 ## Will you work on sending illumos changes upstream?
 
@@ -122,22 +130,9 @@ talked about opening the code rather than writing it. illumos chose the
 opposite. Before the formal announcement, we reached out to developers in the
 community and solicited their help and participation.
 
-## Some choices of project infrastructure were not made by a community vote - what drove these choices?
-
-These initial infrastructure choices, of using hosting graciously provided by
-Stanford University, and Redmine as the project management software to power
-the projects and bug tracking were made by individuals in the project to get
-the work done as quickly as possible. Redmine is easy to use, provides all
-required functionality in a single package, and we felt it was a good choice
-for all planned illumos development.
-
-We have since migrated to hosting facilities offered by Joyent, and are
-migrating part of the content infrastructure from Redmine to this wiki and
-other tools.
-
 ## And the name illumos?
 
 We started off with the codename "FreeON", and later realized it is used by an
-[existing project](). We finally settled on illumos, after many hours of
+existing project. We finally settled on illumos, after many hours of
 suggestions and counter-suggestions. illumos (pronounced i-llu-MOS and written
 in lowercase) ties in with Sun and light. It's the closest to ON we could get!
