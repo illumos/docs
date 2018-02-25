@@ -1,6 +1,9 @@
 !!! warning "Requires Review"
     This page references some old practices and needs to be reviewed.
 
+!!! note
+    https://wiki.illumos.org/display/illumos/Managing+multiple+workspaces+for+illumos+with+Git
+
 # Managing Multiple Workspaces
 
 By [Bayard G. Bell]()

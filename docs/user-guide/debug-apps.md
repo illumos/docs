@@ -27,17 +27,3 @@ directory.  To print the stack information from the crash:
 ```
 pstack core
 ```
-
-# Creating an Issue Report
-
-You can [report a new
-issue](https://www.illumos.org/projects/illumos-gate/issues/new) using our
-issue tracker.
-
-A good issue report includes:
-
-* Steps for reproducing the problem, in as much detail as possible.
-* Information about your system software and hardware.
-* For crashes, the contents of the crash information file from the above section.
-
-Please paste any error messages, or the output of ::msgbuf from mdb directly in the bug description.
