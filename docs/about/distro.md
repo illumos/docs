@@ -1,38 +1,44 @@
 # the illumos family
 
 Similar to other operating systems, there are many different OS distributions
-based on the common illumos kernel. Some of them are maintained by enthusiasts,
-others are primarily developed by commercial companies with their own
-priorities and target products (i.e. storage, virtualization, etc.) with
-different packaging systems (IPS, SVR4, DEB, RPM, etc). These projects
-contribute back to the common core set of software which the illumos project is
-about.
+based on the common illumos ecosystem.
 
-## SmartOS
+Some of them are maintained by enthusiasts, others are primarily developed by
+commercial companies with their own priorities and focus, and some mainly
+differ in their packaging systems.
 
-[SmartOS](https://smartos.org) from [Joyent](https://www.joyent.com) is a
-purpose-built, container-native hypervisor and lightweight container host OS
-for secure, performant, and convenient container hosting in public and private
-clouds.
+Most of these projects contribute back to the common core set of software, which the
+illumos project is all about.
 
-## OmniOS CE
+All illumos-derived systems should include the following technologies:
 
-[OmniOS Community Edition](https://www.omniosce.org/) takes a minimalist
-approach to create a full illumos-derived operating system. It's targeted for
-server use.
+* DTrace
+* mdb
+* ZFS
+* Zones
+* Virtual networking (Crossbow)
+* Fault Management Framework
+* Service Management Framework
 
-OmniOS was founded by [OmniTI](https://omniti.com), and is now maintained by
-the [OmniOS Community Edition Association](https://omniosce.org/about).
+Not all distributions have the latest features or run on both x86 and SPARC.
+For major feature differences, the following chart may be helpful.
 
-## OpenIndiana
+## Comparison
 
-[OpenIndiana](https://www.openindiana.org/) is a successor to and derived from
-the original Sun OpenSolaris reference distribution, and is suitable for use on
-desktop and servers.
+### Active Spins
 
-## Tribblix
+| Project | Source | Focus | Open Source | Packaging | x86 | SPARC | KVM | LX | 
+|---------|--------|-------|-------------|-----------|-----|-------|-----|----|
+| [SmartOS](https://smartos.org) | [Joyent](https://www.joyent.com) | Hypervisor | <i class="material-icons">check</i> | [pkgsrc](https://pkgsrc.joyent.com) | <i class="material-icons">check</i> |  | <i class="material-icons">check</i> | <i class="material-icons">check</i> |
+| [OmniOS CE](https://www.omniosce.org/) | [OmniOS CE Association](https://omniosce.org/about) | Servers | <i class="material-icons">check</i> | IPS | <i class="material-icons">check</i> | | <i class="material-icons">check</i> | <i class="material-icons">check</i> |
+| [OpenIndiana](https://www.openindiana.org/) | [OpenIndiana](https://www.openindiana.org/) | Workstation, Servers | <i class="material-icons">check</i> | IPS | <i class="material-icons">check</i> | | <i class="material-icons">check</i> | |
+| [NexenStor](https://community.nexenta.com/s/) | [Nexenta](https://nexenta.com/) | Storage | | APT | <i class="material-icons">check</i> | |
+| [Tribblix](http://www.tribblix.org/) | Peter Tribble | Workstation, Servers | <i class="material-icons">check</i> | SVR4 | <i class="material-icons">check</i> | <i class="material-icons">check</i> | <i class="material-icons">check</i> | |
+| [DilOS](http://www.dilos.org/) | igork | Workstation, Servers | <i class="material-icons">check</i> | APT | <i class="material-icons">check</i> | <i class="material-icons">check</i> | <i class="material-icons">check</i> | <i class="material-icons">check</i> |
 
-[Tribblix](http://www.tribblix.org/) is the "retro" illumos distribution.
-Suitable for both desktop and server usage.
+### Unmaintained Spins
 
-## And others...
+| Project | Source | Focus | Open Source | Packaging | x86 | SPARC |
+|---------|--------|-------|-------------|-----------|-----|-------|
+| [v9os](http://www.milax.fi/v9os.html) | [MilaX](http://www.milax.fi/) | Server | <i class="material-icons">check</i> | IPS | | <i class="material-icons">check</i> |
+| [XStreamOS](http://www.sonicle.com/xstreamos/) | [Sonicle](http://www.sonicle.com/) | Server | | |<i class="material-icons">check</i> | |
