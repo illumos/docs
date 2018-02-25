@@ -12,9 +12,9 @@ pages:
     - 'Distributions': 'about/distro.md'
     - 'FAQ': 'about/faq.md'
     - 'Logo': 'about/logo.md'
-    - 'History':
-      - 'Overview': 'about/history.md'
-      - 'Announcement': 'about/announcement.md'
+  - 'History':
+    - 'Overview': 'about/history.md'
+    - 'Announcement': 'about/announcement.md'
   - 'User Guide':
     - 'Getting Started': 'user-guide/index.md'
     - 'Bug Reporting': 'user-guide/bugs.md'
