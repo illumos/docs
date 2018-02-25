@@ -8,8 +8,8 @@ distro](../about/distro.md) and start playing.
 
 ## Books
 
-There are a number of [books](https://illumos.org/books/) relating to illumos
-technologies available.
+We provide a number of [books](https://illumos.org/books/) relating to illumos
+technologies.
 
 If your goal is to work on illumos itself, the [Developer's
 Guide](https://illumos.org/books/dev/) or [building

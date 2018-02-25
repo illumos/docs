@@ -31,9 +31,10 @@ The illumos code base forms the foundation of [distributions](distro.md).
 To use the operating system, just download and install one of the
 distributions.
 
-To download the source code, follow the section on Git or Mercurial in [How To
-Build illumos](../developers/index.md). You can also [browse and search the
-illumos code online](https://github.com/illumos/illumos-gate).
+To download the source code, review [How To Build
+illumos](../developers/index.md). You can also
+[browse](https://github.com/illumos/illumos-gate) and
+[search](http://src.illumos.org).
 
 ## Is illumos free software (open source)?
 

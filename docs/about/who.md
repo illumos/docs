@@ -10,7 +10,7 @@ have been ported to other operating systems.
 | ------------ | ----------- |
 | [FreeBSD](https://www.freebsd.org/)                    | Incorporates ZFS, DTrace, mdb |
 | [Apple](https://github.com/opensource-apple/dtrace)    | Incorporates DTrace |
-| [Joyent](https://www.joyent.com/)                      | Public and on-prem cloud |
+| [Joyent](https://www.joyent.com/)                      | Public and on-prem cloud, object storage |
 | [Lucera](https://www.lucera.com/)                      | Finanial infrastructure services |
 | [Delphix](https://www.delphix.com/)                    | Database virtualization |
 | [Nexenta](https://nexenta.com/)                        | Storage appliance |
