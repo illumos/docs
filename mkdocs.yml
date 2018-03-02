@@ -20,7 +20,8 @@ pages:
   - 'User Guide':
     - 'Getting Started': 'user-guide/index.md'
     - 'Bug Reporting': 'user-guide/bugs.md'
-    - 'Manuals': 'user-guide/manual.md'
+    - 'Books': 'user-guide/books.md'
+    - 'Manual Pages': 'user-guide/manual.md'
     - 'Debugging':
       - 'Overview': 'user-guide/debug.md'
       - 'Systems': 'user-guide/debug-systems.md'

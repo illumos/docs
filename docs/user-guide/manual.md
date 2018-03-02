@@ -1,13 +1,13 @@
 # Manual pages
 
 You can browse (and link to) the illumos manual pages
-[online](http://illumos.org/man/all).
+[online](https://illumos.org/man/all).
 
 ## History
 
 The manual pages integrated into illumos-gate are taken from the last source
-drop provided by Sun at http://dlc.sun.com/osol/man/downloads. These are
-outdated in several respects.
+drop provided by Sun at `http://dlc.sun.com/osol/man/downloads`. These sources
+were outdated in several respects:
 
 * They are missing descriptions of new features
 * They may still describe some old features
