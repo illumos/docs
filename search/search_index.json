@@ -112,7 +112,7 @@
         }, 
         {
             "location": "/about/features/", 
-            "text": "Introduction\n\n\nillumos provides a number of advanced features for downstream distributions and\nusers to utilize.\n\n\nFilesystems\n\n\nZFS\n\n\nVirtualization\n\n\nNative OS Zones\n\n\nLX Zones (Linux Emulation)\n\n\nIntrospection and Debugging\n\n\nDTrace\n\n\nmdb\n\n\nFault Management\n\n\nService Management\n\n\nFirewall\n\n\nVirtual Networking\n\n\nSecurity", 
+            "text": "Introduction\n\n\nillumos provides a number of advanced features for downstream distributions and\nusers to utilize.\n\n\nFilesystems\n\n\nZFS\n\n\nVirtualization\n\n\nNative OS Zones\n\n\nLX Zones (Linux Emulation)\n\n\nKVM\n\n\nIntrospection and Debugging\n\n\nDTrace\n\n\nmdb\n\n\nFault Management\n\n\nService Management\n\n\nFirewall\n\n\nVirtual Networking\n\n\nSecurity", 
             "title": "Features"
         }, 
         {
@@ -144,6 +144,11 @@
             "location": "/about/features/#lx-zones-linux-emulation", 
             "text": "", 
             "title": "LX Zones (Linux Emulation)"
+        }, 
+        {
+            "location": "/about/features/#kvm", 
+            "text": "", 
+            "title": "KVM"
         }, 
         {
             "location": "/about/features/#introspection-and-debugging", 
