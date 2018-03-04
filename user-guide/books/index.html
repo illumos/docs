@@ -36,7 +36,7 @@
     
     
       
-        <title>Student Application - illumos</title>
+        <title>Books - illumos</title>
       
     
     
@@ -93,7 +93,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search">
     <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
     
-      <a href="#welcome-to-the-google-summer-of-code" tabindex="1" class="md-skip">
+      <a href="#books" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -119,7 +119,7 @@
                 illumos
               </span>
               <span class="md-header-nav__topic">
-                Student Application
+                Books
               </span>
             
           
@@ -426,10 +426,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6" checked>
     
     <label class="md-nav__link" for="nav-6">
       User Guide
@@ -447,7 +449,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../user-guide/" title="Getting Started" class="md-nav__link">
+    <a href="../" title="Getting Started" class="md-nav__link">
       Getting Started
     </a>
   </li>
@@ -459,7 +461,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../user-guide/bugs/" title="Bug Reporting" class="md-nav__link">
+    <a href="../bugs/" title="Bug Reporting" class="md-nav__link">
       Bug Reporting
     </a>
   </li>
@@ -469,11 +471,77 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../../user-guide/books/" title="Books" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        Books
+      </label>
+    
+    <a href="./" title="Books" class="md-nav__link md-nav__link--active">
       Books
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#illumos-developers-guide" title="illumos Developer's Guide" class="md-nav__link">
+    illumos Developer's Guide
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dynamic-tracing-guide" title="Dynamic Tracing Guide" class="md-nav__link">
+    Dynamic Tracing Guide
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modular-debugger-guide" title="Modular Debugger Guide" class="md-nav__link">
+    Modular Debugger Guide
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#writing-device-drivers" title="Writing Device Drivers" class="md-nav__link">
+    Writing Device Drivers
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#memory-and-thread-placement-optimization-developers-guide" title="Memory and Thread Placement Optimization Developer's Guide" class="md-nav__link">
+    Memory and Thread Placement Optimization Developer's Guide
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
         
@@ -483,7 +551,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../user-guide/manual/" title="Manual Pages" class="md-nav__link">
+    <a href="../manual/" title="Manual Pages" class="md-nav__link">
       Manual Pages
     </a>
   </li>
@@ -514,7 +582,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../user-guide/debug/" title="Overview" class="md-nav__link">
+    <a href="../debug/" title="Overview" class="md-nav__link">
       Overview
     </a>
   </li>
@@ -526,7 +594,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../user-guide/debug-systems/" title="Systems" class="md-nav__link">
+    <a href="../debug-systems/" title="Systems" class="md-nav__link">
       Systems
     </a>
   </li>
@@ -538,7 +606,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../user-guide/debug-apps/" title="Applications" class="md-nav__link">
+    <a href="../debug-apps/" title="Applications" class="md-nav__link">
       Applications
     </a>
   </li>
@@ -762,12 +830,10 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-9" type="checkbox" id="nav-9" checked>
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-9" type="checkbox" id="nav-9">
     
     <label class="md-nav__link" for="nav-9">
       Community
@@ -785,7 +851,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../" title="Overview" class="md-nav__link">
+    <a href="../../community/" title="Overview" class="md-nav__link">
       Overview
     </a>
   </li>
@@ -797,7 +863,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../lists/" title="Mailing Lists" class="md-nav__link">
+    <a href="../../community/lists/" title="Mailing Lists" class="md-nav__link">
       Mailing Lists
     </a>
   </li>
@@ -809,7 +875,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../events/" title="Events" class="md-nav__link">
+    <a href="../../community/events/" title="Events" class="md-nav__link">
       Events
     </a>
   </li>
@@ -821,7 +887,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../videos/" title="Videos" class="md-nav__link">
+    <a href="../../community/videos/" title="Videos" class="md-nav__link">
       Videos
     </a>
   </li>
@@ -831,12 +897,10 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-9-5" type="checkbox" id="nav-9-5" checked>
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-9-5" type="checkbox" id="nav-9-5">
     
     <label class="md-nav__link" for="nav-9-5">
       Google Summer of Code
@@ -854,7 +918,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../gsoc/" title="Overview" class="md-nav__link">
+    <a href="../../community/gsoc/" title="Overview" class="md-nav__link">
       Overview
     </a>
   </li>
@@ -864,56 +928,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
-    
-      
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="toc">
-        Student Application
-      </label>
-    
-    <a href="./" title="Student Application" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../../community/gsoc-application/" title="Student Application" class="md-nav__link">
       Student Application
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#lets-start-with-some-background-about-you" title="Let's start with some background about you." class="md-nav__link">
-    Let's start with some background about you.
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#next-please-describe-your-project" title="Next, please describe your project." class="md-nav__link">
-    Next, please describe your project.
-  </a>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
-  
-</nav>
-    
   </li>
 
         
@@ -923,7 +942,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../gsoc-expectations/" title="Student Expectations" class="md-nav__link">
+    <a href="../../community/gsoc-expectations/" title="Student Expectations" class="md-nav__link">
       Student Expectations
     </a>
   </li>
@@ -935,7 +954,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../gsoc-proposal/" title="Writing a Proposal" class="md-nav__link">
+    <a href="../../community/gsoc-proposal/" title="Writing a Proposal" class="md-nav__link">
       Writing a Proposal
     </a>
   </li>
@@ -947,7 +966,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../gsoc-mentor/" title="Becoming a Mentor" class="md-nav__link">
+    <a href="../../community/gsoc-mentor/" title="Becoming a Mentor" class="md-nav__link">
       Becoming a Mentor
     </a>
   </li>
@@ -959,7 +978,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../gsoc-mentor-application/" title="Mentoring Application" class="md-nav__link">
+    <a href="../../community/gsoc-mentor-application/" title="Mentoring Application" class="md-nav__link">
       Mentoring Application
     </a>
   </li>
@@ -1008,15 +1027,36 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#lets-start-with-some-background-about-you" title="Let's start with some background about you." class="md-nav__link">
-    Let's start with some background about you.
+  <a href="#illumos-developers-guide" title="illumos Developer's Guide" class="md-nav__link">
+    illumos Developer's Guide
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#next-please-describe-your-project" title="Next, please describe your project." class="md-nav__link">
-    Next, please describe your project.
+  <a href="#dynamic-tracing-guide" title="Dynamic Tracing Guide" class="md-nav__link">
+    Dynamic Tracing Guide
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modular-debugger-guide" title="Modular Debugger Guide" class="md-nav__link">
+    Modular Debugger Guide
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#writing-device-drivers" title="Writing Device Drivers" class="md-nav__link">
+    Writing Device Drivers
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#memory-and-thread-placement-optimization-developers-guide" title="Memory and Thread Placement Optimization Developer's Guide" class="md-nav__link">
+    Memory and Thread Placement Optimization Developer's Guide
   </a>
   
 </li>
@@ -1037,39 +1077,48 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/illumos/docs/edit/master/docs/community/gsoc-application.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                  <a href="https://github.com/illumos/docs/edit/master/docs/user-guide/books.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <h1 id="welcome-to-the-google-summer-of-code">Welcome to the Google Summer of Code!<a class="headerlink" href="#welcome-to-the-google-summer-of-code" title="Permanent link">&para;</a></h1>
-<h2 id="lets-start-with-some-background-about-you">Let's start with some background about you.<a class="headerlink" href="#lets-start-with-some-background-about-you" title="Permanent link">&para;</a></h2>
-<ul>
-<li>Name:</li>
-<li>Email address:</li>
-<li>IRC nickname on freenode:</li>
-<li>
-<p>Field of study (and concentration, if any):</p>
-</li>
-<li>
-<p>Have you participated in an open source project before? If you have, which aspects did you enjoy most (or least)? If you have contributed code, can you describe the tools and languages you used, and link to commits?</p>
-</li>
-<li>Have you been involved with illumos or a related community project (OpenIndiana, OmniOS, SmartOS, etc.)?</li>
-<li>Have you fixed any bite-sized bugs or contributed code to illumos? If so, please provide the issue IDs or the e-mail address used in the commit.</li>
-<li>Do you have an illumos distribution (OpenIndiana, OmniOS, SmartOS) currently running on your system? If so, describe your setup. Have you built illumos-gate from source and successfully upgraded your system to those bits?</li>
-<li>What piece of source code have you read and found most interesting? Why?</li>
-<li>What makes illumos interesting to you? Do you plan to stay involved after GSoC, and if so, in which areas?</li>
-<li>Is there anything else you'd like us to know about you? Will you have other obligations or time constraints during the GSoC period?</li>
-</ul>
-<h2 id="next-please-describe-your-project">Next, please describe your project.<a class="headerlink" href="#next-please-describe-your-project" title="Permanent link">&para;</a></h2>
-<ul>
-<li>The goals you wish to achieve, in a nutshell:</li>
-<li>Quantifiable deliverables in terms of software, tests, and/or documentation:</li>
-<li>Your plan for implementing the features, and testing them:</li>
-<li>Rough outline of your development schedule, including milestones:</li>
-<li>What prior experience (coursework, internship, work experience) or expertise do you have relevant to your project?</li>
-<li>How does your proposal align with your goals after completing your current degree?</li>
-<li>Will you need us to provide access to hardware, specifications, or other resources?</li>
-<li>Do you have a particular person in mind as a mentor? With whom have you discussed your project previously on a public e-mail list or IRC channel?</li>
-</ul>
+                <h1 id="books">Books<a class="headerlink" href="#books" title="Permanent link">&para;</a></h1>
+<h2 id="illumos-developers-guide"><a href="https://illumos.org/books/dev/">illumos Developer's Guide</a><a class="headerlink" href="#illumos-developers-guide" title="Permanent link">&para;</a></h2>
+<p>This guide covers the basic workflow for developing illumos and then dives into
+specific detail on everything from the layout of the gate to several HOWTOs.
+Whether this is your first time working with illumos or you remember back when
+the code in the gate all referred to something called SunOS, this guide will
+help you in enhancing and fixing illumos.</p>
+<h2 id="dynamic-tracing-guide"><a href="https://illumos.org/books/dtrace/">Dynamic Tracing Guide</a><a class="headerlink" href="#dynamic-tracing-guide" title="Permanent link">&para;</a></h2>
+<p>DTrace is a comprehensive dynamic tracing framework for the illumos Operating
+System. DTrace provides a powerful infrastructure to permit administrators,
+developers, and service personnel to concisely answer arbitrary questions about
+the behavior of the operating system and user programs. The illumos Dynamic
+Tracing Guide describes how to use DTrace to observe, debug, and tune system
+behavior. This book also includes a complete reference for bundled DTrace
+observability tools and the D programming language.</p>
+<h2 id="modular-debugger-guide"><a href="https://illumos.org/books/mdb/">Modular Debugger Guide</a><a class="headerlink" href="#modular-debugger-guide" title="Permanent link">&para;</a></h2>
+<p>The Modular Debugger (MDB) is a highly extensible, general purpose debugging
+tool for the illumos Operating System. The Modular Debugger Guide describes
+how to use MDB to debug complex software systems, with a particular emphasis on
+the facilities available for debugging the illumos kernel and associated device
+drivers and modules. It also includes a complete reference for and discussion
+of the MDB language syntax, debugger features, and MDB Module Programming API.</p>
+<h2 id="writing-device-drivers"><a href="https://illumos.org/books/wdd/">Writing Device Drivers</a><a class="headerlink" href="#writing-device-drivers" title="Permanent link">&para;</a></h2>
+<p>Writing Device Drivers provides information on developing drivers for
+character-oriented devices, block-oriented devices, network devices, SCSI
+target and HBA devices, and USB devices for the illumos Operating System
+(illumos). This book discusses how to develop multithreaded reentrant device
+drivers for all architectures that conform to the illumos DDI/DKI (Device
+Driver Interface, Driver-Kernel Interface). A common driver programming
+approach is described that enables drivers to be written without concern for
+platform-specific issues such as endianness and data ordering.</p>
+<p>Additional topics include hardening illumos drivers; power management; driver
+autoconfiguration; programmed I/O; Direct Memory Access (DMA); device context
+management; compilation, installation, and testing drivers; debugging drivers;
+and porting illumos drivers to a 64-bit environment.</p>
+<h2 id="memory-and-thread-placement-optimization-developers-guide"><a href="https://illumos.org/books/lgrps/">Memory and Thread Placement Optimization Developer's Guide</a><a class="headerlink" href="#memory-and-thread-placement-optimization-developers-guide" title="Permanent link">&para;</a></h2>
+<p>The Memory and Thread Placement Optimization Developer's Guide provides
+information on locality groups and the technologies that are available to
+optimize the use of computing resources in the illumos operating system.</p>
                 
                   
                 
@@ -1088,7 +1137,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../gsoc/" title="Overview" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../bugs/" title="Bug Reporting" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -1097,19 +1146,19 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Overview
+                Bug Reporting
               </span>
             </div>
           </a>
         
         
-          <a href="../gsoc-expectations/" title="Student Expectations" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../manual/" title="Manual Pages" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Student Expectations
+                Manual Pages
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">

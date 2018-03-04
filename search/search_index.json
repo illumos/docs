@@ -112,7 +112,7 @@
         }, 
         {
             "location": "/about/features/", 
-            "text": "Introduction\n\n\nillumos provides a number of advanced features for downstream distributions and\nusers to utilize.\n\n\nFilesystems\n\n\nZFS\n\n\nVirtualization\n\n\nNative OS Zones\n\n\nLX Zones (Linux Emulation)\n\n\nKVM\n\n\nIntrospection and Debugging\n\n\nDTrace\n\n\nmdb\n\n\nFault Management\n\n\nService Management\n\n\nFirewall\n\n\nVirtual Networking\n\n\nSecurity", 
+            "text": "Introduction\n\n\nillumos provides a number of advanced features for downstream distributions and\nusers to utilize.\n\n\nFilesystems\n\n\nZFS\n\n\nVirtualization\n\n\nNative OS Zones\n\n\nLX Zones (Linux Emulation)\n\n\nIntrospection and Debugging\n\n\nDTrace\n\n\nmdb\n\n\nFault Management\n\n\nService Management\n\n\nFirewall\n\n\nVirtual Networking\n\n\nSecurity", 
             "title": "Features"
         }, 
         {
@@ -144,11 +144,6 @@
             "location": "/about/features/#lx-zones-linux-emulation", 
             "text": "", 
             "title": "LX Zones (Linux Emulation)"
-        }, 
-        {
-            "location": "/about/features/#kvm", 
-            "text": "", 
-            "title": "KVM"
         }, 
         {
             "location": "/about/features/#introspection-and-debugging", 
@@ -521,9 +516,44 @@
             "title": "Examples of bug fixing"
         }, 
         {
+            "location": "/user-guide/books/", 
+            "text": "Books\n\n\nillumos Developer's Guide\n\n\nThis guide covers the basic workflow for developing illumos and then dives into\nspecific detail on everything from the layout of the gate to several HOWTOs.\nWhether this is your first time working with illumos or you remember back when\nthe code in the gate all referred to something called SunOS, this guide will\nhelp you in enhancing and fixing illumos.\n\n\nDynamic Tracing Guide\n\n\nDTrace is a comprehensive dynamic tracing framework for the illumos Operating\nSystem. DTrace provides a powerful infrastructure to permit administrators,\ndevelopers, and service personnel to concisely answer arbitrary questions about\nthe behavior of the operating system and user programs. The illumos Dynamic\nTracing Guide describes how to use DTrace to observe, debug, and tune system\nbehavior. This book also includes a complete reference for bundled DTrace\nobservability tools and the D programming language.\n\n\nModular Debugger Guide\n\n\nThe Modular Debugger (MDB) is a highly extensible, general purpose debugging\ntool for the illumos Operating System. The Modular Debugger Guide describes\nhow to use MDB to debug complex software systems, with a particular emphasis on\nthe facilities available for debugging the illumos kernel and associated device\ndrivers and modules. It also includes a complete reference for and discussion\nof the MDB language syntax, debugger features, and MDB Module Programming API.\n\n\nWriting Device Drivers\n\n\nWriting Device Drivers provides information on developing drivers for\ncharacter-oriented devices, block-oriented devices, network devices, SCSI\ntarget and HBA devices, and USB devices for the illumos Operating System\n(illumos). This book discusses how to develop multithreaded reentrant device\ndrivers for all architectures that conform to the illumos DDI/DKI (Device\nDriver Interface, Driver-Kernel Interface). A common driver programming\napproach is described that enables drivers to be written without concern for\nplatform-specific issues such as endianness and data ordering.\n\n\nAdditional topics include hardening illumos drivers; power management; driver\nautoconfiguration; programmed I/O; Direct Memory Access (DMA); device context\nmanagement; compilation, installation, and testing drivers; debugging drivers;\nand porting illumos drivers to a 64-bit environment.\n\n\nMemory and Thread Placement Optimization Developer's Guide\n\n\nThe Memory and Thread Placement Optimization Developer's Guide provides\ninformation on locality groups and the technologies that are available to\noptimize the use of computing resources in the illumos operating system.", 
+            "title": "Books"
+        }, 
+        {
+            "location": "/user-guide/books/#books", 
+            "text": "", 
+            "title": "Books"
+        }, 
+        {
+            "location": "/user-guide/books/#illumos-developers-guide", 
+            "text": "This guide covers the basic workflow for developing illumos and then dives into\nspecific detail on everything from the layout of the gate to several HOWTOs.\nWhether this is your first time working with illumos or you remember back when\nthe code in the gate all referred to something called SunOS, this guide will\nhelp you in enhancing and fixing illumos.", 
+            "title": "illumos Developer's Guide"
+        }, 
+        {
+            "location": "/user-guide/books/#dynamic-tracing-guide", 
+            "text": "DTrace is a comprehensive dynamic tracing framework for the illumos Operating\nSystem. DTrace provides a powerful infrastructure to permit administrators,\ndevelopers, and service personnel to concisely answer arbitrary questions about\nthe behavior of the operating system and user programs. The illumos Dynamic\nTracing Guide describes how to use DTrace to observe, debug, and tune system\nbehavior. This book also includes a complete reference for bundled DTrace\nobservability tools and the D programming language.", 
+            "title": "Dynamic Tracing Guide"
+        }, 
+        {
+            "location": "/user-guide/books/#modular-debugger-guide", 
+            "text": "The Modular Debugger (MDB) is a highly extensible, general purpose debugging\ntool for the illumos Operating System. The Modular Debugger Guide describes\nhow to use MDB to debug complex software systems, with a particular emphasis on\nthe facilities available for debugging the illumos kernel and associated device\ndrivers and modules. It also includes a complete reference for and discussion\nof the MDB language syntax, debugger features, and MDB Module Programming API.", 
+            "title": "Modular Debugger Guide"
+        }, 
+        {
+            "location": "/user-guide/books/#writing-device-drivers", 
+            "text": "Writing Device Drivers provides information on developing drivers for\ncharacter-oriented devices, block-oriented devices, network devices, SCSI\ntarget and HBA devices, and USB devices for the illumos Operating System\n(illumos). This book discusses how to develop multithreaded reentrant device\ndrivers for all architectures that conform to the illumos DDI/DKI (Device\nDriver Interface, Driver-Kernel Interface). A common driver programming\napproach is described that enables drivers to be written without concern for\nplatform-specific issues such as endianness and data ordering.  Additional topics include hardening illumos drivers; power management; driver\nautoconfiguration; programmed I/O; Direct Memory Access (DMA); device context\nmanagement; compilation, installation, and testing drivers; debugging drivers;\nand porting illumos drivers to a 64-bit environment.", 
+            "title": "Writing Device Drivers"
+        }, 
+        {
+            "location": "/user-guide/books/#memory-and-thread-placement-optimization-developers-guide", 
+            "text": "The Memory and Thread Placement Optimization Developer's Guide provides\ninformation on locality groups and the technologies that are available to\noptimize the use of computing resources in the illumos operating system.", 
+            "title": "Memory and Thread Placement Optimization Developer's Guide"
+        }, 
+        {
             "location": "/user-guide/manual/", 
-            "text": "Manual pages\n\n\nYou can browse (and link to) the illumos manual pages\n\nonline\n.\n\n\nHistory\n\n\nThe manual pages integrated into illumos-gate are taken from the last source\ndrop provided by Sun at \nhttp://dlc.sun.com/osol/man/downloads\n. These are\noutdated in several respects.\n\n\n\n\nThey are missing descriptions of new features\n\n\nThey may still describe some old features\n\n\nThey have no updates for changes made by us (obviously)\n\n\n\n\nBugs can be filed under the \n'manpages' category of the illumos-gate\nproject\n\nto rectify any omissions.\n\n\nWhile the OpenSolaris build 134 manual pages claim to be under the CDDL in both\npackage license and headers, and newer pages may well claim to be under the\nCDDL in their header comment, we have elected to treat them as tainted and work\nfrom the last explicit source drop. Please do not source text from any\nOpenSolaris page delivered to the system just because it superficially contains\na CDDL header. It is much, much better to be certain.\n\n\nIf you update software in a way that must be reflected in the manual, please\nalso update the manual in the same changeset.", 
-            "title": "Manuals"
+            "text": "Manual pages\n\n\nYou can browse (and link to) the illumos manual pages\n\nonline\n.\n\n\nHistory\n\n\nThe manual pages integrated into illumos-gate are taken from the last source\ndrop provided by Sun at \nhttp://dlc.sun.com/osol/man/downloads\n. These sources\nwere outdated in several respects:\n\n\n\n\nThey are missing descriptions of new features\n\n\nThey may still describe some old features\n\n\nThey have no updates for changes made by us (obviously)\n\n\n\n\nBugs can be filed under the \n'manpages' category of the illumos-gate\nproject\n\nto rectify any omissions.\n\n\nWhile the OpenSolaris build 134 manual pages claim to be under the CDDL in both\npackage license and headers, and newer pages may well claim to be under the\nCDDL in their header comment, we have elected to treat them as tainted and work\nfrom the last explicit source drop. Please do not source text from any\nOpenSolaris page delivered to the system just because it superficially contains\na CDDL header. It is much, much better to be certain.\n\n\nIf you update software in a way that must be reflected in the manual, please\nalso update the manual in the same changeset.", 
+            "title": "Manual Pages"
         }, 
         {
             "location": "/user-guide/manual/#manual-pages", 
@@ -532,7 +562,7 @@
         }, 
         {
             "location": "/user-guide/manual/#history", 
-            "text": "The manual pages integrated into illumos-gate are taken from the last source\ndrop provided by Sun at  http://dlc.sun.com/osol/man/downloads . These are\noutdated in several respects.   They are missing descriptions of new features  They may still describe some old features  They have no updates for changes made by us (obviously)   Bugs can be filed under the  'manpages' category of the illumos-gate\nproject \nto rectify any omissions.  While the OpenSolaris build 134 manual pages claim to be under the CDDL in both\npackage license and headers, and newer pages may well claim to be under the\nCDDL in their header comment, we have elected to treat them as tainted and work\nfrom the last explicit source drop. Please do not source text from any\nOpenSolaris page delivered to the system just because it superficially contains\na CDDL header. It is much, much better to be certain.  If you update software in a way that must be reflected in the manual, please\nalso update the manual in the same changeset.", 
+            "text": "The manual pages integrated into illumos-gate are taken from the last source\ndrop provided by Sun at  http://dlc.sun.com/osol/man/downloads . These sources\nwere outdated in several respects:   They are missing descriptions of new features  They may still describe some old features  They have no updates for changes made by us (obviously)   Bugs can be filed under the  'manpages' category of the illumos-gate\nproject \nto rectify any omissions.  While the OpenSolaris build 134 manual pages claim to be under the CDDL in both\npackage license and headers, and newer pages may well claim to be under the\nCDDL in their header comment, we have elected to treat them as tainted and work\nfrom the last explicit source drop. Please do not source text from any\nOpenSolaris page delivered to the system just because it superficially contains\na CDDL header. It is much, much better to be certain.  If you update software in a way that must be reflected in the manual, please\nalso update the manual in the same changeset.", 
             "title": "History"
         }, 
         {
