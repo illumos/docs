@@ -59,7 +59,7 @@ theme:
   name: 'material'
   logo: 'images/logo.png'
   palette:
-    primary: 'blue grey'
+    primary: 'light blue'
     accent: 'deep orange'
 
 extra:
