@@ -112,7 +112,7 @@
         }, 
         {
             "location": "/about/features/", 
-            "text": "Introduction\n\n\nillumos provides a number of advanced features for downstream distributions and\nusers to utilize.\n\n\nFilesystems\n\n\nZFS\n\n\nVirtualization\n\n\nNative OS Zones\n\n\nLX Zones (Linux Emulation)\n\n\nIntrospection and Debugging\n\n\nDTrace\n\n\nmdb\n\n\nFault Management\n\n\nService Management\n\n\nFirewall\n\n\nVirtual Networking\n\n\nSecurity", 
+            "text": "Introduction\n\n\nillumos provides a number of advanced features for downstream distributions and\nusers to utilize.\n\n\nFilesystems\n\n\nOpenZFS\n\n\nWe are the canonical upstream for the \nOpenZFS Project\n.\n\n\nZFS provides excellent data integrity, performance, flexilibility and\nease-of-use you simply can't find in other filesystems. ZFS combines\ntraditional concepts like volume management and filesystems with a pooled\nstorage that does for disks what virtual memory did for RAM.\n\n\nZFS was developed at Sun Microsystems in the early 2000s and released as open\nsource in 2005 as part of the OpenSolaris project. OpenZFS was announced in\n2013. For a more detailed history, please see \nOpenZFS\nHistory\n.\n\n\nZFS allows you to:\n\n\n\n\nGroup devices into a single storage pool with various redundancy characteristics\n\n\nCreate tiered storage with log and cache devices\n\n\nCreate read-only atomic filesystem snapshots\n\n\nCreate writable clones of snapshots\n\n\nSend snapshots as a bytestream -- which you can redirect to a file, or send across the network!\n\n\nDynamically modify dataset (filesystem) attributes\n\n\nDelegate dataset management to non-root users or groups\n\n\n\n\nZFS includes online checksumming of every block, on-demand scrubbing of disks,\nand -- in redundant configurations -- self-healing of bad data with good.\n\n\nZFS has been ported to \nLinux\n,\n\nFreeBSD\n, \nOS\nX\n -- and a \nWindows\nport\n is in progress as of late\n2017!\n\n\nOthers\n\n\nillumos provides a number of \nother filesystems\n, including:\n\n\n\n\nLoopback\n\n\nTemporary\n\n\nUFS\n\n\nHSFS\n\n\nNFS\n\n\nFAT\n\n\nCIFS\n\n\nUDFS\n\n\n\n\nVirtualization\n\n\nillumos offers a number of virtualization options, including lightweight\n\"operating system zones\", Linux emulated zones, and KVM.\n\n\n\n\nTerminology\n\n\nIn illumos, the global context is referred to as the \nglobal zone\n, or\n\nGZ\n.\n\n\nOther zone \"brands\" are \nnon-global zones\n, \nNGZ\n, or simply \nzones\n.\n\n\n\n\nNative OS\n\n\nLX (Linux Emulation)\n\n\nKVM\n\n\nbhyve (Under development!)\n\n\nJoyent is in the process of porting FreeBSD's bhyve to illumos. It should be\navailable for testing soon!\n\n\nIntrospection and Debugging\n\n\nDTrace\n\n\nmdb\n\n\nFault Management\n\n\nService Management\n\n\nFirewall\n\n\nVirtual Networking\n\n\nSecurity", 
             "title": "Features"
         }, 
         {
@@ -126,24 +126,39 @@
             "title": "Filesystems"
         }, 
         {
-            "location": "/about/features/#zfs", 
-            "text": "", 
-            "title": "ZFS"
+            "location": "/about/features/#openzfs", 
+            "text": "We are the canonical upstream for the  OpenZFS Project .  ZFS provides excellent data integrity, performance, flexilibility and\nease-of-use you simply can't find in other filesystems. ZFS combines\ntraditional concepts like volume management and filesystems with a pooled\nstorage that does for disks what virtual memory did for RAM.  ZFS was developed at Sun Microsystems in the early 2000s and released as open\nsource in 2005 as part of the OpenSolaris project. OpenZFS was announced in\n2013. For a more detailed history, please see  OpenZFS\nHistory .  ZFS allows you to:   Group devices into a single storage pool with various redundancy characteristics  Create tiered storage with log and cache devices  Create read-only atomic filesystem snapshots  Create writable clones of snapshots  Send snapshots as a bytestream -- which you can redirect to a file, or send across the network!  Dynamically modify dataset (filesystem) attributes  Delegate dataset management to non-root users or groups   ZFS includes online checksumming of every block, on-demand scrubbing of disks,\nand -- in redundant configurations -- self-healing of bad data with good.  ZFS has been ported to  Linux , FreeBSD ,  OS\nX  -- and a  Windows\nport  is in progress as of late\n2017!", 
+            "title": "OpenZFS"
+        }, 
+        {
+            "location": "/about/features/#others", 
+            "text": "illumos provides a number of  other filesystems , including:   Loopback  Temporary  UFS  HSFS  NFS  FAT  CIFS  UDFS", 
+            "title": "Others"
         }, 
         {
             "location": "/about/features/#virtualization", 
-            "text": "", 
+            "text": "illumos offers a number of virtualization options, including lightweight\n\"operating system zones\", Linux emulated zones, and KVM.   Terminology  In illumos, the global context is referred to as the  global zone , or GZ .  Other zone \"brands\" are  non-global zones ,  NGZ , or simply  zones .", 
             "title": "Virtualization"
         }, 
         {
-            "location": "/about/features/#native-os-zones", 
+            "location": "/about/features/#native-os", 
             "text": "", 
-            "title": "Native OS Zones"
+            "title": "Native OS"
         }, 
         {
-            "location": "/about/features/#lx-zones-linux-emulation", 
+            "location": "/about/features/#lx-linux-emulation", 
             "text": "", 
-            "title": "LX Zones (Linux Emulation)"
+            "title": "LX (Linux Emulation)"
+        }, 
+        {
+            "location": "/about/features/#kvm", 
+            "text": "", 
+            "title": "KVM"
+        }, 
+        {
+            "location": "/about/features/#bhyve-under-development", 
+            "text": "Joyent is in the process of porting FreeBSD's bhyve to illumos. It should be\navailable for testing soon!", 
+            "title": "bhyve (Under development!)"
         }, 
         {
             "location": "/about/features/#introspection-and-debugging", 

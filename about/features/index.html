@@ -62,7 +62,7 @@
   
     
     
-    <body dir="ltr" data-md-color-primary="blue-grey" data-md-color-accent="deep-orange">
+    <body dir="ltr" data-md-color-primary="light-blue" data-md-color-accent="deep-orange">
   
     <svg class="md-svg">
       <defs>
@@ -332,8 +332,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#zfs" title="ZFS" class="md-nav__link">
-    ZFS
+  <a href="#openzfs" title="OpenZFS" class="md-nav__link">
+    OpenZFS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#others" title="Others" class="md-nav__link">
+    Others
   </a>
   
 </li>
@@ -352,15 +359,29 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#native-os-zones" title="Native OS Zones" class="md-nav__link">
-    Native OS Zones
+  <a href="#native-os" title="Native OS" class="md-nav__link">
+    Native OS
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#lx-zones-linux-emulation" title="LX Zones (Linux Emulation)" class="md-nav__link">
-    LX Zones (Linux Emulation)
+  <a href="#lx-linux-emulation" title="LX (Linux Emulation)" class="md-nav__link">
+    LX (Linux Emulation)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kvm" title="KVM" class="md-nav__link">
+    KVM
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bhyve-under-development" title="bhyve (Under development!)" class="md-nav__link">
+    bhyve (Under development!)
   </a>
   
 </li>
@@ -1124,8 +1145,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#zfs" title="ZFS" class="md-nav__link">
-    ZFS
+  <a href="#openzfs" title="OpenZFS" class="md-nav__link">
+    OpenZFS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#others" title="Others" class="md-nav__link">
+    Others
   </a>
   
 </li>
@@ -1144,15 +1172,29 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#native-os-zones" title="Native OS Zones" class="md-nav__link">
-    Native OS Zones
+  <a href="#native-os" title="Native OS" class="md-nav__link">
+    Native OS
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#lx-zones-linux-emulation" title="LX Zones (Linux Emulation)" class="md-nav__link">
-    LX Zones (Linux Emulation)
+  <a href="#lx-linux-emulation" title="LX (Linux Emulation)" class="md-nav__link">
+    LX (Linux Emulation)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kvm" title="KVM" class="md-nav__link">
+    KVM
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bhyve-under-development" title="bhyve (Under development!)" class="md-nav__link">
+    bhyve (Under development!)
   </a>
   
 </li>
@@ -1254,10 +1296,60 @@
 <p>illumos provides a number of advanced features for downstream distributions and
 users to utilize.</p>
 <h3 id="filesystems">Filesystems<a class="headerlink" href="#filesystems" title="Permanent link">&para;</a></h3>
-<h4 id="zfs">ZFS<a class="headerlink" href="#zfs" title="Permanent link">&para;</a></h4>
+<h4 id="openzfs">OpenZFS<a class="headerlink" href="#openzfs" title="Permanent link">&para;</a></h4>
+<p>We are the canonical upstream for the <a href="http://open-zfs.org/">OpenZFS Project</a>.</p>
+<p>ZFS provides excellent data integrity, performance, flexilibility and
+ease-of-use you simply can't find in other filesystems. ZFS combines
+traditional concepts like volume management and filesystems with a pooled
+storage that does for disks what virtual memory did for RAM.</p>
+<p>ZFS was developed at Sun Microsystems in the early 2000s and released as open
+source in 2005 as part of the OpenSolaris project. OpenZFS was announced in
+2013. For a more detailed history, please see <a href="http://open-zfs.org/wiki/History">OpenZFS
+History</a>.</p>
+<p>ZFS allows you to:</p>
+<ul>
+<li>Group devices into a single storage pool with various redundancy characteristics</li>
+<li>Create tiered storage with log and cache devices</li>
+<li>Create read-only atomic filesystem snapshots</li>
+<li>Create writable clones of snapshots</li>
+<li>Send snapshots as a bytestream -- which you can redirect to a file, or send across the network!</li>
+<li>Dynamically modify dataset (filesystem) attributes</li>
+<li>Delegate dataset management to non-root users or groups</li>
+</ul>
+<p>ZFS includes online checksumming of every block, on-demand scrubbing of disks,
+and -- in redundant configurations -- self-healing of bad data with good.</p>
+<p>ZFS has been ported to <a href="http://zfsonlinux.org/">Linux</a>,
+<a href="https://www.freebsd.org/doc/handbook/zfs.html">FreeBSD</a>, <a href="https://openzfsonosx.org/">OS
+X</a> -- and a <a href="https://github.com/openzfsonwindows/ZFSin">Windows
+port</a> is in progress as of late
+2017!</p>
+<h4 id="others">Others<a class="headerlink" href="#others" title="Permanent link">&para;</a></h4>
+<p>illumos provides a number of <a href="http://illumos.org/man/7fs/all">other filesystems</a>, including:</p>
+<ul>
+<li><a href="http://illumos.org/man/7fs/lofs">Loopback</a></li>
+<li><a href="http://illumos.org/man/7fs/tmpfs">Temporary</a></li>
+<li><a href="http://illumos.org/man/7fs/ufs">UFS</a></li>
+<li><a href="http://illumos.org/man/7fs/hsfs">HSFS</a></li>
+<li><a href="https://illumos.org/man/1M/nfsd">NFS</a></li>
+<li><a href="http://illumos.org/man/7fs/pcfs">FAT</a></li>
+<li><a href="http://illumos.org/man/7fs/smbfs">CIFS</a></li>
+<li><a href="http://illumos.org/man/7fs/udfs">UDFS</a></li>
+</ul>
 <h3 id="virtualization">Virtualization<a class="headerlink" href="#virtualization" title="Permanent link">&para;</a></h3>
-<h4 id="native-os-zones">Native OS Zones<a class="headerlink" href="#native-os-zones" title="Permanent link">&para;</a></h4>
-<h4 id="lx-zones-linux-emulation">LX Zones (Linux Emulation)<a class="headerlink" href="#lx-zones-linux-emulation" title="Permanent link">&para;</a></h4>
+<p>illumos offers a number of virtualization options, including lightweight
+"operating system zones", Linux emulated zones, and KVM.</p>
+<div class="admonition tip">
+<p class="admonition-title">Terminology</p>
+<p>In illumos, the global context is referred to as the <em>global zone</em>, or
+<em>GZ</em>.</p>
+<p>Other zone "brands" are <em>non-global zones</em>, <em>NGZ</em>, or simply <em>zones</em>.</p>
+</div>
+<h4 id="native-os">Native OS<a class="headerlink" href="#native-os" title="Permanent link">&para;</a></h4>
+<h4 id="lx-linux-emulation">LX (Linux Emulation)<a class="headerlink" href="#lx-linux-emulation" title="Permanent link">&para;</a></h4>
+<h4 id="kvm">KVM<a class="headerlink" href="#kvm" title="Permanent link">&para;</a></h4>
+<h4 id="bhyve-under-development">bhyve (Under development!)<a class="headerlink" href="#bhyve-under-development" title="Permanent link">&para;</a></h4>
+<p>Joyent is in the process of porting FreeBSD's bhyve to illumos. It should be
+available for testing soon!</p>
 <h3 id="introspection-and-debugging">Introspection and Debugging<a class="headerlink" href="#introspection-and-debugging" title="Permanent link">&para;</a></h3>
 <h4 id="dtrace">DTrace<a class="headerlink" href="#dtrace" title="Permanent link">&para;</a></h4>
 <h4 id="mdb">mdb<a class="headerlink" href="#mdb" title="Permanent link">&para;</a></h4>
