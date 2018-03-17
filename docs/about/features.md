@@ -40,16 +40,16 @@ port](https://github.com/openzfsonwindows/ZFSin) is in progress as of late
 
 #### Others
 
-illumos provides a number of [other filesystems](http://illumos.org/man/7fs/all), including:
+illumos provides a number of [other filesystems](https://illumos.org/man/7fs/all), including:
 
-* [Loopback](http://illumos.org/man/7fs/lofs)
-* [Temporary](http://illumos.org/man/7fs/tmpfs)
-* [UFS](http://illumos.org/man/7fs/ufs)
-* [HSFS](http://illumos.org/man/7fs/hsfs)
+* [Loopback](https://illumos.org/man/7fs/lofs)
+* [Temporary](https://illumos.org/man/7fs/tmpfs)
+* [UFS](https://illumos.org/man/7fs/ufs)
+* [HSFS](https://illumos.org/man/7fs/hsfs)
 * [NFS](https://illumos.org/man/1M/nfsd)
-* [FAT](http://illumos.org/man/7fs/pcfs)
-* [CIFS](http://illumos.org/man/7fs/smbfs)
-* [UDFS](http://illumos.org/man/7fs/udfs)
+* [FAT](https://illumos.org/man/7fs/pcfs)
+* [CIFS](https://illumos.org/man/7fs/smbfs)
+* [UDFS](https://illumos.org/man/7fs/udfs)
 
 ### Virtualization
 
@@ -64,9 +64,19 @@ illumos offers a number of virtualization options, including lightweight
 
 #### Native OS
 
+Native OS zones provide an isolated illumos environment to run your
+applications in.
+
 #### LX (Linux Emulation)
 
+LX-branded zones provide the Linux syscall interface allowing you to run most
+Linux applications. While not yet upstreamed,
+[several illumos distributions](./distro.md) support it.
+
 #### KVM
+
+KVM (and QEMU) was ported to illumos in 2011, and can be used on Intel CPUs with
+VMX and EPT support.
 
 #### bhyve (Under development!)
 
@@ -77,15 +87,37 @@ available for testing soon!
 
 #### DTrace
 
-#### mdb
+DTrace allows for system-wide tracing of a kernel for debugging applications and
+the operating system, as well as gathering profiling data. DTrace along with MDB
+allows you to leverage [CTF data](https://illumos.org/man/4/ctf) to inspect
+userland and kernel structures.
+
+#### Modular Debugger
+
+MDB, the illumos modular debugger, allows you to inspect running processes, core
+files, kernel state, and kernel crash dumps.
+[KMDB](https://illumos.org/man/1/kmdb) also allows controlling the execution of a
+running kernel.
 
 ### Fault Management
 
 ### Service Management
 
+[SMF](https://illumos.org/man/5/smf) helps administrators manage services
+running on the system. SMF can take care of tracking service dependencies,
+restart policies, disabling perpetually crashing applications, and more.
+
 ### Firewall
 
+illumos uses [ipfilter](https://illumos.org/man/5/ipfilter) for firewalling. Using
+ipfilter you can create firewalls not just for the host system, but also for
+zones and hardware virtualized systems.
+
 ### Virtual Networking
+
+[dladm(1M)](https://illumos.org/man/1M/dladm) allows users to create Virtual
+NICs, bridges, and in some distributions
+[overlay networks](https://smartos.org/man/5/overlay).
 
 ### Security
 
