@@ -65,7 +65,7 @@ prepares a webrev and provides it for public review.
 
 !!! warning ""
 		Bob: While you were patiently waiting, other changes were put into upstream
-    Mercurial.  These changes have to be pulled and merged (to tip) before Mecurial
+    Mercurial.  These changes have to be pulled and merged (to tip) before Mercurial
     would allow you to push (assuming you were authorized).  If files you edited
     have been updated over time, it would be polite to pull, merge with those
     changes, re-test, and if they are significant to your work, re-request a
@@ -97,7 +97,7 @@ when the integration into "official" repository occurs).
     "illumos-clone" and then in "ws1".
     
     Changes may be pushed to something other than the default upstream repository
-    by specifying the respository URL when you do the push, or by editing .hg/hgrc
+    by specifying the repository URL when you do the push, or by editing .hg/hgrc
     inside the repository base directory and changing the "default" definition to
     the new path.  This means that you could push directly from "ws1" to the
     official master provided that any pending upstream changesets have been merged

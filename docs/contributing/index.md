@@ -6,8 +6,8 @@
 ## Overview
 
 Committing code to illumos can seem very daunting. To get started, you might
-consider watching [Ryan Zezeski]() going through fixing a bug in ZFS in this
-"illumos Day" talk, which includes going over integration.
+consider watching [Ryan Zezeski](https://zinascii.com/) going through fixing a
+bug in ZFS in this "illumos Day" talk, which includes going over integration.
 
 * [video](https://www.youtube.com/watch?v=HXjIz-RzhK8)
 * [slides](http://zinascii.com/pub/talks/fixing-bugs-in-illumos.pdf)
@@ -46,9 +46,7 @@ to get accustomed to the build system and source tree layout.
 
 An unparalleled resource for understanding the operating system is the the
 book, [Solaris Internals: Solaris 10 and OpenSolaris Kernel
-Architecture](http://www.amazon.com/Solaris-Internals-OpenSolaris-Kernel-Architecture/dp/0131482092)
-and its companion wiki,
-[solarisinternals.com](http://www.solarisinternals.com/).
+Architecture](http://www.amazon.com/Solaris-Internals-OpenSolaris-Kernel-Architecture/dp/0131482092).
 
 We have an [OpenGrok source browser and search engine](http://src.illumos.org/)
 which is very useful for development.
@@ -160,7 +158,7 @@ is anyone in particular they'd like to see review the code.
 
 For larger changes, please link to a resource on the web, instead of attaching
 a patch file. You may use a webrev (see below), a private hgweb or gitweb or
-online services like Bitbucket, Github, or Gitorious to share your changes.
+online services like Bitbucket, GitHub, or Gitorious to share your changes.
 Remember to mention the issue ID in the email - if one does not yet exist,
 please create one!
 
@@ -187,15 +185,15 @@ the changes.  Wait for a while for the change to propagate to the webrev
 server.  
 
 Note if you leave your passphrase blank you will be able to both publish and
-delete your webrev's as per the latest instructions on the main page at
+delete your webrevs as per the latest instructions on the main page at
 http://cr.illumos.org/ (this both creates and uploads your webrev - see
 "Creating and Uploaded in one step" ) however if you use a passphrase you will
-not be able to delete your webrev's as only publish will ask you for your
+not be able to delete your webrevs as only publish will ask you for your
 passphrase.
 
 ### Creating a webrev
 
-The [webrev(1)](http://illumos.org/man/webrev) tool is an easy way to show
+The [webrev(1ONBLD)](https://illumos.org/man/1ONBLD/webrev) tool is an easy way to show
 other people changes you have made.  It presents changes (including commit
 messages) in multiple formats viewable from a web browser. If you have
 installed an illumos build, you can run webrev like this:
@@ -235,7 +233,8 @@ in the illumos [bug tracker](https://bugs.illumos.org).  Refer to Generate a
 key pair above for more information. Please note that it takes a couple of
 minutes for your added (or updated) key to get copied to the webrev server.
 
-Once you have a key uploaded, you can use `webrev(1)` to generate and upload
+Once you have a key uploaded, you can use
+[webrev(1ONBLD)](http://illumos.org/man/1ONBLD/webrev) to generate and upload
 your webrev, all at once, thus:
 
 ```
@@ -262,7 +261,7 @@ complete path of http://cr.illumos.org/~webrev/jondoe/1023.
 ### Review Board
 
 For reviews you could also use the illumos' Review Board instance at
-http://illumos.org/rb. You should be able to log in with your existing illumos
+https://illumos.org/rb. You should be able to log in with your existing illumos
 bug tracker username and password.
 
 ### Ensuring adequate review

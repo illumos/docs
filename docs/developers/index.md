@@ -36,7 +36,7 @@ and install either [OpenIndiana](https://openindiana.org) or
 ## Hardware Support
 
 You'll generally have good luck with common x86 components, but it's always a
-good idea to refer to the [Hardware Combatibility
+good idea to refer to the [Hardware Compatibility
 List](https://www.illumos.org/hcl/) or Joyent's [Manufactory
 database](http://eng.joyent.com/manufacturing/bom.html).
 

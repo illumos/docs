@@ -203,7 +203,7 @@ directory of interest, usually works if the utility is self contained.
 
 ```
 Jens Elkner recommends:
-I made the src tree once nightly to "initilize" required stuff. After
+I made the src tree once nightly to "initialize" required stuff. After
 that I just source the script mentioned below when I start working,
 change to the dir of interest and call 'make ...'. This usually works
 even if nightly doesn't run through completely ...

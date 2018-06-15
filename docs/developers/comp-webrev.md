@@ -1,6 +1,6 @@
 `webrev(1)` lets you create a comparison of files changed by development. Its
 output can contain the same changeset in .patch, .ps, .pdf format along with
-index.html file and other acompanying resources.
+index.html file and other accompanying resources.
 
 The tools lives in `/opt/onbld/bin` directory. Be sure to install packages from
 How To Build illumos page. Also, be sure to have `/opt/onbld/bin` in your
@@ -20,7 +20,7 @@ echo $PATH
 Your output may vary, the important part is `/opt/onbld/bin`
 
 In the directory containing your build of illumos create a file listing your
-changed files. For [issue 6168: strlcpy() does not return s1](), two files were
+changed files. For [issue 6168: strlcpy() does not return s1](https://www.illumos.org/issues/6168), two files were
 edited:
 
 ```
@@ -42,7 +42,7 @@ First two lines define top level paths to directory containing modified source
 and top level directory containing original source.
 
 Latter two are files, relative to the top-level directories defined above,
-changed during development. In this case those are only two manpages, in case
+changed during development. In this case those are only two manual pages, in case
 of larger development it may be tens of files.
 
 From within `CODEMGR_WS` call `webrev(1)`:

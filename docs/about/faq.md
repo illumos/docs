@@ -1,7 +1,7 @@
 ## Quick Links
 
 * [Security Information](../security/index.md)
-* [Manual pages](http://illumos.org/man)
+* [Manual pages](https://illumos.org/man)
 * [Mailing lists](../community/lists.md)
 * [Bug reporting](../user-guide/bugs.md)
 

@@ -12,7 +12,7 @@ developers of Solaris, whose role is to make high-level architecture decisions.
 | --------------- | ------------ |
 | Adam Leventhal  | Delphix      |
 | Bryan Cantrill  | Joyent       |
-| Garrett D’Amore | unaffiliated |
+| Garrett D'Amore | unaffiliated |
 | Gordon Ross     | Nexenta      |
 | Rich Lowe       | unaffiliated |
 
@@ -48,12 +48,12 @@ full set of metadata (Reviewed by: lines, authorship, etc.). If you didn't,
 feel free to ask whoever submitted the patch to submit it in this format, you
 shouldn't have to go search the list archives for reviewers.
 
-### Using your judgement
+### Using your judgment
 
 The whole reason we have RTI advocates or, if you're not steeped in Sun-ish
 history, follow a "pull" model, is that it provides us with a step in the
 process where in theory experienced people can exercise their (in theory)
-better judgement, and everyone can benefit from less breakage. This is 95% of
+better judgment, and everyone can benefit from less breakage. This is 95% of
 the work involved.
 
 ### Things Advocates Focus On

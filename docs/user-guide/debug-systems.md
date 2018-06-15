@@ -73,7 +73,7 @@ Save the crash.0 file in your home directory for reporting the crash. If
 possible, keep the crash dump files on hand for future examination. If you have
 available bandwidth and disk space, making this full crash dump accessible to
 developers is invaluable. Note that due to the nature of the dump, it may
-contain information you consider confidential. Use your judgement when making
+contain information you consider confidential. Use your judgment when making
 it generally available.
 
 ### Notes
@@ -91,7 +91,7 @@ If you do not see a line like "100% done   .... dump succeeded" on the console
 multi-threaded dump). In this case in order to successfully force a crash dump
 (if you do not see "dump succeeded")  you should modify your system to perform
 a non-threaded crash dump by adding the following line to your /etc/system file
-"set dump_plat_mincpu=0" and then performing a rconfiguration reboot.
+"set dump_plat_mincpu=0" and then performing a reconfiguration reboot.
 
 #### Forcing a crash dump.
 
@@ -153,11 +153,6 @@ When you are successful the system should drop you into a kmdb prompt.
 * Follow "Gathering Information About A Crash", above.
 * If you cannot save a crash dump, and are on a serial console, enter ::msgbuf, ::panicinfo, ::cpuinfo -v and::threadlist -v 10 and record the output. (Or take photos if you're unlucky enough to be at a VGA console)..
 
-More resources:
-
-* http://blogs.sun.com/dmick/entry/diagnosing_kernel_hangs_panics_with
-* http://wikis.sun.com/display/WDD/Enable+the+Deadman+Feature+to+Avoid+a+Hard+Hang
-
 ## Gathering Information from a Running System, Using only NMI (x86)
 
 In order to force a crash dump form a system that seems hung or frozen e.g. no
@@ -179,9 +174,8 @@ OS.
 
 More resources:
 
-http://blogs.sun.com/dmick/entry/diagnosing_kernel_hangs_panics_with
-http://wikis.sun.com/display/WDD/Enable+the+Deadman+Feature+to+Avoid+a+Hard+Hang
-http://www.cuddletech.com/blog/pivot/entry.php?id=1044
-http://kristof.willen.be/node/1100
-http://docs.oracle.com/cd/E19963-01/html/817-2543/casestudy-13.html
-http://shanit.blogspot.com/2009/03/solaris-10-crashdumps.html
+* [Debugging, Testing, and Tuning Device Drivers](https://illumos.org/books/wdd/debug-60.html) (from the [Writing Device Drivers Guide](https://illumos.org/books/wdd/))
+* [Debugging With the Kernel Memory Allocator](https://illumos.org/books/mdb/kmem-1.html) (from the [Modular Debugger Guide](https://illumos.org/books/mdb/))
+* [Diagnosing kernel hangs/panics with kmdb and moddebug](https://web.archive.org/web/20100302205006/http://blogs.sun.com/dmick/entry/diagnosing_kernel_hangs_panics_with) by Dan Mick
+* [Crash dump analysis on OpenSolaris](http://kristof.willen.be/node/1100)
+* [Solaris 10 crash dumps](http://shanit.blogspot.com/2009/03/solaris-10-crashdumps.html)

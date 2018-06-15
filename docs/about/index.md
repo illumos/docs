@@ -1,12 +1,12 @@
 # what *is* illumos?
 
-To quote the [illumos Developer's Guide](http://illumos.org/books/dev/):
+To quote the [illumos Developer's Guide](https://illumos.org/books/dev/):
 
 !!! note ""
     illumos is a consolidation of software that forms the core of an Operating
     System. It includes the kernel, device drivers, core system libraries, and
     utilities. It is the home of many technologies including ZFS, DTrace, Zones,
-    ctf, FMA, and more. We pride ourselves on having a stable, highly
+    CTF, FMA, and more. We pride ourselves on having a stable, highly
     observable, and technologically different system. In addition, illumos
     traces it roots back through Sun Microsystems to the original releases of
     UNIX and BSD.
@@ -72,7 +72,7 @@ database](http://eng.joyent.com/manufacturing/bom.html).
 
 ### illumos Development Model
 
-Please refer to the [illumos Developer's Guide](http://illumos.org/books/dev/)
+Please refer to the [illumos Developer's Guide](https://illumos.org/books/dev/)
 and the [development section](../developers/index.md).
 
 ### Contributing to illumos

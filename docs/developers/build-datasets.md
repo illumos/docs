@@ -68,7 +68,7 @@ sudo zfs allow -l -d -u $USER \
     The `-l -d` options set this permission locally on the named dataset and on its descendants, including those created in the future.
 
 Finally, one of your large space consumers would be the package repository
-containing the built installable binaries. You can seperate that into a
+containing the built installable binaries. You can separate that into a
 standalone dataset for the same ZFS benefits of independent data lifecycle,
 replication or storage optimization, for example:
 
@@ -96,7 +96,7 @@ Administrative rationales however include:
 
 * When working on many bugs, people can have several "code" workspaces maintained as ZFS-clones of one golden code repo, as summarized in [Working on several bugs at once]().
 * However they can want to share the package repository between such projects, and maintain one package depot once configured.
-* Snapshooting the package repo before and after a build to check for differences, or to do a zfs send to another machine.
+* Snapshotting the package repo before and after a build to check for differences, or to do a zfs send to another machine.
 * rsync may be better though (since the rebuild would likely wipe the repo and create it anew, even if made up of mostly the same contents – `zfs diff` would be huge, but rsync data diff would only include changes).
 * NFS/CIFS-sharing of the package repo may be easier to set up if it is a separate dataset.
 

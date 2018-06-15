@@ -29,5 +29,5 @@ Please paste any error messages, or the output of ::msgbuf from mdb directly in 
 
 # Examples of bug fixing
 
-[Ryan Zezeski]() goes through fixing a bug in ZFS in this "illumos Day" talk.
+[Ryan Zezeski](https://zinascii.com/) goes through fixing a bug in ZFS in this "illumos Day" talk.
 ([video](https://www.youtube.com/watch?v=HXjIz-RzhK8), [slides](http://zinascii.com/pub/talks/fixing-bugs-in-illumos.pdf))

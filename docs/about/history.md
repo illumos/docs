@@ -13,7 +13,7 @@ concern us.)
 
 In 2005 Sun Microsystems released Solaris 10 which contains several truly
 innovative features we continue to rely on to this day. Just as importantly,
-however, Sun also opensourced the operating system as OpenSolaris. While there
+however, Sun also open-sourced the operating system as OpenSolaris. While there
 were a few governance missteps along the way, it was a bold move.
 
 If you're interested in the history of OpenSolaris, Jim Grisanzio has [written

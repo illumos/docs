@@ -20,7 +20,7 @@
 | [advocates](https://illumos.topicbox.com/groups/advocates) | Moderated list for illumos Advocates and submitting RTIs only. ([Old archives](http://lists.illumos.org/pipermail/advocates/)) |
 | [commits](https://illumos.topicbox.com/groups/illumos-commits) | Notifications about each commit made to the illumos source code repository. ([Old archives](http://lists.illumos.org/pipermail/illumos-commits))
 
-## Related Communites
+## Related Communities
 
 | Name | Description |
 |------|-------------|

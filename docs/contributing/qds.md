@@ -5,7 +5,7 @@
     | -----|-------------------------------------|
     | FCS  | First Customer Ship                 |
     | gate | Source code repository              |
-    | Put [it] back | Commiting code to the gate |
+    | Put [it] back | Committing code to the gate |
 
 ## Introduction
 
@@ -41,4 +41,4 @@ Only way to avoid the quality death spiral:
 * Downward spiral hard to break
 * Recovery time can be very long
 
-Orignally sourced from http://hub.opensolaris.org/bin/view/Community+Group+on/qual_death_spiral.
+Originally sourced from http://hub.opensolaris.org/bin/view/Community+Group+on/qual_death_spiral.

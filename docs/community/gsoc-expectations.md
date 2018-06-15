@@ -55,5 +55,5 @@ request assistance ASAP. First-instance support for blockers should be from the
 developer community and not tied to any individual unless there is a clear
 reason for this and preferably prior agreement.
 
-If you haven't already, create accounts for yourself on github and the illumos
+If you haven't already, create accounts for yourself on GitHub and the illumos
 [bug tracker](https://bugs.illumos.org).

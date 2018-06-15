@@ -92,7 +92,7 @@ that we would all like to avoid.
 So there's a lot of good stuff, with all the other issues going on with the
 community that's built up around the code. First off there's technology in
 the code, zfs, dtrace, crossbow, zones, I think everyone who's familiar with
-Opensolaris will recognize this stuff, and if you don't, Google will readily
+OpenSolaris will recognize this stuff, and if you don't, Google will readily
 fill you in with lots and lots of detail on all of these technologies, and this
 is just a brief list of some of the big names. There's a lot of others beyond
 this. And of course the community behind these technologies is made up of a
@@ -162,7 +162,7 @@ attempts.
 [Slide 8, 11:28]
 
 So there's a large number of people. I started the project, so I guess I'm the
-defactor "leader". But you know, there's actually quite a - it was a dozen when
+de facto "leader". But you know, there's actually quite a - it was a dozen when
 I wrote this, it's probably grown since then. This project started out with
 just a few developers, that I wanted have real focus on just getting the code
 done. Without engaging in a lot of conversation. Even with that small, focused
@@ -365,7 +365,7 @@ A little bit here about how the project is organised. Basically, we're going to
 have two groups, one group is this notion of administrative council, that
 basically handles non-technical matters. So resource management. We do have
 servers, we have mailing lists. There is probably matters of evangelism and
-marketing and all these others things that happen. We wanted to seperate the
+marketing and all these others things that happen. We wanted to separate the
 technical from the non-technical. So the people focused on the code, and
 getting things done, didn't have to be bothered by the day-to-day running of
 the details. Likewise, the people running the day-to-day details don't have to

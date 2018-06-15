@@ -8,7 +8,7 @@ Written by [Bryan Cantrill]()
     | FCS           | First Customer Ship                                                 |
     | gate          | Source code repository                                              |
     | gatekeeper    | Release Engineer responsible for ensuring the gate is working       |
-    | putback       | Commiting code to the gate                                          |
+    | putback       | Committing code to the gate                                          |
     | jurassic      | Server in the Sun Microsystems engineering dept.                    |
 
 ## Introduction

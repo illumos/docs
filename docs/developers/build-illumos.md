@@ -27,7 +27,7 @@ The illumos-gate source can then be cloned using:
 
 ```
 cd /code
-git clone git://github.com/illumos/illumos-gate.git
+git clone https://github.com/illumos/illumos-gate.git
 ```
 
 ## Getting closed binaries

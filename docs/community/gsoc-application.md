@@ -4,7 +4,7 @@
 
 * Name:
 * Email address:
-* IRC nickname on freenode:
+* IRC nickname on FreeNode:
 * Field of study (and concentration, if any):
 
 * Have you participated in an open source project before? If you have, which aspects did you enjoy most (or least)? If you have contributed code, can you describe the tools and languages you used, and link to commits?
