@@ -1247,7 +1247,7 @@ information from the crash to a file:</p>
 possible, keep the crash dump files on hand for future examination. If you have
 available bandwidth and disk space, making this full crash dump accessible to
 developers is invaluable. Note that due to the nature of the dump, it may
-contain information you consider confidential. Use your judgement when making
+contain information you consider confidential. Use your judgment when making
 it generally available.</p>
 <h3 id="notes">Notes<a class="headerlink" href="#notes" title="Permanent link">&para;</a></h3>
 <p>Configuring your crash dump.  The commands "dumpadm" and "coreadm" and be used
@@ -1261,7 +1261,7 @@ crash dump.</p>
 multi-threaded dump). In this case in order to successfully force a crash dump
 (if you do not see "dump succeeded")  you should modify your system to perform
 a non-threaded crash dump by adding the following line to your /etc/system file
-"set dump_plat_mincpu=0" and then performing a rconfiguration reboot.</p>
+"set dump_plat_mincpu=0" and then performing a reconfiguration reboot.</p>
 <h4 id="forcing-a-crash-dump">Forcing a crash dump.<a class="headerlink" href="#forcing-a-crash-dump" title="Permanent link">&para;</a></h4>
 <p>In order to force a crash dump form a working system that still has interactive capabilities you can do one of the following:</p>
 <ul>
@@ -1316,11 +1316,6 @@ and do one of:</p>
 <li>Follow "Gathering Information About A Crash", above.</li>
 <li>If you cannot save a crash dump, and are on a serial console, enter ::msgbuf, ::panicinfo, ::cpuinfo -v and::threadlist -v 10 and record the output. (Or take photos if you're unlucky enough to be at a VGA console)..</li>
 </ul>
-<p>More resources:</p>
-<ul>
-<li><a href="http://blogs.sun.com/dmick/entry/diagnosing_kernel_hangs_panics_with">http://blogs.sun.com/dmick/entry/diagnosing_kernel_hangs_panics_with</a></li>
-<li><a href="http://wikis.sun.com/display/WDD/Enable+the+Deadman+Feature+to+Avoid+a+Hard+Hang">http://wikis.sun.com/display/WDD/Enable+the+Deadman+Feature+to+Avoid+a+Hard+Hang</a></li>
-</ul>
 <h2 id="gathering-information-from-a-running-system-using-only-nmi-x86">Gathering Information from a Running System, Using only NMI (x86)<a class="headerlink" href="#gathering-information-from-a-running-system-using-only-nmi-x86" title="Permanent link">&para;</a></h2>
 <p>In order to force a crash dump form a system that seems hung or frozen e.g. no
 longer has has interactive capabilities if your system supports NMI (hardware
@@ -1339,12 +1334,13 @@ Because of these requirements despite the fact that many admins use this as a
 default setting it is not the default configuration for fresh installs of the
 OS.</p>
 <p>More resources:</p>
-<p><a href="http://blogs.sun.com/dmick/entry/diagnosing_kernel_hangs_panics_with">http://blogs.sun.com/dmick/entry/diagnosing_kernel_hangs_panics_with</a>
-<a href="http://wikis.sun.com/display/WDD/Enable+the+Deadman+Feature+to+Avoid+a+Hard+Hang">http://wikis.sun.com/display/WDD/Enable+the+Deadman+Feature+to+Avoid+a+Hard+Hang</a>
-<a href="http://www.cuddletech.com/blog/pivot/entry.php?id=1044">http://www.cuddletech.com/blog/pivot/entry.php?id=1044</a>
-<a href="http://kristof.willen.be/node/1100">http://kristof.willen.be/node/1100</a>
-<a href="http://docs.oracle.com/cd/E19963-01/html/817-2543/casestudy-13.html">http://docs.oracle.com/cd/E19963-01/html/817-2543/casestudy-13.html</a>
-<a href="http://shanit.blogspot.com/2009/03/solaris-10-crashdumps.html">http://shanit.blogspot.com/2009/03/solaris-10-crashdumps.html</a></p>
+<ul>
+<li><a href="https://illumos.org/books/wdd/debug-60.html">Debugging, Testing, and Tuning Device Drivers</a> (from the <a href="https://illumos.org/books/wdd/">Writing Device Drivers Guide</a>)</li>
+<li><a href="https://illumos.org/books/mdb/kmem-1.html">Debugging With the Kernel Memory Allocator</a> (from the <a href="https://illumos.org/books/mdb/">Modular Debugger Guide</a>)</li>
+<li><a href="https://web.archive.org/web/20100302205006/http://blogs.sun.com/dmick/entry/diagnosing_kernel_hangs_panics_with">Diagnosing kernel hangs/panics with kmdb and moddebug</a> by Dan Mick</li>
+<li><a href="http://kristof.willen.be/node/1100">Crash dump analysis on OpenSolaris</a></li>
+<li><a href="http://shanit.blogspot.com/2009/03/solaris-10-crashdumps.html">Solaris 10 crash dumps</a></li>
+</ul>
                 
                   
                 

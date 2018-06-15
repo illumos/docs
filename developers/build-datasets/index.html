@@ -1082,7 +1082,7 @@ rights for that to your build-user:</p>
 <p>The <code>-l -d</code> options set this permission locally on the named dataset and on its descendants, including those created in the future.</p>
 </div>
 <p>Finally, one of your large space consumers would be the package repository
-containing the built installable binaries. You can seperate that into a
+containing the built installable binaries. You can separate that into a
 standalone dataset for the same ZFS benefits of independent data lifecycle,
 replication or storage optimization, for example:</p>
 <div class="codehilite"><pre><span></span>sudo zfs create -o atime=off -o compression=gzip-9 \
@@ -1106,7 +1106,7 @@ one like putting stuff into different boxes.</p>
 <ul>
 <li>When working on many bugs, people can have several "code" workspaces maintained as ZFS-clones of one golden code repo, as summarized in <a href="">Working on several bugs at once</a>.</li>
 <li>However they can want to share the package repository between such projects, and maintain one package depot once configured.</li>
-<li>Snapshooting the package repo before and after a build to check for differences, or to do a zfs send to another machine.</li>
+<li>Snapshotting the package repo before and after a build to check for differences, or to do a zfs send to another machine.</li>
 <li>rsync may be better though (since the rebuild would likely wipe the repo and create it anew, even if made up of mostly the same contents – <code>zfs diff</code> would be huge, but rsync data diff would only include changes).</li>
 <li>NFS/CIFS-sharing of the package repo may be easier to set up if it is a separate dataset.</li>
 </ul>

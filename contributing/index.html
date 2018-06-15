@@ -1279,8 +1279,8 @@
 <h1 id="contributing-to-illumos">Contributing to illumos<a class="headerlink" href="#contributing-to-illumos" title="Permanent link">&para;</a></h1>
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
 <p>Committing code to illumos can seem very daunting. To get started, you might
-consider watching <a href="">Ryan Zezeski</a> going through fixing a bug in ZFS in this
-"illumos Day" talk, which includes going over integration.</p>
+consider watching <a href="https://zinascii.com/">Ryan Zezeski</a> going through fixing a
+bug in ZFS in this "illumos Day" talk, which includes going over integration.</p>
 <ul>
 <li><a href="https://www.youtube.com/watch?v=HXjIz-RzhK8">video</a></li>
 <li><a href="http://zinascii.com/pub/talks/fixing-bugs-in-illumos.pdf">slides</a></li>
@@ -1313,9 +1313,7 @@ build environment and getting the source. You should try a build once or twice
 to get accustomed to the build system and source tree layout.</p>
 <p>An unparalleled resource for understanding the operating system is the the
 book, <a href="http://www.amazon.com/Solaris-Internals-OpenSolaris-Kernel-Architecture/dp/0131482092">Solaris Internals: Solaris 10 and OpenSolaris Kernel
-Architecture</a>
-and its companion wiki,
-<a href="http://www.solarisinternals.com/">solarisinternals.com</a>.</p>
+Architecture</a>.</p>
 <p>We have an <a href="http://src.illumos.org/">OpenGrok source browser and search engine</a>
 which is very useful for development.</p>
 <p>Feel free to ask the <a href="../community/lists/">developer mailing list</a> or the <a href="./../community/#irc-channels">IRC
@@ -1402,7 +1400,7 @@ developer mailing list to ask for feedback, or ask the RTI advocates if there
 is anyone in particular they'd like to see review the code.</p>
 <p>For larger changes, please link to a resource on the web, instead of attaching
 a patch file. You may use a webrev (see below), a private hgweb or gitweb or
-online services like Bitbucket, Github, or Gitorious to share your changes.
+online services like Bitbucket, GitHub, or Gitorious to share your changes.
 Remember to mention the issue ID in the email - if one does not yet exist,
 please create one!</p>
 <h3 id="generate-a-key-pair">Generate a key pair<a class="headerlink" href="#generate-a-key-pair" title="Permanent link">&para;</a></h3>
@@ -1424,13 +1422,13 @@ ssh-rsa AAAAB3...
 the changes.  Wait for a while for the change to propagate to the webrev
 server.  </p>
 <p>Note if you leave your passphrase blank you will be able to both publish and
-delete your webrev's as per the latest instructions on the main page at
+delete your webrevs as per the latest instructions on the main page at
 <a href="http://cr.illumos.org/">http://cr.illumos.org/</a> (this both creates and uploads your webrev - see
 "Creating and Uploaded in one step" ) however if you use a passphrase you will
-not be able to delete your webrev's as only publish will ask you for your
+not be able to delete your webrevs as only publish will ask you for your
 passphrase.</p>
 <h3 id="creating-a-webrev">Creating a webrev<a class="headerlink" href="#creating-a-webrev" title="Permanent link">&para;</a></h3>
-<p>The <a href="http://illumos.org/man/webrev">webrev(1)</a> tool is an easy way to show
+<p>The <a href="https://illumos.org/man/1ONBLD/webrev">webrev(1ONBLD)</a> tool is an easy way to show
 other people changes you have made.  It presents changes (including commit
 messages) in multiple formats viewable from a web browser. If you have
 installed an illumos build, you can run webrev like this:</p>
@@ -1458,7 +1456,8 @@ illumos project as described in the next section.</p>
 in the illumos <a href="https://bugs.illumos.org">bug tracker</a>.  Refer to Generate a
 key pair above for more information. Please note that it takes a couple of
 minutes for your added (or updated) key to get copied to the webrev server.</p>
-<p>Once you have a key uploaded, you can use <code>webrev(1)</code> to generate and upload
+<p>Once you have a key uploaded, you can use
+<a href="http://illumos.org/man/1ONBLD/webrev">webrev(1ONBLD)</a> to generate and upload
 your webrev, all at once, thus:</p>
 <div class="codehilite"><pre><span></span>webrev -t rsync://webrev@cr.illumos.org:$SOME_NAME -U
 </pre></div>
@@ -1478,7 +1477,7 @@ e.g. <code>1023</code> under your directory <a href="http://cr.illumos.org/~webr
 complete path of <a href="http://cr.illumos.org/~webrev/jondoe/1023">http://cr.illumos.org/~webrev/jondoe/1023</a>.</p>
 <h3 id="review-board">Review Board<a class="headerlink" href="#review-board" title="Permanent link">&para;</a></h3>
 <p>For reviews you could also use the illumos' Review Board instance at
-<a href="http://illumos.org/rb">http://illumos.org/rb</a>. You should be able to log in with your existing illumos
+<a href="https://illumos.org/rb">https://illumos.org/rb</a>. You should be able to log in with your existing illumos
 bug tracker username and password.</p>
 <h3 id="ensuring-adequate-review">Ensuring adequate review<a class="headerlink" href="#ensuring-adequate-review" title="Permanent link">&para;</a></h3>
 <p>It is up to you as a contributor to gather reasonable review to satisfy your

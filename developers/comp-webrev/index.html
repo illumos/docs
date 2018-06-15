@@ -962,7 +962,7 @@
                 
                 <p><code>webrev(1)</code> lets you create a comparison of files changed by development. Its
 output can contain the same changeset in .patch, .ps, .pdf format along with
-index.html file and other acompanying resources.</p>
+index.html file and other accompanying resources.</p>
 <p>The tools lives in <code>/opt/onbld/bin</code> directory. Be sure to install packages from
 How To Build illumos page. Also, be sure to have <code>/opt/onbld/bin</code> in your
 <code>PATH</code>.  You can check it by running:</p>
@@ -976,7 +976,7 @@ How To Build illumos page. Also, be sure to have <code>/opt/onbld/bin</code> in 
 
 <p>Your output may vary, the important part is <code>/opt/onbld/bin</code></p>
 <p>In the directory containing your build of illumos create a file listing your
-changed files. For <a href="">issue 6168: strlcpy() does not return s1</a>, two files were
+changed files. For <a href="https://www.illumos.org/issues/6168">issue 6168: strlcpy() does not return s1</a>, two files were
 edited:</p>
 <div class="codehilite"><pre><span></span>usr/src/man/man9f/string.9f
 usr/src/man/man3c/string.3c
@@ -993,7 +993,7 @@ usr/src/man/man3c/string.3c
 <p>First two lines define top level paths to directory containing modified source
 and top level directory containing original source.</p>
 <p>Latter two are files, relative to the top-level directories defined above,
-changed during development. In this case those are only two manpages, in case
+changed during development. In this case those are only two manual pages, in case
 of larger development it may be tens of files.</p>
 <p>From within <code>CODEMGR_WS</code> call <code>webrev(1)</code>:</p>
 <div class="codehilite"><pre><span></span>cd /code/illumos-gate-6168/
