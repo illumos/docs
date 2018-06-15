@@ -41,8 +41,8 @@ INFO    -  Cleaning site directory
 
 ### Deploying changes
 
-Run `mkdocs gh-deploy` to GitHub Pages. The mkdocs documentation on this
-command is [here](https://www.mkdocs.org/user-guide/deploying-your-docs/#github-pages).
+Run `mkdocs gh-deploy` from the repository root to deploy to GitHub Pages. The
+mkdocs documentation on this command is [here](https://www.mkdocs.org/user-guide/deploying-your-docs/#github-pages).
 
 ### Submitting changes
 
