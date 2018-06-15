@@ -46,7 +46,7 @@ For more in-depth descriptions, please see the [features page](features.md).
 
 ### Uses for illumos
 
-While it can be and is used in any nearly situation where a UNIX-type server is
+While it can be and is used in nearly any situation where a UNIX-type server is
 needed, illumos excels at storage applications, large multi-tenant systems, and
 other cloud-centric uses. 
 
