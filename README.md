@@ -39,6 +39,11 @@ INFO    -  Cleaning site directory
 [I 180302 19:37:52 handlers:62] Start detecting changes
 ```
 
+### Deploying changes
+
+Run `mkdocs gh-deploy` to GitHub Pages. The mkdocs documentation on this
+command is [here](https://www.mkdocs.org/user-guide/deploying-your-docs/#github-pages).
+
 ### Submitting changes
 
 Additions or updates should be submitted via Pull Request.
