@@ -407,8 +407,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#mdb" title="mdb" class="md-nav__link">
-    mdb
+  <a href="#modular-debugger" title="Modular Debugger" class="md-nav__link">
+    Modular Debugger
   </a>
   
 </li>
@@ -1220,8 +1220,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#mdb" title="mdb" class="md-nav__link">
-    mdb
+  <a href="#modular-debugger" title="Modular Debugger" class="md-nav__link">
+    Modular Debugger
   </a>
   
 </li>
@@ -1324,16 +1324,16 @@ X</a> -- and a <a href="https://github.com/openzfsonwindows/ZFSin">Windows
 port</a> is in progress as of late
 2017!</p>
 <h4 id="others">Others<a class="headerlink" href="#others" title="Permanent link">&para;</a></h4>
-<p>illumos provides a number of <a href="http://illumos.org/man/7fs/all">other filesystems</a>, including:</p>
+<p>illumos provides a number of <a href="https://illumos.org/man/7fs/all">other filesystems</a>, including:</p>
 <ul>
-<li><a href="http://illumos.org/man/7fs/lofs">Loopback</a></li>
-<li><a href="http://illumos.org/man/7fs/tmpfs">Temporary</a></li>
-<li><a href="http://illumos.org/man/7fs/ufs">UFS</a></li>
-<li><a href="http://illumos.org/man/7fs/hsfs">HSFS</a></li>
+<li><a href="https://illumos.org/man/7fs/lofs">Loopback</a></li>
+<li><a href="https://illumos.org/man/7fs/tmpfs">Temporary</a></li>
+<li><a href="https://illumos.org/man/7fs/ufs">UFS</a></li>
+<li><a href="https://illumos.org/man/7fs/hsfs">HSFS</a></li>
 <li><a href="https://illumos.org/man/1M/nfsd">NFS</a></li>
-<li><a href="http://illumos.org/man/7fs/pcfs">FAT</a></li>
-<li><a href="http://illumos.org/man/7fs/smbfs">CIFS</a></li>
-<li><a href="http://illumos.org/man/7fs/udfs">UDFS</a></li>
+<li><a href="https://illumos.org/man/7fs/pcfs">FAT</a></li>
+<li><a href="https://illumos.org/man/7fs/smbfs">CIFS</a></li>
+<li><a href="https://illumos.org/man/7fs/udfs">UDFS</a></li>
 </ul>
 <h3 id="virtualization">Virtualization<a class="headerlink" href="#virtualization" title="Permanent link">&para;</a></h3>
 <p>illumos offers a number of virtualization options, including lightweight
@@ -1345,18 +1345,42 @@ port</a> is in progress as of late
 <p>Other zone "brands" are <em>non-global zones</em>, <em>NGZ</em>, or simply <em>zones</em>.</p>
 </div>
 <h4 id="native-os">Native OS<a class="headerlink" href="#native-os" title="Permanent link">&para;</a></h4>
+<p>Native OS zones provide an isolated illumos environment to run your
+applications in.</p>
 <h4 id="lx-linux-emulation">LX (Linux Emulation)<a class="headerlink" href="#lx-linux-emulation" title="Permanent link">&para;</a></h4>
+<p>LX-branded zones provide the Linux syscall interface allowing you to run most
+Linux applications. While not yet upstreamed,
+<a href="../distro/">several illumos distributions</a> support it.</p>
 <h4 id="kvm">KVM<a class="headerlink" href="#kvm" title="Permanent link">&para;</a></h4>
+<p>KVM (and QEMU) was ported to illumos in 2011, and can be used on Intel CPUs with
+VMX and EPT support.</p>
 <h4 id="bhyve-under-development">bhyve (Under development!)<a class="headerlink" href="#bhyve-under-development" title="Permanent link">&para;</a></h4>
 <p>Joyent is in the process of porting FreeBSD's bhyve to illumos. It should be
 available for testing soon!</p>
 <h3 id="introspection-and-debugging">Introspection and Debugging<a class="headerlink" href="#introspection-and-debugging" title="Permanent link">&para;</a></h3>
 <h4 id="dtrace">DTrace<a class="headerlink" href="#dtrace" title="Permanent link">&para;</a></h4>
-<h4 id="mdb">mdb<a class="headerlink" href="#mdb" title="Permanent link">&para;</a></h4>
+<p>DTrace allows for system-wide tracing of a kernel for debugging applications and
+the operating system, as well as gathering profiling data. DTrace along with MDB
+allows you to leverage <a href="https://illumos.org/man/4/ctf">CTF data</a> to inspect
+userland and kernel structures.</p>
+<h4 id="modular-debugger">Modular Debugger<a class="headerlink" href="#modular-debugger" title="Permanent link">&para;</a></h4>
+<p>MDB, the illumos modular debugger, allows you to inspect running processes, core
+files, kernel state, and kernel crash dumps.
+<a href="https://illumos.org/man/1/kmdb">KMDB</a> also allows controlling the execution of a
+running kernel.</p>
 <h3 id="fault-management">Fault Management<a class="headerlink" href="#fault-management" title="Permanent link">&para;</a></h3>
 <h3 id="service-management">Service Management<a class="headerlink" href="#service-management" title="Permanent link">&para;</a></h3>
+<p><a href="https://illumos.org/man/5/smf">SMF</a> helps administrators manage services
+running on the system. SMF can take care of tracking service dependencies,
+restart policies, disabling perpetually crashing applications, and more.</p>
 <h3 id="firewall">Firewall<a class="headerlink" href="#firewall" title="Permanent link">&para;</a></h3>
+<p>illumos uses <a href="https://illumos.org/man/5/ipfilter">ipfilter</a> for firewalling. Using
+ipfilter you can create firewalls not just for the host system, but also for
+zones and hardware virtualized systems.</p>
 <h3 id="virtual-networking">Virtual Networking<a class="headerlink" href="#virtual-networking" title="Permanent link">&para;</a></h3>
+<p><a href="https://illumos.org/man/1M/dladm">dladm(1M)</a> allows users to create Virtual
+NICs, bridges, and in some distributions
+<a href="https://smartos.org/man/5/overlay">overlay networks</a>.</p>
 <h3 id="security">Security<a class="headerlink" href="#security" title="Permanent link">&para;</a></h3>
                 
                   
