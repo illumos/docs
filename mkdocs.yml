@@ -56,11 +56,15 @@ pages:
   - 'Projects': 'projects/index.md'
 
 theme:
-  name: 'material'
-  logo: 'images/logo.png'
+  name: null
+  custom_dir: 'material-illumos'
+  language: en
+  logo: 'assets/images/illumos.svg'
   palette:
-    primary: 'light blue'
-    accent: 'deep orange'
+  feature:
+    tabs: false
+  include_search_page: false
+  search_index_only: true
 
 extra:
   social:
