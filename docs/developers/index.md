@@ -47,7 +47,7 @@ You will need to install the basic development environment to build illumos.
 ### OpenIndiana
 
 ```
-sudo pkg install build-essential
+sudo pkg install build-essential runtime/python-35 developer/gcc-7 system/library/c-runtime
 ```
 
 ### OmniOS
