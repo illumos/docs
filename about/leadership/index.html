@@ -1206,8 +1206,8 @@ the work involved.</p>
 <li>The author line should include both a name and a well formed email address, and should match the actual author. The format here is very important for SCM export. Don't just assume it's fine!</li>
 <li>Is the pbchk output as clean as you want it to be?</li>
 <li>In general, there should be no noise from any check, however some areas are not clean for the various style checks, you should check this is actually the case (in general, areas that are innately dirty are very dirty, and stand out).</li>
-<li>Is the users build clean?</li>
-<li>They'll be giving you a <code>mail_msg</code> file, it will ideally be absolutely free of any noise. In practice, there are times when there will be noise for other reasons, not related to their integration. You should check! One thing to double check is that lint was actually run. It's surprisingly easy to glance at an incremental build, and not notice that the source was never linted.</li>
+<li>Is the user's build clean?</li>
+<li>Did the user also build with the current shadow compiler? - check the <code>mail_msg</code> file for the compilers that were actually used.</li>
 <li>Did the submitter test their changes to your satisfaction?</li>
 <li>Can you think of anything else that should be tested? Ask for it!</li>
 <li>Did the testing actually test the area changed by the patch? Check!</li>
