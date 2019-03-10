@@ -26,7 +26,7 @@ For major feature differences, the following chart may be helpful.
 | Project | Provider | Focus | Linux Comparison | Open Source | Packaging | x86 | SPARC | KVM | LX | 
 |---------|----------|-------|------------------|-------------|-----------|------|------|-----|----|
 | [SmartOS](https://smartos.org) | [Joyent](https://www.joyent.com) | Hypervisor | CoreOS | <i class="material-icons">check</i> | [pkgsrc](https://pkgsrc.joyent.com) | <i class="material-icons">check</i> |  | <i class="material-icons">check</i> | <i class="material-icons">check</i> |
-| [OmniOS CE](https://www.omniosce.org/) | [OmniOS CE Association](https://omniosce.org/about) | Servers | Debian | <i class="material-icons">check</i> | IPS | <i class="material-icons">check</i> | | <i class="material-icons">check</i> | <i class="material-icons">check</i> |
+| [OmniOS CE](https://www.omniosce.org/) | [OmniOS Community Association](https://omniosce.org/about/about) | Servers | Debian | <i class="material-icons">check</i> | IPS | <i class="material-icons">check</i> | | <i class="material-icons">check</i> | <i class="material-icons">check</i> |
 | [OpenIndiana](https://www.openindiana.org/) | [OpenIndiana](https://www.openindiana.org/) | Workstation, Servers | Ubuntu | <i class="material-icons">check</i> | IPS | <i class="material-icons">check</i> | | <i class="material-icons">check</i> | |
 | [NexenStor](https://community.nexenta.com/s/) | [Nexenta](https://nexenta.com/) | Storage | | | APT | <i class="material-icons">check</i> | |
 | [Tribblix](http://www.tribblix.org/) | Peter Tribble | Workstation, Servers | Slackware | <i class="material-icons">check</i> | SVR4 | <i class="material-icons">check</i> | <i class="material-icons">check</i> | | <i class="material-icons">check</i> | |
