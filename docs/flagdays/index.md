@@ -6,8 +6,27 @@ out specific actions that developers may need to perform to continue working
 with the sources. Such messages should also be archived here, for future
 reference. 
 
+## 2019
+
+* [2019-02-15 HEADSUP or something:)](https://illumos.topicbox.com/groups/developer/T97536ca6fe4642cf-M06a0b547f52f49dd36a36817)
+* [2019-02-11 Heads Up: 6885 CTF,Everywhere Part 1](https://illumos.topicbox.com/groups/developer/T6486c03f2141110b-Mf57519de2a281a19839fb9bb)
+* [2019-02-01 HEADS UP — git pbchk might erroneously complain about man pages](https://illumos.topicbox.com/groups/developer/T69c22312eb98826d-Mf831faf3e0f1897f02a4f752)
+* [2019-01-07 HEADS UP: loader FB console](https://illumos.topicbox.com/groups/developer/T911a78d635e5f1c2-M00e9a1373e8cfad037cabda1)
+
 ## 2018
 
+* [2018-12-08 heads up/flag day or like:)](https://illumos.topicbox.com/groups/developer/Tdf13bdc744649c5f-M4ee064264f0d974d07dfb0c6)
+* [2018-11-27 HEADS-UP GCC 7 shadow compiler; no more lint](https://illumos.topicbox.com/groups/developer/T6342764347f4dcef-Mf2b1afa24c9dd7fdb66f84f3)
+* [2018-10-29 Heads-up: Python3 module builds](https://illumos.topicbox.com/groups/developer/Tdb33e9c1d29c7304-M4ac03020d9f578164423a459)
+* [2018-10-17 Heads-up: libbe.so be_list() function change](https://illumos.topicbox.com/groups/developer/Te732a5648df5e62c-M76c17c85869ced3e2806f1a3)
+* [2018-10-13 HEADS-UP: Native demangling support](https://illumos.topicbox.com/groups/developer/Tc731cdb14c9773bd-M56c2145047fe78afa51c367a)
+ * [Update](https://illumos.topicbox.com/groups/developer/Tdb33e9c1d29c7304-M26019538b67e99b7339fbcd5)
+* [2018-10-13 headsup/flag day or something:)](https://illumos.topicbox.com/groups/developer/Tfac258762db8be3d-M6b31819726d1b52f63c8ba75)
+* [2018-10-04 cw changes](https://illumos.topicbox.com/groups/developer/T3f8ef7ef260b45ca-Mae7d2e0e2d624ed89309c810)
+* [2018-08-29 Flag day for those building gate on OmniOS](https://illumos.topicbox.com/groups/developer/T1709fef345140a25-M86fa27124e7d01377eaf6070)
+* [2018-12-10 FLAG DAY - can't build gate post-9997 w/o idn headers](https://illumos.topicbox.com/groups/developer/T731e849574ce3775-Me2ed5d747fa73c67ffb25480)
+* [2018-04-04 Heads-up! re 1575 untangle libmlrpc](https://illumos.topicbox.com/groups/developer/Te1b815fee84f54b8-M704bcc1fe3265faa297c7112)
+ * [Update](https://illumos.topicbox.com/groups/developer/Te1b815fee84f54b8-M91e6ecebc4b588ee5b82205ck)
 * [2018-01-25 HEADS UP: Removal of 32-bit x86 kernel](https://illumos.topicbox.com/groups/discuss/Tbe0c8f87eef5a3f2-M62fb2690bf9ab15b373ac252)
 
 ## 2017
