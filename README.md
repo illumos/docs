@@ -3,8 +3,8 @@
 This repository contains markdown for illumos.org. It is written in
 [mkdocs](http://www.mkdocs.org).
 
-We are using the [material](https://squidfunk.github.io/mkdocs-material/)
-theme.
+We are using a customized version of the
+[material](https://squidfunk.github.io/mkdocs-material/) theme.
 
 ## Contributing 
 
