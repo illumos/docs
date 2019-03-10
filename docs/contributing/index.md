@@ -303,7 +303,7 @@ Reviewed by: Ohana Matsumae <ohana@kissui.ishikawa.jp>
     You can use `git commit --amend` to fix the change description.
 
 * Output of `git pbchk` (you'll need the "cadmium" extension for git)
-* Attach the `mail_msg` file from a full nightly build (including `lint`), which should be free of warnings.
+* Attach the `mail_msg` file from a full nightly build, which should be free of warnings.
 * Supply information about how the changes were tested.
 * Attach the actual changes, either from `git format-patch`. (the webrev is not sufficient. Attach an actual patch)
 
