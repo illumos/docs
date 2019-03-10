@@ -179,6 +179,8 @@ export PERL_PKGVERS="-522"
  
 # If you are building on the latest OpenIndiana (2017-03-07 and later)
 export BLD_JAVA_8=
+
+export ON_CLOSED_BINS="/opt/onbld/closed"
 ```
 
 ## Starting the build

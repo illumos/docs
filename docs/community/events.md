@@ -2,7 +2,27 @@
 
 ## Upcoming
 
-### FrOSCon 2018
+### FrOSCon 2019
+
+- Where: Sankt Augustin, Germany
+- When: 10th-11th August 2019
+- Details: <https://www.froscon.de/en/>
+
+## Past
+
+### 2019
+
+#### FOSDEM 2019
+
+- Where: Brussels, Belgium
+- When: 2nd-3rd February 2019
+- Details: <https://fosdem.org/2019/stands/>
+- Location: K/1/A table 8
+- Who:
+
+### 2018
+
+#### FrOSCon 2018
 
 - Where: Sankt Augustin, Germany
 - When: 25 + 26 August 2018
@@ -11,11 +31,6 @@
 	- Thomas Merkel
 	- Sebastian Wiedenroth
 	- *Add yourself!*
-
-
-## Past
-
-### 2018
 
 #### CLT 2018
 

@@ -64,8 +64,8 @@ the work involved.
 * The author line should include both a name and a well formed email address, and should match the actual author. The format here is very important for SCM export. Don't just assume it's fine!
 * Is the pbchk output as clean as you want it to be?
 * In general, there should be no noise from any check, however some areas are not clean for the various style checks, you should check this is actually the case (in general, areas that are innately dirty are very dirty, and stand out).
-* Is the users build clean?
-* They'll be giving you a `mail_msg` file, it will ideally be absolutely free of any noise. In practice, there are times when there will be noise for other reasons, not related to their integration. You should check! One thing to double check is that lint was actually run. It's surprisingly easy to glance at an incremental build, and not notice that the source was never linted.
+* Is the user's build clean?
+* Did the user also build with the current shadow compiler? - check the `mail_msg` file for the compilers that were actually used.
 * Did the submitter test their changes to your satisfaction?
   * Can you think of anything else that should be tested? Ask for it!
   * Did the testing actually test the area changed by the patch? Check!
