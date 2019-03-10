@@ -1,252 +1,218 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-    
     <url>
-     <loc>/</loc>
-     <lastmod>2018-06-16</lastmod>
+     <loc>None</loc>
+     <lastmod>2019-03-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
-        
     <url>
-     <loc>/about/</loc>
-     <lastmod>2018-06-16</lastmod>
+     <loc>None</loc>
+     <lastmod>2019-03-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/about/who/</loc>
-     <lastmod>2018-06-16</lastmod>
+     <loc>None</loc>
+     <lastmod>2019-03-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/about/features/</loc>
-     <lastmod>2018-06-16</lastmod>
+     <loc>None</loc>
+     <lastmod>2019-03-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/about/distro/</loc>
-     <lastmod>2018-06-16</lastmod>
+     <loc>None</loc>
+     <lastmod>2019-03-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/about/leadership/</loc>
-     <lastmod>2018-06-16</lastmod>
+     <loc>None</loc>
+     <lastmod>2019-03-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/about/faq/</loc>
-     <lastmod>2018-06-16</lastmod>
+     <loc>None</loc>
+     <lastmod>2019-03-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/about/logo/</loc>
-     <lastmod>2018-06-16</lastmod>
+     <loc>None</loc>
+     <lastmod>2019-03-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
-    
-
-    
     <url>
-     <loc>/security/</loc>
-     <lastmod>2018-06-16</lastmod>
+     <loc>None</loc>
+     <lastmod>2019-03-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
     <url>
-     <loc>/flagdays/</loc>
-     <lastmod>2018-06-16</lastmod>
+     <loc>None</loc>
+     <lastmod>2019-03-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
-        
     <url>
-     <loc>/about/history/</loc>
-     <lastmod>2018-06-16</lastmod>
+     <loc>None</loc>
+     <lastmod>2019-03-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/about/announcement/</loc>
-     <lastmod>2018-06-16</lastmod>
+     <loc>None</loc>
+     <lastmod>2019-03-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
-    
-
-    
-        
     <url>
-     <loc>/user-guide/</loc>
-     <lastmod>2018-06-16</lastmod>
+     <loc>None</loc>
+     <lastmod>2019-03-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/user-guide/bugs/</loc>
-     <lastmod>2018-06-16</lastmod>
+     <loc>None</loc>
+     <lastmod>2019-03-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/user-guide/books/</loc>
-     <lastmod>2018-06-16</lastmod>
+     <loc>None</loc>
+     <lastmod>2019-03-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/user-guide/manual/</loc>
-     <lastmod>2018-06-16</lastmod>
+     <loc>None</loc>
+     <lastmod>2019-03-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc></loc>
-     <lastmod></lastmod>
+     <loc>None</loc>
+     <lastmod>2019-03-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
-    
-
-    
-        
     <url>
-     <loc>/developers/</loc>
-     <lastmod>2018-06-16</lastmod>
+     <loc>None</loc>
+     <lastmod>2019-03-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/developers/build-illumos/</loc>
-     <lastmod>2018-06-16</lastmod>
+     <loc>None</loc>
+     <lastmod>2019-03-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/developers/build-times/</loc>
-     <lastmod>2018-06-16</lastmod>
+     <loc>None</loc>
+     <lastmod>2019-03-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/developers/build-components/</loc>
-     <lastmod>2018-06-16</lastmod>
+     <loc>None</loc>
+     <lastmod>2019-03-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/developers/build-datasets/</loc>
-     <lastmod>2018-06-16</lastmod>
+     <loc>None</loc>
+     <lastmod>2019-03-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/developers/workspaces/</loc>
-     <lastmod>2018-06-16</lastmod>
+     <loc>None</loc>
+     <lastmod>2019-03-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/developers/multibug/</loc>
-     <lastmod>2018-06-16</lastmod>
+     <loc>None</loc>
+     <lastmod>2019-03-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/developers/studio/</loc>
-     <lastmod>2018-06-16</lastmod>
+     <loc>None</loc>
+     <lastmod>2019-03-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/developers/comp-webrev/</loc>
-     <lastmod>2018-06-16</lastmod>
+     <loc>None</loc>
+     <lastmod>2019-03-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
-    
-
-    
-        
     <url>
-     <loc>/contributing/</loc>
-     <lastmod>2018-06-16</lastmod>
+     <loc>None</loc>
+     <lastmod>2019-03-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/contributing/quality/</loc>
-     <lastmod>2018-06-16</lastmod>
+     <loc>None</loc>
+     <lastmod>2019-03-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/contributing/qds/</loc>
-     <lastmod>2018-06-16</lastmod>
+     <loc>None</loc>
+     <lastmod>2019-03-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/contributing/docs/</loc>
-     <lastmod>2018-06-16</lastmod>
+     <loc>None</loc>
+     <lastmod>2019-03-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
-    
-
-    
-        
     <url>
-     <loc>/community/</loc>
-     <lastmod>2018-06-16</lastmod>
+     <loc>None</loc>
+     <lastmod>2019-03-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/community/lists/</loc>
-     <lastmod>2018-06-16</lastmod>
+     <loc>None</loc>
+     <lastmod>2019-03-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/community/events/</loc>
-     <lastmod>2018-06-16</lastmod>
+     <loc>None</loc>
+     <lastmod>2019-03-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/community/videos/</loc>
-     <lastmod>2018-06-16</lastmod>
+     <loc>None</loc>
+     <lastmod>2019-03-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc></loc>
-     <lastmod></lastmod>
+     <loc>None</loc>
+     <lastmod>2019-03-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
-    
-
-    
     <url>
-     <loc>/projects/</loc>
-     <lastmod>2018-06-16</lastmod>
+     <loc>None</loc>
+     <lastmod>2019-03-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
+    <url>
+     <loc>None</loc>
+     <lastmod>2019-03-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>None</loc>
+     <lastmod>2019-03-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>None</loc>
+     <lastmod>2019-03-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>None</loc>
+     <lastmod>2019-03-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>None</loc>
+     <lastmod>2019-03-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>None</loc>
+     <lastmod>2019-03-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>None</loc>
+     <lastmod>2019-03-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
 </urlset>
