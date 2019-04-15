@@ -6,7 +6,7 @@ have been ported to other operating systems.
 
 If you'd like to be included in this list, please use the [documentation
 contribution process](../contributing/docs.md) to add details about your
-organisation!
+organization!
 
 ## Organizations
 
@@ -15,7 +15,7 @@ organisation!
 | [FreeBSD](https://www.freebsd.org/)                    | Incorporates ZFS, DTrace, mdb |
 | [Apple](https://github.com/opensource-apple/dtrace)    | Incorporates DTrace |
 | [Joyent](https://www.joyent.com/)                      | Public and on-prem cloud, object storage |
-| [Lucera](https://www.lucera.com/)                      | Finanial infrastructure services |
+| [Lucera](https://www.lucera.com/)                      | Financial infrastructure services |
 | [Delphix](https://www.delphix.com/)                    | Database virtualization |
 | [Nexenta](https://nexenta.com/)                        | Storage appliance |
 | [EveryCity](http://www.everycity.co.uk/)               | Managed cloud services |

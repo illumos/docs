@@ -2,7 +2,7 @@
 
 !!! danger "The Golden Rule"
     Please be respectful and civil in your communications.  Harassment and
-    other poor behaviour will not be tolerated, and preventative action _will_
+    other poor behavior will not be tolerated, and preventative action _will_
     be taken by moderators.  If you would like to report an incident, please
     contact a member of the [leadership teams](../about/leadership.md).
 

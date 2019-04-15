@@ -33,7 +33,7 @@ well-implemented, they generally don't need a whole lot of work. So you'll get
 to use them, appreciate them, and be inspired by them -- but you probably won't
 spend much time modifying them. (And because many of these subsystems have been
 implemented by engineers who are now part of the active illumos community, many
-of the changes will be done by the original implementor(s) anyway.)
+of the changes will be done by the original implementer(s) anyway.)
 
 ## Fetid
 
