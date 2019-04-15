@@ -18,6 +18,7 @@ nav:
   - 'User Guide':
     - 'Getting Started': 'user-guide/index.md'
     - 'Bug Reporting': 'user-guide/bugs.md'
+    - 'Security': 'security/index.md'
     - 'Debugging':
       - 'Systems': 'user-guide/debug-systems.md'
       - 'Applications': 'user-guide/debug-apps.md'
