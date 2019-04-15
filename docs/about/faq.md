@@ -89,43 +89,27 @@ processes.
 
 ## Is illumos compatible with Solaris/OpenSolaris?
 
-illumos is very likely to be compatible with Solaris/OpenSolaris binaries and
-drivers before Oracle closed the gate in 2010. After that, all bets are off.
-Solaris 10 update 11, and Solaris 11, and beyond, may contain incompatible
-changes.
+illumos should run binaries and probably even kernel drivers from Solaris 10
+update 10 and earlier, reflecting our strong commitment to backwards
+compatibility and interface stability.
+
+More recent versions of Solaris, especially Solaris 11, are not considered
+compatible -- even if they sometimes seem to be!  Oracle develops Solaris 11 as
+a proprietary fork of OpenSolaris, and has been diverging from illumos for
+nearly a decade at this point.
+
+If you're building and testing software for Oracle Solaris, you need to do that
+on a Solaris system.
 
 ## What changes does illumos maintain?
 
 * Open internationalization libraries and data files.
 * Open replacements for closed binaries.
-* Code that Oracle may choose to no longer maintain.
 * Community enhancements to critical technologies like DTrace and ZFS.
 * New open technologies.
 * Patches/bug-fixes we have independently developed, including security fixes.
 * Changes to ease community development.
 * ...and more!
-
-## Do you track Oracle changes?
-
-We originally intended to closely follow upstream changes, but became a fork by
-necessity because Oracle's software is no longer open source. We now represent
-the open future of the code base after Sun.
-
-## Will you work on sending illumos changes upstream?
-
-We would like Oracle to use changes from illumos, as long as they are willing
-to abide by the open source license for our code. Where we use code from other
-free software projects, we also respect their licenses and keep the source
-open.
-
-## Why did you announce the project after it was set up and much of the code written?
-
-This decision was made for multiple reasons. The signal to noise ratio in the
-OpenSolaris community had grown low, and announcing the project would have
-distracted the developers from actual code and contribution. Most vocal members
-talked about opening the code rather than writing it. illumos chose the
-opposite. Before the formal announcement, we reached out to developers in the
-community and solicited their help and participation.
 
 ## And the name illumos?
 
