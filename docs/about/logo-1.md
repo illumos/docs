@@ -1,1 +1,1 @@
-svg [scalable](../images/logo/PhoenixRGB.svg)<br>eps [scalable](../images/logo/PhoenixRGB.eps)<br>png [64px](../images/logo/Phoenix64x64-RGB.png)<br>png [166px](../images/logo/PhoenixRGB.png)<br>png [2057px](../images/logo/BigHighResPhoenixRGB.png)
+<b>Bare Logo:</b><br> svg [scalable](../images/logo/PhoenixRGB.svg)<br>eps [scalable](../images/logo/PhoenixRGB.eps)<br>png [64px](../images/logo/Phoenix64x64-RGB.png)<br>png [166px](../images/logo/PhoenixRGB.png)<br>png [2057px](../images/logo/BigHighResPhoenixRGB.png)

@@ -32,4 +32,4 @@ some restrictions on its use. The logo itself was created by
 
 These versions are optimized for screen display. If you need an alternate color
 space (CMYK, or single or two color only), please send an email to [Garrett
-D'Amore](garrett@damore.org).
+D'Amore](mailto:garrett@damore.org).

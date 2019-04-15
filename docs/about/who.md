@@ -4,6 +4,10 @@ Many communities and businesses base their products and services on illumos. In
 addition to providing the core for projects and products, components of illumos
 have been ported to other operating systems.
 
+If you'd like to be included in this list, please use the [documentation
+contribution process](../contributing/docs.md) to add details about your
+organisation!
+
 ## Organizations
 
 | Organization | Description |
@@ -20,37 +24,3 @@ have been ported to other operating systems.
 | [Pobox](https://www.pobox.com/)                        | Email services |
 | [Topicbox](https://www.topicbox.com/)                  | Mailing list services |
 | [DanubeCloud](https://danubecloud.org)                 | On-prem cloud |
-
-## Collaboration
-
-Cross-pollination and collaboration history.
-
-### 2018
-
-* [Joyent and OpenBSD collaborate in Meltdown design mitigations](https://blog.cooperi.net/a-long-two-months)
-
-### 2016
-
-* Ubuntu incorporates ZFS
-
-### 2013
-
-* OpenZFS on OS X
-
-### 2010
-
-* NetBSD began porting DTrace in 2010
-
-### 2009
-
-* FreeBSD integrated DTrace in 7.1
-
-### 2008
-
-* FreeBSD integrated ZFS in 7.0
-* LLNL created the ZFS On Linux project
-
-### 2007
-
-* Apple integrated DTrace in Mac OS X 10.5 (2007)
-

@@ -2,17 +2,22 @@
 
 ## Introduction
 
-The illumos community is small but active. From hobbyists to businesses pushing
-massive cloud deployments, we welcome all comers.
+The illumos community is small but active.  We welcome everybody who would like
+to use the software and participate in the community -- whether you've decades
+of experience in systems software, or you're just getting started; whether you
+work for a company that uses illumos, or you just find it personally
+interesting.
 
-We try to be very helpful and inclusive! It's not uncommon to see folks
-answering questions ranging from newbie to helping debug complicated
-deep-kernel black magic.
+We try to be helpful and inclusive!  It's not uncommon to see folks on both IRC
+and the mailing lists discussing a range of issues, both simple and complex.
+Whether you're just getting started, or you're debugging a difficult problem,
+you should be able to find the help you need.
 
 !!! danger "The Golden Rule"
-    Please be respectful and civil in your communications. Harassment and
-    other poor behaviour will not be tolerated, and preventative action will be
-    taken by moderators.
+    Please be respectful and civil in your communications.  Harassment and
+    other poor behaviour will not be tolerated, and preventative action _will_
+    be taken by moderators.  If you would like to report an incident, please
+    contact a member of the [leadership teams](../about/leadership.md).
 
 ## Mailing Lists
 

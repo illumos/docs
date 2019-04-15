@@ -8,13 +8,13 @@ Council, and Request To Integrate (RTI) Advocates.
 The Dev Council is a technical steering committee drawn from well-known
 developers of Solaris, whose role is to make high-level architecture decisions.
 
-| Member          | Organization |
-| --------------- | ------------ |
-| Adam Leventhal  | Delphix      |
-| Bryan Cantrill  | Joyent       |
-| Garrett D'Amore | unaffiliated |
-| Gordon Ross     | Nexenta      |
-| Rich Lowe       | unaffiliated |
+| Member          | Organization    |
+| --------------- | --------------- |
+| Adam Leventhal  | Transposit      |
+| Bryan Cantrill  | Joyent          |
+| Garrett D'Amore | RackTop Systems |
+| Gordon Ross     | Nexenta         |
+| Rich Lowe       | unaffiliated    |
 
 ## Advocates
 
@@ -24,18 +24,18 @@ stability for all illumos users.
 
 Advocates are appointed by the illumos Developer Council.
 
-| Member            | Handle     | Organization | Expertise |
-| ----------------- | ---------- | ------------ | --------- |
-| Albert Lee        | trisk      | SoftNAS      | Storage, drivers, userland. |
-| Chris Siden       | csiden     | Delphix      | ZFS |
-| Dan McDonald      | danmcd     | Joyent       | Cryptography, Networking |
-| Garrett D'Amore   | gdamore    | unaffiliated | Drivers, etc. |
-| Gordon Ross       | gwr        | Nexenta      | CIFS/SMB, VFS layer, ZFS ACLs, etc. |
-| Hans Rosenfeld    | Woodstock  | Joyent       | Misc. |
-| Joshua M. Clulow  | LeftWing   | Joyent       | Misc. |
-| Matt Ahrens       | mahrens    | Delphix      | ZFS |
-| Rich Lowe         | richlowe   | unaffiliated | Misc. |
-| Robert Mustacchi  | rmustacc   | Joyent       | Virtualization, SMF, PCI, MDB, DTrace, x86 platform, etc. |
+| Member            | Handle     | Organization    | Expertise |
+| ----------------- | ---------- | --------------- | --------- |
+| Albert Lee        | trisk      | SoftNAS         | Storage, drivers, userland. |
+| Chris Siden       | csiden     | Delphix         | ZFS |
+| Dan McDonald      | danmcd     | Joyent          | Cryptography, Networking |
+| Garrett D'Amore   | gdamore    | RackTop Systems | Drivers, etc. |
+| Gordon Ross       | gwr        | Nexenta         | CIFS/SMB, VFS layer, ZFS ACLs, etc. |
+| Hans Rosenfeld    | Woodstock  | Joyent          | Misc. |
+| Joshua M. Clulow  | LeftWing   | Joyent          | Misc. |
+| Matt Ahrens       | mahrens    | Delphix         | ZFS |
+| Rich Lowe         | richlowe   | unaffiliated    | Misc. |
+| Robert Mustacchi  | rmustacc   | Joyent          | Virtualization, SMF, PCI, MDB, DTrace, x86 platform, etc. |
 
 ## Life as an Advocate
 

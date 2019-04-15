@@ -1,5 +1,9 @@
 # Events
 
+If you are hosting, or know of an illumos-related event, please use the
+[documentation contribution process](../contributing/docs.md) to add it to this
+page!
+
 ## Upcoming
 
 ### FrOSCon 2019

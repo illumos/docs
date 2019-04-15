@@ -1,6 +1,5 @@
 ## Quick Links
 
-* [Security Information](../security/index.md)
 * [Manual pages](https://illumos.org/man)
 * [Mailing lists](../community/lists.md)
 * [Bug reporting](../user-guide/bugs.md)
@@ -31,16 +30,15 @@ The illumos code base forms the foundation of [distributions](distro.md).
 To use the operating system, just download and install one of the
 distributions.
 
-To download the source code, review [How To Build
-illumos](../developers/index.md). You can also
-[browse](https://github.com/illumos/illumos-gate) and
-[search](http://src.illumos.org).
+To download the source code, review [Building illumos](../developers/build.md).
+You can also [browse on GitHub](https://github.com/illumos/illumos-gate) or
+[search on OpenGrok](http://src.illumos.org).
 
 ## Is illumos free software (open source)?
 
-The bulk of the illumos source code is available under the Common Development
-and Distribution License (CDDL), an OSI-approved free software license based on
-the Mozilla Public License (MPL).
+The bulk of the illumos source code is available under the [Common Development
+and Distribution License (CDDL)](https://illumos.org/license/CDDL), an
+OSI-approved free software license based on the Mozilla Public License (MPL).
 
 There are some components with other licenses including BSD and MIT. We also
 include some software with the GNU General Public License (GPL) or the
@@ -77,7 +75,7 @@ and you're invited to drop in and say "hi!"
 
 ## How do I build illumos?
 
-See [How To Build illumos](../developers/index.md).
+See [Building illumos](../developers/build.md).
 
 ## How do I build a distribution based on illumos?
 

@@ -4,7 +4,7 @@ The following are notices sent to the [developer@ mailing
 list](../community/lists.md) to attract attention for specific changes, or call
 out specific actions that developers may need to perform to continue working
 with the sources. Such messages should also be archived here, for future
-reference. 
+reference.
 
 ## 2019
 

@@ -2,7 +2,7 @@ site_name: 'illumos'
 repo_name: 'illumos/docs'
 repo_url: 'https://github.com/illumos/docs'
 
-pages:
+nav:
   - 'Home': 'index.md'
   - 'About':
     - 'What is illumos?': 'about/index.md'
@@ -12,30 +12,18 @@ pages:
     - 'Leadership': 'about/leadership.md'
     - 'FAQ': 'about/faq.md'
     - 'Logo': 'about/logo.md'
-  - 'Security': 'security/index.md'
-  - 'Flag Days': 'flagdays/index.md'
   - 'History':
     - 'Overview': 'about/history.md'
     - 'Announcement': 'about/announcement.md'
   - 'User Guide':
     - 'Getting Started': 'user-guide/index.md'
     - 'Bug Reporting': 'user-guide/bugs.md'
-    - 'Books': 'user-guide/books.md'
-    - 'Manual Pages': 'user-guide/manual.md'
     - 'Debugging':
-      - 'Overview': 'user-guide/debug.md'
       - 'Systems': 'user-guide/debug-systems.md'
       - 'Applications': 'user-guide/debug-apps.md'
   - 'Development':
-    - 'Overview': 'developers/index.md'
-    - 'Building illumos': 'developers/build-illumos.md'
-    - 'Build times': 'developers/build-times.md'
-    - 'Building Components': 'developers/build-components.md'
-    - 'Build Datasets': 'developers/build-datasets.md'
-    - 'Multiple Workspaces': 'developers/workspaces.md'
-    - 'Working Multiple Bugs': 'developers/multibug.md'
-    - 'Building with Sun Studio': 'developers/studio.md'
-    - 'Comparing with webrev': 'developers/comp-webrev.md'
+    - 'Building illumos': 'developers/build.md'
+    - 'Flag Days': 'developers/flagdays.md'
   - 'Contributing':
     - 'Overview': 'contributing/index.md'
     - 'On Quality': 'contributing/quality.md'
@@ -46,14 +34,6 @@ pages:
     - 'Mailing Lists': 'community/lists.md'
     - 'Events': 'community/events.md'
     - 'Videos': 'community/videos.md'
-    - 'Google Summer of Code':
-      - 'Overview': 'community/gsoc.md'
-      - 'Student Application': 'community/gsoc-application.md'
-      - 'Student Expectations': 'community/gsoc-expectations.md'
-      - 'Writing a Proposal': 'community/gsoc-proposal.md'
-      - 'Becoming a Mentor': 'community/gsoc-mentor.md'
-      - 'Mentoring Application': 'community/gsoc-mentor-application.md'
-  - 'Projects': 'projects/index.md'
 
 theme:
   name: null

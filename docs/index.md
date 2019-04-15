@@ -4,17 +4,12 @@ including [advanced system debugging](http://dtrace.org/guide/), [next
 generation filesystem](http://open-zfs.org/), networking, and virtualization
 options.
 
-illumos is freely available from our [source
-repository](https://github.com/illumos/illumos-gate), and most distributions
-based on it are also open source. You can see recent changes
-[here](https://github.com/illumos/illumos-gate/commits/master).
+Please see the [about](about/index.md) page to learn more about illumos!
 
-illumos is [developed](about/who.md) by both volunteers and companies building
-products on top of the software.
+<hr>
 
-illumos is an excellent base for both traditional and cloud-native deployments.
-
-We believe in [cross-pollination and collaboration](about/who.md#collaboration)
-with other open source projects.
-
-Please see the [about](about/index.md) page to learn more!
+These documents are part of the illumos documentation project and replace the
+old illumos wiki.  The source for the documentation is available on github, in
+the [illumos/docs](https://github.com/illumos/docs) repository.  If you'd like
+to edit or expand the documentation, we [welcome
+contributions](./contributing/docs.md)!
