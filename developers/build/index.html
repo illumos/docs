@@ -1,0 +1,1407 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-2.9.0">
+    
+    
+      
+        <title>Building illumos - illumos</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application.23c5c491.css">
+      
+      
+    
+    
+      <script src="../../assets/javascripts/modernizr.0c1f321e.js"></script>
+    
+    <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
+    
+    
+  </head>
+  
+    <body dir="ltr">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448"
+    viewBox="0 0 416 448" id="__github">
+  <path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19-18.125
+        8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19 18.125-8.5
+        18.125 8.5 10.75 19 3.125 20.5zM320 304q0 10-3.125 20.5t-10.75
+        19-18.125 8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19
+        18.125-8.5 18.125 8.5 10.75 19 3.125 20.5zM360
+        304q0-30-17.25-51t-46.75-21q-10.25 0-48.75 5.25-17.75 2.75-39.25
+        2.75t-39.25-2.75q-38-5.25-48.75-5.25-29.5 0-46.75 21t-17.25 51q0 22 8
+        38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0
+        37.25-1.75t35-7.375 30.5-15 20.25-25.75 8-38.375zM416 260q0 51.75-15.25
+        82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5-41.75
+        1.125q-19.5 0-35.5-0.75t-36.875-3.125-38.125-7.5-34.25-12.875-30.25-20.25-21.5-28.75q-15.5-30.75-15.5-82.75
+        0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25
+        30.875q36.75-8.75 77.25-8.75 37 0 70 8 26.25-20.5
+        46.75-30.25t47.25-9.75q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34
+        99.5z" />
+</svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#building-illumos" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="" title="illumos" class="md-header-nav__button md-logo">
+          
+            <img src="../../assets/images/illumos.svg">
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          
+            <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+            
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+          
+        
+        
+          <div class="md-flex__cell md-flex__cell--shrink">
+            <div class="md-header-nav__source">
+              
+
+
+  
+
+
+  <a href="https://github.com/illumos/docs/" title="Go to repository" class="md-source" data-md-source="github">
+    
+      <div class="md-source__icon">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <use xlink:href="#__github" width="24" height="24"></use>
+        </svg>
+      </div>
+    
+    <div class="md-source__repository">
+      illumos/docs
+    </div>
+  </a>
+
+            </div>
+          </div>
+        
+      </div>
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <span class="md-nav__button md-logo">
+      
+        <img src="../../assets/images/illumos.svg">
+      
+    </span>
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+
+  <a href="https://github.com/illumos/docs/" title="Go to repository" class="md-source" data-md-source="github">
+    
+      <div class="md-source__icon">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <use xlink:href="#__github" width="24" height="24"></use>
+        </svg>
+      </div>
+    
+    <div class="md-source__repository">
+      illumos/docs
+    </div>
+  </a>
+
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      About
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        About
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../about/" title="What is illumos?" class="md-nav__link">
+      What is illumos?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../about/who/" title="Who uses illumos?" class="md-nav__link">
+      Who uses illumos?
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../about/features/" title="Features" class="md-nav__link">
+      Features
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../about/distro/" title="Distributions" class="md-nav__link">
+      Distributions
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../about/leadership/" title="Leadership" class="md-nav__link">
+      Leadership
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../about/faq/" title="FAQ" class="md-nav__link">
+      FAQ
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../about/logo/" title="Logo" class="md-nav__link">
+      Logo
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      History
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        History
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../about/history/" title="Overview" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../about/announcement/" title="Announcement" class="md-nav__link">
+      Announcement
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      User Guide
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        User Guide
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../user-guide/" title="Getting Started" class="md-nav__link">
+      Getting Started
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../user-guide/bugs/" title="Bug Reporting" class="md-nav__link">
+      Bug Reporting
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-3" type="checkbox" id="nav-4-3">
+    
+    <label class="md-nav__link" for="nav-4-3">
+      Debugging
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-3">
+        Debugging
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../user-guide/debug-systems/" title="Systems" class="md-nav__link">
+      Systems
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../user-guide/debug-apps/" title="Applications" class="md-nav__link">
+      Applications
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5" checked>
+    
+    <label class="md-nav__link" for="nav-5">
+      Development
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        Development
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Building illumos
+      </label>
+    
+    <a href="./" title="Building illumos" class="md-nav__link md-nav__link--active">
+      Building illumos
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" title="Introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#make-sure-your-system-is-up-to-date" title="Make sure your system is up-to-date" class="md-nav__link">
+    Make sure your system is up-to-date
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installing-required-packages" title="Installing required packages" class="md-nav__link">
+    Installing required packages
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#openindiana" title="OpenIndiana" class="md-nav__link">
+    OpenIndiana
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#omnios" title="OmniOS" class="md-nav__link">
+    OmniOS
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#preparing-your-workspace" title="Preparing your workspace" class="md-nav__link">
+    Preparing your workspace
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getting-the-source" title="Getting the source" class="md-nav__link">
+    Getting the source
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getting-the-closed-binaries" title="Getting the closed binaries" class="md-nav__link">
+    Getting the closed binaries
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#openindiana-omnios" title="OpenIndiana &amp; OmniOS" class="md-nav__link">
+    OpenIndiana &amp; OmniOS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#other-distributions" title="Other Distributions" class="md-nav__link">
+    Other Distributions
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configuring-the-build" title="Configuring the build" class="md-nav__link">
+    Configuring the build
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#openindiana_1" title="OpenIndiana" class="md-nav__link">
+    OpenIndiana
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#omnios_1" title="OmniOS" class="md-nav__link">
+    OmniOS
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#starting-the-build" title="Starting the build" class="md-nav__link">
+    Starting the build
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#performing-an-incremental-build" title="Performing an incremental build" class="md-nav__link">
+    Performing an incremental build
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installing-your-build" title="Installing your build" class="md-nav__link">
+    Installing your build
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#in-case-of-emergency" title="In case of emergency" class="md-nav__link">
+    In case of emergency
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#up-to-date-build-system" title="Up-to-date build system" class="md-nav__link">
+    Up-to-date build system
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#missed-flag-day" title="Missed Flag Day" class="md-nav__link">
+    Missed Flag Day
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reach-out-for-help" title="Reach out for help" class="md-nav__link">
+    Reach out for help
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../flagdays/" title="Flag Days" class="md-nav__link">
+      Flag Days
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      Contributing
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        Contributing
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../contributing/" title="Overview" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../contributing/quality/" title="On Quality" class="md-nav__link">
+      On Quality
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../contributing/qds/" title="Quality Death Spiral" class="md-nav__link">
+      Quality Death Spiral
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../contributing/docs/" title="Documentation" class="md-nav__link">
+      Documentation
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7">
+    
+    <label class="md-nav__link" for="nav-7">
+      Community
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-7">
+        Community
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../community/" title="Overview" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../community/lists/" title="Mailing Lists" class="md-nav__link">
+      Mailing Lists
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../community/events/" title="Events" class="md-nav__link">
+      Events
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../community/videos/" title="Videos" class="md-nav__link">
+      Videos
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" title="Introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#make-sure-your-system-is-up-to-date" title="Make sure your system is up-to-date" class="md-nav__link">
+    Make sure your system is up-to-date
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installing-required-packages" title="Installing required packages" class="md-nav__link">
+    Installing required packages
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#openindiana" title="OpenIndiana" class="md-nav__link">
+    OpenIndiana
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#omnios" title="OmniOS" class="md-nav__link">
+    OmniOS
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#preparing-your-workspace" title="Preparing your workspace" class="md-nav__link">
+    Preparing your workspace
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getting-the-source" title="Getting the source" class="md-nav__link">
+    Getting the source
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getting-the-closed-binaries" title="Getting the closed binaries" class="md-nav__link">
+    Getting the closed binaries
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#openindiana-omnios" title="OpenIndiana &amp; OmniOS" class="md-nav__link">
+    OpenIndiana &amp; OmniOS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#other-distributions" title="Other Distributions" class="md-nav__link">
+    Other Distributions
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configuring-the-build" title="Configuring the build" class="md-nav__link">
+    Configuring the build
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#openindiana_1" title="OpenIndiana" class="md-nav__link">
+    OpenIndiana
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#omnios_1" title="OmniOS" class="md-nav__link">
+    OmniOS
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#starting-the-build" title="Starting the build" class="md-nav__link">
+    Starting the build
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#performing-an-incremental-build" title="Performing an incremental build" class="md-nav__link">
+    Performing an incremental build
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installing-your-build" title="Installing your build" class="md-nav__link">
+    Installing your build
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#in-case-of-emergency" title="In case of emergency" class="md-nav__link">
+    In case of emergency
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#up-to-date-build-system" title="Up-to-date build system" class="md-nav__link">
+    Up-to-date build system
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#missed-flag-day" title="Missed Flag Day" class="md-nav__link">
+    Missed Flag Day
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reach-out-for-help" title="Reach out for help" class="md-nav__link">
+    Reach out for help
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/illumos/docs/edit/master/docs/developers/build.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <h1 id="building-illumos">Building illumos<a class="headerlink" href="#building-illumos" title="Permanent link">&para;</a></h1>
+<h2 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h2>
+<p>This document will help prepare you to build the source code for illumos. It
+assumes some familiarity with development on Unix-like systems.</p>
+<div class="admonition note">
+<p>For more detail and background information, please also refer to the
+<a href="https://illumos.org/books/dev/intro.html">illumos Developer's Guide</a>.</p>
+</div>
+<p>You need an illumos-based operating system to build illumos. Cross-compilation
+is not supported.</p>
+<p>If you don't have one installed, the quickest way to get started is to download
+either <a href="https://openindiana.org">OpenIndiana</a> or
+<a href="https://www.omniosce.org/">OmniOS</a>.  Both distributions can be installed in a
+VM (e.g., VMware Fusion on macOS) or on a physical machine, and can be used to
+build illumos.</p>
+<p>All commands in this guide assume you run them as an unprivileged user.  <code>sudo</code>
+will be prepended to commands which need additional (i.e., <code>root</code>) privileges.
+On some systems <code>pfexec</code> can be used in place of <code>sudo</code>, provided your user has
+the correct <a href="https://illumos.org/man/1/profiles">RBAC profiles</a>.</p>
+<h2 id="make-sure-your-system-is-up-to-date">Make sure your system is up-to-date<a class="headerlink" href="#make-sure-your-system-is-up-to-date" title="Permanent link">&para;</a></h2>
+<p>On a freshly installed system, it is a good idea to make sure you have the
+latest version of all operating system components.  On both OmniOS and
+OpenIndiana, you can update your system by running:</p>
+<div class="codehilite"><pre><span></span>sudo pkg update
+</pre></div>
+
+<p>Once the update is complete, you may need to reboot your machine to begin using
+the new kernel.</p>
+<h2 id="installing-required-packages">Installing required packages<a class="headerlink" href="#installing-required-packages" title="Permanent link">&para;</a></h2>
+<p>Once you have an up-to-date illumos system installed and running, you will need
+to install the basic development tools needed to build illumos.  The operating
+system is currently built with a patched version of GCC 4.4.4.</p>
+<p>The list of packages to install depends on which distribution you have chosen.</p>
+<h3 id="openindiana">OpenIndiana<a class="headerlink" href="#openindiana" title="Permanent link">&para;</a></h3>
+<p>On OpenIndiana, the <code>build-essential</code> package includes the GCC compiler and
+other tools required to build illumos.  In addition, we should install the
+newer GCC 7 compiler and the Python 3.5 runtime for a complete build.</p>
+<div class="codehilite"><pre><span></span>sudo pkg install build-essential \
+    runtime/python-35 \
+    developer/gcc-7
+</pre></div>
+
+<p>The patched version of GCC 4.4.4 is installed in <code>/opt/gcc/4.4.4</code>.</p>
+<h3 id="omnios">OmniOS<a class="headerlink" href="#omnios" title="Permanent link">&para;</a></h3>
+<p>On OmniOS, the <code>illumos-tools</code> package includes everything you'll need to build
+illumos, including the optional GCC 7 compiler.  Make sure you're running at
+least OmniOS version r151028 or higher.</p>
+<div class="codehilite"><pre><span></span>sudo pkg install pkg:/developer/illumos-tools
+</pre></div>
+
+<p>The patched version of GCC 4.4.4 is installed in <code>/opt/gcc-4.4.4</code>.</p>
+<h2 id="preparing-your-workspace">Preparing your workspace<a class="headerlink" href="#preparing-your-workspace" title="Permanent link">&para;</a></h2>
+<p>You can build the software in any directory, but for the purposes of this guide
+we will assume that you have a directory <code>/code</code> on your system.  This
+directory should be owned by the unprivileged user you will use to build
+illumos.</p>
+<h2 id="getting-the-source">Getting the source<a class="headerlink" href="#getting-the-source" title="Permanent link">&para;</a></h2>
+<p>You may use the Git source code management system to retrieve the illumos
+source code.  Git is installed with the other build tools in a previous
+section.  Make sure you have about 6 gigabytes of free space for the source
+and binaries combined.</p>
+<p>The repository is available from GitHub using the Git source code control
+system.  The Git repository URI is:
+<code>https//github.com/illumos/illumos-gate.git</code></p>
+<p>To check out the source:</p>
+<div class="codehilite"><pre><span></span>cd /code
+git clone https://github.com/illumos/illumos-gate.git
+</pre></div>
+
+<p>From here on we'll refer to this clone of the repository, i.e.,
+<code>/code/illumos-gate</code>, as your "workspace".</p>
+<h2 id="getting-the-closed-binaries">Getting the closed binaries<a class="headerlink" href="#getting-the-closed-binaries" title="Permanent link">&para;</a></h2>
+<p>There are a small handful of illumos components for which source code is not
+available.  Over time, we have replaced most of the closed source components
+from the Sun era with new open source versions.  This work is ongoing.</p>
+<h3 id="openindiana-omnios">OpenIndiana &amp; OmniOS<a class="headerlink" href="#openindiana-omnios" title="Permanent link">&para;</a></h3>
+<p>OmniOS (r151016 or later) and OpenIndiana users have the closed binary files
+installed in <code>/opt/onbld/closed</code>.  The <code>ON_CLOSED_BINS</code> environment variable
+can be set to refer to this directory without copying it into your workspace.</p>
+<h3 id="other-distributions">Other Distributions<a class="headerlink" href="#other-distributions" title="Permanent link">&para;</a></h3>
+<p>For systems where the closed binaries are not shipped as part of the
+development tools packages, you can download the closed binary tar files into
+your local illumos-gate workspace yourself:</p>
+<div class="codehilite"><pre><span></span>cd /code/illumos-gate
+wget -c \
+  https://download.joyent.com/pub/build/illumos/on-closed-bins.i386.tar.bz2 \
+  https://download.joyent.com/pub/build/illumos/on-closed-bins-nd.i386.tar.bz2
+tar xjvpf on-closed-bins.i386.tar.bz2
+tar xjvpf on-closed-bins-nd.i386.tar.bz2
+</pre></div>
+
+<h2 id="configuring-the-build">Configuring the build<a class="headerlink" href="#configuring-the-build" title="Permanent link">&para;</a></h2>
+<p>The build is configured using an "environment file", a shell script that works
+like your <code>.bashrc</code> or <code>.profile</code>.  This script sets various environment
+variables that control the build.  Some of the variables to set depend on which
+distribution of illumos you're using.</p>
+<p>An environment file template is included in <code>illumos-gate.git</code> and can thus be
+found in your workspace.  Make a copy so that we can edit it for use on your
+particular build machine.</p>
+<div class="codehilite"><pre><span></span>cd /code/illumos-gate
+cp usr/src/tools/env/illumos.sh .
+vi illumos.sh                          # use your favourite text editor!
+</pre></div>
+
+<p>The current version of the template is mostly complete, and written such that
+it tries to guess sensible defaults for most things.  For example,</p>
+<ul>
+<li><code>git describe</code> is used to set <code>VERSION</code> based on the branch and commit
+  to build</li>
+<li><code>git</code> is also used to set <code>CODEMGR_WS</code> to the workspace directory; i.e.,
+  <code>/code/illumos-gate</code> in this document.</li>
+</ul>
+<h3 id="openindiana_1">OpenIndiana<a class="headerlink" href="#openindiana_1" title="Permanent link">&para;</a></h3>
+<p>On OpenIndiana systems, you'll need to add a few more variables to your
+environment file to get a complete build with packages you can install.  Add
+the following to the bottom of your copy of <code>illumos.sh</code>:</p>
+<div class="codehilite"><pre><span></span>#
+# Set a package version number which is greater than the current OpenIndiana
+# build number.  Note that ONNV_BUILDNUM is ignored if PKGVERS_BRANCH is set:
+#
+export PKGVERS_BRANCH=9999.99.0.0
+
+#
+# Set to current version of Perl shipped with OpenIndiana:
+#
+export PERL_VERSION=&quot;5.22&quot;
+export PERL_PKGVERS=&quot;-522&quot;
+
+#
+# If you are building on the latest OpenIndiana (2017-03-07 and later), use
+# OpenJDK 8:
+#
+export BLD_JAVA_8=
+ 
+#
+# Use the copy of the closed binaries that comes with the &quot;build-essential&quot;
+# package:
+#
+export ON_CLOSED_BINS=&quot;/opt/onbld/closed&quot;
+</pre></div>
+
+<p>Note in particular that <code>PKGVERS_BRANCH</code> must be a higher number than the one
+currently in use on your OpenIndiana system, so that <code>pkg</code> and <code>onu</code> will
+prefer your locally built packages to those from the base distribution.  You
+can find out the current branch version with <code>pkg info</code>:</p>
+<div class="codehilite"><pre><span></span>$ pkg info osnet-incorporation | grep Branch:
+        Branch: 2018.0.0.18230
+</pre></div>
+
+<h3 id="omnios_1">OmniOS<a class="headerlink" href="#omnios_1" title="Permanent link">&para;</a></h3>
+<p>On OmniOS systems, you have the option of using a complete environment file
+provided in the developer tool packages.  Those files reside in
+<code>/opt/onbld/env/omnios-*</code>; one for vanilla <code>illumos-gate.git</code>, and one for the
+OmniOS-specific downstream fork, <code>illumos-omnios.git</code>.</p>
+<p>If instead you wish to start with the stock environment file template, you'll
+need to add the following at the end of your copy of <code>illumos.sh</code>:</p>
+<div class="codehilite"><pre><span></span># Set to the current perl version (this is correct for OmniOS r151028)
+export PERL_VERSION=5.28
+export PERL_ARCH=i86pc-solaris-thread-multi-64int
+export PERL_PKGVERS=
+ 
+# Set to current python3 version (this is correct for OmniOS r151028)
+export PYTHON3=/usr/bin/python3.5
+export TOOLS_PYTHON=$PYTHON3
+
+export SPRO_ROOT=/opt/sunstudio12.1
+export SPRO_VROOT=&quot;$SPRO_ROOT&quot;
+export ONLY_LINT_DEFS=&quot;-I${SPRO_ROOT}/sunstudio12.1/prod/include/lint&quot;
+export ON_CLOSED_BINS=/opt/onbld/closed
+
+export __GNUC=
+export GNUC_ROOT=/opt/gcc-4.4.4/
+export PRIMARY_CC=gcc4,/opt/gcc-4.4.4/bin/gcc,gnu
+export PRIMARY_CCC=gcc4,/opt/gcc-4.4.4/bin/g++,gnu
+export SHADOW_CCS=gcc7,/opt/gcc-7/bin/gcc,gnu
+export SHADOW_CCCS=gcc7,/opt/gcc-7/bin/g++,gnu
+
+# This will set ONNV_BUILDNUM to match the release on which you are building, allowing ONU.
+export ONNV_BUILDNUM=`grep &#39;^VERSION=r&#39; /etc/os-release | cut -c10-`
+export PKGVERS_BRANCH=$ONNV_BUILDNUM.0
+</pre></div>
+
+<p>You must also make sure you disable the (optional) IPP and SMB printing support
+by commenting out the following lines in the stock template:</p>
+<div class="codehilite"><pre><span></span># export ENABLE_IPP_PRINTING=
+# export ENABLE_SMB_PRINTING=
+</pre></div>
+
+<p>If you do need the optional IPP and SMB printing support, you must install and
+provide Apache, APR, and APR-util, as well as IPP or CUPS headers for SMB
+printing.</p>
+<h2 id="starting-the-build">Starting the build<a class="headerlink" href="#starting-the-build" title="Permanent link">&para;</a></h2>
+<p>You are now ready to start the illumos build.</p>
+<p>The build itself may take anywhere from twenty minutes to a few hours,
+depending on the performance of your system.  It is generally good advice to
+run the build under a session manager like <code>screen</code> or <code>tmux</code> so that you can
+detach and reattach without interrupting the build.</p>
+<p>Run the following command to start the full build:</p>
+<div class="codehilite"><pre><span></span>cd /code/illumos-gate
+time ksh93 usr/src/tools/scripts/nightly.sh illumos.sh
+</pre></div>
+
+<p>The build creates a <em>lot</em> of output, so rather than emit it directly to the
+terminal it is saved in a log file: <code>log/nightly.log</code> in your workspace.</p>
+<p>You can follow the log file with <code>tail</code> as the build progresses; e.g.,</p>
+<div class="codehilite"><pre><span></span>tail -F /code/illumos-gate/log/nightly.log
+</pre></div>
+
+<p>If you only want to see warning or error messages from the build, you might
+try:</p>
+<div class="codehilite"><pre><span></span>tail -F /code/illumos-gate/log/nightly.log | grep -A5 -B5 &#39;(error|warning).*: &#39;
+</pre></div>
+
+<p>Once the build is complete, the log files (including <code>nightly.log</code>) are moved
+to a unique directory including the datestamp; e.g.,
+<code>log/log.2019-02-08.17:50</code>.  A <code>latest</code> symlink is also created, so
+<code>log/latest/nightly.log</code> always refers to the most recently completed build
+log.</p>
+<p>A summary of the build is saved in the <code>log/latest/mail_msg</code> file.  If you see
+any errors in this file, you can find the full context by searching for the
+same message in the full <code>nightly.log</code>.</p>
+<p>The <code>mail_msg</code> file should be included when submitting a patch to demonstrate a
+successful build with no errors or warnings.</p>
+<h2 id="performing-an-incremental-build">Performing an incremental build<a class="headerlink" href="#performing-an-incremental-build" title="Permanent link">&para;</a></h2>
+<p>Once you have completed a full <code>nightly</code> build, you can perform an incremental
+build without discarding files that are already built.  This allows you to make
+some changes to the code and rebuild only the files to which you have made
+changes.</p>
+<p>The <code>-i</code> flag to <code>nightly.sh</code> performs an incremental build:</p>
+<div class="codehilite"><pre><span></span>cd /code/illumos-gate
+time ksh93 usr/src/tools/scripts/nightly.sh -i illumos.sh
+</pre></div>
+
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Before submitting a patch, you must perform a full (i.e., not incremental)
+build.</p>
+</div>
+<h2 id="installing-your-build">Installing your build<a class="headerlink" href="#installing-your-build" title="Permanent link">&para;</a></h2>
+<p>The build process generates packages that you can install on your system with
+the developer system update tool, <a href="https://illumos.org/man/1ONBLD/onu">onu</a>.
+Depending on the <code>NIGHTLY_OPTIONS</code> you chose earlier, you will have packages in
+one of two locations within your workspace:</p>
+<ul>
+<li><code>packages/i386/nightly</code> for a DEBUG build</li>
+<li><code>packages/i386/nightly-nd</code> for a non-DEBUG build</li>
+</ul>
+<p>Once you locate your packages, you can install them with <code>onu</code>; e.g., for a
+DEBUG build:</p>
+<div class="codehilite"><pre><span></span>sudo /code/illumos-gate/usr/src/tools/proto/root_i386-nd/opt/onbld/bin/onu \
+    -t &quot;$(date -u +nightly-%Y%m%d-%H%MZ)&quot; \
+    -d &quot;/code/illumos-gate/packages/i386/nightly&quot;
+</pre></div>
+
+<p>This creates a build environment with a name that includes the date and time in
+UTC; e.g., <code>nightly-20190415-0333Z</code>.  If your installation was successful, you
+can <code>reboot</code> to try the new bits!  You can use
+<a href="https://illumos.org/man/1M/beadm">beadm(1M)</a> to list or modify the boot
+environments on your machine.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>For OpenIndiana and OmniOS it is critical that <code>PKGVERS_BRANCH</code> is set
+correctly in your <code>nightly.sh</code> environment file, or <code>onu</code> will likely
+fail to correctly install packages.  See above on <a href="#configuring-the-build">configuring your
+environment file</a></p>
+</div>
+<h2 id="in-case-of-emergency">In case of emergency<a class="headerlink" href="#in-case-of-emergency" title="Permanent link">&para;</a></h2>
+<p>The illumos project contains a <em>lot</em> of software with a long history.  The
+build system is quite complicated, and not always extremely robust in the face
+of unexpected changes on the build machine.</p>
+<p>If you're experiencing a problem with the build that you cannot immediately
+explain, here are a few things to try:</p>
+<h3 id="up-to-date-build-system">Up-to-date build system<a class="headerlink" href="#up-to-date-build-system" title="Permanent link">&para;</a></h3>
+<p>Make sure you're running the latest version of your illumos distribution, <a href="#make-sure-your-system-is-up-to-date">as
+described above</a>.  If you're hitting a
+bug in the build tools it might well have been fixed already.</p>
+<p>Even if this doesn't fix your problem, it's easiest for members of the
+community to help you out when you're running recent software.</p>
+<h3 id="missed-flag-day">Missed Flag Day<a class="headerlink" href="#missed-flag-day" title="Permanent link">&para;</a></h3>
+<p>As people work on the system it is occasionally necessary to make a change that
+will impact other developers.  We try to communicate those changes in "flag
+day" e-mail messages to the <a href="../../community/lists/">developer mailing list</a>.  A
+list of these announcements also appears <a href="../flagdays/">here on the site</a>.</p>
+<h3 id="reach-out-for-help">Reach out for help<a class="headerlink" href="#reach-out-for-help" title="Permanent link">&para;</a></h3>
+<p>If you're still having trouble, remember that you're not alone!  Other members
+of the community may be hitting the same problem, or they may just know how to
+help.</p>
+<p>Members of the community are usually available <a href="../../community/">in IRC</a>
+or <a href="../../community/lists/">on the mailing lists</a>.  When asking for help, it's a
+good idea to have ready the contents of your <code>mail_msg</code> file, or any other
+build error output you see on your machine.</p>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+        
+  <div class="md-footer-social">
+    <link rel="stylesheet" href="../../assets/fonts/font-awesome.css">
+    
+      <a href="https://github.com/illumos" class="md-footer-social__link fa fa-github"></a>
+    
+  </div>
+
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/application.495d10a2.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
+      
+    
+  </body>
+</html>
