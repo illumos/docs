@@ -107,8 +107,10 @@ from the Sun era with new open source versions.  This work is ongoing.
 ### OpenIndiana & OmniOS
 
 OmniOS (r151016 or later) and OpenIndiana users have the closed binary files
-installed in `/opt/onbld/closed`.  The `ON_CLOSED_BINS` environment variable
-can be set to refer to this directory without copying it into your workspace.
+installed in `/opt/onbld/closed`. On OpenIndiana these files are provided by
+`pkg:/developer/illumos-closed` package. The `ON_CLOSED_BINS` environment
+variable can be set to refer to this directory without copying it into your
+workspace.
 
 ### Other Distributions
 
