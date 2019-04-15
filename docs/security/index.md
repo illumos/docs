@@ -1,0 +1,85 @@
+# illumos Security Information
+
+## Introduction
+
+We take security issues seriously, and encourage users and developers alike
+to report them.
+
+## Reporting security incidents
+
+Please send mail to [security@illumos.org](mailto:security@illumos.org)
+
+```
+pub   4096R/3ABDDAAC 2019-02-05 [expires: 2021-02-04]
+uid                  illumos security (For contacting the illumos security response team) <security@illumos.org>
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+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
+oRrkEx2sDQQXy8aN4es2VD7VhqbQoew=
+=21iU
+-----END PGP PUBLIC KEY BLOCK-----
+```
+
+## Recent vulnerabilities
+
+-
+  [CVE-2019-9579](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-9579)
+  Access problem with SMB server [Bug
+  10506](https://illumos.org/issues/10506)
+
+- `dls_unbind()` needs better checking [Bug
+  10543](https://illumos.org/issues/10543)
+
+## Advisory information
+
+## How to update your system
+
+Updating is distribution-dependent.  Please consult your distribution's
+documentation for how best to update.
