@@ -191,6 +191,12 @@ can find out the current branch version with `pkg info`:
 $ pkg info osnet-incorporation | grep Branch:
         Branch: 2018.0.0.18230
 ```
+The example value of `9999.99.0.0` will effectively guarantee your packages 
+will _always_ be preferred forever.  If you want to be able to return to using
+official OpenIndiana packages in the future, you should instead use a
+`PKGVERS_BRANCH` value that only increments the last number; e.g., if `pkg
+info` tells you your current branch is `2018.0.0.18230`, you would use
+`2018.0.0.18231`.
 
 ### OmniOS
 
