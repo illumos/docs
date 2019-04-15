@@ -39,7 +39,7 @@ describes your plan and seek feedback from advocates and others.
 Our guide to [building illumos](../developers/build.md) covers setting up a
 build environment and getting the source.  To make sure you have a functional
 build environment, it helps to try at least one build without modifying
-anything.  This also helps you to familiarise yourself with the build system
+anything.  This also helps you to familiarize yourself with the build system
 and source tree layout.
 
 An unparalleled resource for understanding the operating system is the book,
@@ -179,7 +179,7 @@ It is up to you as a contributor to gather reasonable review to satisfy your
 RTI advocate that the code is correct and of high quality. Exactly what this
 means will vary based on the nature and scope of the change, but here are some
 guidelines that will give the advocates confidence in your changes. As always,
-trust your avocate and apply "shrink to fit".
+trust your advocate and apply "shrink to fit".
 
 * There should be at least one code reviewer (focused on the implementation
   details) that is different from the advocate (focused on ensuring overall
