@@ -6,10 +6,18 @@ This repository contains markdown for illumos.org. It is written in
 We are using a customized version of the
 [material](https://squidfunk.github.io/mkdocs-material/) theme.
 
-## Contributing 
+## Contributing
 
 If you're looking to help out but aren't sure where to start, please have a
 look at our [open issues](https://github.com/illumos/docs/issues).
+
+## Markdown Formatting
+
+We have a number of Markdown extensions installed. See the
+[mkdocs.yml](https://github.com/illumos/docs/blob/master/mkdocs.yml) file's
+`markdown_extensions` section for a list.
+
+Their documentation can be found [here](https://facelessuser.github.io/pymdown-extensions/extensions/arithmatex/).
 
 ### Installing mkdocs
 
