@@ -270,7 +270,7 @@ If you only want to see warning or error messages from the build, you might
 try:
 
 ```
-tail -F /code/illumos-gate/log/nightly.log | grep -A5 -B5 '(error|warning).*: '
+tail -F /code/illumos-gate/log/nightly.log | grep -5 '(error|warning).*: '
 ```
 
 Once the build is complete, the log files (including `nightly.log`) are moved
