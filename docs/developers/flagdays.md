@@ -8,6 +8,7 @@ reference.
 
 ## 2019
 
+* [2019-06-17 9996 use GCC 7 as default primary compiler](https://illumos.topicbox.com/groups/developer/Tb8fb5c3dbe5867d2/flag-day-9996-use-gcc-7-as-default-primary-compiler)
 * [2019-02-15 HEADSUP or something:)](https://illumos.topicbox.com/groups/developer/T97536ca6fe4642cf-M06a0b547f52f49dd36a36817)
 * [2019-02-11 Heads Up: 6885 CTF,Everywhere Part 1](https://illumos.topicbox.com/groups/developer/T6486c03f2141110b-Mf57519de2a281a19839fb9bb)
 * [2019-02-01 HEADS UP — git pbchk might erroneously complain about man pages](https://illumos.topicbox.com/groups/developer/T69c22312eb98826d-Mf831faf3e0f1897f02a4f752)
