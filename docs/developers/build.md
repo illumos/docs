@@ -40,15 +40,22 @@ the new kernel.
 
 Once you have an up-to-date illumos system installed and running, you will need
 to install the basic development tools needed to build illumos.  The operating
-system is currently built with a patched version of GCC 4.4.4.
+system is currently built with a
+[patched version of GCC 7](https://github.com/illumos/gcc/). Distributions may
+have their own particular versions of GCC 7 which work, however.
 
-The list of packages to install depends on which distribution you have chosen.
+In addition, GCC 4.4.4 is used as a "shadow" compiler to test that builds
+with GCC 4 still work.
+
+The list of packages to install depends on which distribution you have
+chosen:
 
 ### OpenIndiana
 
-On OpenIndiana, the `build-essential` package includes the GCC compiler and
-other tools required to build illumos.  In addition, we should install the
-newer GCC 7 compiler and the Python 3.5 runtime for a complete build.
+On OpenIndiana, the `build-essential` package includes the GCC compiler
+and other tools required to build illumos.  In addition, for now, we
+should install the newer GCC 7 compiler and the Python 3.5 runtime for a
+complete build.
 
 ```
 sudo pkg install build-essential \
@@ -56,19 +63,18 @@ sudo pkg install build-essential \
     developer/gcc-7
 ```
 
-The patched version of GCC 4.4.4 is installed in `/opt/gcc/4.4.4`.
+The GCC versions to use can be found in `/usr/gcc/7` and `/opt/gcc/4.4.4`.
 
 ### OmniOS
 
 On OmniOS, the `illumos-tools` package includes everything you'll need to build
-illumos, including the optional GCC 7 compiler.  Make sure you're running at
-least OmniOS version r151028 or higher.
+illumos.  Make sure you're running at least OmniOS version r151028 or higher.
 
 ```
 sudo pkg install pkg:/developer/illumos-tools
 ```
 
-The patched version of GCC 4.4.4 is installed in `/opt/gcc-4.4.4`.
+The GCC versions to use can be found in `/opt/gcc-7` and `/opt/gcc-4.4.4`.
 
 ## Preparing your workspace
 
@@ -199,6 +205,8 @@ provided in the developer tool packages.  Those files reside in
 `/opt/onbld/env/omnios-*`; one for vanilla `illumos-gate.git`, and one for the
 OmniOS-specific downstream fork, `illumos-omnios.git`.
 
+Currently, you may need to set the compiler versions by hand, however.
+
 If instead you wish to start with the stock environment file template, you'll
 need to add the following at the end of your copy of `illumos.sh`:
 
@@ -218,11 +226,11 @@ export ONLY_LINT_DEFS="-I${SPRO_ROOT}/sunstudio12.1/prod/include/lint"
 export ON_CLOSED_BINS=/opt/onbld/closed
 
 export __GNUC=
-export GNUC_ROOT=/opt/gcc-4.4.4/
-export PRIMARY_CC=gcc4,/opt/gcc-4.4.4/bin/gcc,gnu
-export PRIMARY_CCC=gcc4,/opt/gcc-4.4.4/bin/g++,gnu
-export SHADOW_CCS=gcc7,/opt/gcc-7/bin/gcc,gnu
-export SHADOW_CCCS=gcc7,/opt/gcc-7/bin/g++,gnu
+export GNUC_ROOT=/opt/gcc-7/
+export PRIMARY_CC=gcc7,/opt/gcc-7/bin/gcc,gnu
+export PRIMARY_CCC=gcc7,/opt/gcc-7/bin/g++,gnu
+export SHADOW_CCS=gcc4,/opt/gcc-4.4.4/bin/gcc,gnu
+export SHADOW_CCCS=gcc4,/opt/gcc-4.4.4/bin/g++,gnu
 
 # This will set ONNV_BUILDNUM to match the release on which you are building, allowing ONU.
 export ONNV_BUILDNUM=`grep '^VERSION=r' /etc/os-release | cut -c10-`
