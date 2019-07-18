@@ -215,7 +215,13 @@ First, in the issue(s) you created in the bug tracker, make sure you have:
   see what you did to test, and allows future engineers to better understand
   how to test _their_ changes in the same area of the system.
 
-Once your issue(s) are complete, your RTI e-mail should include:
+You should have a full clean build of the gate with your changes applied. This
+currently means a successful build with GCC7 as the primary compiler, and GCC4
+and smatch as shadow compilers, with no warnings or errors in the resulting
+`mail_msg`. A clean SPARC build is optional, and only requires GCC4 if you do
+happen to do one.
+
+Your RTI e-mail should include:
 
 * The link to the illumos issue(s) you're fixing, e.g.,
   https://illumos.org/issues/10052
@@ -227,11 +233,10 @@ Once your issue(s) are complete, your RTI e-mail should include:
     * `Reviewed by: First Last <first.last@example.com>` lines
     * List of files affected
 * Output of `git pbchk` (run under `bldenv` or have `/opt/onbld/bin` in `PATH`)
-* Attach the `mail_msg` file from a full nightly build, which should be free of
-  warnings
-* Supply information about how the changes were tested (it's sufficient to
+* An attached clean `mail_msg` from a full nightly build
+* Information about how the changes were tested (it's sufficient to
   mention that the testing notes appear in the bug tracker)
-* Attach the actual change as a patch file, as from `git format-patch`
+* Your changes attached as as a patch as per `git format-patch`
 
 Here is an example change description:
 
@@ -270,3 +275,7 @@ it`:
 
 You should soon get a reply with additional feedback if needed, or a "thank
 you" for being part of the illumos developer community!
+
+If the change is accepted, the advocate will take care of actually committing to
+master. Regular contributors may get commit rights: they follow the same system,
+but may push to master themselves after approval.
