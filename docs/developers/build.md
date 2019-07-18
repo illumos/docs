@@ -232,6 +232,9 @@ export PRIMARY_CCC=gcc7,/opt/gcc-7/bin/g++,gnu
 export SHADOW_CCS=gcc4,/opt/gcc-4.4.4/bin/gcc,gnu
 export SHADOW_CCCS=gcc4,/opt/gcc-4.4.4/bin/g++,gnu
 
+SMATCHBIN=$CODEMGR_WS/usr/src/tools/proto/root_$MACH-nd/opt/onbld/bin/$MACH/smatch
+export SHADOW_CCS="$SHADOW_CCS smatch,$SMATCHBIN,smatch"
+
 # This will set ONNV_BUILDNUM to match the release on which you are building, allowing ONU.
 export ONNV_BUILDNUM=`grep '^VERSION=r' /etc/os-release | cut -c10-`
 export PKGVERS_BRANCH=$ONNV_BUILDNUM.0

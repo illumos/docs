@@ -77,7 +77,7 @@ integration, rather than simply denying changes that aren't well-formed.
       compilers (i.e., GCC 7.3 and GCC 4.4.4).
       Check the `mail_msg` file for the compilers used during the build.
     * The build should be free of compiler warnings and other post-build
-      checks.
+      checks, including smatch.
 
 * **Did the submitter test their changes to your satisfaction?**
     * Can you think of anything else that should be tested? Ask for it!
