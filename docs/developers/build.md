@@ -180,6 +180,13 @@ export PERL_PKGVERS="-522"
 # OpenJDK 8:
 #
 export BLD_JAVA_8=
+
+#
+# IPS packages published at 2019-08-08 and later ship only Python 3.5 modules,
+# so you have to use this Python version to build illumos tools
+# if your pkg:/package/pkg version is 0.5.11-2019.0.0.5521 or later.
+#
+export BUILDPY2TOOLS="#"
  
 #
 # Use the copy of the closed binaries that comes with the "build-essential"
