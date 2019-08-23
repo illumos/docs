@@ -29,5 +29,5 @@
 | [openzfs-developer](https://openzfs.topicbox.com/groups/developer/discussions) | Platform-independent mailing list for ZFS developers to review ZFS code and architecture changes from all platforms. |
 | [oi-dev](http://openindiana.org/mailman/listinfo/oi-dev) | OpenIndiana distro developer list |
 | [openindiana-discuss](http://openindiana.org/mailman/listinfo/openindiana-discuss) | OpenIndiana distro users list |
-| [omnios-discuss](http://lists.omniti.com/mailman/listinfo/omnios-discuss) | OmniOS distro users list |
+| [OmniOS Contacts](https://omniosce.org/about/contact) | OmniOS mailing list and other contact details |
 | [smartos-discuss](http://smartos.org/smartos-mailing-list/) | SmartOS distro |
