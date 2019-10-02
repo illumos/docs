@@ -174,6 +174,7 @@ export PKGVERS_BRANCH=9999.99.0.0
 #
 export PERL_VERSION="5.22"
 export PERL_PKGVERS="-522"
+export BUILDPERL64="#"
 
 #
 # If you are building on the latest OpenIndiana (2017-03-07 and later), use

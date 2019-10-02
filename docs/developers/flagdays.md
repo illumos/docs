@@ -8,6 +8,7 @@ reference.
 
 ## 2019
 
+* [2019-09-28 Heads-up: 64-bit perl modules are now produced by default](https://illumos.topicbox.com/groups/developer/T344a3954156dcc3f-Ma5b9e0b51e04c72d705cb6b9/heads-up-64-bit-perl-modules-are-now-produced-by-default)
 * [2019-07-18 Flag day: smatch on by default](https://illumos.topicbox.com/groups/developer/T230eeec7670e9731/flag-day-smatch-on-by-default)
 * [2019-06-17 9996 use GCC 7 as default primary compiler](https://illumos.topicbox.com/groups/developer/Tb8fb5c3dbe5867d2/flag-day-9996-use-gcc-7-as-default-primary-compiler)
 * [2019-02-15 HEADSUP or something:)](https://illumos.topicbox.com/groups/developer/T97536ca6fe4642cf-M06a0b547f52f49dd36a36817)
