@@ -25,5 +25,5 @@ For major feature differences, the following chart may be helpful.
 | [NexenStor](https://community.nexenta.com/s/) | [Nexenta](https://nexenta.com/) | Storage | | | APT | <i class="material-icons">check</i> | |
 | [Tribblix](http://www.tribblix.org/) | Peter Tribble | Workstation, Servers | Slackware | <i class="material-icons">check</i> | SVR4 | <i class="material-icons">check</i> | <i class="material-icons">check</i> | | <i class="material-icons">check</i> | |
 | [DilOS](http://www.dilos.org/) | igork | Workstation, Servers | | <i class="material-icons">check</i> | APT | <i class="material-icons">check</i> | <i class="material-icons">check</i> | <i class="material-icons">check</i> | <i class="material-icons">check</i> |
-| [XStreamOS](http://www.sonicle.com/xstreamos/) | [Sonicle](http://www.sonicle.com/) | Server | | |<i class="material-icons">check</i> | |
-| [v9os](http://www.milax.fi/v9os.html) | [MilaX](http://www.milax.fi/) | Server | <i class="material-icons">check</i> | IPS | | <i class="material-icons">check</i> |
+| [XStreamOS](http://www.sonicle.com/xstreamos/) | [Sonicle](http://www.sonicle.com/) | Server | |<i class="material-icons">check</i> | |
+| [v9os](http://www.milax.fi/v9os.html) | [MilaX](http://www.milax.fi/) | Server | | <i class="material-icons">check</i> | IPS | | <i class="material-icons">check</i> |
