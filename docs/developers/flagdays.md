@@ -8,6 +8,7 @@ reference.
 
 ## 2020
 
+* [2020-01-27 Heads up: nightly script location change](https://illumos.topicbox.com/groups/developer/T5cfdb34398963924-Mcd0e6aa293ff3236da94d279)
 * [2020-01-07 HEADS-UP: Building illumos-gate on OmniOS bloody](https://illumos.topicbox.com/groups/developer/T9c1d1989fee2de8c-M0deec068f58bd59e1ff10998)
 
 ## 2019
