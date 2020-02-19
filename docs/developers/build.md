@@ -211,7 +211,13 @@ $ pkg info osnet-incorporation | grep Branch:
 On OmniOS systems, you have the option of using a complete environment file
 provided in the developer tool packages.  Those files reside in
 `/opt/onbld/env/omnios-*`; one for vanilla `illumos-gate.git`, and one for the
-OmniOS-specific downstream fork, `illumos-omnios.git`.
+OmniOS-specific downstream fork, `illumos-omnios.git`.  If you do the same
+build regularly, you can symlink `illumos.sh` to it.
+
+```
+cd /opt/onbld/env
+ln -s omnios-illumos-gate illumos.sh
+```
 
 Currently, you may need to set the compiler versions by hand, however.
 
@@ -273,7 +279,7 @@ Run the following command to start the full build:
 
 ```
 cd /code/illumos-gate
-time ksh93 usr/src/tools/scripts/nightly.sh illumos.sh
+time usr/src/tools/scripts/nightly illumos.sh
 ```
 
 The build creates a _lot_ of output, so rather than emit it directly to the
@@ -312,11 +318,11 @@ build without discarding files that are already built.  This allows you to make
 some changes to the code and rebuild only the files to which you have made
 changes.
 
-The `-i` flag to `nightly.sh` performs an incremental build:
+The `-i` flag to `nightly` performs an incremental build:
 
 ```
 cd /code/illumos-gate
-time ksh93 usr/src/tools/scripts/nightly.sh -i illumos.sh
+time ksh93 usr/src/tools/scripts/nightly -i illumos.sh
 ```
 
 !!! note
@@ -350,7 +356,7 @@ environments on your machine.
 
 !!! note
     For OpenIndiana and OmniOS it is critical that `PKGVERS_BRANCH` is set
-    correctly in your `nightly.sh` environment file, or `onu` will likely
+    correctly in your `nightly` environment file, or `onu` will likely
     fail to correctly install packages.  See above on [configuring your
     environment file](#configuring-the-build)
 
