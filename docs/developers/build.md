@@ -273,7 +273,7 @@ Run the following command to start the full build:
 
 ```
 cd /code/illumos-gate
-time ksh93 usr/src/tools/scripts/nightly.sh illumos.sh
+time ksh93 usr/src/tools/scripts/nightly illumos.sh
 ```
 
 The build creates a _lot_ of output, so rather than emit it directly to the
@@ -316,7 +316,7 @@ The `-i` flag to `nightly.sh` performs an incremental build:
 
 ```
 cd /code/illumos-gate
-time ksh93 usr/src/tools/scripts/nightly.sh -i illumos.sh
+time ksh93 usr/src/tools/scripts/nightly -i illumos.sh
 ```
 
 !!! note
