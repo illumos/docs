@@ -8,6 +8,7 @@ reference.
 
 ## 2020
 
+* [2020-04-21 FLAG DAY: awk(1) is now nawk(1), oawk(1) is just oawk(1)](https://illumos.topicbox.com/groups/developer/T64ce92e0a7e33eaf-Mf53d4b01ac8a35bdc20db3b1)
 * [2020-01-27 Heads up: nightly script location change](https://illumos.topicbox.com/groups/developer/T5cfdb34398963924-Mcd0e6aa293ff3236da94d279)
 * [2020-01-07 HEADS-UP: Building illumos-gate on OmniOS bloody](https://illumos.topicbox.com/groups/developer/T9c1d1989fee2de8c-M0deec068f58bd59e1ff10998)
 
