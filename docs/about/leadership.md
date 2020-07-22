@@ -1,41 +1,56 @@
 # Leadership
 
 There are two levels of leadership in the illumos project: Members of the
-Developer Council, and Request To Integrate (RTI) Advocates.
+Developer Council, and the Advocates.
 
 ## Developer Council
 
-The Dev Council is a technical steering committee drawn from well-known
-developers of Solaris, whose role is to make high-level architecture decisions.
+The Developer Council is a committee drawn from well-known developers of
+illumos.  The Council serves chiefly as a mediating body in the unlikely event
+that a contentious issue arises and a consensus cannot be reached amongst the
+Advocates.
 
-| Member          | Organization    |
-| --------------- | --------------- |
-| Adam Leventhal  | Transposit      |
-| Bryan Cantrill  | Joyent          |
-| Garrett D'Amore | RackTop Systems |
-| Gordon Ross     | Nexenta         |
-| Rich Lowe       | unaffiliated    |
+| Member          | Organization           |
+| --------------- | ---------------------- |
+| Adam Leventhal  | Oxide Computer Company |
+| Bryan Cantrill  | Oxide Computer Company |
+| Garrett D'Amore | RackTop Systems        |
+| Gordon Ross     | Nexenta                |
+| Rich Lowe       | unaffiliated           |
 
 ## Advocates
 
-Advocates are the gatekeepers to the illumos core: they have the ultimate say
-in what code is accepted, and their primary job is to ensure quality and
-stability for all illumos users.
+Advocates make up the illumos core team.  They have the ultimate say in what
+code is accepted for integration, and their most important job is to ensure
+quality and stability for all illumos users.  Advocates also take
+responsibility for the provision of project infrastructure, including tools for
+code review, mailing lists, and other forms of collaboration.
 
-Advocates are appointed by the illumos Developer Council.
+Advocates are appointed by consensus of existing Advocates, and confirmed by
+the illumos Developer Council.
 
-| Member            | Handle     | Organization    | Expertise |
-| ----------------- | ---------- | --------------- | --------- |
-| Albert Lee        | trisk      | SoftNAS         | Storage, drivers, userland. |
-| Chris Siden       | csiden     | Delphix         | ZFS |
-| Dan McDonald      | danmcd     | Joyent          | Cryptography, Networking |
-| Garrett D'Amore   | gdamore    | RackTop Systems | Drivers, etc. |
-| Gordon Ross       | gwr        | Nexenta         | CIFS/SMB, VFS layer, ZFS ACLs, etc. |
-| Hans Rosenfeld    | Woodstock  | Joyent          | Misc. |
-| Joshua M. Clulow  | LeftWing   | Joyent          | Misc. |
-| Matt Ahrens       | mahrens    | Delphix         | ZFS |
-| Rich Lowe         | richlowe   | unaffiliated    | Misc. |
-| Robert Mustacchi  | rmustacc   | Joyent          | Virtualization, SMF, PCI, MDB, DTrace, x86 platform, etc. |
+### Current Members
+
+| Member            | IRC Handle | Organization           | Expertise |
+| ----------------- | ---------- | ---------------------- | --------- |
+| Dan McDonald      | danmcd     | Joyent                 | Cryptography, Networking |
+| Garrett D'Amore   | gdamore    | RackTop Systems        | Drivers, etc. |
+| Gordon Ross       | gwr        | Nexenta                | CIFS/SMB, VFS layer, ZFS ACLs, etc. |
+| Hans Rosenfeld    | Woodstock  | Joyent                 | Misc. |
+| Joshua M. Clulow  | LeftWing   | Oxide Computer Company | Misc. |
+| Matt Ahrens       | mahrens    | Delphix                | ZFS |
+| Rich Lowe         | richlowe   | unaffiliated           | Misc. |
+| Robert Mustacchi  | rmustacc   | Oxide Computer Company | Virtualization, SMF, PCI, MDB, DTrace, x86 platform, etc. |
+
+### Emeritus Members
+
+Some advocates have moved on to other things, and are no longer actively
+working on illumos.  We thank them for their prior contributions!
+
+| Member            | IRC Handle | Organization           | Expertise |
+| ----------------- | ---------- | ---------------------- | --------- |
+| Albert Lee        | trisk      | RackTop Systems        | Storage, drivers, userland. |
+| Chris Siden       | csiden     | formerly Delphix       | ZFS |
 
 ## Life as an Advocate
 
