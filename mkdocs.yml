@@ -27,6 +27,7 @@ nav:
     - 'Flag Days': 'developers/flagdays.md'
   - 'Contributing':
     - 'Overview': 'contributing/index.md'
+    - 'Code Review (Gerrit)': 'contributing/gerrit.md'
     - 'On Quality': 'contributing/quality.md'
     - 'Quality Death Spiral': 'contributing/qds.md'
     - 'Documentation': 'contributing/docs.md'

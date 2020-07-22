@@ -168,10 +168,11 @@ is anyone in particular they'd like to see review the code.
 
 When seeking review, it is generally best to upload to some web-based review or
 source hosting system, rather than attach a patch to your list e-mail.  The
-illumos project provides a [Review Board instance](https://illumos.org/rb)
-which you can use with your illumos bug tracker account credentials.  Remember
-to mention the issue ID in the email -- if one does not yet exist, please
-[create one](https://www.illumos.org/projects/illumos-gate/issues/new)!
+illumos project provides a [Gerrit instance](https://code.illumos.org) which
+you can use with your illumos bug tracker account credentials.  For more
+information about using Gerrit, see [our documentation on Gerrit](./gerrit).
+Remember to mention the issue ID in the email -- if one does not yet exist,
+please [create one](https://www.illumos.org/projects/illumos-gate/issues/new)!
 
 ### Ensuring adequate review
 
