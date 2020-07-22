@@ -275,6 +275,17 @@ and old and a new version easily in the web interface:
 
 ![Screenshot of amended Gerrit patchset version list](./gerrit09.png)
 
+Assuming your commit message starts with the bug number as in the example
+above, the system will automatically link between the commit message in
+Gerrit and the bug tracker, making navigation a bit easier:
+
+![Screenshot of link to bug](./gerrit10.png)
+
+The system will also link the bug back to the open Gerrit change:
+
+![Screenshot of link to Gerrit](./gerrit11.png)
+
+
 ### 5. Interact with Gerrit using more advanced Git tools
 
 In addition to the web interface, Gerrit offers rich remote access using
