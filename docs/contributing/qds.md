@@ -41,4 +41,4 @@ Only way to avoid the quality death spiral:
 * Downward spiral hard to break
 * Recovery time can be very long
 
-Originally sourced from http://hub.opensolaris.org/bin/view/Community+Group+on/qual_death_spiral.
+Originally sourced from [http://hub.opensolaris.org/bin/view/Community+Group+on/qual_death_spiral](https://web.archive.org/web/20110104044942/http://hub.opensolaris.org/bin/view/Community+Group+on/qual_death_spiral).
