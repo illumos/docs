@@ -27,3 +27,4 @@ For major feature differences, the following chart may be helpful.
 | [DilOS](http://www.dilos.org/) | igork | Workstation, Servers | | <i class="material-icons">check</i> | APT | <i class="material-icons">check</i> | <i class="material-icons">check</i> | <i class="material-icons">check</i> | <i class="material-icons">check</i> |
 | [XStreamOS](http://www.sonicle.com/xstreamos/) | [Sonicle](http://www.sonicle.com/) | Server | |<i class="material-icons">check</i> | |
 | [v9os](http://www.milax.fi/v9os.html) | [MilaX](http://www.milax.fi/) | Server | | <i class="material-icons">check</i> | IPS | | <i class="material-icons">check</i> |
+| [Danube Cloud](https://danube.cloud) | [Danube Cloud Community](https://github.com/erigones/esdc-ce) | Hypervisor | Proxmox | <i class="material-icons">check</i> | [pkgsrc](https://pkgsrc.joyent.com) | <i class="material-icons">check</i> |  | <i class="material-icons">check</i> | <i class="material-icons">check</i> |
