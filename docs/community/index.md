@@ -30,6 +30,6 @@ community mailing list information.
 | -------     | ------------ | -------------- |
 | illumos     | freenode     | `#illumos`     |
 | SmartOS     | freenode     | `#smartos`     |
-| OmniOS      | freenode     | `#omnios`      |
+| OmniOS      | libera       | `#omnios`      |
 | OpenIndiana | freenode     | `#openindiana` |
 | OpenZFS     | freenode     | `#openzfs`     |
