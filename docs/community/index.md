@@ -26,10 +26,10 @@ community mailing list information.
 
 ## IRC Channels
 
-| Project     | Network      | Channel        |
-| -------     | ------------ | -------------- |
-| illumos     | freenode     | `#illumos`     |
-| SmartOS     | freenode     | `#smartos`     |
-| OmniOS      | freenode     | `#omnios`      |
-| OpenIndiana | freenode     | `#openindiana` |
-| OpenZFS     | freenode     | `#openzfs`     |
+| Project     | Network                            | Channel        |
+| -------     | ------------                       | -------------- |
+| illumos     | [Libera Chat](https://libera.chat) | `#illumos`     |
+| SmartOS     | [Libera Chat](https://libera.chat) | `#smartos`     |
+| OmniOS      | [Libera Chat](https://libera.chat) | `#omnios`      |
+| OpenIndiana | freenode                           | `#openindiana` |
+| OpenZFS     | [Libera Chat](https://libera.chat) | `#openzfs`     |
