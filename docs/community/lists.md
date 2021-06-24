@@ -12,7 +12,7 @@
 |------|-------------|
 | [announce](https://illumos.topicbox.com/groups/announce) | Announcements including new releases, significant milestones, administrative and policy decisions and other news-worthy items. ([Old archives](http://lists.illumos.org/pipermail/announce)) |
 | [developer](https://illumos.topicbox.com/groups/developer) | Developers working on illumos code and those looking to become actively involved. ([Old archives](http://lists.illumos.org/pipermail/developer)) |
-| [discuss](https://illumos.topicbox.com/groups/discuss) | General discussion ([Old archives](http://lists.illumos.org/pipermail/discuss) |
+| [discuss](https://illumos.topicbox.com/groups/discuss) | General discussion ([Old archives](http://lists.illumos.org/pipermail/discuss)) |
 
 ## Code Commits, Integration, Bug Tracking
 
