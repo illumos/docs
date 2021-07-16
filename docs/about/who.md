@@ -24,3 +24,4 @@ organization!
 | [Pobox](https://www.pobox.com/)                        | Email services |
 | [Topicbox](https://www.topicbox.com/)                  | Mailing list services |
 | [DanubeCloud](https://danubecloud.org)                 | On-prem cloud |
+| [Cloudcontainers](https://cloudcontainers.net)         | Public cloud |
