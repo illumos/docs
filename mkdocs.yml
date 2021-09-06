@@ -37,16 +37,16 @@ nav:
     - 'Events': 'community/events.md'
     - 'Videos': 'community/videos.md'
 
-theme:
-  name: null
-  custom_dir: 'material-illumos'
-  language: en
-  logo: 'assets/images/illumos.svg'
-  palette:
-  feature:
-    tabs: false
-  include_search_page: false
-  search_index_only: true
+theme: readthedocs
+  # name: null
+  # custom_dir: 'material-illumos'
+  # language: en
+  # logo: 'assets/images/illumos.svg'
+  # palette:
+  # feature:
+  #   tabs: false
+  # include_search_page: false
+  # search_index_only: true
 
 extra:
   social:

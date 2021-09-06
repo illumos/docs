@@ -1,4 +1,6 @@
-![logo](images/logo.png) illumos is a Unix operating system which provides
+![logo](images/logo.png) 
+
+illumos is a Unix operating system which provides
 next-generation features for downstream [distributions](about/distro.md),
 including [advanced system debugging](http://dtrace.org/guide/), [next
 generation filesystem](http://open-zfs.org/), networking, and virtualization
