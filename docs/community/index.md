@@ -31,5 +31,5 @@ community mailing list information.
 | illumos     | [Libera Chat](https://libera.chat) | `#illumos`     |
 | SmartOS     | [Libera Chat](https://libera.chat) | `#smartos`     |
 | OmniOS      | [Libera Chat](https://libera.chat) | `#omnios`      |
-| OpenIndiana | freenode                           | `#openindiana` |
+| OpenIndiana | [Libera Chat](https://libera.chat) | `#openindiana` |
 | OpenZFS     | [Libera Chat](https://libera.chat) | `#openzfs`     |
