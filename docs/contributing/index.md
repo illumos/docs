@@ -226,8 +226,8 @@ Your RTI e-mail should include:
 
 * The link to the illumos issue(s) you're fixing, e.g.,
   https://illumos.org/issues/10052
-* A link to the changes that were reviewed; e.g., a link to your Review Board
-  review
+* A link to the changes that were reviewed; e.g., a link to your
+  [Gerrit](./gerrit) review
 * The full "change set description" (i.e., `git whatchanged -v origin/master..`)
   including:
     * Issue number(s) and description(s)
