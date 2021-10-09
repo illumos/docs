@@ -44,8 +44,9 @@ system is currently built with a
 [patched version of GCC 7](https://github.com/illumos/gcc/). Distributions may
 have their own particular versions of GCC 7 which work, however.
 
-In addition, GCC 4.4.4 is used as a "shadow" compiler to test that builds
-with GCC 4 still work.
+In addition, GCC 10.3.0 is used as a "shadow" compiler. This improves the
+warnings and diagnostics that are found and lets us all work from a common base
+towards making it the next primary compiler.
 
 The list of packages to install depends on which distribution you have
 chosen:
@@ -59,11 +60,10 @@ complete build.
 
 ```
 sudo pkg install build-essential \
-    runtime/python-35 \
-    developer/gcc-7
+    developer/gcc-10
 ```
 
-The GCC versions to use can be found in `/usr/gcc/7` and `/opt/gcc/4.4.4`.
+The GCC versions to use can be found in `/usr/gcc/7` and `/usr/gcc/10`.
 
 ### OmniOS
 
@@ -74,7 +74,7 @@ illumos.  Make sure you're running at least OmniOS version r151028 or higher.
 sudo pkg install pkg:/developer/illumos-tools
 ```
 
-The GCC versions to use can be found in `/opt/gcc-7` and `/opt/gcc-4.4.4`.
+The GCC versions to use can be found in `/opt/gcc-7` and `/opt/gcc-10`.
 
 ## Preparing your workspace
 
@@ -237,8 +237,8 @@ export __GNUC=
 export GNUC_ROOT=/opt/gcc-7/
 export PRIMARY_CC=gcc7,/opt/gcc-7/bin/gcc,gnu
 export PRIMARY_CCC=gcc7,/opt/gcc-7/bin/g++,gnu
-export SHADOW_CCS=gcc4,/opt/gcc-4.4.4/bin/gcc,gnu
-export SHADOW_CCCS=gcc4,/opt/gcc-4.4.4/bin/g++,gnu
+export SHADOW_CCS=gcc10,/opt/gcc-10/bin/gcc,gnu
+export SHADOW_CCCS=gcc10,/opt/gcc-10/bin/g++,gnu
 
 SMATCHBIN=$CODEMGR_WS/usr/src/tools/proto/root_$MACH-nd/opt/onbld/bin/$MACH/smatch
 export SHADOW_CCS="$SHADOW_CCS smatch,$SMATCHBIN,smatch"
