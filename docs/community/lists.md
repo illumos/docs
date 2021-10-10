@@ -30,4 +30,4 @@
 | [oi-dev](http://openindiana.org/mailman/listinfo/oi-dev) | OpenIndiana distro developer list |
 | [openindiana-discuss](http://openindiana.org/mailman/listinfo/openindiana-discuss) | OpenIndiana distro users list |
 | [OmniOS Contacts](https://omniosce.org/about/contact) | OmniOS mailing list and other contact details |
-| [smartos-discuss](http://smartos.org/smartos-mailing-list/) | SmartOS distro |
+| [smartos-discuss](https://smartos.topicbox.com/groups/smartos-discuss) | SmartOS distro |
