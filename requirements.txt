@@ -1,3 +1,4 @@
 markdown-include
 mkdocs
 pymdown-extensions
+mkdocs-material==7.3.2

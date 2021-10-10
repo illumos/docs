@@ -1,0 +1,28 @@
+.md-header {
+	background-color: #544a58;
+}
+
+.md-logo img {
+	height: 70px !important;
+	width: 113px !important;
+}
+
+.md-sidebar--primary .md-nav__title {
+	background-color: #544a58 !important;
+	color: #fff !important;
+}
+
+a:hover,
+.md-nav__link:hover {
+	color: #f42 !important;
+}
+
+.md-typeset h1:target:before,
+.md-typeset h2:target:before,
+.md-typeset h3:target:before,
+.md-typeset h4:target:before,
+.md-typeset h5:target:before,
+.md-typeset h6:target:before {
+	margin-top: -116px !important;
+	padding-top: 116px !important;
+}

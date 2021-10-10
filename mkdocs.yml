@@ -38,20 +38,25 @@ nav:
     - 'Videos': 'community/videos.md'
 
 theme:
-  name: null
-  custom_dir: 'material-illumos'
+  name: material
+  custom_dir: overrides
   language: en
   logo: 'assets/images/illumos.svg'
   palette:
-  feature:
-    tabs: false
+    primary: "#326ca6"
+    accent: "#fc4524"
+  font: false
   include_search_page: false
   search_index_only: true
 
+extra_css:
+  - stylesheets/illumos.css
+
 extra:
   social:
-    - type: 'github'
+    - icon: 'fontawesome/brands/github-alt'
       link: 'https://github.com/illumos'
+
 
 markdown_extensions:
   - admonition
