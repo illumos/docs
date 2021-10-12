@@ -217,10 +217,9 @@ First, in the issue(s) you created in the bug tracker, make sure you have:
   how to test _their_ changes in the same area of the system.
 
 You should have a full clean build of the gate with your changes applied. This
-currently means a successful build with GCC7 as the primary compiler, and GCC4
+currently means a successful build with GCC7 as the primary compiler, and GCC10
 and smatch as shadow compilers, with no warnings or errors in the resulting
-`mail_msg`. A clean SPARC build is optional, and only requires GCC4 if you do
-happen to do one.
+`mail_msg`. A clean SPARC build is optional.
 
 Your RTI e-mail should include:
 
