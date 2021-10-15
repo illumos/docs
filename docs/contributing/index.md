@@ -219,7 +219,7 @@ First, in the issue(s) you created in the bug tracker, make sure you have:
 You should have a full clean build of the gate with your changes applied. This
 currently means a successful build with GCC7 as the primary compiler, and GCC10
 and smatch as shadow compilers, with no warnings or errors in the resulting
-`mail_msg`. A clean SPARC build is optional.
+`mail_msg`.
 
 Your RTI e-mail should include:
 

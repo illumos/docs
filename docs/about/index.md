@@ -57,11 +57,8 @@ are being used for!
 
 ### Supported hardware platforms
 
-illumos currently best supports 64-bit x86 hardware from Intel and AMD.
+illumos currently supports 64-bit x86 hardware from Intel and AMD.
   
-There are also several SPARC distributions of illumos; if you are interested in
-running illumos on SPARC, please refer directly to those distributions' docs.
-
 To determine if a specific piece of hardware will work with illumos, please
 refer to the [Hardware Compatibility List](https://illumos.org/hcl/).
 

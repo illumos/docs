@@ -126,12 +126,7 @@ PS/2 keyboard or a USB keyboard operating in USB legacy (PS/2 emulation) mode.
 * Append -kvd -m verbose to the end of the line (and remove console=graphics if it appears after -B)
 * Press 'Enter' when finished, and then press 'b' to boot.
 
-### Enabling verbose boot messages and the kernel debugger (kmdb) on SPARC:
-
-* Press 'Stop' ('L1'), then 'A' or send a BREAK on the serial line to interrupt the boot process, if necessary.
-* At the ok prompt, type boot -kvd -m verbose and press 'Enter'.
-
-### On both platforms
+### On all platforms
 
 * Wait for the kmdb> prompt to appear, then type moddebug/W 80000000 and press 'Enter'.
 * Type snooping/W 1 and press 'Enter'.
@@ -143,7 +138,6 @@ If the system hangs, copy down the last few lines regarding modules on screen,
 and do one of:
 
 * On a serial console, send a BREAK on the serial line using your serial communications program.
-* On a local keyboard on SPARC, press 'Stop' ('L1'), then 'A'.
 * On a local keyboard on x86, press 'Shift-Pause'; or 'Esc-B'; or 'F1', then 'A'.
 * Generate an NMI if your system provides this capability (hardware button, service processor command).
 
