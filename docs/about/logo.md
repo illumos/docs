@@ -4,10 +4,6 @@ The illumos mark is a trademark, and it is important to note that there are
 some restrictions on its use. The logo itself was created by
 [Rowan](mailto:rown@roseviolet.net) for illumos.
 
-## Download
-
-[Zip of all logos.](http://wiki.smartos.org/download/attachments/753667/illumos_logos.zip)
-
 ## Usage
 
 * The "Powered by" versions may be used on websites, login banners, distribution media, or other situations to indicate that either a service is running on the illumos operating system, or that a distribution is based upon it. Other uses are unacceptable.
