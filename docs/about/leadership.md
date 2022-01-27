@@ -15,7 +15,7 @@ Advocates.
 | Adam Leventhal  | Oxide Computer Company |
 | Bryan Cantrill  | Oxide Computer Company |
 | Garrett D'Amore | RackTop Systems        |
-| Gordon Ross     | Nexenta                |
+| Gordon Ross     | RackTop Systems        |
 | Rich Lowe       | unaffiliated           |
 
 ## Advocates
@@ -35,7 +35,7 @@ the illumos Developer Council.
 | ----------------- | ---------- | ---------------------- | --------- |
 | Dan McDonald      | danmcd     | Joyent                 | Cryptography, Networking |
 | Garrett D'Amore   | gdamore    | RackTop Systems        | Drivers, etc. |
-| Gordon Ross       | gwr        | Nexenta                | CIFS/SMB, VFS layer, ZFS ACLs, etc. |
+| Gordon Ross       | gwr        | RackTop Systems        | CIFS/SMB, VFS layer, ZFS ACLs, etc. |
 | Hans Rosenfeld    | Woodstock  | Joyent                 | Misc. |
 | Joshua M. Clulow  | LeftWing   | Oxide Computer Company | Misc. |
 | Matt Ahrens       | mahrens    | Delphix                | ZFS |
