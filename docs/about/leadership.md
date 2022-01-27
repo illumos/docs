@@ -15,7 +15,7 @@ Advocates.
 | Adam Leventhal  | Oxide Computer Company |
 | Bryan Cantrill  | Oxide Computer Company |
 | Garrett D'Amore | RackTop Systems        |
-| Gordon Ross     | Nexenta                |
+| Gordon Ross     | RackTop Systems        |
 | Rich Lowe       | unaffiliated           |
 
 ## Advocates
