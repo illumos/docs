@@ -17,7 +17,7 @@ some restrictions on its use. The logo itself was created by
 * Do not change the size or position of any parts of the logo relative to each other. Only use the whole logo as a unit, exactly as it is provided. You may scale the vector formats up or down as required. The PNG format should only be scaled down. In all cases, the proportions must be constrained so the logo is not squeezed or stretched. Do not make the logo so small that it becomes unreadable.
 * Do not alter the colors in the logo.
 * Do not use the logo at an angle, and do not distort or warp it.
-* Generally, maintain a clear space on all four sides of the logo. This space should be equal to approximately 25% of the height of the phoenix.  The font used in the logo is Museo Sans. Some versions use Museo Slab, but Museo Sans is preferred.
+* Generally, maintain a clear space on all four sides of the logo. This space should be equal to approximately 25% of the height of the phoenix.  The font used in the logo is Museo Sans.
 * There are two versions of the text, one which is optimized for smaller sizes (where the ratio of the word "illumos" to the logo is larger), and one for larger displays (where the text is a bit smaller in proportion).
 
 ## Examples
