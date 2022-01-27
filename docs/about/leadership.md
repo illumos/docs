@@ -37,7 +37,7 @@ the illumos Developer Council.
 | Garrett D'Amore   | gdamore    | RackTop Systems        | Drivers, etc. |
 | Gordon Ross       | gwr        | RackTop Systems        | CIFS/SMB, VFS layer, ZFS ACLs, etc. |
 | Hans Rosenfeld    | Woodstock  | Joyent                 | Misc. |
-| Joshua M. Clulow  | LeftWing   | Oxide Computer Company | Misc. |
+| Joshua M. Clulow  | jclulow    | Oxide Computer Company | Misc. |
 | Matt Ahrens       | mahrens    | Delphix                | ZFS |
 | Rich Lowe         | richlowe   | unaffiliated           | Misc. |
 | Robert Mustacchi  | rmustacc   | Oxide Computer Company | Virtualization, SMF, PCI, MDB, DTrace, x86 platform, etc. |
