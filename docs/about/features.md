@@ -99,6 +99,6 @@ for zones and hardware virtualized systems.
 
 ### Virtual Networking
 
-[dladm(1M)](https://illumos.org/man/1M/dladm) allows users to create Virtual
+[dladm(8)](https://illumos.org/man/8/dladm) allows users to create Virtual
 NICs, bridges, and in some distributions [overlay
-networks](https://smartos.org/man/5/overlay).
+networks](https://smartos.org/man/7/overlay).

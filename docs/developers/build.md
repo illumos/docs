@@ -345,7 +345,7 @@ sudo /code/illumos-gate/usr/src/tools/proto/root_i386-nd/opt/onbld/bin/onu \
 This creates a build environment with a name that includes the date and time in
 UTC; e.g., `nightly-20190415-0333Z`.  If your installation was successful, you
 can `reboot` to try the new bits!  You can use
-[beadm(1M)](https://illumos.org/man/1M/beadm) to list or modify the boot
+[beadm(8)](https://illumos.org/man/8/beadm) to list or modify the boot
 environments on your machine.
 
 !!! note
