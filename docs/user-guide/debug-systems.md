@@ -21,7 +21,7 @@ want to know about this problem.
 
 When illumos crashes (kernel panics), a crash dump is automatically saved
 containing information from kernel memory. This can be copied to a file. A
-developer can use use the crash dump to inspect the state of the system at the
+developer can use the crash dump to inspect the state of the system at the
 time of the crash. You can also generate a crash dump manually to debug a hang.
 
 If you are on a live session where no storage is available, you may have to
@@ -150,14 +150,14 @@ When you are successful the system should drop you into a kmdb prompt.
 ## Gathering Information from a Running System, Using only NMI (x86)
 
 In order to force a crash dump form a system that seems hung or frozen e.g. no
-longer has has interactive capabilities if your system supports NMI (hardware
+longer has interactive capabilities if your system supports NMI (hardware
 button, service processor command) it might be a good practice to permanently
 configure the following:
 
 * Adding the line (as user root) `set pcplusmp:apic_panic_on_nmi = 1` to your /etc/system file allows a crash dump to be generated on the receipt by your system of an NMI (non-maskable interrupt). Once this line is added you will have to do a reconfiguration reboot.
 * Note, If you also have the line `set pcplusmp:apic_kmdb_on_nmi=1` in your /etc/system file you will not generate a crash dump, but rather go into the kernel debugger as this later directive takes priority over the `pcplusmp:apic_panic_on_nmi` setting.
 
-The above might be a a very good practice as it simplifies forcing a "crash
+The above might be a very good practice as it simplifies forcing a "crash
 dump" (avoids the x86 requirement of  keyboard input e.g. press 'Shift-Pause';
 or 'Esc-B'; or 'F1', then 'A'.).  However this simplification will a) not work
 on all platforms and b) might even cause issues on a few system types and c)

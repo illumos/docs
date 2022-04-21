@@ -236,7 +236,7 @@ Your RTI e-mail should include:
 * An attached clean `mail_msg` from a full nightly build
 * Information about how the changes were tested (it's sufficient to
   mention that the testing notes appear in the bug tracker)
-* Your changes attached as as a patch as per `git format-patch`
+* Your changes attached as a patch as per `git format-patch`
 
 Here is an example change description:
 

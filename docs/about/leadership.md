@@ -83,7 +83,7 @@ integration, rather than simply denying changes that aren't well-formed.
   lines in the commit message.
 
 * **Is the `git pbchk` output as clean as you want it to be?**  In general
-  there there should be no noise from any check, however some areas are not
+  there should be no noise from any check, however some areas are not
   clean for the various style checks.  It will generally be quite obvious
   upon inspection when a file is not already free of issues.
 
