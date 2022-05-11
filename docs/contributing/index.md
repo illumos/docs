@@ -2,10 +2,16 @@
 
 ## Overview
 
-Committing code to illumos can seem very daunting. To get started, you might
-consider watching [Ryan Zezeski](https://zinascii.com/) going through fixing a
-bug in ZFS in this "illumos Day" talk, which includes submitting a patch for
-integration into `illumos-gate.git`.
+This document describes our contribution process in some detail.  If you need
+guidance or assistance, especially if you are new to the project, you can
+always reach out to the [developer mailing list](../community/lists.md) or the
+[IRC channel](../community/#irc-channels) for help.
+
+Contributing to a large project with a long history like illumos can seem
+daunting! To get started, you might consider watching [Ryan
+Zezeski](https://zinascii.com/) going through fixing a bug in ZFS in this
+"illumos Day" talk, which includes submitting a patch for integration into
+`illumos-gate.git`:
 
 * [video](https://www.youtube.com/watch?v=HXjIz-RzhK8)
 * [slides](http://zinascii.com/pub/talks/fixing-bugs-in-illumos.pdf)
