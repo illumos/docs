@@ -125,8 +125,8 @@ your local illumos-gate workspace yourself:
 ```
 cd /code/illumos-gate
 wget -c \
-  https://download.joyent.com/pub/build/illumos/on-closed-bins.i386.tar.bz2 \
-  https://download.joyent.com/pub/build/illumos/on-closed-bins-nd.i386.tar.bz2
+  https://download.smartos.org/pub/build/illumos/on-closed-bins.i386.tar.bz2 \
+  https://download.smartos.org/pub/build/illumos/on-closed-bins-nd.i386.tar.bz2
 tar xjvpf on-closed-bins.i386.tar.bz2
 tar xjvpf on-closed-bins-nd.i386.tar.bz2
 ```

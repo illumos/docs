@@ -5,9 +5,9 @@
 | [illumos-gate](https://www.illumos.org/projects/illumos-gate/issues)   | Core. Kernel, userland, drivers, etc.   |
 | [OpenIndiana](https://www.illumos.org/projects/openindiana)     | Distribution-specific                   |
 | [SmartOS Bugview](https://smartos.org/bugview/)                         | Distribution-specific, read-only JIRA mirror                   |
-| [SmartOS GitHub](https://github.com/joyent/smartos-live/issues/)                         | Distribution-specific, public issues |
+| [SmartOS GitHub](https://github.com/TritonDataCenter/smartos-live/issues/)                         | Distribution-specific, public issues |
 | [OmniOS](https://github.com/omniosorg/omnios-build/issues)      | Distribution-specific                   |
-| [Joyent pkgsrc](https://github.com/joyent/pkgsrc/issues)        | Cross-platform packages                 |
+| [SmartOS pkgsrc](https://github.com/TritonDataCenter/pkgsrc/issues)        | Cross-platform packages                 |
 
 # How to report problems
 
