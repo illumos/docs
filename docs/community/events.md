@@ -6,15 +6,15 @@ page!
 
 ## Upcoming
 
+## Past
+
+### 2019
+
 ### FrOSCon 2019
 
 - Where: Sankt Augustin, Germany
 - When: 10th-11th August 2019
 - Details: <https://www.froscon.de/en/>
-
-## Past
-
-### 2019
 
 #### FOSDEM 2019
 
