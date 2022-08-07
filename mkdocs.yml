@@ -33,6 +33,7 @@ nav:
     - 'Documentation': 'contributing/docs.md'
   - 'Community':
     - 'Overview': 'community/index.md'
+    - 'Code of Conduct': 'community/conduct.md'
     - 'Mailing Lists': 'community/lists.md'
     - 'Events': 'community/events.md'
     - 'Videos': 'community/videos.md'

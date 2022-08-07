@@ -1,10 +1,14 @@
 # Mailing Lists
 
 !!! danger "The Golden Rule"
-    Please be respectful and civil in your communications.  Harassment and
-    other poor behavior will not be tolerated, and preventative action _will_
-    be taken by moderators.  If you would like to report an incident, please
-    contact a member of the [leadership teams](../about/leadership.md).
+    Please be respectful and civil in your communications.
+    Community participation is covered by a [code of
+    conduct](../community/conduct.md), which all community members should read
+    and follow.
+    Harassment and other poor behavior will not be tolerated, and preventative
+    action _will_ be taken by moderators.  If you would like to report an
+    incident, please contact the moderation team as laid out in [the code of
+    conduct](../community/conduct.md#enforcement).
 
 ## General Lists
 
