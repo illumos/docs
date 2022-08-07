@@ -99,7 +99,9 @@ a proprietary fork of OpenSolaris, and has been diverging from illumos for
 nearly a decade at this point.
 
 If you're building and testing software for Oracle Solaris, you need to do that
-on a Solaris system.
+on a Solaris system.  Oracle now make available a Common Build Environment
+(CBE) image of Solaris 11 specifically for use in open source continuous
+integration environments.
 
 ## What changes does illumos maintain?
 
