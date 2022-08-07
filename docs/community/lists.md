@@ -18,7 +18,7 @@
 
 | Name | Description |
 |------|-------------|
-| [advocates](https://illumos.topicbox.com/groups/advocates) | Moderated list for illumos Advocates and submitting RTIs only. ([Old archives](http://lists.illumos.org/pipermail/advocates/)) |
+| [advocates](https://illumos.topicbox.com/groups/advocates) | Moderated list for illumos core team members and submitting RTIs only. ([Old archives](http://lists.illumos.org/pipermail/advocates/)) |
 | [commits](https://illumos.topicbox.com/groups/illumos-commits) | Notifications about each commit made to the illumos source code repository. ([Old archives](http://lists.illumos.org/pipermail/illumos-commits))
 
 ## Related Communities

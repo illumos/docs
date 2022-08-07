@@ -1,14 +1,14 @@
 # Leadership
 
 There are two levels of leadership in the illumos project: Members of the
-Developer Council, and the Advocates.
+Developer Council, and the Core Team.
 
 ## Developer Council
 
 The Developer Council is a committee drawn from well-known developers of
 illumos.  The Council serves chiefly as a mediating body in the unlikely event
 that a contentious issue arises and a consensus cannot be reached amongst the
-Advocates.
+core team.
 
 | Member          | Organization           |
 | --------------- | ---------------------- |
@@ -18,16 +18,16 @@ Advocates.
 | Gordon Ross     | RackTop Systems        |
 | Rich Lowe       | unaffiliated           |
 
-## Advocates
+## Core Team
 
-Advocates make up the illumos core team.  They have the ultimate say in what
-code is accepted for integration, and their most important job is to ensure
-quality and stability for all illumos users.  Advocates also take
-responsibility for the provision of project infrastructure, including tools for
-code review, mailing lists, and other forms of collaboration.
+The illumos core team has the ultimate say in what code is accepted for
+integration, and their most important job is to ensure quality and stability
+for all illumos users.  Core team members also take responsibility for the
+provision of project infrastructure, including tools for code review, mailing
+lists, and other forms of collaboration.
 
-Advocates are appointed by consensus of existing Advocates, and confirmed by
-the illumos Developer Council.
+New core team members are appointed by the consensus of existing core team
+members.
 
 ### Current Members
 
@@ -43,8 +43,8 @@ the illumos Developer Council.
 
 ### Emeritus Members
 
-Some advocates have moved on to other things, and are no longer actively
-working on illumos.  We thank them for their prior contributions!
+Some core team members have moved on to other things, and are no longer
+actively working on illumos.  We thank them for their prior contributions!
 
 | Member            | IRC Handle | Organization           | Expertise |
 | ----------------- | ---------- | ---------------------- | --------- |
@@ -52,7 +52,7 @@ working on illumos.  We thank them for their prior contributions!
 | Chris Siden       | csiden     | formerly Delphix       | ZFS |
 | Matt Ahrens       | mahrens    | Delphix                | ZFS |
 
-## Life as an Advocate
+## Life in the Core Team
 
 Contributors send you patches, build results, test results, check results,
 review results. If you're happy with all of this, you integrate the change on
@@ -63,18 +63,18 @@ including a full set of metadata (`Reviewed by:` lines, authorship, etc.). If
 you didn't, feel free to ask whoever submitted the patch to submit it in this
 format.  You shouldn't have to go search the list archives for reviewers.
 
-While the advocate role is fundamentally one of gate-keeping, it is expected
-that advocates are willing and able to help drive towards a positive result.
-Use your experience where you can to actively help contributors get to
-integration, rather than simply denying changes that aren't well-formed.
+While the core team role is fundamentally one of gate-keeping, it is expected
+that members are willing and able to help drive towards a positive result.  Use
+your experience where you can to actively help contributors get to integration,
+rather than simply denying changes that aren't well-formed.
 
-### Things Advocates Focus On
+### Things Core Team Members Focus On
 
 * **Do you know the areas of the system affected well enough to even have an
-  opinion?**  If not, determine whether another advocate is better placed to
-  make a decision.  The codebase is large and our finite resources mean
-  that we'll never have complete coverage; sometimes an absence of an obvious
-  expert is a learning opportunity!
+  opinion?**  If not, determine whether another core team member is better
+  placed to make a decision.  The codebase is large and our finite resources
+  mean that we'll never have complete coverage; sometimes an absence of an
+  obvious expert is a learning opportunity!
 
 * **Is the commit well-formed?**  The `Author` field should include both a
   name and a well-formed e-mail address for the change contributor.  Ensure
@@ -101,17 +101,17 @@ integration, rather than simply denying changes that aren't well-formed.
 * **Inspect the diff!** Check that nothing stands out that reviewers may have
   missed.
 
-* If there are any open questions about possibly breaking the build, the
-  advocate can always elect to run their own build once they have imported the
-  patch.
+* If there are any open questions about possibly breaking the build, the core
+  team member can always elect to run their own build once they have imported
+  the patch.
 
 ### Integrating Changes
 
 The following is a basic checklist for those pushing to the gate, whether they
-are an advocate, or someone granted the right to push their own approved
-changes.
+are a member of the core team, or someone granted the right to push their own
+approved changes.
 
-* When importing a patch, record the approving advocate with an
+* When importing a patch, record the approving core team member with an
   `Approved by:` line in the commit message after the existing
   `Reviewed by:` and `Portions contributed by:` lines.
 

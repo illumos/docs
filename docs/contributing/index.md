@@ -38,7 +38,7 @@ the [developer mailing list](../community/lists.md) or the [IRC
 channel](../community/#irc-channels) for advice on the particular area you're
 interested in.  For larger bodies of work, it is worth writing an [illumos
 Project Discussion (IPD)](https://github.com/illumos/ipd) document that
-describes your plan and seek feedback from advocates and others.
+describes your plan and seek feedback from core team members and others.
 
 ## Writing The Code
 
@@ -69,14 +69,16 @@ illumos require qualified code review from community peers.  A reasonable
 effort must also be made to test each change, to ensure that the change is
 stable enough for others to rely upon.
 
-Your [RTI advocate](../about/leadership#advocates) is the ultimate arbiter of
-whether your testing is sufficient.
+The [core team member](../about/leadership#core-team) looking at your
+integration request will discuss testing with you, and will ultimately decide
+when your testing is sufficient.
 
 The scope of required testing depends on the nature of the change and a
-discussion with your advocate, but in general advocates adopt a "shrink to fit"
-mentality. Here are some examples of reasonable testing based on the collective
-experience of the current RTI advocates. Your advocate may always ask for more
-testing depending on the nature of the change.
+discussion with the core team member looking at your change, but in general the
+core team adopts a "shrink to fit" mentality.  Below are some examples of a
+reasonable level of testing based on the collective experience of the current
+core team.  A core team member may ask for more testing depending on the
+nature of the change.
 
 ### All changes
 
@@ -89,7 +91,7 @@ gate.
 
 If your code has been running in production as part of a downstream
 distribution of illumos, or has already gone through other testing, please
-include that information.  Your advocate will determine if any additional
+include that information.  The core team will determine if any additional
 testing is required for integration.
 
 ### Changing a single program
@@ -150,12 +152,12 @@ The scope of testing here will likely be more substantial, and should focus on
 stability of the system as well as the functionality of the changed
 component(s).
 
-As always, contact your advocate (or the advocates list if you don't yet have
-someone in mind) if you have more questions about what constitutes sufficient
-testing for a particular change.  You are welcome to ask for help in creating a
-test plan well in advance of completing the work on you change, so that the
-advocates can help set expectations and provide feedback throughout the
-process.
+As always, contact the core team member (or the core team mailing list if you
+don't yet have someone in mind) if you have more questions about what
+constitutes sufficient testing for a particular change.  You are welcome to ask
+for help in creating a test plan well in advance of completing the work on you
+change, so that the core team can help set expectations and provide feedback
+throughout the process.
 
 ## Code Review
 
@@ -165,12 +167,13 @@ are trusted as knowledgeable by the illumos community at large. If you work for
 a commercial entity, it is best to include reviewers from outside your company,
 but this is not required.
 
-Your [RTI advocate](../about/leadership#advocates) is the ultimate arbiter of
-whether your review is sufficient.
+The [core team member](../about/leadership#core-team) looking at your
+integration request will discuss the review you have received with you, and
+will ultimately decide whether your change has undergone sufficient review.
 
 If you don't know how to find adequate review, you may post the changes to the
-developer mailing list to ask for feedback, or ask the RTI advocates if there
-is anyone in particular they'd like to see review the code.
+developer mailing list to ask for feedback, or ask the core team if there is
+anyone in particular they'd like to see review the code.
 
 When seeking review, it is generally best to upload to some web-based review or
 source hosting system, rather than attach a patch to your list e-mail.  The
@@ -182,15 +185,14 @@ please [create one](https://www.illumos.org/projects/illumos-gate/issues/new)!
 
 ### Ensuring adequate review
 
-It is up to you as a contributor to gather reasonable review to satisfy your
-RTI advocate that the code is correct and of high quality. Exactly what this
-means will vary based on the nature and scope of the change, but here are some
-guidelines that will give the advocates confidence in your changes. As always,
-trust your advocate and apply "shrink to fit".
+It is up to you as a contributor to gather reasonable review to satisfy a
+member of the core team that the code is correct and of high quality. Exactly
+what this means will vary based on the nature and scope of the change, but here
+are some guidelines that will give the core team confidence in your changes.
 
 * There should be at least one code reviewer (focused on the implementation
-  details) that is different from the advocate (focused on ensuring overall
-  quality of contributions).
+  details) that is different from the core team member (focused on ensuring
+  overall quality of contributions).
 * For non-trivial changes to major technology areas (ZFS, DTrace, etc), at
   least one of the reviewers should be regarded as a subject matter expert by
   the community.
@@ -203,7 +205,7 @@ trust your advocate and apply "shrink to fit".
   addressed.
 
 When in doubt, more review is generally better.  If anything is unclear, or
-you're stuck on something, you can always ask the advocates for guidance.
+you're stuck on something, you can always ask the core team for guidance.
 
 ## Submitting A Patch
 
@@ -218,7 +220,7 @@ First, in the issue(s) you created in the bug tracker, make sure you have:
 * Your testing plan and results from your testing.  This could be simple
   for simple changes; e.g., "I ran the updated `ls` binary and this is
   the new output".  It could also be more detailed for a complicated bug.
-  Providing the testing notes in the issue allows the advocate to easily
+  Providing the testing notes in the issue allows the core team to easily
   see what you did to test, and allows future engineers to better understand
   how to test _their_ changes in the same area of the system.
 
@@ -255,16 +257,17 @@ Reviewed by: Ohana Matsumae <ohana@kissui.ishikawa.jp>
 !!! note Amending descriptions
     You can use `git commit --amend` to edit the commit message.
 
-An [Advocate](../about/leadership#advocates) will need to judge whether your
-code review and testing are adequate for the scope of changes you propose.
-Note that the advocate's job is not necessarily to review your code, only to
-judge whether review and testing was adequate.
+An [core team member](../about/leadership#core-team) will need to judge whether
+your code review and testing are adequate for the scope of changes you propose.
+Note that the core team members's job as part of integration is not necessarily
+to review your code again, only to judge whether review and testing was
+adequate.
 
-When you are ready, send an email to the [illumos advocates mailing
-list](https://illumos.topicbox.com/groups/advocates).  Though you
-are welcome to subscribe to the list, it is not required; you can
-just send mail to advocates@lists.illumos.org. If you're interested
-in what past RTIs looked like, you can [browse past
+When you are ready, send an email to the [illumos core team (formerly
+"advocates") mailing list](https://illumos.topicbox.com/groups/advocates).
+Though you are welcome to subscribe to the list, it is not required; you can
+just send mail to advocates@lists.illumos.org. If you're interested in what
+past RTIs looked like, you can [browse past
 messages](https://illumos.topicbox.com/groups/advocates).
 
 A reasonably complete example issue is `10052 "dladm
@@ -282,6 +285,6 @@ it`:
 You should soon get a reply with additional feedback if needed, or a "thank
 you" for being part of the illumos developer community!
 
-If the change is accepted, the advocate will take care of actually committing to
-master. Regular contributors may get commit rights: they follow the same system,
-but may push to master themselves after approval.
+If the change is accepted, the core team will take care of actually committing
+to master.  Regular contributors may get commit rights: they follow the same
+system, but may push to master themselves after approval.
