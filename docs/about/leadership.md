@@ -146,3 +146,8 @@ approved changes.
 * If a push to the gate fails, you **MUST NOT** force push (i.e., `git push
   -f`).  There will _always_ be a reason for the error, which you must fix
   before proceeding.
+
+* The remote for pushes is: `YOURUSER@code.illumos.org:illumos-gate.git`.  This
+  will be mirrored automatically to GitHub.  Care must be taken to continue to
+  push your Gerrit reviews to the right place (`refs/for/master`)
+  and _not_ the live master branch (`refs/heads/master`).
