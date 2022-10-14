@@ -110,7 +110,7 @@ you have the footer is to install the hook script that Gerrit supplies:
 
 ```
 $ cd ~/illumos
-$ scp walter@code.illumos.org:hooks/commit-msg .git/hooks/
+$ scp -p -P 29418 walter@code.illumos.org:hooks/commit-msg .git/hooks/
 ```
 
 You'll make your change in your local clone.  It is generally easiest to start
