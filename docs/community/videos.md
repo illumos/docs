@@ -1,5 +1,6 @@
 | Year | Presenter                | Venue        | Link |
 |------|--------------------------|--------------|------|
+| 2022 | Thomas Merkel            | May Contain Hackers | https://youtu.be/PaI4DAYYIu4 |
 | 2018 | Stephen's Machine Room   |              | [Thoughts on illumos distributions](https://www.youtube.com/watch?v=_7YSiwEdtjE) |
 | 2017 | Peter Tribble            | flossUK      | [illumos at 6](https://www.youtube.com/watch?v=29yGVdtaN_0)                                        | 
 | 2017 | Various                  |              | [OpenZFS Dev Summit](https://www.youtube.com/watch?v=1LkHsofR_kc&list=PLaUVvul17xSfgoTmcgjC0MQPGC2fmljL6) |
