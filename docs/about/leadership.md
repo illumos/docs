@@ -33,7 +33,7 @@ members.
 
 | Member            | IRC Handle | Organization           | Expertise |
 | ----------------- | ---------- | ---------------------- | --------- |
-| Dan McDonald      | danmcd     | Joyent                 | Cryptography, Networking |
+| Dan McDonald      | danmcd     | MNX Cloud              | Cryptography, Networking |
 | Garrett D'Amore   | gdamore    | RackTop Systems        | Drivers, etc. |
 | Gordon Ross       | gwr        | RackTop Systems        | CIFS/SMB, VFS layer, ZFS ACLs, etc. |
 | Hans Rosenfeld    | Woodstock  | Joyent                 | Misc. |
