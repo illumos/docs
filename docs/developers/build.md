@@ -165,7 +165,7 @@ the following to the bottom of your copy of `illumos.sh`:
 ```
 #
 # Set a package version number which is greater than the current OpenIndiana
-# build number.  Note that ONNV_BUILDNUM is ignored if PKGVERS_BRANCH is set:
+# build number.
 #
 export PKGVERS_BRANCH=9999.99.0.0
 
@@ -188,7 +188,7 @@ export BLD_JAVA_8=
 # if your pkg:/package/pkg version is 0.5.11-2019.0.0.5521 or later.
 #
 export BUILDPY2TOOLS="#"
- 
+
 #
 # Use the copy of the closed binaries that comes with the "build-essential"
 # package:
@@ -223,7 +223,7 @@ need to add the following at the end of your copy of `illumos.sh`:
 export PERL_VERSION=5.28
 export PERL_ARCH=i86pc-solaris-thread-multi-64int
 export PERL_PKGVERS=
- 
+
 # Set to current python3 version (this is correct for OmniOS r151028)
 export PYTHON3=/usr/bin/python3.5
 export TOOLS_PYTHON=$PYTHON3
@@ -243,9 +243,8 @@ export SHADOW_CCCS=gcc10,/opt/gcc-10/bin/g++,gnu
 SMATCHBIN=$CODEMGR_WS/usr/src/tools/proto/root_$MACH-nd/opt/onbld/bin/$MACH/smatch
 export SHADOW_CCS="$SHADOW_CCS smatch,$SMATCHBIN,smatch"
 
-# This will set ONNV_BUILDNUM to match the release on which you are building, allowing ONU.
-export ONNV_BUILDNUM=`grep '^VERSION=r' /etc/os-release | cut -c10-`
-export PKGVERS_BRANCH=$ONNV_BUILDNUM.0
+# This will set PKGVERS_BRANCH to match the release on which you are building, allowing ONU.
+export PKGVERS_BRANCH=$(grep '^VERSION=r' /etc/os-release | cut -c10-).0
 ```
 
 You must also make sure you disable the (optional) IPP and SMB printing support
