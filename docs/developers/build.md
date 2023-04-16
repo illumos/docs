@@ -172,9 +172,10 @@ export PKGVERS_BRANCH=9999.99.0.0
 #
 # Set to current version of Perl shipped with OpenIndiana:
 #
-export PERL_VERSION="5.22"
-export PERL_PKGVERS="-522"
-export BUILDPERL64="#"
+export PERL_VERSION="5.36"
+export PERL_VARIANT="-thread-multi"
+export PERL_PKGVERS="-536"
+export BUILDPERL32="#"
 
 #
 # If you are building on the latest OpenIndiana (2017-03-07 and later), use
