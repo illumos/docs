@@ -50,7 +50,7 @@ For more in-depth descriptions, please see the [features page](features.md).
 
 While it can be and is used in nearly any situation where a UNIX-type server is
 needed, illumos excels at storage applications, large multi-tenant systems, and
-other cloud-centric uses. 
+other cloud-centric uses.
 
 Have a look at [who is using illumos](who.md) to see what illumos technologies
 are being used for!
@@ -58,13 +58,12 @@ are being used for!
 ### Supported hardware platforms
 
 illumos currently supports 64-bit x86 hardware from Intel and AMD.
-  
+
 To determine if a specific piece of hardware will work with illumos, please
 refer to the [Hardware Compatibility List](https://illumos.org/hcl/).
 
-For pre-defined builds of server-grade hardware, you may also refer to [Joyent
-Engineering Manufacturing
-database](http://eng.joyent.com/manufacturing/bom.html).    
+For pre-defined builds of server-grade hardware, you may also refer to the
+[Triton Engineering Manufacturing database](http://eng.tritondatacenter.com/manufacturing/bom.html).
 
 ### illumos Development Model
 

@@ -176,7 +176,7 @@ $ git log --decorate --graph
 |     Reviewed by: Andy Fiddaman <andy@omniosce.org>
 |     Reviewed by: Igor Kozhukhov <igor@dilos.org>
 |     Reviewed by: Paul Winder <paul@winder.uk.net>
-|     Approved by: Dan McDonald <danmcd@joyent.com>
+|     Approved by: Dan McDonald <danmcd@mnx.io>
 ...
 ```
 
