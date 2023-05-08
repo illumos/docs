@@ -6,6 +6,9 @@ out specific actions that developers may need to perform to continue working
 with the sources. Such messages should also be archived here, for future
 reference.
 
+## 2023
+* [2023-04-13 Heads Up: Moving to GCC 10 Primary](https://illumos.topicbox.com/groups/developer/Tc01851d253a5fd32-M7c815b3587c70b506af8de8f/heads-up-moving-to-gcc-10-primary)
+
 ## 2020
 
 * [2020-04-21 FLAG DAY: awk(1) is now nawk(1), oawk(1) is just oawk(1)](https://illumos.topicbox.com/groups/developer/T64ce92e0a7e33eaf-Mf53d4b01ac8a35bdc20db3b1)
