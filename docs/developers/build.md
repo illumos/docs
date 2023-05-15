@@ -41,10 +41,10 @@ the new kernel.
 Once you have an up-to-date illumos system installed and running, you will need
 to install the basic development tools needed to build illumos.  The operating
 system is currently built with a
-[patched version of GCC 7](https://github.com/illumos/gcc/). Distributions may
-have their own particular versions of GCC 7 which work, however.
+[patched version of GCC 10](https://github.com/illumos/gcc/). Distributions may
+have their own particular versions of GCC 10 which work, however.
 
-In addition, GCC 10.3.0 is used as a "shadow" compiler. This improves the
+In addition, GCC 7.5.0 is used as a "shadow" compiler. This improves the
 warnings and diagnostics that are found and lets us all work from a common base
 towards making it the next primary compiler.
 
@@ -53,14 +53,13 @@ chosen:
 
 ### OpenIndiana
 
-On OpenIndiana, the `build-essential` package includes the GCC compiler
+On OpenIndiana, the `build-essential` package includes the GCC compilers
 and other tools required to build illumos.  In addition, for now, we
-should install the newer GCC 7 compiler and the Python 3.5 runtime for a
-complete build.
+should install the older Python 3.5 package for a complete build.
 
 ```
 sudo pkg install build-essential \
-    developer/gcc-10
+    runtime/python-35
 ```
 
 The GCC versions to use can be found in `/usr/gcc/7` and `/usr/gcc/10`.
@@ -235,11 +234,11 @@ export ONLY_LINT_DEFS="-I${SPRO_ROOT}/sunstudio12.1/prod/include/lint"
 export ON_CLOSED_BINS=/opt/onbld/closed
 
 export __GNUC=
-export GNUC_ROOT=/opt/gcc-7/
-export PRIMARY_CC=gcc7,/opt/gcc-7/bin/gcc,gnu
-export PRIMARY_CCC=gcc7,/opt/gcc-7/bin/g++,gnu
-export SHADOW_CCS=gcc10,/opt/gcc-10/bin/gcc,gnu
-export SHADOW_CCCS=gcc10,/opt/gcc-10/bin/g++,gnu
+export GNUC_ROOT=/opt/gcc-10/
+export PRIMARY_CC=gcc10,/opt/gcc-10/bin/gcc,gnu
+export PRIMARY_CCC=gcc10,/opt/gcc-10/bin/g++,gnu
+export SHADOW_CCS=gcc7,/opt/gcc-7/bin/gcc,gnu
+export SHADOW_CCCS=gcc7,/opt/gcc-7/bin/g++,gnu
 
 SMATCHBIN=$CODEMGR_WS/usr/src/tools/proto/root_$MACH-nd/opt/onbld/bin/$MACH/smatch
 export SHADOW_CCS="$SHADOW_CCS smatch,$SMATCHBIN,smatch"

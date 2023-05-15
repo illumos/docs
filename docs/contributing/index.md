@@ -225,9 +225,9 @@ First, in the issue(s) you created in the bug tracker, make sure you have:
   how to test _their_ changes in the same area of the system.
 
 You should have a full clean build of the gate with your changes applied. This
-currently means a successful build with GCC7 as the primary compiler, and GCC10
-and smatch as shadow compilers, with no warnings or errors in the resulting
-`mail_msg`.
+currently means a successful build with GCC 10 as the primary compiler, and
+GCC 7 and smatch as shadow compilers, with no warnings or errors in the
+resulting `mail_msg`.
 
 Your RTI e-mail should include:
 
@@ -241,7 +241,8 @@ Your RTI e-mail should include:
     * `Reviewed by: First Last <first.last@example.com>` lines
     * List of files affected
 * Output of `git pbchk` (run under `bldenv` or have `/opt/onbld/bin` in `PATH`)
-* An attached clean `mail_msg` from a full nightly build
+* An attached clean `mail_msg` from a full nightly build (including shadow
+  compilers, as noted above)
 * Information about how the changes were tested (it's sufficient to
   mention that the testing notes appear in the bug tracker)
 * Your changes attached as a patch as per `git format-patch`
