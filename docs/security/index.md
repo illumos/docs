@@ -71,6 +71,11 @@ IPDPDJJdKnmWVKSTbKuiFW8yq8aMsg==
 ## Recent vulnerabilities
 
 -
+  [CVE-2023-31284](https://nvd.nist.gov/vuln/detail/CVE-2023-31284)
+  ddi_parse needs len [Bug
+  15586](https://illumos.org/issues/15586)
+
+-
   [CVE-2019-9579](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-9579)
   Access problem with SMB server [Bug
   10506](https://illumos.org/issues/10506)
