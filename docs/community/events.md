@@ -1,20 +1,20 @@
 # Events
 
+## Upcoming
+
 If you are hosting, or know of an illumos-related event, please use the
 [documentation contribution process](../contributing/docs.md) to add it to this
 page!
 
-## Upcoming
+## Past
 
-### FrOSCon 2019
+### 2019
+
+#### FrOSCon 2019
 
 - Where: Sankt Augustin, Germany
 - When: 10th-11th August 2019
 - Details: <https://www.froscon.de/en/>
-
-## Past
-
-### 2019
 
 #### FOSDEM 2019
 
