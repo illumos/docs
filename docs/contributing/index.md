@@ -23,7 +23,7 @@ Zezeski](https://zinascii.com/) going through fixing a bug in ZFS in this
 ## Finding An Area To Contribute To
 
 If you're not sure what you want to work on, you can start by looking at our
-[list of bite-size bugs](https://www.illumos.org/issues?query_id=15) which
+[list of bite-size bugs](https://www.illumos.org/projects/illumos-gate/issues?query_id=31) which
 should be easy for newcomers to pick up. You can also look at the entire list
 of issues and see if any with status "New" fit your skill set.
 
