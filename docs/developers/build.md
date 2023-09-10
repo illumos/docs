@@ -169,12 +169,15 @@ the following to the bottom of your copy of `illumos.sh`:
 export PKGVERS_BRANCH=9999.99.0.0
 
 #
-# Set to current version of Perl shipped with OpenIndiana:
+# Set Perl related variables:
 #
-export PERL_VERSION="5.36"
-export PERL_VARIANT="-thread-multi"
-export PERL_PKGVERS="-536"
-export BUILDPERL32="#"
+PERL='/usr/perl5/bin/perl'
+export PERL_VERSION="$($PERL -e 'print $^V =~ /^v(5\.[^\.]*).*$/')"
+export PERL_PKGVERS="$($PERL -e 'print "-", $^V =~ /^v(5)\.([^\.]*).*$/')"
+export PERL_ARCH="$($PERL -MConfig -e 'print $Config{archname}')"
+export PERL_ARCH64="$PERL_ARCH"
+export BUILDPERL32="$($PERL -MConfig -e 'print $Config{ptrsize} == 4 ? "" : "#"')"
+export BUILDPERL64="$($PERL -MConfig -e 'print $Config{ptrsize} == 8 ? "" : "#"')"
 
 #
 # If you are building on the latest OpenIndiana (2017-03-07 and later), use
