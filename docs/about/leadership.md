@@ -1,23 +1,5 @@
 # Leadership
 
-There are two levels of leadership in the illumos project: Members of the
-Developer Council, and the Core Team.
-
-## Developer Council
-
-The Developer Council is a committee drawn from well-known developers of
-illumos.  The Council serves chiefly as a mediating body in the unlikely event
-that a contentious issue arises and a consensus cannot be reached amongst the
-core team.
-
-| Member          | Organization           |
-| --------------- | ---------------------- |
-| Adam Leventhal  | Oxide Computer Company |
-| Bryan Cantrill  | Oxide Computer Company |
-| Garrett D'Amore | RackTop Systems        |
-| Gordon Ross     | RackTop Systems        |
-| Rich Lowe       | unaffiliated           |
-
 ## Core Team
 
 The illumos core team has the ultimate say in what code is accepted for
@@ -34,9 +16,8 @@ members.
 | Member            | IRC Handle | Organization           | Expertise |
 | ----------------- | ---------- | ---------------------- | --------- |
 | Dan McDonald      | danmcd     | MNX Cloud              | Cryptography, Networking |
-| Garrett D'Amore   | gdamore    | RackTop Systems        | Drivers, etc. |
 | Gordon Ross       | gwr        | RackTop Systems        | CIFS/SMB, VFS layer, ZFS ACLs, etc. |
-| Hans Rosenfeld    | Woodstock  | Joyent                 | Misc. |
+| Hans Rosenfeld    | Woodstock  | unaffiliated           | Misc. |
 | Joshua M. Clulow  | jclulow    | Oxide Computer Company | Misc. |
 | Patrick Mooney    | pmooney    | Oxide Computer Company | Virtualization, etc. |
 | Rich Lowe         | richlowe   | unaffiliated           | Misc. |
@@ -52,6 +33,7 @@ actively working on illumos.  We thank them for their prior contributions!
 | Albert Lee        | trisk      | RackTop Systems        | Storage, drivers, userland. |
 | Chris Siden       | csiden     | formerly Delphix       | ZFS |
 | Matt Ahrens       | mahrens    | Delphix                | ZFS |
+| Garrett D'Amore   | gdamore    | RackTop Systems        | Drivers, etc. |
 
 ## Life in the Core Team
 
