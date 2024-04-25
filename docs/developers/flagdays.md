@@ -7,9 +7,11 @@ with the sources. Such messages should also be archived here, for future
 reference.
 
 ## 2024
-* [2024-03-14 FLAG DAY: once 16344 is on your build machine, your source trees must match](https://illumos.topicbox.com/groups/developer/T56cc2d3d142efefc-Mc73ff4dc1f47f5ee31c556cc/flag-day-once-16344-is-on-your-build-machine-your-source-trees-must-match
+
+* [2024-03-14 FLAG DAY: once 16344 is on your build machine, your source trees must match](https://illumos.topicbox.com/groups/developer/T56cc2d3d142efefc-Mc73ff4dc1f47f5ee31c556cc/flag-day-once-16344-is-on-your-build-machine-your-source-trees-must-match)
 
 ## 2023
+
 * [2023-04-13 Heads Up: Moving to GCC 10 Primary](https://illumos.topicbox.com/groups/developer/Tc01851d253a5fd32-M7c815b3587c70b506af8de8f/heads-up-moving-to-gcc-10-primary)
 
 ## 2020
