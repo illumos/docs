@@ -20,9 +20,9 @@ If you're interested in the history of OpenSolaris, Jim Grisanzio has [written
 an in-depth piece on it](https://jimgrisanzio.wordpress.com/opensolaris/).
 
 In 2010 Oracle acquired Sun, and [silently closed the
-gate](http://sstallion.blogspot.com.au/2010/08/opensolaris-is-dead.html). The
-source code was no longer updated, communications to the open source community
-stopped. OpenSolaris was effectively dead.
+gate](https://web.archive.org/web/20170904093634/http://sstallion.blogspot.nl/2010/08/opensolaris-is-dead.html).
+The source code was no longer updated, communications to the open source
+community stopped.  OpenSolaris was effectively dead.
 
 From this, however, project founder Garrett D'Amore took the last drop of the
 gate and [announced illumos](announcement.md) in mid-2010.
