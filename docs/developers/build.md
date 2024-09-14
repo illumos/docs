@@ -219,13 +219,14 @@ If instead you wish to start with the stock environment file template, you'll
 need to add the following at the end of your copy of `illumos.sh`:
 
 ```
-# Set to the current perl version (this is correct for OmniOS r151028)
+# Set to the current perl version (this is correct for OmniOS r151050)
 export PERL_VERSION=5.28
 export PERL_ARCH=i86pc-solaris-thread-multi-64int
 export PERL_PKGVERS=
 
-# Set to current python3 version (this is correct for OmniOS r151028)
-export PYTHON3=/usr/bin/python3.5
+# Set to current python3 version (this is correct for OmniOS r151050)
+export PYTHON3=/usr/bin/python3.12
+export PYTHON3_PGKVERS=-312
 export TOOLS_PYTHON=$PYTHON3
 
 export SPRO_ROOT=/opt/sunstudio12.1
