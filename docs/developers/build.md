@@ -169,31 +169,15 @@ the following to the bottom of your copy of `illumos.sh`:
 export PKGVERS_BRANCH=9999.99.0.0
 
 #
-# Set to current version of Perl shipped with OpenIndiana:
+# Set Perl related variables:
 #
-export PERL_VERSION="5.36"
-export PERL_VARIANT="-thread-multi"
-export PERL_PKGVERS="-536"
-export BUILDPERL32="#"
-
-#
-# If you are building on the latest OpenIndiana (2017-03-07 and later), use
-# OpenJDK 8:
-#
-export BLD_JAVA_8=
-
-#
-# IPS packages published at 2019-08-08 and later ship only Python 3.5 modules,
-# so you have to use this Python version to build illumos tools
-# if your pkg:/package/pkg version is 0.5.11-2019.0.0.5521 or later.
-#
-export BUILDPY2TOOLS="#"
-
-#
-# Use the copy of the closed binaries that comes with the "build-essential"
-# package:
-#
-export ON_CLOSED_BINS="/opt/onbld/closed"
+PERL='/usr/perl5/bin/perl'
+export PERL_VERSION="$($PERL -e 'print $^V =~ /^v(5\.[^\.]*).*$/')"
+export PERL_PKGVERS="$($PERL -e 'print "-", $^V =~ /^v(5)\.([^\.]*).*$/')"
+export PERL_ARCH="$($PERL -MConfig -e 'print $Config{archname}')"
+export PERL_ARCH64="$PERL_ARCH"
+export BUILDPERL32="$($PERL -MConfig -e 'print $Config{ptrsize} == 4 ? "" : "#"')"
+export BUILDPERL64="$($PERL -MConfig -e 'print $Config{ptrsize} == 8 ? "" : "#"')"
 ```
 
 Note in particular that `PKGVERS_BRANCH` must be a higher number than the one
@@ -203,7 +187,7 @@ can find out the current branch version with `pkg info`:
 
 ```
 $ pkg info osnet-incorporation | grep Branch:
-        Branch: 2018.0.0.18230
+        Branch: 2024.0.0.22411
 ```
 
 ### OmniOS
