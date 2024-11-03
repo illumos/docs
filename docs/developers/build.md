@@ -54,12 +54,10 @@ chosen:
 ### OpenIndiana
 
 On OpenIndiana, the `build-essential` package includes the GCC compilers
-and other tools required to build illumos.  In addition, for now, we
-should install the older Python 3.5 package for a complete build.
+and other tools required to build illumos.
 
 ```
-sudo pkg install build-essential \
-    runtime/python-35
+sudo pkg install build-essential
 ```
 
 The GCC versions to use can be found in `/usr/gcc/10` and `/usr/gcc/14`.
