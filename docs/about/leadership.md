@@ -72,7 +72,7 @@ rather than simply denying changes that aren't well-formed.
 
 * **Is the user's build clean?**
     * The contributor should be using the current primary and shadow
-      compilers (i.e., GCC 10.4.0-il-1 and GCC 7.5.0-il-2, along with smatch).
+      compilers (i.e., GCC 10.4.0-il-2 and GCC 14.2.0-il-1, along with smatch).
       Check the `mail_msg` file for the compilers used during the build.
     * The build should be free of compiler warnings and other post-build
       checks, including smatch.
