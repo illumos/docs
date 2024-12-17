@@ -8,6 +8,7 @@ reference.
 
 ## 2024
 
+* [2024-09-03 Heads Up: Default VERSION now set in nightly, not env/illumos](https://illumos.topicbox.com/groups/developer/Tc3ad7b29c06f4cbb/heads-up-default-version-now-set-in-nightly-not-env-illumos)
 * [2024-03-14 FLAG DAY: once 16344 is on your build machine, your source trees must match](https://illumos.topicbox.com/groups/developer/T56cc2d3d142efefc-Mc73ff4dc1f47f5ee31c556cc/flag-day-once-16344-is-on-your-build-machine-your-source-trees-must-match)
 
 ## 2023
