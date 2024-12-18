@@ -227,8 +227,42 @@ First, in the issue(s) you created in the bug tracker, make sure you have:
 
 You should have a full clean build of the gate with your changes applied. This
 currently means a successful build with GCC 10 as the primary compiler, and
-GCC 7 and smatch as shadow compilers, with no warnings or errors in the
-resulting `mail_msg`.
+GCC 14 and smatch as shadow compilers, with no warnings or errors in the
+resulting `mail_msg`. Note that `mail_msg` includes a diff against the previous
+build, so your patch's clean build should come directly after a clean build of
+the previous commit.
+
+If your commit does not yet include "Reviewed by:" indicating your reviewers,
+this is when you should add those lines. We do not have a blank line between the
+first line of a commit message in illumos, and the following "Reviewed by:"
+lines. When you run `git format-patch` to get a patch to include, this will
+result in an oddly-formatted "Subject:" line - that is expected and OK.
+
+!!! note Assembling "Reviewed by:" lines
+    If your review is not through Gerrit, you should have contact information
+    for your reviewers that can be included when adding "Reviewed by:" lines. If
+    your review is through Gerrit, you can use the Gerrit [/changes
+    API](https://gerrit-review.googlesource.com/Documentation/rest-api-changes.html#get-change-detail)
+    to get reviewer information and reduce the risk of a transcription error for
+    your reviewers' names or e-mail addresses. This jq is an example of how you
+    might want to assemble "Reviewed by:" lines:
+
+    ```
+    curl -s "https://code.illumos.org/changes/$YOUR_CHANGE_NUMBER?o=LABELS&o=DETAILED_ACCOUNTS" | \
+        tail -n 1  | \
+        jq -r '.labels."Code-Review".all[] |
+          select(.value==1) |
+          "Reviewed by: \(.name) <\(.email)>"'
+    ```
+
+If your change has been reviewed on Gerrit, you (or `git pbchk`) may have found
+trivial changes such as whitespace nits, comment spelling, or copyright dates
+since the last round of review. Please ensure any changes at this point are also
+pushed to Gerrit. Core team members receiving your request may fetch your patch
+from Gerrit or the email depending on which happens to be easier to access for
+them. The commit hash of your patch on Gerrit and via `git format-patch` may be
+different, particularly if you've removed a "Change-ID:" line before generating
+your patch for RTI. This is expected and OK.
 
 Your RTI e-mail should include:
 
@@ -241,7 +275,8 @@ Your RTI e-mail should include:
     * Issue number(s) and description(s)
     * `Reviewed by: First Last <first.last@example.com>` lines
     * List of files affected
-* Output of `git pbchk` (run under `bldenv` or have `/opt/onbld/bin` in `PATH`)
+* Output of `git pbchk` (run under `bldenv` or have `/opt/onbld/bin` in `PATH`).
+  This is optional if `git pbchk` prints nothing and exits with 0
 * An attached clean `mail_msg` from a full nightly build (including shadow
   compilers, as noted above)
 * Information about how the changes were tested (it's sufficient to
@@ -256,10 +291,16 @@ Reviewed by: Jack <jack@eng.sun.com>
 Reviewed by: Ohana Matsumae <ohana@kissui.ishikawa.jp>
 ```
 
+Note this description does not include a "Change-ID:" line - it is the
+description the commit should have when integrated, minus "Approved by:". In
+the patch provided, you may or may not have a Gerrit "Change-ID:" line. If your
+RTI is approved, the core team member integrating your patch will remove this
+line from the description, and add an "Approved by:" recording their approval.
+
 !!! note Amending descriptions
     You can use `git commit --amend` to edit the commit message.
 
-An [core team member](../about/leadership#core-team) will need to judge whether
+A [core team member](../about/leadership#core-team) will need to judge whether
 your code review and testing are adequate for the scope of changes you propose.
 Note that the core team members's job as part of integration is not necessarily
 to review your code again, only to judge whether review and testing was
@@ -290,3 +331,8 @@ you" for being part of the illumos developer community!
 If the change is accepted, the core team will take care of actually committing
 to master.  Regular contributors may get commit rights: they follow the same
 system, but may push to master themselves after approval.
+
+If your review was through Gerrit, one last step is to "Abandon" your change -
+because the patch is intgrated through the RTI process, we don't use Gerrit to
+merge. "integrated" is a good message to indicate to future readers that the
+change was, in fact, integrated.
