@@ -235,7 +235,7 @@ the previous commit.
 If your commit does not yet include "Reviewed by:" indicating your reviewers,
 this is when you should add those lines. We do not have a blank line between the
 first line of a commit message in illumos, and the following "Reviewed by:"
-lines. When you run `git format-patch` to get a patch to include, this will
+lines. If you run `git format-patch` to get a patch to include, this will
 result in an oddly-formatted "Subject:" line - that is expected and OK.
 
 !!! note Assembling "Reviewed by:" lines
@@ -257,19 +257,17 @@ result in an oddly-formatted "Subject:" line - that is expected and OK.
 
 If your change has been reviewed on Gerrit, you (or `git pbchk`) may have found
 trivial changes such as whitespace nits, comment spelling, or copyright dates
-since the last round of review. Please ensure any changes at this point are also
-pushed to Gerrit. Core team members receiving your request may fetch your patch
-from Gerrit or the email depending on which happens to be easier to access for
-them. The commit hash of your patch on Gerrit and via `git format-patch` may be
-different, particularly if you've removed a "Change-ID:" line before generating
-your patch for RTI. This is expected and OK.
+since the last round of review. Please ensure any changes at this point are
+also pushed to Gerrit. If your changes on Gerrit are the same as you would
+include as a patch for integration, you can omit the patch from your RTI e-mail
+entirely; the core team can fetch your change from Gerrit as well.
 
 Your RTI e-mail should include:
 
 * The link to the illumos issue(s) you're fixing, e.g.,
   https://illumos.org/issues/10052
-* A link to the changes that were reviewed; e.g., a link to your
-  [Gerrit](./gerrit) review
+* The changes that were reviewed; e.g., a link to your [Gerrit](./gerrit)
+  review, or an attached patch otherwise.
 * The full "change set description" (i.e., `git whatchanged -v origin/master..`)
   including:
     * Issue number(s) and description(s)
@@ -281,7 +279,6 @@ Your RTI e-mail should include:
   compilers, as noted above)
 * Information about how the changes were tested (it's sufficient to
   mention that the testing notes appear in the bug tracker)
-* Your changes attached as a patch as per `git format-patch`
 
 Here is an example change description:
 
@@ -292,10 +289,12 @@ Reviewed by: Ohana Matsumae <ohana@kissui.ishikawa.jp>
 ```
 
 Note this description does not include a "Change-ID:" line - it is the
-description the commit should have when integrated, minus "Approved by:". In
-the patch provided, you may or may not have a Gerrit "Change-ID:" line. If your
-RTI is approved, the core team member integrating your patch will remove this
-line from the description, and add an "Approved by:" recording their approval.
+description the commit should have when integrated, minus "Approved by:". Since
+Gerrit identifies changes with the "Change-ID:" line, this will be a little
+different from the description in the associated Gerrit link. This is okay! If
+your RTI is approved, the core team member integrating your patch will remove
+this line from the description when they add an "Approved by:" recording their
+approval.
 
 !!! note Amending descriptions
     You can use `git commit --amend` to edit the commit message.
