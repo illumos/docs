@@ -15,12 +15,11 @@ members.
 
 | Member            | IRC Handle | Organization           | Expertise |
 | ----------------- | ---------- | ---------------------- | --------- |
-| Dan McDonald      | danmcd     | MNX Cloud              | Cryptography, Networking |
+| Dan McDonald      | danmcd     | Edgecast Cloud         | Networking, Security, etc. |
 | Gordon Ross       | gwr        | RackTop Systems        | CIFS/SMB, VFS layer, ZFS ACLs, etc. |
 | Hans Rosenfeld    | Woodstock  | unaffiliated           | Misc. |
 | Joshua M. Clulow  | jclulow    | Oxide Computer Company | Misc. |
 | Patrick Mooney    | pmooney    | Oxide Computer Company | Virtualization, etc. |
-| Rich Lowe         | richlowe   | unaffiliated           | Misc. |
 | Robert Mustacchi  | rmustacc   | Oxide Computer Company | Virtualization, SMF, PCI, MDB, DTrace, x86 platform, etc. |
 
 ### Emeritus Members
@@ -34,6 +33,7 @@ actively working on illumos.  We thank them for their prior contributions!
 | Chris Siden       | csiden     | formerly Delphix       | ZFS |
 | Matt Ahrens       | mahrens    | Delphix                | ZFS |
 | Garrett D'Amore   | gdamore    | RackTop Systems        | Drivers, etc. |
+| Rich Lowe         | richlowe   | unaffiliated           | Misc. |
 
 ## Life in the Core Team
 
