@@ -15,6 +15,7 @@ organization!
 | [FreeBSD](https://www.freebsd.org/)                    | Incorporates ZFS, DTrace, mdb |
 | [Apple](https://github.com/opensource-apple/dtrace)    | Incorporates DTrace |
 | [MNX](https://www.mnx.io/)                             | Public and on-prem cloud, object storage |
+| [Edgecast](https://edgecast.io/)                       | On-prem cloud and object storage |
 | [Lucera](https://www.lucera.com/)                      | Financial infrastructure services |
 | [Delphix](https://www.delphix.com/)                    | Database virtualization |
 | [Nexenta](https://nexenta.com/)                        | Storage appliance |
