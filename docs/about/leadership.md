@@ -19,7 +19,7 @@ members.
 | Gordon Ross       | gwr        | RackTop Systems        | CIFS/SMB, VFS layer, ZFS ACLs, etc. |
 | Hans Rosenfeld    | Woodstock  | unaffiliated           | Misc. |
 | Joshua M. Clulow  | jclulow    | Oxide Computer Company | Misc. |
-| Patrick Mooney    | pmooney    | Oxide Computer Company | Virtualization, etc. |
+| Patrick Mooney    | pmooney    | unaffiliated           | Virtualization, etc. |
 | Robert Mustacchi  | rmustacc   | Oxide Computer Company | Virtualization, SMF, PCI, MDB, DTrace, x86 platform, etc. |
 
 ### Emeritus Members
