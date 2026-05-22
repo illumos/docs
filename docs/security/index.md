@@ -5,6 +5,71 @@
 We take security issues seriously, and encourage users and developers alike
 to report them.
 
+## Disclosure policy
+
+The illumos project supplies multiple downstream distributions, so a
+vulnerability in illumos must have its mitigations and fixes available to the
+distributions. Security vulnerabilities should be confidentially reported to
+security@illumos.org, the security team. See https://illumos.org/docs/security/
+for the appropriate keying information. We understand that such
+vulnerabilities may be (for multiple reasons) disclosed to the public. We
+need to address both possibilities.
+
+**IF A SECURITY REPORT IS SUBMITTED TO**
+[security@illumos.org](mailto:security@illumos.org)
+**WITH PROPER CONFIDENTIALITY**:
+
+1. The security team will analyze, confirm, and identify a solution,
+   possibly with the help of distributions' security contacts or other
+   experts.
+
+2. If the report is on behalf of a distribution's downstream, the security
+   team will determine if other distributions or illumos-gate itself have a
+   similar issue.
+
+3. The security team will reserve A CVE number, before public disclosure.
+
+4. The security team will ensure a fix will be written, tested, reviewed,
+   and approved for landing in illumos-gate, but will NOT land in
+   illumos-gate immediately. At least one member of the security team will
+   be involved in at least one of writing, testing, reviewing or approving.
+
+5. The security team will contact distributions to coordinate a fix for
+   illumos-gate, and for distributions' downstream children of
+   illumos-gate. Some distributions have long-term support releases that may
+   also be affected. The result of this coordination will include an embargo
+   date.
+
+6. On the embargo date the fix will land in illumos-gate. Any downstream
+   distributions who coordinated can land in their downstreams of
+   illumos-gate no earlier than when it lands in illumos-gate itself. The
+   issue (with CVE number) will be announced to illumos-developer and any
+   other appropriate @illumos.org emails. Distributions can inform their
+   mailing lists distributions, or other mechanisms, no earlier than when
+   the fix lands in illumos-gate. The CVE record will be fully updated no
+   later than 2 hours after announcement.
+
+
+**IF A SECURITY VULNERABILITY IS PUBLICALLY DISCLOSED, REGARDLESS OF THE
+DISCLOSURE'S INTENT**:
+
+1. The security team will discuss as soon as possible what mitigations or
+   fixes are either available, or need to be created.
+
+2. The security team will inform distributions of the disclosure if they do
+   not know already.
+
+3. If a mitigation is available before a fix (e.g. a hotpatch, or a
+   configuration of either illumos or networks feeding illumos instances),
+   the security team will announce it as soon as possible.
+
+4. The security team will themselves, or offer any aid in: writing, testing,
+   reviewing, and integrating a fix as soon as possible while maintaining
+   illumos code standards.
+
+5. Once the fix lands in illumos-gate, all communications documented in #6
+   above not already done should happen immediately.
+
 ## Reporting security incidents
 
 Please send mail to [security@illumos.org](mailto:security@illumos.org)
