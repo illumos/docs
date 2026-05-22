@@ -71,6 +71,10 @@ w5tC1dgrtiLBxa/2Rok0meY6gd6oX8AcuWFGbo/FIx5McGQd/ntIGHbaOr+wjLqJ
 
 ## Recent vulnerabilities
 
+- [SCTP frees wrong-size, and needs to keep private options private](
+  https://illumos.topicbox.com/groups/developer/T9e4049ae8de3721a/18118-sctp-frees-wrong-size-and-need-to-keep-private-options)
+  [Bug 18118](https://illumos.org/issues/18118),
+
 -
   [CVE-2023-31284](https://nvd.nist.gov/vuln/detail/CVE-2023-31284)
   ddi_parse needs len [Bug
