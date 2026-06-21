@@ -268,8 +268,9 @@ Your RTI e-mail should include:
   https://illumos.org/issues/10052
 * The changes that were reviewed; e.g., a link to your [Gerrit](./gerrit)
   review, or an attached patch otherwise.
-* The full "change set description" (i.e., `git whatchanged -v origin/master..`)
-  including:
+* If attaching a patch, please include a full "change set description"
+  (i.e., the output of `git log --stat -v origin/master..`) in the body of the
+  message, including:
     * Issue number(s) and description(s)
     * `Reviewed by: First Last <first.last@example.com>` lines
     * List of files affected
