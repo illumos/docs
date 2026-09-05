@@ -43,7 +43,7 @@ Because you added an SSH key when you created your bug tracker account, you
 should be able to use that key to get access to Gerrit via SSH!  Let's check:
 
 ```
-$ ssh walter@code.illumos.org
+$ ssh -T walter@code.illumos.org
 
   ****    Welcome to Gerrit Code Review    ****
 
