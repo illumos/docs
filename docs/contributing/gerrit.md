@@ -43,7 +43,7 @@ Because you added an SSH key when you created your bug tracker account, you
 should be able to use that key to get access to Gerrit via SSH!  Let's check:
 
 ```
-$ ssh walter@code.illumos.org
+$ ssh -T walter@code.illumos.org
 
   ****    Welcome to Gerrit Code Review    ****
 
@@ -51,10 +51,25 @@ $ ssh walter@code.illumos.org
 ...
 ```
 
-If you get an authentication or key error, make sure your SSH agent is
-correctly configured, and that the key is correctly entered into the site.  You
-can always ask for help [in IRC or on the mailing list](../../community/) if
-you're having trouble!
+### Troubleshooting SSH authentication
+
+If you get ```Permission denied (publickey).``` output, make sure your
+Gerrit public key matches the key in your bug tracker account:
+
+1. Navigate to Gerrit at https://code.illumos.org
+2. Go to your account settings (click on gear at the top right corner)
+3. Scroll down to the "SSH keys" section
+
+If there are no keys yet, paste your public key into "New SSH Key"
+input field and then click "ADD NEW SSH KEY":
+
+![Screenshot of the SSH keys section](./gerrit12.png)
+
+If that didn't fix the issue, check out [GitLab SSH troubleshooting
+page](https://docs.gitlab.com/user/ssh_troubleshooting). Make sure
+your SSH agent is correctly configured, and that the key is correctly
+entered into the site. You can always ask for help [in IRC or on the
+mailing list](../../community/) if you're having trouble!
 
 ## Basic Workflow
 
