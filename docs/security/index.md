@@ -137,7 +137,7 @@ w5tC1dgrtiLBxa/2Rok0meY6gd6oX8AcuWFGbo/FIx5McGQd/ntIGHbaOr+wjLqJ
 ## Recent vulnerabilities
 
 - [Denial of service and missing authorization in door servers](
-<TOPICBOX>)
+https://illumos.topicbox.com/groups/developer/T3b859664594b7762)
 
   - [Bug 18492 (ipmgmtd)](https://illumos.org/issues/18492)
     [CVE-2026-104117](https://www.cve.org/CVERecord?id=CVE-2026-104117)
@@ -154,7 +154,7 @@ w5tC1dgrtiLBxa/2Rok0meY6gd6oX8AcuWFGbo/FIx5McGQd/ntIGHbaOr+wjLqJ
   - [Bug 18496 (reparsed)](https://illumos.org/issues/18496)
     [CVE-2026-104115](https://www.cve.org/CVERecord?id=CVE-2026-104115)
 
-- [Guest can panic host using REP instructions](<TOPICBOX>)
+- [Guest can panic host using REP instructions](https://illumos.topicbox.com/groups/developer/T697a32b688807e56)
   [Bug 18491](https://illumos.org/issues/18491)
   [CVE-2026-102916](https://www.cve.org/CVERecord?id=CVE-2026-102916)
 
