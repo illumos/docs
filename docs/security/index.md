@@ -47,7 +47,7 @@ need to address both possibilities.
    other appropriate @illumos.org emails. Distributions can inform their
    mailing lists distributions, or other mechanisms, no earlier than when
    the fix lands in illumos-gate. The CVE record will be fully updated no
-   later than 2 hours after announcement.
+   later than 48 hours after announcement.
 
 
 **IF A SECURITY VULNERABILITY IS PUBLICALLY DISCLOSED, REGARDLESS OF THE
@@ -136,17 +136,38 @@ w5tC1dgrtiLBxa/2Rok0meY6gd6oX8AcuWFGbo/FIx5McGQd/ntIGHbaOr+wjLqJ
 
 ## Recent vulnerabilities
 
+- [Denial of service and missing authorization in door servers](
+<TOPICBOX>)
+
+  - [Bug 18492 (ipmgmtd)](https://illumos.org/issues/18492)
+    [CVE-2026-104117](https://www.cve.org/CVERecord?id=CVE-2026-104117)
+
+  - [Bug 18493 (zonestatd)](https://illumos.org/issues/18493)
+    [CVE-2026-104116](https://www.cve.org/CVERecord?id=CVE-2026-104116)
+
+  - [Bug 18494 (nscd)](https://illumos.org/issues/18494)
+    [CVE-2026-104112](https://www.cve.org/CVERecord?id=CVE-2026-104112)
+
+  - [Bug 18495 (nwamd)](https://illumos.org/issues/18495)
+    [CVE-2026-104114](https://www.cve.org/CVERecord?id=CVE-2026-104114)
+
+  - [Bug 18496 (reparsed)](https://illumos.org/issues/18496)
+    [CVE-2026-104115](https://www.cve.org/CVERecord?id=CVE-2026-104115)
+
+- [Guest can panic host using REP instructions](<TOPICBOX>)
+  [Bug 18491](https://illumos.org/issues/18491)
+  [CVE-2026-102916](https://www.cve.org/CVERecord?id=CVE-2026-102916)
+
+
 - [SCTP frees wrong-size, and needs to keep private options private](
   https://illumos.topicbox.com/groups/developer/T9e4049ae8de3721a/18118-sctp-frees-wrong-size-and-need-to-keep-private-options)
   [Bug 18118](https://illumos.org/issues/18118),
 
--
-  [CVE-2023-31284](https://nvd.nist.gov/vuln/detail/CVE-2023-31284)
+- [CVE-2023-31284](https://nvd.nist.gov/vuln/detail/CVE-2023-31284)
   ddi_parse needs len [Bug
   15586](https://illumos.org/issues/15586)
 
--
-  [CVE-2019-9579](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-9579)
+- [CVE-2019-9579](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-9579)
   Access problem with SMB server [Bug
   10506](https://illumos.org/issues/10506)
 
